@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World Map with Sites</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <style>
+        /* Style for the map container */
+        #map {
+            height: 600px;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>World Map of Sites</h1>
+
+    <!-- Map Container -->
+    <div id="map"></div>
+
+    <!-- Include Leaflet.js -->
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+
+    <!-- Load site data from your JSON file -->
+    <script>
+        // Initialize the map centered on the world
+        var map = L.map('map').setView([20, 0], 2);
+
+        // Add Esri World Gray Canvas tile layer (light grey and simple look)
+        L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}', {
+            attribution: '&copy; Esri &mdash; Esri, DeLorme, NAVTEQ',
+            maxZoom: 16
+        }).addTo(map);
+
+        // Function to plot sites using the data from JSON
+        function plotSites(data) {
+            data.forEach(function(site) {
+                var lat = site.latitude;
+                var lon = site.longitude;
+
+                // Add a marker for each site with a popup displaying the Building Name
+                L.marker([lat, lon]).addTo(map)
+                    .bindPopup(`Building Name: ${site['Building Name']}<br>Latitude: ${lat}<br>Longitude: ${lon}`);
+            });
+        }
+
+        // Fetch and plot the site data from the JSON file
+        fetch('sites.json')
+            .then(response => response.json())
+            .then(data => {
+                plotSites(data);
+            })
+            .catch(error => console.error('Error loading site data:', error));
+    </script>
+</body>
+</html>
