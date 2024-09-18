@@ -1,0 +1,2892 @@
+[
+    {
+        "Building Name":"29903 AGOURA RD",
+        "latitude":34.136,
+        "longitude":-118.775
+    },
+    {
+        "Building Name":"ALBANY-STATE",
+        "latitude":42.65117,
+        "longitude":-73.755
+    },
+    {
+        "Building Name":"ALISOVIEJO-75EN",
+        "latitude":33.57614,
+        "longitude":-117.726
+    },
+    {
+        "Building Name":"ALPHARETTA-8000",
+        "latitude":34.07096,
+        "longitude":-84.2747
+    },
+    {
+        "Building Name":"ASUNCION - PARAGUAY",
+        "latitude":-25.28,
+        "longitude":-57.6344
+    },
+    {
+        "Building Name":"ATLANTA-881 PEACHTREE",
+        "latitude":33.74899,
+        "longitude":-84.3903
+    },
+    {
+        "Building Name":"ATLANTA-170 17TH ST NW",
+        "latitude":33.74899,
+        "longitude":-84.3903
+    },
+    {
+        "Building Name":"ATLANTA-200 17TH ST NW",
+        "latitude":33.74899,
+        "longitude":-84.3903
+    },
+    {
+        "Building Name":"AUSTIN-10900",
+        "latitude":30.27113,
+        "longitude":-97.7437
+    },
+    {
+        "Building Name":"JHU-301 WEST 39TH",
+        "latitude":39.29088,
+        "longitude":-76.6108
+    },
+    {
+        "Building Name":"BENTONVILLE-2505",
+        "latitude":36.37285,
+        "longitude":-94.2088
+    },
+    {
+        "Building Name":"BERKELEY 1919",
+        "latitude":37.87084,
+        "longitude":-122.273
+    },
+    {
+        "Building Name":"BOGOTA-NO 1192",
+        "latitude":4.653382,
+        "longitude":-74.0836
+    },
+    {
+        "Building Name":"BOISE-401WFRONT",
+        "latitude":43.61662,
+        "longitude":-116.201
+    },
+    {
+        "Building Name":"BOULDER-1650 CANYON BLVD",
+        "latitude":40.01499,
+        "longitude":-105.271
+    },
+    {
+        "Building Name":"BRASILIA-PKS",
+        "latitude":-10.3333,
+        "longitude":-53.2
+    },
+    {
+        "Building Name":"BUENOS AIRES-CATALINAS",
+        "latitude":-34.6037,
+        "longitude":-58.3815
+    },
+    {
+        "Building Name":"BURLINGTN-15 WAY",
+        "latitude":44.47616,
+        "longitude":-73.2129
+    },
+    {
+        "Building Name":"BURLINGTON-1 WAYSIDE RD",
+        "latitude":44.47616,
+        "longitude":-73.2129
+    },
+    {
+        "Building Name":"BURLINGTN-5 WAY",
+        "latitude":44.47616,
+        "longitude":-73.2129
+    },
+    {
+        "Building Name":"CALGARY-9TH",
+        "latitude":51.04561,
+        "longitude":-114.058
+    },
+    {
+        "Building Name":"CAMBRIDGE-1MEM",
+        "latitude":42.36563,
+        "longitude":-71.104
+    },
+    {
+        "Building Name":"CHARLOTTE-AP1",
+        "latitude":35.22721,
+        "longitude":-80.8431
+    },
+    {
+        "Building Name":"CHARLOTTE-AP2",
+        "latitude":35.22721,
+        "longitude":-80.8431
+    },
+    {
+        "Building Name":"CHARLOTTE-ARROWRIDGE",
+        "latitude":35.22721,
+        "longitude":-80.8431
+    },
+    {
+        "Building Name":"CHEYENNE-1607 CAPITOL",
+        "latitude":41.13998,
+        "longitude":-104.82
+    },
+    {
+        "Building Name":"CHEYENNE-1807 CAPITOL",
+        "latitude":41.13998,
+        "longitude":-104.82
+    },
+    {
+        "Building Name":"CHICAGO-200RAND",
+        "latitude":41.87556,
+        "longitude":-87.6244
+    },
+    {
+        "Building Name":"CINCINNATI-4445",
+        "latitude":39.10145,
+        "longitude":-84.5125
+    },
+    {
+        "Building Name":"COLORADO SPRINGS-555",
+        "latitude":38.83396,
+        "longitude":-104.825
+    },
+    {
+        "Building Name":"CULVER CITY - 5927 BLACKWELDER",
+        "latitude":34.02112,
+        "longitude":-118.396
+    },
+    {
+        "Building Name":"CULVER CITY-5895",
+        "latitude":34.02112,
+        "longitude":-118.396
+    },
+    {
+        "Building Name":"DENVER-7595",
+        "latitude":39.73924,
+        "longitude":-104.985
+    },
+    {
+        "Building Name":"DES MOINES-665 GRAND AVENUE",
+        "latitude":41.58687,
+        "longitude":-93.6249
+    },
+    {
+        "Building Name":"DETROIT-CAMPUS MARTIUS",
+        "latitude":42.33155,
+        "longitude":-83.0466
+    },
+    {
+        "Building Name":"DOWNERS GROVE",
+        "latitude":41.79368,
+        "longitude":-88.0102
+    },
+    {
+        "Building Name":"EDINA MN-3601",
+        "latitude":44.8897,
+        "longitude":-93.3501
+    },
+    {
+        "Building Name":"EDMONTON-103 AVENUE NW",
+        "latitude":53.54621,
+        "longitude":-113.491
+    },
+    {
+        "Building Name":"EL PASO-5130 GATEWAY",
+        "latitude":31.76012,
+        "longitude":-106.487
+    },
+    {
+        "Building Name":"ELKRIDGE-6518",
+        "latitude":39.21283,
+        "longitude":-76.7137
+    },
+    {
+        "Building Name":"ENCINO-17835 VENTURA BLVD",
+        "latitude":34.15913,
+        "longitude":-118.502
+    },
+    {
+        "Building Name":"FAIRPORTNY-375",
+        "latitude":43.0993,
+        "longitude":-77.443
+    },
+    {
+        "Building Name":"FARGO-COMMONS",
+        "latitude":46.87723,
+        "longitude":-96.7898
+    },
+    {
+        "Building Name":"FARGO-HORIZON",
+        "latitude":46.87723,
+        "longitude":-96.7898
+    },
+    {
+        "Building Name":"FARGO-SOUTH PK2",
+        "latitude":46.87723,
+        "longitude":-96.7898
+    },
+    {
+        "Building Name":"FARGO-VISION",
+        "latitude":46.87723,
+        "longitude":-96.7898
+    },
+    {
+        "Building Name":"FARGO-VISTA",
+        "latitude":46.87723,
+        "longitude":-96.7898
+    },
+    {
+        "Building Name":"FARGO-WOODHAVEN",
+        "latitude":46.87723,
+        "longitude":-96.7898
+    },
+    {
+        "Building Name":"FT COLLINS-2720",
+        "latitude":40.58718,
+        "longitude":-105.077
+    },
+    {
+        "Building Name":"FT LAUDER-6750",
+        "latitude":26.12231,
+        "longitude":-80.1434
+    },
+    {
+        "Building Name":"FT LAUDER-501",
+        "latitude":26.12231,
+        "longitude":-80.1434
+    },
+    {
+        "Building Name":"GOLETA-5383 HOLLISTER AVE",
+        "latitude":34.43583,
+        "longitude":-119.828
+    },
+    {
+        "Building Name":"GUATEMALA-IWFC",
+        "latitude":14.64247,
+        "longitude":-90.5131
+    },
+    {
+        "Building Name":"GUAYNABO-CVP",
+        "latitude":18.35787,
+        "longitude":-66.112
+    },
+    {
+        "Building Name":"HANOVER-7030 DORSEY",
+        "latitude":37.74478,
+        "longitude":-77.4464
+    },
+    {
+        "Building Name":"HILLSBORO-4735",
+        "latitude":45.52289,
+        "longitude":-122.99
+    },
+    {
+        "Building Name":"HILLSBORO-9820",
+        "latitude":45.52289,
+        "longitude":-122.99
+    },
+    {
+        "Building Name":"HOUSTON-4201 MAIN ST",
+        "latitude":29.75894,
+        "longitude":-95.3677
+    },
+    {
+        "Building Name":"HOUSTON-750",
+        "latitude":29.75894,
+        "longitude":-95.3677
+    },
+    {
+        "Building Name":"HOUSTON-19426 OIL CENTER BLVD",
+        "latitude":29.75894,
+        "longitude":-95.3677
+    },
+    {
+        "Building Name":"INDEPENDENCE-6050",
+        "latitude":39.09248,
+        "longitude":-94.4138
+    },
+    {
+        "Building Name":"INDIANAPOLIS-KE",
+        "latitude":39.76833,
+        "longitude":-86.1584
+    },
+    {
+        "Building Name":"IRVINE",
+        "latitude":33.6857,
+        "longitude":-117.826
+    },
+    {
+        "Building Name":"ISELIN-101 WOOD",
+        "latitude":40.57249,
+        "longitude":-74.3163
+    },
+    {
+        "Building Name":"KELOWNA-554 LEON AVE",
+        "latitude":49.88792,
+        "longitude":-119.496
+    },
+    {
+        "Building Name":"KINGSTON-PAN",
+        "latitude":17.97121,
+        "longitude":-76.7928
+    },
+    {
+        "Building Name":"LEASE USE ONLY - WEWORK MULTI SITE",
+        "latitude":40.71273,
+        "longitude":-74.006
+    },
+    {
+        "Building Name":"W LAFAYETTE-1205",
+        "latitude":40.42587,
+        "longitude":-86.9081
+    },
+    {
+        "Building Name":"WEST LAFAYETTE-LAB SPACE",
+        "latitude":40.42587,
+        "longitude":-86.9081
+    },
+    {
+        "Building Name":"LAS COLINAS-1",
+        "latitude":32.82952,
+        "longitude":-96.9442
+    },
+    {
+        "Building Name":"LAS COLINAS-2",
+        "latitude":32.82952,
+        "longitude":-96.9442
+    },
+    {
+        "Building Name":"CARROLLTON-1420 CENTURY DR",
+        "latitude":32.95373,
+        "longitude":-96.8903
+    },
+    {
+        "Building Name":"LENEXA-16820",
+        "latitude":38.96975,
+        "longitude":-94.7846
+    },
+    {
+        "Building Name":"LIMA WEWORK",
+        "latitude":-12.0621,
+        "longitude":-77.0365
+    },
+    {
+        "Building Name":"LINCOLN-151 N 8TH ST",
+        "latitude":40.80889,
+        "longitude":-96.7078
+    },
+    {
+        "Building Name":"LORTON-8209 TERMINAL RD",
+        "latitude":38.70434,
+        "longitude":-77.2203
+    },
+    {
+        "Building Name":"LOS ANGEL-13031",
+        "latitude":34.05369,
+        "longitude":-118.243
+    },
+    {
+        "Building Name":"LOUISVILLE-900 E MAIN",
+        "latitude":38.25424,
+        "longitude":-85.7594
+    },
+    {
+        "Building Name":"LOUISVILLE-1025 CANNON ST",
+        "latitude":38.25424,
+        "longitude":-85.7594
+    },
+    {
+        "Building Name":"LINCOLN SQUARE-2",
+        "latitude":47.61442,
+        "longitude":-122.192
+    },
+    {
+        "Building Name":"MADISON-634",
+        "latitude":43.07476,
+        "longitude":-89.3838
+    },
+    {
+        "Building Name":"MALVERN",
+        "latitude":41.00241,
+        "longitude":-95.5852
+    },
+    {
+        "Building Name":"AJ-NBP560",
+        "latitude":39.14927,
+        "longitude":-76.7752
+    },
+    {
+        "Building Name":"MEDELLIN-MILLA DE ORO",
+        "latitude":6.244338,
+        "longitude":-75.5736
+    },
+    {
+        "Building Name":"MEMPHIS-6750",
+        "latitude":35.14602,
+        "longitude":-90.0518
+    },
+    {
+        "Building Name":"MEXICOCITY-SFE",
+        "latitude":19.43263,
+        "longitude":-99.1332
+    },
+    {
+        "Building Name":"MIAMI - 78SW 7TH WEWORK",
+        "latitude":25.77417,
+        "longitude":-80.1936
+    },
+    {
+        "Building Name":"MIAMI-830 BRICKELL",
+        "latitude":25.77417,
+        "longitude":-80.1936
+    },
+    {
+        "Building Name":"MILWAUKEE-833",
+        "latitude":43.03865,
+        "longitude":-87.9091
+    },
+    {
+        "Building Name":"MINNEAPOLIS-100 WASHINGTON AVE S",
+        "latitude":44.9773,
+        "longitude":-93.2655
+    },
+    {
+        "Building Name":"MONTERREY-VAO",
+        "latitude":25.65271,
+        "longitude":-100.372
+    },
+    {
+        "Building Name":"MONTEVIDEO",
+        "latitude":-34.9059,
+        "longitude":-56.1913
+    },
+    {
+        "Building Name":"MONTREAL-MARCONI",
+        "latitude":45.50318,
+        "longitude":-73.5698
+    },
+    {
+        "Building Name":"MONTREAL-MCGILL",
+        "latitude":45.50318,
+        "longitude":-73.5698
+    },
+    {
+        "Building Name":"MTN VIEW-1090-A",
+        "latitude":37.38939,
+        "longitude":-122.083
+    },
+    {
+        "Building Name":"MTN VIEW-1090-B",
+        "latitude":37.38939,
+        "longitude":-122.083
+    },
+    {
+        "Building Name":"NASHVILLE-8 CITY",
+        "latitude":36.16228,
+        "longitude":-86.7743
+    },
+    {
+        "Building Name":"TORONTO-101 COLLEGE ST",
+        "latitude":43.65348,
+        "longitude":-79.3839
+    },
+    {
+        "Building Name":"NYC-300 LAFAYETTE",
+        "latitude":40.71273,
+        "longitude":-74.006
+    },
+    {
+        "Building Name":"NYC-TIMESSQUARE",
+        "latitude":40.71273,
+        "longitude":-74.006
+    },
+    {
+        "Building Name":"NYC-122 FIFTH AVENUE",
+        "latitude":40.71273,
+        "longitude":-74.006
+    },
+    {
+        "Building Name":"NYC-28-40 W 23RD ST",
+        "latitude":40.71273,
+        "longitude":-74.006
+    },
+    {
+        "Building Name":"NYC-ONE DAG",
+        "latitude":40.71273,
+        "longitude":-74.006
+    },
+    {
+        "Building Name":"NEW YORK - 123 WILLIAM ST",
+        "latitude":40.71273,
+        "longitude":-74.006
+    },
+    {
+        "Building Name":"OCEANSIDE-3609 OCEAN RANCH BLVD",
+        "latitude":32.71742,
+        "longitude":-117.163
+    },
+    {
+        "Building Name":"OTTAWA",
+        "latitude":45.42088,
+        "longitude":-75.6901
+    },
+    {
+        "Building Name":"OTTAWA-QUEEN",
+        "latitude":45.42088,
+        "longitude":-75.6901
+    },
+    {
+        "Building Name":"OVERLAND PARK",
+        "latitude":38.97425,
+        "longitude":-94.6852
+    },
+    {
+        "Building Name":"PANAMA COSTA",
+        "latitude":8.971449,
+        "longitude":-79.5342
+    },
+    {
+        "Building Name":"MELBOURNE-3984",
+        "latitude":28.0785,
+        "longitude":-80.6078
+    },
+    {
+        "Building Name":"PITTSBURGH-910 RIVER",
+        "latitude":40.44169,
+        "longitude":-79.9901
+    },
+    {
+        "Building Name":"PITTSBURGH-1001 LIBERTY",
+        "latitude":40.44169,
+        "longitude":-79.9901
+    },
+    {
+        "Building Name":"TTO-INVADER BAY TWR",
+        "latitude":10.66389,
+        "longitude":-61.5167
+    },
+    {
+        "Building Name":"PORTLAND-1414",
+        "latitude":45.52025,
+        "longitude":-122.674
+    },
+    {
+        "Building Name":"QUANTICO-STF800",
+        "latitude":38.03501,
+        "longitude":-98.7188
+    },
+    {
+        "Building Name":"QUEBEC-2640",
+        "latitude":52.47609,
+        "longitude":-71.8259
+    },
+    {
+        "Building Name":"QUITO-EKOPARK",
+        "latitude":-0.22016,
+        "longitude":-78.5123
+    },
+    {
+        "Building Name":"RALEIGH DURHAM-3025",
+        "latitude":42.89866,
+        "longitude":-75.6402
+    },
+    {
+        "Building Name":"RALEIGH-TECH&SILICONDEV 1009",
+        "latitude":42.89866,
+        "longitude":-75.6402
+    },
+    {
+        "Building Name":"RENO-B",
+        "latitude":39.52612,
+        "longitude":-119.813
+    },
+    {
+        "Building Name":"RENO-C",
+        "latitude":39.52612,
+        "longitude":-119.813
+    },
+    {
+        "Building Name":"RESTON-12120 SUNSET HILLS",
+        "latitude":43.13011,
+        "longitude":-123.62
+    },
+    {
+        "Building Name":"RESTON-11951",
+        "latitude":43.13011,
+        "longitude":-123.62
+    },
+    {
+        "Building Name":"RESTON-11955",
+        "latitude":43.13011,
+        "longitude":-123.62
+    },
+    {
+        "Building Name":"RESTON-12012",
+        "latitude":43.13011,
+        "longitude":-123.62
+    },
+    {
+        "Building Name":"RICHARDSON-2280 CAMPBELL",
+        "latitude":40.11947,
+        "longitude":-95.7608
+    },
+    {
+        "Building Name":"RICHARDSON-740 EAST CAMPBELL",
+        "latitude":40.11947,
+        "longitude":-95.7608
+    },
+    {
+        "Building Name":"RICHMOND 4301",
+        "latitude":37.31693,
+        "longitude":-90.0278
+    },
+    {
+        "Building Name":"RIO-V-INHAUMA",
+        "latitude":-22.911,
+        "longitude":-43.2094
+    },
+    {
+        "Building Name":"SACRAMENTO-1415",
+        "latitude":38.58106,
+        "longitude":-121.494
+    },
+    {
+        "Building Name":"SAN ANTONIO-401",
+        "latitude":29.4246,
+        "longitude":-98.4951
+    },
+    {
+        "Building Name":"SAN PARK OAKS",
+        "latitude":29.4246,
+        "longitude":-98.4951
+    },
+    {
+        "Building Name":"SAN DIEGO",
+        "latitude":32.71742,
+        "longitude":-117.163
+    },
+    {
+        "Building Name":"SAN SALVADOR-QUATTRO",
+        "latitude":13.69899,
+        "longitude":-89.1914
+    },
+    {
+        "Building Name":"SANFRAN-1355MKT",
+        "latitude":37.77926,
+        "longitude":-122.419
+    },
+    {
+        "Building Name":"SANFRAN-530 BRY",
+        "latitude":37.77926,
+        "longitude":-122.419
+    },
+    {
+        "Building Name":"SANFRAN-555 CAL",
+        "latitude":37.77926,
+        "longitude":-122.419
+    },
+    {
+        "Building Name":"SANFRAN-680 FOL",
+        "latitude":37.77926,
+        "longitude":-122.419
+    },
+    {
+        "Building Name":"SANTA BARBARA-U",
+        "latitude":34.42213,
+        "longitude":-119.703
+    },
+    {
+        "Building Name":"SANTA CLARA-2840 NORTHWESTERN PKWY",
+        "latitude":37.23333,
+        "longitude":-121.685
+    },
+    {
+        "Building Name":"SANTA CLARA-3201 SCOTT BLVD",
+        "latitude":37.23333,
+        "longitude":-121.685
+    },
+    {
+        "Building Name":"SANTA CRUZ-GOMEROS 111",
+        "latitude":-17.3333,
+        "longitude":-61.5
+    },
+    {
+        "Building Name":"SANTA MONICA-1422-1424",
+        "latitude":34.01947,
+        "longitude":-118.491
+    },
+    {
+        "Building Name":"SANTIAGO-6840",
+        "latitude":-33.4378,
+        "longitude":-70.6505
+    },
+    {
+        "Building Name":"SANTODOMINGO-BM",
+        "latitude":13.36179,
+        "longitude":103.8606
+    },
+    {
+        "Building Name":"SAO PAULO-SOUTH TOWER",
+        "latitude":-23.5507,
+        "longitude":-46.6334
+    },
+    {
+        "Building Name":"SVC GYM",
+        "latitude":37.38939,
+        "longitude":-122.083
+    },
+    {
+        "Building Name":"LEHI-TRIUMPH 3300",
+        "latitude":40.38811,
+        "longitude":-111.849
+    },
+    {
+        "Building Name":"ST. LOUIS-4220 DUNCAN",
+        "latitude":38.62803,
+        "longitude":-90.191
+    },
+    {
+        "Building Name":"SUNNYVALE-599",
+        "latitude":37.36883,
+        "longitude":-122.036
+    },
+    {
+        "Building Name":"SUNNYVALE-680",
+        "latitude":37.36883,
+        "longitude":-122.036
+    },
+    {
+        "Building Name":"SUNNYVALE-755",
+        "latitude":37.36883,
+        "longitude":-122.036
+    },
+    {
+        "Building Name":"MTN VIEW-1040-1050",
+        "latitude":37.38939,
+        "longitude":-122.083
+    },
+    {
+        "Building Name":"SVC",
+        "latitude":37.38939,
+        "longitude":-122.083
+    },
+    {
+        "Building Name":"SVC-6",
+        "latitude":37.38939,
+        "longitude":-122.083
+    },
+    {
+        "Building Name":"TALLAHASSEE-113",
+        "latitude":30.43808,
+        "longitude":-84.2809
+    },
+    {
+        "Building Name":"TAMPA-5426",
+        "latitude":27.94776,
+        "longitude":-82.4584
+    },
+    {
+        "Building Name":"TEGUCIGALPA-HBC",
+        "latitude":14.10574,
+        "longitude":-87.204
+    },
+    {
+        "Building Name":"TEMPE-60 E RIO",
+        "latitude":33.42551,
+        "longitude":-111.94
+    },
+    {
+        "Building Name":"TORONTO-CIBC SQUARE",
+        "latitude":43.65348,
+        "longitude":-79.3839
+    },
+    {
+        "Building Name":"TORRE UNIVERSAL",
+        "latitude":9.932543,
+        "longitude":-84.0796
+    },
+    {
+        "Building Name":"TULSA-7633",
+        "latitude":36.15631,
+        "longitude":-95.9928
+    },
+    {
+        "Building Name":"ARLINGTON-1300 WILSON BLVD",
+        "latitude":32.73558,
+        "longitude":-97.1071
+    },
+    {
+        "Building Name":"VANCOUVER-1090",
+        "latitude":49.26087,
+        "longitude":-123.114
+    },
+    {
+        "Building Name":"VANCOUVER-155",
+        "latitude":49.26087,
+        "longitude":-123.114
+    },
+    {
+        "Building Name":"VANCOUVER-375",
+        "latitude":49.26087,
+        "longitude":-123.114
+    },
+    {
+        "Building Name":"VANCOUVER-725",
+        "latitude":49.26087,
+        "longitude":-123.114
+    },
+    {
+        "Building Name":"VANCOUVER-858",
+        "latitude":49.26087,
+        "longitude":-123.114
+    },
+    {
+        "Building Name":"VANCOUVER-939",
+        "latitude":49.26087,
+        "longitude":-123.114
+    },
+    {
+        "Building Name":"WASH DC-5404",
+        "latitude":38.98137,
+        "longitude":-77.0849
+    },
+    {
+        "Building Name":"WASH DC-901 K",
+        "latitude":38.89504,
+        "longitude":-77.0365
+    },
+    {
+        "Building Name":"WINNIPEG-MAIN",
+        "latitude":49.89554,
+        "longitude":-97.1385
+    },
+    {
+        "Building Name":"ADELAIDE-PIRIE",
+        "latitude":-34.9282,
+        "longitude":138.5999
+    },
+    {
+        "Building Name":"AHMEDABAD EARTH ARISE REGUS",
+        "latitude":23.02162,
+        "longitude":72.57971
+    },
+    {
+        "Building Name":"BANGALORE-NO 80\/1, 81\/1 AND 81\/2",
+        "latitude":12.97679,
+        "longitude":77.59008
+    },
+    {
+        "Building Name":"HYD-CAMPUS-DECK",
+        "latitude":17.36059,
+        "longitude":78.47406
+    },
+    {
+        "Building Name":"NEW DELHI-MALIK BUILDCON PLAZA",
+        "latitude":28.6139,
+        "longitude":77.20901
+    },
+    {
+        "Building Name":"NEW DELHI-MALIK BUILDCON-MCIPL",
+        "latitude":28.6139,
+        "longitude":77.20901
+    },
+    {
+        "Building Name":"NEW DELHI-MALIK BUILDCON-MGSCIPL",
+        "latitude":28.6139,
+        "longitude":77.20901
+    },
+    {
+        "Building Name":"NEW DELHI-MALIK BUILDCON-MSR",
+        "latitude":28.6139,
+        "longitude":77.20901
+    },
+    {
+        "Building Name":"AUCKLAND-22",
+        "latitude":-36.8521,
+        "longitude":174.7632
+    },
+    {
+        "Building Name":"BANDAR SERI",
+        "latitude":4.889545,
+        "longitude":114.9418
+    },
+    {
+        "Building Name":"BENGALURU - COSMO - IGD",
+        "latitude":12.97679,
+        "longitude":77.59008
+    },
+    {
+        "Building Name":"BENGALURU COSMO-REACTOR",
+        "latitude":12.97679,
+        "longitude":77.59008
+    },
+    {
+        "Building Name":"BENGALURU-COSMO",
+        "latitude":12.97679,
+        "longitude":77.59008
+    },
+    {
+        "Building Name":"BENGALURU LUXOR-MIRPL",
+        "latitude":12.97679,
+        "longitude":77.59008
+    },
+    {
+        "Building Name":"BENGALURU-FERNS-MCIPL",
+        "latitude":12.97679,
+        "longitude":77.59008
+    },
+    {
+        "Building Name":"BENGALURU-FERNS-MIRPL",
+        "latitude":12.97679,
+        "longitude":77.59008
+    },
+    {
+        "Building Name":"BENGALURU-COSM1",
+        "latitude":12.97679,
+        "longitude":77.59008
+    },
+    {
+        "Building Name":"BANGKOK-CRC",
+        "latitude":13.75249,
+        "longitude":100.4935
+    },
+    {
+        "Building Name":"BEIJING RAYCOM",
+        "latitude":40.19063,
+        "longitude":116.4121
+    },
+    {
+        "Building Name":"BEIJING-BJW-1",
+        "latitude":40.19063,
+        "longitude":116.4121
+    },
+    {
+        "Building Name":"BEIJING-BJW-2",
+        "latitude":40.19063,
+        "longitude":116.4121
+    },
+    {
+        "Building Name":"BENGALURU-ANGKOR-MIRPL",
+        "latitude":12.97679,
+        "longitude":77.59008
+    },
+    {
+        "Building Name":"BRISBANE-400",
+        "latitude":-27.469,
+        "longitude":153.0235
+    },
+    {
+        "Building Name":"BUSAN-ARA",
+        "latitude":35.17995,
+        "longitude":129.0752
+    },
+    {
+        "Building Name":"CANBERRA-6",
+        "latitude":-35.2976,
+        "longitude":149.1013
+    },
+    {
+        "Building Name":"CHENGDU (IW) OFFICE",
+        "latitude":30.70013,
+        "longitude":104.0708
+    },
+    {
+        "Building Name":"CHENNAI-POLY-MCIPL",
+        "latitude":13.08369,
+        "longitude":80.27019
+    },
+    {
+        "Building Name":"CHENNAI-POLY-MIRPL",
+        "latitude":13.08369,
+        "longitude":80.27019
+    },
+    {
+        "Building Name":"CHONGQING-JIANGBEI REGUS",
+        "latitude":30.05518,
+        "longitude":107.8749
+    },
+    {
+        "Building Name":"CHRISTCHURCH-QB",
+        "latitude":-43.531,
+        "longitude":172.6364
+    },
+    {
+        "Building Name":"COLOMBO UNION",
+        "latitude":6.938861,
+        "longitude":79.8542
+    },
+    {
+        "Building Name":"DHAKA-LAILA",
+        "latitude":23.7644,
+        "longitude":90.38902
+    },
+    {
+        "Building Name":"FUZHOU-REGUS RONDGDU INTL",
+        "latitude":27.95112,
+        "longitude":116.353
+    },
+    {
+        "Building Name":"GUANGZHOU-TKH1",
+        "latitude":23.1302,
+        "longitude":113.2593
+    },
+    {
+        "Building Name":"GURGAON DLF DOWNTOWN",
+        "latitude":28.46461,
+        "longitude":77.02992
+    },
+    {
+        "Building Name":"HANOI-CAPITAL PLACE",
+        "latitude":21.02833,
+        "longitude":105.854
+    },
+    {
+        "Building Name":"HKG-CYBERPORT",
+        "latitude":22.27933,
+        "longitude":114.1628
+    },
+    {
+        "Building Name":"HO CHI MINH-PP",
+        "latitude":10.77639,
+        "longitude":106.7011
+    },
+    {
+        "Building Name":"HOBART",
+        "latitude":-42.8825,
+        "longitude":147.3281
+    },
+    {
+        "Building Name":"HYD -CAMPUS 2",
+        "latitude":17.36059,
+        "longitude":78.47406
+    },
+    {
+        "Building Name":"HYD -CAMPUS 3",
+        "latitude":17.36059,
+        "longitude":78.47406
+    },
+    {
+        "Building Name":"HYD CAMPUS 4",
+        "latitude":17.36059,
+        "longitude":78.47406
+    },
+    {
+        "Building Name":"HYD-CAMPUS 1",
+        "latitude":17.36059,
+        "longitude":78.47406
+    },
+    {
+        "Building Name":"HYD-CAMPUS CENTRAL KITCHEN",
+        "latitude":17.36059,
+        "longitude":78.47406
+    },
+    {
+        "Building Name":"HYD-REF PROJECT OFFICE",
+        "latitude":17.36059,
+        "longitude":78.47406
+    },
+    {
+        "Building Name":"HYD-SSKC2-MCIPL",
+        "latitude":17.36059,
+        "longitude":78.47406
+    },
+    {
+        "Building Name":"HYD-SSKC2-MGSCIPL",
+        "latitude":17.36059,
+        "longitude":78.47406
+    },
+    {
+        "Building Name":"HYD-SSKC2-MIRPL",
+        "latitude":17.36059,
+        "longitude":78.47406
+    },
+    {
+        "Building Name":"JAKARTA-JSX",
+        "latitude":-6.17525,
+        "longitude":106.827
+    },
+    {
+        "Building Name":"KOLKATA GSMO SMART WORKS",
+        "latitude":22.57265,
+        "longitude":88.3639
+    },
+    {
+        "Building Name":"MACAU-FIT",
+        "latitude":22.18994,
+        "longitude":113.538
+    },
+    {
+        "Building Name":"MAKATI-ONE AYALA",
+        "latitude":14.55679,
+        "longitude":121.0211
+    },
+    {
+        "Building Name":"MAKATI-ONE AYALA EAST",
+        "latitude":14.55679,
+        "longitude":121.0211
+    },
+    {
+        "Building Name":"MELBOURNE-FRESH",
+        "latitude":-37.8142,
+        "longitude":144.9632
+    },
+    {
+        "Building Name":"KUALA LUMPUR MENARA SHELL",
+        "latitude":3.151696,
+        "longitude":101.6942
+    },
+    {
+        "Building Name":"MUMBAI-WINDSOR",
+        "latitude":18.97335,
+        "longitude":72.8281
+    },
+    {
+        "Building Name":"NAGOYA-LUCENT",
+        "latitude":35.1851,
+        "longitude":136.8998
+    },
+    {
+        "Building Name":"NANJING-XZ",
+        "latitude":32.04383,
+        "longitude":118.7789
+    },
+    {
+        "Building Name":"NEPAL REGUS",
+        "latitude":27.69159,
+        "longitude":85.32014
+    },
+    {
+        "Building Name":"DELHI TEC",
+        "latitude":28.6139,
+        "longitude":77.20901
+    },
+    {
+        "Building Name":"NOIDA SOVEREIGN",
+        "latitude":28.57063,
+        "longitude":77.32721
+    },
+    {
+        "Building Name":"OSAKA-BREEZE",
+        "latitude":34.70219,
+        "longitude":135.4956
+    },
+    {
+        "Building Name":"PENANG",
+        "latitude":5.357432,
+        "longitude":100.3036
+    },
+    {
+        "Building Name":"PENANG-FREE INDUSTRIAL ZONE-LAB",
+        "latitude":5.357432,
+        "longitude":100.3036
+    },
+    {
+        "Building Name":"PERTH-100 GEO",
+        "latitude":-31.9559,
+        "longitude":115.8606
+    },
+    {
+        "Building Name":"PUNE-COMMERZONE-MIRPL",
+        "latitude":18.52143,
+        "longitude":73.85445
+    },
+    {
+        "Building Name":"PUNE WTC TEC",
+        "latitude":18.52143,
+        "longitude":73.85445
+    },
+    {
+        "Building Name":"SEOUL-KTT",
+        "latitude":37.56668,
+        "longitude":126.9783
+    },
+    {
+        "Building Name":"SHANGHAI-MSRA",
+        "latitude":31.23234,
+        "longitude":121.4691
+    },
+    {
+        "Building Name":"SHANGHAI WEWORK FUHUI",
+        "latitude":31.23234,
+        "longitude":121.4691
+    },
+    {
+        "Building Name":"SHANGHAI-HUAXIN",
+        "latitude":31.23234,
+        "longitude":121.4691
+    },
+    {
+        "Building Name":"SHANGHAI-MRS",
+        "latitude":31.23234,
+        "longitude":121.4691
+    },
+    {
+        "Building Name":"SHA-ZIZHU-BLD1",
+        "latitude":31.23234,
+        "longitude":121.4691
+    },
+    {
+        "Building Name":"SHA-ZIZHU-BLD7",
+        "latitude":31.23234,
+        "longitude":121.4691
+    },
+    {
+        "Building Name":"SHA-ZIZHU-CMMNS",
+        "latitude":31.23234,
+        "longitude":121.4691
+    },
+    {
+        "Building Name":"SHENYANG- REGUS",
+        "latitude":41.80261,
+        "longitude":123.4279
+    },
+    {
+        "Building Name":"SHENZHEN-COMTECH",
+        "latitude":22.54457,
+        "longitude":114.0545
+    },
+    {
+        "Building Name":"SINGAPORE FRASERS TOWER",
+        "latitude":1.289918,
+        "longitude":103.8519
+    },
+    {
+        "Building Name":"SUZHOU-SIP-B25",
+        "latitude":31.30169,
+        "longitude":120.5811
+    },
+    {
+        "Building Name":"SUZHOU-SIP-B26",
+        "latitude":31.30169,
+        "longitude":120.5811
+    },
+    {
+        "Building Name":"SUZHOU-ZHONGMENG",
+        "latitude":31.30169,
+        "longitude":120.5811
+    },
+    {
+        "Building Name":"SYDNEY-DENISON",
+        "latitude":-33.8355,
+        "longitude":151.2083
+    },
+    {
+        "Building Name":"SYDNEY STARTUP HUB",
+        "latitude":-33.8698,
+        "longitude":151.2083
+    },
+    {
+        "Building Name":"SYDNEY-1 MARTIN PLACE",
+        "latitude":-33.8698,
+        "longitude":151.2083
+    },
+    {
+        "Building Name":"SYDNEY - MQFAB",
+        "latitude":-33.8896,
+        "longitude":151.1801
+    },
+    {
+        "Building Name":"TAIPEI-MEGA",
+        "latitude":25.09742,
+        "longitude":121.515
+    },
+    {
+        "Building Name":"TAIPEI AIR",
+        "latitude":25.03752,
+        "longitude":121.5637
+    },
+    {
+        "Building Name":"TAIPEI-C2",
+        "latitude":25.03752,
+        "longitude":121.5637
+    },
+    {
+        "Building Name":"TAIPEI-CLS",
+        "latitude":25.03752,
+        "longitude":121.5637
+    },
+    {
+        "Building Name":"TOKYO-SHINAGAWA",
+        "latitude":35.68219,
+        "longitude":139.7622
+    },
+    {
+        "Building Name":"WELLINGTON-10 BRANDON STREET",
+        "latitude":-41.2888,
+        "longitude":174.7772
+    },
+    {
+        "Building Name":"WUHAN (SERVICED OFFICE)",
+        "latitude":30.59511,
+        "longitude":114.2999
+    },
+    {
+        "Building Name":"WUXI-IFS",
+        "latitude":31.57766,
+        "longitude":120.2953
+    },
+    {
+        "Building Name":"XIAN REGUS",
+        "latitude":38.19049,
+        "longitude":116.1191
+    },
+    {
+        "Building Name":"ABIDJAN-BROADWY",
+        "latitude":5.320357,
+        "longitude":-4.01611
+    },
+    {
+        "Building Name":"ABU DHABI-WT",
+        "latitude":24.45391,
+        "longitude":54.37731
+    },
+    {
+        "Building Name":"ABU DHABI AIRPORT ROAD-REGUS",
+        "latitude":24.45391,
+        "longitude":54.37731
+    },
+    {
+        "Building Name":"ABUJA-RIVERS",
+        "latitude":9.064331,
+        "longitude":7.489297
+    },
+    {
+        "Building Name":"ACCRA-MOVEN",
+        "latitude":5.55711,
+        "longitude":-0.20124
+    },
+    {
+        "Building Name":"AIX-PROV-31GOLF",
+        "latitude":43.52984,
+        "longitude":5.447474
+    },
+    {
+        "Building Name":"ALGIERS-TOUR",
+        "latitude":36.77536,
+        "longitude":3.060188
+    },
+    {
+        "Building Name":"ALMATY-DOSTYK",
+        "latitude":43.23639,
+        "longitude":76.94573
+    },
+    {
+        "Building Name":"AMMAN-KHBP",
+        "latitude":31.95157,
+        "longitude":35.92396
+    },
+    {
+        "Building Name":"AMMAN-KHBP 8",
+        "latitude":31.95157,
+        "longitude":35.92396
+    },
+    {
+        "Building Name":"LISBON CSS AMOREIRAS",
+        "latitude":38.70775,
+        "longitude":-9.13659
+    },
+    {
+        "Building Name":"AMSTERDAM-SCIENCE PARK-408",
+        "latitude":52.37308,
+        "longitude":4.892453
+    },
+    {
+        "Building Name":"ANKAR-BILKENT-C",
+        "latitude":39.86387,
+        "longitude":32.76417
+    },
+    {
+        "Building Name":"ASTANA-TALAN TOWERS",
+        "latitude":51.12822,
+        "longitude":71.43067
+    },
+    {
+        "Building Name":"ATHENS-221",
+        "latitude":37.97556,
+        "longitude":23.73483
+    },
+    {
+        "Building Name":"TWYCROSS",
+        "latitude":52.57724,
+        "longitude":-1.5434
+    },
+    {
+        "Building Name":"BAKU-LANDMARK",
+        "latitude":40.37559,
+        "longitude":49.8328
+    },
+    {
+        "Building Name":"BARCELONA-JOSEP",
+        "latitude":41.38289,
+        "longitude":2.177432
+    },
+    {
+        "Building Name":"BARCELONA WEWORK PALLARS",
+        "latitude":41.38289,
+        "longitude":2.177432
+    },
+    {
+        "Building Name":"WEWORK BEER SHEVA",
+        "latitude":31.24574,
+        "longitude":34.79252
+    },
+    {
+        "Building Name":"BEIRUT-PARK",
+        "latitude":33.89592,
+        "longitude":35.47843
+    },
+    {
+        "Building Name":"BELFAST-QUAYS",
+        "latitude":54.59639,
+        "longitude":-5.93018
+    },
+    {
+        "Building Name":"BELGRADE-SPANSK",
+        "latitude":44.81781,
+        "longitude":20.4569
+    },
+    {
+        "Building Name":"BELGRADE-USCE 2",
+        "latitude":44.81781,
+        "longitude":20.4569
+    },
+    {
+        "Building Name":"BELGRADE-USCE 1",
+        "latitude":44.81781,
+        "longitude":20.4569
+    },
+    {
+        "Building Name":"BERLIN-KARLLIEB",
+        "latitude":52.51704,
+        "longitude":13.38886
+    },
+    {
+        "Building Name":"BERLIN-KINVOLK",
+        "latitude":52.51704,
+        "longitude":13.38886
+    },
+    {
+        "Building Name":"BERLIN-UDL17",
+        "latitude":52.51704,
+        "longitude":13.38886
+    },
+    {
+        "Building Name":"BERN 10B",
+        "latitude":46.94847,
+        "longitude":7.452175
+    },
+    {
+        "Building Name":"BORDEAUX-2 RUE MARC SANGNIER",
+        "latitude":44.84123,
+        "longitude":-0.58004
+    },
+    {
+        "Building Name":"BRATISLAVA PRADIAREN 1900",
+        "latitude":48.15926,
+        "longitude":17.13966
+    },
+    {
+        "Building Name":"BRUSSELS-NEO",
+        "latitude":50.84656,
+        "longitude":4.351697
+    },
+    {
+        "Building Name":"BUCHAREST-CAMPUS (IULIU MANIU)",
+        "latitude":44.43614,
+        "longitude":26.10272
+    },
+    {
+        "Building Name":"BUDAPEST-M",
+        "latitude":47.49788,
+        "longitude":19.04024
+    },
+    {
+        "Building Name":"CAIRO-ABU EL FEDA",
+        "latitude":30.05586,
+        "longitude":31.22184
+    },
+    {
+        "Building Name":"CAIRO-CO55",
+        "latitude":30.02777,
+        "longitude":31.47568
+    },
+    {
+        "Building Name":"CAIRO-SMARTVIL",
+        "latitude":30.04439,
+        "longitude":31.23573
+    },
+    {
+        "Building Name":"198 CAMBRIDGE SCIENCE PARK",
+        "latitude":52.20553,
+        "longitude":0.118664
+    },
+    {
+        "Building Name":"CAMBRIDGE-21STA",
+        "latitude":52.20553,
+        "longitude":0.118664
+    },
+    {
+        "Building Name":"CAPETOWN-ENGEN",
+        "latitude":-33.929,
+        "longitude":18.4174
+    },
+    {
+        "Building Name":"CASABLANCA-CAPITAL TWR",
+        "latitude":33.59451,
+        "longitude":-7.62003
+    },
+    {
+        "Building Name":"CHELTENHAM HOUSE",
+        "latitude":51.89957,
+        "longitude":-2.07116
+    },
+    {
+        "Building Name":"COLOGNE",
+        "latitude":50.93836,
+        "longitude":6.959974
+    },
+    {
+        "Building Name":"COPENHAGEN-MQFAB",
+        "latitude":55.68672,
+        "longitude":12.57007
+    },
+    {
+        "Building Name":"DAKAR",
+        "latitude":14.69343,
+        "longitude":-17.4479
+    },
+    {
+        "Building Name":"DOHA-QSTP",
+        "latitude":25.28563,
+        "longitude":51.52642
+    },
+    {
+        "Building Name":"BURJ ALFARDAN-LUSAIL",
+        "latitude":25.28563,
+        "longitude":51.52642
+    },
+    {
+        "Building Name":"DUBAI-INTERNET",
+        "latitude":25.20481,
+        "longitude":55.27081
+    },
+    {
+        "Building Name":"DUBAI REGUS",
+        "latitude":25.20481,
+        "longitude":55.27081
+    },
+    {
+        "Building Name":"DUBLIN CAB",
+        "latitude":53.32196,
+        "longitude":-6.39427
+    },
+    {
+        "Building Name":"DUBLIN-LANDINGS",
+        "latitude":53.34938,
+        "longitude":-6.26056
+    },
+    {
+        "Building Name":"DUBLIN-PLACE",
+        "latitude":53.34938,
+        "longitude":-6.26056
+    },
+    {
+        "Building Name":"DURBAN-5 PARK LANE",
+        "latitude":-29.7337,
+        "longitude":31.08317
+    },
+    {
+        "Building Name":"EDINBURGH-WAV",
+        "latitude":55.95335,
+        "longitude":-3.18837
+    },
+    {
+        "Building Name":"ENINGEN ACHALM",
+        "latitude":48.48623,
+        "longitude":9.256764
+    },
+    {
+        "Building Name":"ESPOO-LINNOITUSTIE 6",
+        "latitude":60.20477,
+        "longitude":24.65684
+    },
+    {
+        "Building Name":"ESPOO-K 2-4 AB",
+        "latitude":60.20477,
+        "longitude":24.65684
+    },
+    {
+        "Building Name":"ESPOO-K 2-4 CD",
+        "latitude":60.20477,
+        "longitude":24.65684
+    },
+    {
+        "Building Name":"ESPOO-K 2-4 FG",
+        "latitude":60.20477,
+        "longitude":24.65684
+    },
+    {
+        "Building Name":"ESPOO-SINI",
+        "latitude":60.20477,
+        "longitude":24.65684
+    },
+    {
+        "Building Name":"OSLO-EUFEMIA",
+        "latitude":59.91333,
+        "longitude":10.73897
+    },
+    {
+        "Building Name":"FRANKFURT MESSETURM",
+        "latitude":50.11064,
+        "longitude":8.682092
+    },
+    {
+        "Building Name":"GENEVA-WESTHIVE-PONT ROUGE",
+        "latitude":46.17589,
+        "longitude":6.122613
+    },
+    {
+        "Building Name":"GOTHENBURG-OSTRA HAMNGATAN 16",
+        "latitude":57.70723,
+        "longitude":11.96702
+    },
+    {
+        "Building Name":"HAIFA-25",
+        "latitude":32.79931,
+        "longitude":34.98957
+    },
+    {
+        "Building Name":"HAMBURG HANSEFORUM",
+        "latitude":53.55034,
+        "longitude":10.00065
+    },
+    {
+        "Building Name":"HERZLIYA-SHENK4 PARKING",
+        "latitude":32.17388,
+        "longitude":34.82631
+    },
+    {
+        "Building Name":"HERZLIYA-AT3",
+        "latitude":32.16398,
+        "longitude":34.81759
+    },
+    {
+        "Building Name":"VANTAA-RIIHIKUJA",
+        "latitude":60.29333,
+        "longitude":25.04078
+    },
+    {
+        "Building Name":"IASI-PALAS CAMPUS",
+        "latitude":47.16156,
+        "longitude":27.58378
+    },
+    {
+        "Building Name":"DUBLIN-COURT",
+        "latitude":53.34938,
+        "longitude":-6.26056
+    },
+    {
+        "Building Name":"ISLAMABAD-HIVE AT ISE",
+        "latitude":33.69381,
+        "longitude":73.06515
+    },
+    {
+        "Building Name":"ISTANBUL-BELL",
+        "latitude":41.00638,
+        "longitude":28.97587
+    },
+    {
+        "Building Name":"JEDDAH-GRAVITA",
+        "latitude":21.58101,
+        "longitude":39.16536
+    },
+    {
+        "Building Name":"JEDDAH-JAMEEL",
+        "latitude":21.58101,
+        "longitude":39.16536
+    },
+    {
+        "Building Name":"JOHANNESBURG-CH",
+        "latitude":-26.205,
+        "longitude":28.04972
+    },
+    {
+        "Building Name":"KARACHI DOLMEN REGUS",
+        "latitude":24.85468,
+        "longitude":67.02071
+    },
+    {
+        "Building Name":"KHOBAR",
+        "latitude":26.304,
+        "longitude":50.19602
+    },
+    {
+        "Building Name":"KIEV-2 MAIDAN NEZALEZHNOSTI",
+        "latitude":50.45003,
+        "longitude":30.52414
+    },
+    {
+        "Building Name":"KIEV-75",
+        "latitude":50.45003,
+        "longitude":30.52414
+    },
+    {
+        "Building Name":"KUWAIT-ARRAYA",
+        "latitude":29.2734,
+        "longitude":47.49795
+    },
+    {
+        "Building Name":"KIEV-UNIT CITY BUSINESS PARK",
+        "latitude":50.45003,
+        "longitude":30.52414
+    },
+    {
+        "Building Name":"LAGOS-KINGS TOWER",
+        "latitude":6.455058,
+        "longitude":3.39418
+    },
+    {
+        "Building Name":"LAHORE-REGUS ASKARI TOWER",
+        "latitude":31.56568,
+        "longitude":74.31418
+    },
+    {
+        "Building Name":"LILLE-165",
+        "latitude":50.63657,
+        "longitude":3.063528
+    },
+    {
+        "Building Name":"LIN-IND5",
+        "latitude":58.40981,
+        "longitude":15.62453
+    },
+    {
+        "Building Name":"LISBON-MALEO",
+        "latitude":38.70775,
+        "longitude":-9.13659
+    },
+    {
+        "Building Name":"LJUBLJANA-CP",
+        "latitude":46.05003,
+        "longitude":14.50693
+    },
+    {
+        "Building Name":"LUANDA LAUNCH",
+        "latitude":-8.82727,
+        "longitude":13.24395
+    },
+    {
+        "Building Name":"LUXEMBOURG-CLAU",
+        "latitude":49.81587,
+        "longitude":6.129675
+    },
+    {
+        "Building Name":"LYNGBY",
+        "latitude":55.77186,
+        "longitude":12.50514
+    },
+    {
+        "Building Name":"LYNGBY-KANALVEJ 5",
+        "latitude":55.77186,
+        "longitude":12.50514
+    },
+    {
+        "Building Name":"WELLIO LYON PART-DIEU, CI-APR\u00c8S LE",
+        "latitude":45.75781,
+        "longitude":4.832011
+    },
+    {
+        "Building Name":"MADRID-LA FINCA",
+        "latitude":40.43465,
+        "longitude":-3.81483
+    },
+    {
+        "Building Name":"MALTA-SKYPARKS",
+        "latitude":35.85965,
+        "longitude":14.48929
+    },
+    {
+        "Building Name":"MANAMA",
+        "latitude":26.2235,
+        "longitude":50.58224
+    },
+    {
+        "Building Name":"MANCHESTER UA92",
+        "latitude":53.47949,
+        "longitude":-2.24511
+    },
+    {
+        "Building Name":"PORT LOUIS-DIAS",
+        "latitude":-20.1625,
+        "longitude":57.5028
+    },
+    {
+        "Building Name":"CHESTER-LINENHALL HOUSE",
+        "latitude":53.19089,
+        "longitude":-2.8909
+    },
+    {
+        "Building Name":"COVENTRY-BRANDON COURT",
+        "latitude":52.40818,
+        "longitude":-1.51048
+    },
+    {
+        "Building Name":"EDINBURGH-CAUSEWAY HOUSE",
+        "latitude":55.95335,
+        "longitude":-3.18837
+    },
+    {
+        "Building Name":"ENFIELD-GENOTIN ROAD",
+        "latitude":51.65209,
+        "longitude":-0.08102
+    },
+    {
+        "Building Name":"MILAN-PORTA VOLTA",
+        "latitude":45.46419,
+        "longitude":9.189635
+    },
+    {
+        "Building Name":"MINSK-INTERNATSIONALNAYA ST",
+        "latitude":53.90247,
+        "longitude":27.56182
+    },
+    {
+        "Building Name":"MOSCOW-KHBP",
+        "latitude":55.62558,
+        "longitude":37.60639
+    },
+    {
+        "Building Name":"MOSCOW-TIMURA FRUNZE ST",
+        "latitude":55.62558,
+        "longitude":37.60639
+    },
+    {
+        "Building Name":"MUNICH-HQ",
+        "latitude":48.13711,
+        "longitude":11.57538
+    },
+    {
+        "Building Name":"NAIROBI-OVAL",
+        "latitude":-1.28325,
+        "longitude":36.81724
+    },
+    {
+        "Building Name":"NAIROBI-WAIYAKI WAY",
+        "latitude":-1.28325,
+        "longitude":36.81724
+    },
+    {
+        "Building Name":"NANTES-CENTRE DES SALORGES",
+        "latitude":47.21864,
+        "longitude":-1.55414
+    },
+    {
+        "Building Name":"NAZARET PAULUS",
+        "latitude":32.70663,
+        "longitude":35.30482
+    },
+    {
+        "Building Name":"DELFT-MQFAB",
+        "latitude":51.99946,
+        "longitude":4.362725
+    },
+    {
+        "Building Name":"NICOSIA-LIMASSO",
+        "latitude":35.17465,
+        "longitude":33.36388
+    },
+    {
+        "Building Name":"DUBLIN-HARCOURT",
+        "latitude":53.34938,
+        "longitude":-6.26056
+    },
+    {
+        "Building Name":"LONDON-PADDNGTN",
+        "latitude":51.50745,
+        "longitude":-0.12777
+    },
+    {
+        "Building Name":"PARIS-ISSY",
+        "latitude":48.82505,
+        "longitude":2.273457
+    },
+    {
+        "Building Name":"PRAGUE-BBC",
+        "latitude":50.08747,
+        "longitude":14.42125
+    },
+    {
+        "Building Name":"RABAT",
+        "latitude":34.02236,
+        "longitude":-6.83402
+    },
+    {
+        "Building Name":"RABAT LA ROCADE",
+        "latitude":34.02236,
+        "longitude":-6.83402
+    },
+    {
+        "Building Name":"LONDON-7 SWALLOW",
+        "latitude":51.50745,
+        "longitude":-0.12777
+    },
+    {
+        "Building Name":"REYKJAVIK-BORG 28",
+        "latitude":64.14598,
+        "longitude":-21.9422
+    },
+    {
+        "Building Name":"RIGA-ZALA1",
+        "latitude":56.9494,
+        "longitude":24.10518
+    },
+    {
+        "Building Name":"RIYADH-GATE2",
+        "latitude":24.63892,
+        "longitude":46.71601
+    },
+    {
+        "Building Name":"ROME-AVIGNONE",
+        "latitude":41.89332,
+        "longitude":12.48293
+    },
+    {
+        "Building Name":"MUSCAT-KOM",
+        "latitude":23.54068,
+        "longitude":58.18907
+    },
+    {
+        "Building Name":"SANDNES-GRENSEVEIEN 21",
+        "latitude":58.98313,
+        "longitude":6.394641
+    },
+    {
+        "Building Name":"SARAJEVO-UNITIC",
+        "latitude":44.1347,
+        "longitude":16.97838
+    },
+    {
+        "Building Name":"SCHIPHOL-EVERT",
+        "latitude":52.30804,
+        "longitude":4.762198
+    },
+    {
+        "Building Name":"SKOPJE-CARAT",
+        "latitude":41.99618,
+        "longitude":21.43192
+    },
+    {
+        "Building Name":"SOFIA-EXPO2000",
+        "latitude":42.6977,
+        "longitude":23.32174
+    },
+    {
+        "Building Name":"STRASBOURG-23-LA HAYE",
+        "latitude":48.58461,
+        "longitude":7.750713
+    },
+    {
+        "Building Name":"STUTTGART-STEP",
+        "latitude":48.77845,
+        "longitude":9.180013
+    },
+    {
+        "Building Name":"TALLINN-AKAD",
+        "latitude":59.43722,
+        "longitude":24.74537
+    },
+    {
+        "Building Name":"TAMPERE-KALEVANTIE 2",
+        "latitude":61.49802,
+        "longitude":23.76031
+    },
+    {
+        "Building Name":"TARTU-RAEKOJA",
+        "latitude":58.38012,
+        "longitude":26.72245
+    },
+    {
+        "Building Name":"TBILISI-AXIS TOWERS-TERMINAL",
+        "latitude":41.69346,
+        "longitude":44.80145
+    },
+    {
+        "Building Name":"TEL AVIV-144 DERECH MENACHEM",
+        "latitude":32.0853,
+        "longitude":34.78181
+    },
+    {
+        "Building Name":"TIMISOARA-OPENVILLE",
+        "latitude":45.75384,
+        "longitude":21.22575
+    },
+    {
+        "Building Name":"TOULOUSE-55 AVE LOUIS BREGUET",
+        "latitude":43.60446,
+        "longitude":1.444247
+    },
+    {
+        "Building Name":"TROMSO-GR58",
+        "latitude":69.65163,
+        "longitude":18.95586
+    },
+    {
+        "Building Name":"TRONDHEIM-KONGENS",
+        "latitude":63.43045,
+        "longitude":10.39521
+    },
+    {
+        "Building Name":"TUNIS-REGUS URBAIN NORD",
+        "latitude":33.84394,
+        "longitude":9.400138
+    },
+    {
+        "Building Name":"LONDON-WILSON ST",
+        "latitude":51.50745,
+        "longitude":-0.12777
+    },
+    {
+        "Building Name":"UK CAMPUS BLD1",
+        "latitude":51.45642,
+        "longitude":-0.97007
+    },
+    {
+        "Building Name":"UK CAMPUS BLD2",
+        "latitude":51.45642,
+        "longitude":-0.97007
+    },
+    {
+        "Building Name":"STOCKHOLM-REGERINGSGATAN 27",
+        "latitude":59.32512,
+        "longitude":18.07109
+    },
+    {
+        "Building Name":"VILNIUS-BH",
+        "latitude":54.68705,
+        "longitude":25.28291
+    },
+    {
+        "Building Name":"LISBON-VIRTUAL",
+        "latitude":38.70775,
+        "longitude":-9.13659
+    },
+    {
+        "Building Name":"WALLDORF",
+        "latitude":49.30381,
+        "longitude":8.643352
+    },
+    {
+        "Building Name":"WARSAW-JEROZ",
+        "latitude":52.23372,
+        "longitude":21.07143
+    },
+    {
+        "Building Name":"WINDHOEK",
+        "latitude":-22.5776,
+        "longitude":17.07727
+    },
+    {
+        "Building Name":"WINDHOEK-MAERUA MALL",
+        "latitude":-22.5776,
+        "longitude":17.07727
+    },
+    {
+        "Building Name":"WOLFSBURG",
+        "latitude":52.42056,
+        "longitude":10.78617
+    },
+    {
+        "Building Name":"AARHUS-ABOGADE",
+        "latitude":56.14963,
+        "longitude":10.2134
+    },
+    {
+        "Building Name":"AARHUS-ABOGADE01",
+        "latitude":56.14963,
+        "longitude":10.2134
+    },
+    {
+        "Building Name":"QUIMPER-3 RUE PITRE",
+        "latitude":47.99603,
+        "longitude":-4.10248
+    },
+    {
+        "Building Name":"YAVNE-GAN RAVE 5",
+        "latitude":31.87689,
+        "longitude":34.7383
+    },
+    {
+        "Building Name":"YEREVAN-CITADEL",
+        "latitude":40.17771,
+        "longitude":44.51262
+    },
+    {
+        "Building Name":"ZAGREB-NETCITY",
+        "latitude":45.84264,
+        "longitude":15.96223
+    },
+    {
+        "Building Name":"ZAVENTEM-PASS",
+        "latitude":50.88062,
+        "longitude":4.473001
+    },
+    {
+        "Building Name":"ZURICH-SEE",
+        "latitude":47.37445,
+        "longitude":8.541042
+    },
+    {
+        "Building Name":"ZURICH TALSTRASSE",
+        "latitude":47.37445,
+        "longitude":8.541042
+    },
+    {
+        "Building Name":"ZURICH CIRCLE SPACES",
+        "latitude":47.37445,
+        "longitude":8.541042
+    },
+    {
+        "Building Name":"ZURICH THE CIRCLE",
+        "latitude":47.37445,
+        "longitude":8.541042
+    },
+    {
+        "Building Name":"1",
+        "latitude":47.66941,
+        "longitude":-122.124
+    },
+    {
+        "Building Name":"10",
+        "latitude":47.66941,
+        "longitude":-122.124
+    },
+    {
+        "Building Name":"11",
+        "latitude":47.66941,
+        "longitude":-122.124
+    },
+    {
+        "Building Name":"16",
+        "latitude":47.66941,
+        "longitude":-122.124
+    },
+    {
+        "Building Name":"16-18 CAFETERIA",
+        "latitude":47.66941,
+        "longitude":-122.124
+    },
+    {
+        "Building Name":"17",
+        "latitude":47.66941,
+        "longitude":-122.124
+    },
+    {
+        "Building Name":"18",
+        "latitude":47.66941,
+        "longitude":-122.124
+    },
+    {
+        "Building Name":"19",
+        "latitude":47.66941,
+        "longitude":-122.124
+    },
+    {
+        "Building Name":"2",
+        "latitude":47.66941,
+        "longitude":-122.124
+    },
+    {
+        "Building Name":"20",
+        "latitude":47.66941,
+        "longitude":-122.124
+    },
+    {
+        "Building Name":"21",
+        "latitude":47.66941,
+        "longitude":-122.124
+    },
+    {
+        "Building Name":"22",
+        "latitude":47.66941,
+        "longitude":-122.124
+    },
+    {
+        "Building Name":"25",
+        "latitude":47.66941,
+        "longitude":-122.124
+    },
+    {
+        "Building Name":"26",
+        "latitude":47.66941,
+        "longitude":-122.124
+    },
+    {
+        "Building Name":"27",
+        "latitude":47.66941,
+        "longitude":-122.124
+    },
+    {
+        "Building Name":"28",
+        "latitude":47.66941,
+        "longitude":-122.124
+    },
+    {
+        "Building Name":"3",
+        "latitude":47.66941,
+        "longitude":-122.124
+    },
+    {
+        "Building Name":"30",
+        "latitude":47.66941,
+        "longitude":-122.124
+    },
+    {
+        "Building Name":"30-32 CAFETERIA",
+        "latitude":47.66941,
+        "longitude":-122.124
+    },
+    {
+        "Building Name":"31",
+        "latitude":47.66941,
+        "longitude":-122.124
+    },
+    {
+        "Building Name":"31-OUTDOOR MEETING SPACES",
+        "latitude":47.66941,
+        "longitude":-122.124
+    },
+    {
+        "Building Name":"32",
+        "latitude":47.66941,
+        "longitude":-122.124
+    },
+    {
+        "Building Name":"33",
+        "latitude":47.66941,
+        "longitude":-122.124
+    },
+    {
+        "Building Name":"34",
+        "latitude":47.66941,
+        "longitude":-122.124
+    },
+    {
+        "Building Name":"34-35 CAFETERIA",
+        "latitude":47.66941,
+        "longitude":-122.124
+    },
+    {
+        "Building Name":"35",
+        "latitude":47.66941,
+        "longitude":-122.124
+    },
+    {
+        "Building Name":"36",
+        "latitude":47.66941,
+        "longitude":-122.124
+    },
+    {
+        "Building Name":"37",
+        "latitude":47.66941,
+        "longitude":-122.124
+    },
+    {
+        "Building Name":"4",
+        "latitude":47.66941,
+        "longitude":-122.124
+    },
+    {
+        "Building Name":"40",
+        "latitude":47.66941,
+        "longitude":-122.124
+    },
+    {
+        "Building Name":"40-41 CAFETERIA",
+        "latitude":47.66941,
+        "longitude":-122.124
+    },
+    {
+        "Building Name":"41",
+        "latitude":47.66941,
+        "longitude":-122.124
+    },
+    {
+        "Building Name":"42",
+        "latitude":47.66941,
+        "longitude":-122.124
+    },
+    {
+        "Building Name":"42-44 CAFETERIA",
+        "latitude":47.66941,
+        "longitude":-122.124
+    },
+    {
+        "Building Name":"43",
+        "latitude":47.66941,
+        "longitude":-122.124
+    },
+    {
+        "Building Name":"44",
+        "latitude":47.66941,
+        "longitude":-122.124
+    },
+    {
+        "Building Name":"5",
+        "latitude":47.66941,
+        "longitude":-122.124
+    },
+    {
+        "Building Name":"6",
+        "latitude":47.66941,
+        "longitude":-122.124
+    },
+    {
+        "Building Name":"7",
+        "latitude":47.66941,
+        "longitude":-122.124
+    },
+    {
+        "Building Name":"8",
+        "latitude":47.66941,
+        "longitude":-122.124
+    },
+    {
+        "Building Name":"9",
+        "latitude":47.66941,
+        "longitude":-122.124
+    },
+    {
+        "Building Name":"EAST CAMPUS BACK OF HOUSE",
+        "latitude":47.66941,
+        "longitude":-122.124
+    },
+    {
+        "Building Name":"ONE ESTERRA",
+        "latitude":47.66941,
+        "longitude":-122.124
+    },
+    {
+        "Building Name":"REDMOND TECHNOLOGY STATION",
+        "latitude":47.66941,
+        "longitude":-122.124
+    },
+    {
+        "Building Name":"THE SQUARE",
+        "latitude":47.66941,
+        "longitude":-122.124
+    },
+    {
+        "Building Name":"THERMAL ENERGY CENTER",
+        "latitude":47.66941,
+        "longitude":-122.124
+    },
+    {
+        "Building Name":"121",
+        "latitude":47.66941,
+        "longitude":-122.124
+    },
+    {
+        "Building Name":"121-CABIN SOUTH",
+        "latitude":47.66941,
+        "longitude":-122.124
+    },
+    {
+        "Building Name":"122",
+        "latitude":47.66941,
+        "longitude":-122.124
+    },
+    {
+        "Building Name":"50",
+        "latitude":47.66941,
+        "longitude":-122.124
+    },
+    {
+        "Building Name":"82",
+        "latitude":47.66941,
+        "longitude":-122.124
+    },
+    {
+        "Building Name":"83",
+        "latitude":47.66941,
+        "longitude":-122.124
+    },
+    {
+        "Building Name":"84",
+        "latitude":47.66941,
+        "longitude":-122.124
+    },
+    {
+        "Building Name":"85",
+        "latitude":47.66941,
+        "longitude":-122.124
+    },
+    {
+        "Building Name":"86",
+        "latitude":47.66941,
+        "longitude":-122.124
+    },
+    {
+        "Building Name":"87",
+        "latitude":47.66941,
+        "longitude":-122.124
+    },
+    {
+        "Building Name":"88",
+        "latitude":47.66941,
+        "longitude":-122.124
+    },
+    {
+        "Building Name":"88 GARAGE",
+        "latitude":47.66941,
+        "longitude":-122.124
+    },
+    {
+        "Building Name":"REDMOND WOODS-A",
+        "latitude":47.66941,
+        "longitude":-122.124
+    },
+    {
+        "Building Name":"REDMOND WOODS-B",
+        "latitude":47.66941,
+        "longitude":-122.124
+    },
+    {
+        "Building Name":"109",
+        "latitude":47.66941,
+        "longitude":-122.124
+    },
+    {
+        "Building Name":"111",
+        "latitude":47.66941,
+        "longitude":-122.124
+    },
+    {
+        "Building Name":"112",
+        "latitude":47.66941,
+        "longitude":-122.124
+    },
+    {
+        "Building Name":"113",
+        "latitude":47.66941,
+        "longitude":-122.124
+    },
+    {
+        "Building Name":"114",
+        "latitude":47.66941,
+        "longitude":-122.124
+    },
+    {
+        "Building Name":"115",
+        "latitude":47.66941,
+        "longitude":-122.124
+    },
+    {
+        "Building Name":"120",
+        "latitude":47.66941,
+        "longitude":-122.124
+    },
+    {
+        "Building Name":"123",
+        "latitude":47.66941,
+        "longitude":-122.124
+    },
+    {
+        "Building Name":"124",
+        "latitude":47.66941,
+        "longitude":-122.124
+    },
+    {
+        "Building Name":"125",
+        "latitude":47.66941,
+        "longitude":-122.124
+    },
+    {
+        "Building Name":"126",
+        "latitude":47.66941,
+        "longitude":-122.124
+    },
+    {
+        "Building Name":"127",
+        "latitude":47.66941,
+        "longitude":-122.124
+    },
+    {
+        "Building Name":"127B",
+        "latitude":47.66941,
+        "longitude":-122.124
+    },
+    {
+        "Building Name":"130",
+        "latitude":47.66941,
+        "longitude":-122.124
+    },
+    {
+        "Building Name":"131",
+        "latitude":47.66941,
+        "longitude":-122.124
+    },
+    {
+        "Building Name":"132",
+        "latitude":47.66941,
+        "longitude":-122.124
+    },
+    {
+        "Building Name":"133",
+        "latitude":47.66941,
+        "longitude":-122.124
+    },
+    {
+        "Building Name":"136",
+        "latitude":47.66941,
+        "longitude":-122.124
+    },
+    {
+        "Building Name":"92",
+        "latitude":47.66941,
+        "longitude":-122.124
+    },
+    {
+        "Building Name":"99",
+        "latitude":47.66941,
+        "longitude":-122.124
+    },
+    {
+        "Building Name":"COMMONS",
+        "latitude":47.66941,
+        "longitude":-122.124
+    },
+    {
+        "Building Name":"COMMONS TRANSIT CENTER",
+        "latitude":47.66941,
+        "longitude":-122.124
+    },
+    {
+        "Building Name":"SEA-821 2ND",
+        "latitude":47.60383,
+        "longitude":-122.33
+    },
+    {
+        "Building Name":"STUDIO A",
+        "latitude":47.66941,
+        "longitude":-122.124
+    },
+    {
+        "Building Name":"STUDIO B",
+        "latitude":47.66941,
+        "longitude":-122.124
+    },
+    {
+        "Building Name":"STUDIO C",
+        "latitude":47.66941,
+        "longitude":-122.124
+    },
+    {
+        "Building Name":"STUDIO D",
+        "latitude":47.66941,
+        "longitude":-122.124
+    },
+    {
+        "Building Name":"STUDIO E",
+        "latitude":47.66941,
+        "longitude":-122.124
+    },
+    {
+        "Building Name":"STUDIO F",
+        "latitude":47.66941,
+        "longitude":-122.124
+    },
+    {
+        "Building Name":"STUDIO G",
+        "latitude":47.66941,
+        "longitude":-122.124
+    },
+    {
+        "Building Name":"STUDIO H",
+        "latitude":47.66941,
+        "longitude":-122.124
+    },
+    {
+        "Building Name":"STUDIO X",
+        "latitude":47.66941,
+        "longitude":-122.124
+    },
+    {
+        "Building Name":"STUDIOS A-D GARAGE",
+        "latitude":47.66941,
+        "longitude":-122.124
+    },
+    {
+        "Building Name":"SUBMIXER CAFETERIA",
+        "latitude":47.66941,
+        "longitude":-122.124
+    },
+    {
+        "Building Name":"THE MIXER CAFETERIA",
+        "latitude":47.66941,
+        "longitude":-122.124
+    },
+    {
+        "Building Name":"ADVANTA-C",
+        "latitude":47.61442,
+        "longitude":-122.192
+    },
+    {
+        "Building Name":"BELLEVUE SPRING DISTRICT-12280",
+        "latitude":47.61442,
+        "longitude":-122.192
+    },
+    {
+        "Building Name":"BELLEVUE-1814",
+        "latitude":47.61442,
+        "longitude":-122.192
+    },
+    {
+        "Building Name":"BRAVERN-1",
+        "latitude":47.61442,
+        "longitude":-122.192
+    },
+    {
+        "Building Name":"BRAVERN-2",
+        "latitude":47.61442,
+        "longitude":-122.192
+    },
+    {
+        "Building Name":"CEDAR PARK BAY2",
+        "latitude":47.66941,
+        "longitude":-122.124
+    },
+    {
+        "Building Name":"CITY CENTER",
+        "latitude":47.61442,
+        "longitude":-122.192
+    },
+    {
+        "Building Name":"LINCOLN SQUARE",
+        "latitude":47.61442,
+        "longitude":-122.192
+    },
+    {
+        "Building Name":"MILLENNIUM A",
+        "latitude":47.66941,
+        "longitude":-122.124
+    },
+    {
+        "Building Name":"MILLENNIUM B",
+        "latitude":47.66941,
+        "longitude":-122.124
+    },
+    {
+        "Building Name":"MILLENNIUM C",
+        "latitude":47.66941,
+        "longitude":-122.124
+    },
+    {
+        "Building Name":"MILLENNIUM D",
+        "latitude":47.66941,
+        "longitude":-122.124
+    },
+    {
+        "Building Name":"MILLENNIUM E",
+        "latitude":47.66941,
+        "longitude":-122.124
+    },
+    {
+        "Building Name":"MILLENNIUM F",
+        "latitude":47.66941,
+        "longitude":-122.124
+    },
+    {
+        "Building Name":"BEAR CREEK A",
+        "latitude":47.66941,
+        "longitude":-122.124
+    },
+    {
+        "Building Name":"MARYMOOR",
+        "latitude":47.66941,
+        "longitude":-122.124
+    },
+    {
+        "Building Name":"REDMOND COMMUTE TRANSPORTATION LOT 5",
+        "latitude":47.66941,
+        "longitude":-122.124
+    },
+    {
+        "Building Name":"REDMOND RIDGE 1",
+        "latitude":47.66941,
+        "longitude":-122.124
+    },
+    {
+        "Building Name":"REDMOND UNION HILL",
+        "latitude":47.66941,
+        "longitude":-122.124
+    },
+    {
+        "Building Name":"REDMOND WOODS-C",
+        "latitude":47.66941,
+        "longitude":-122.124
+    },
+    {
+        "Building Name":"REDMOND-10500",
+        "latitude":47.66941,
+        "longitude":-122.124
+    },
+    {
+        "Building Name":"REDMOND-17760",
+        "latitude":47.66941,
+        "longitude":-122.124
+    },
+    {
+        "Building Name":"SILVERDALE-9633",
+        "latitude":47.65941,
+        "longitude":-122.677
+    },
+    {
+        "Building Name":"TUKWILA-5",
+        "latitude":47.46274,
+        "longitude":-122.256
+    },
+    {
+        "Building Name":"REDW-A",
+        "latitude":47.66941,
+        "longitude":-122.124
+    },
+    {
+        "Building Name":"REDW-B",
+        "latitude":47.66941,
+        "longitude":-122.124
+    },
+    {
+        "Building Name":"REDW-C",
+        "latitude":47.66941,
+        "longitude":-122.124
+    },
+    {
+        "Building Name":"REDW-D",
+        "latitude":47.66941,
+        "longitude":-122.124
+    },
+    {
+        "Building Name":"REDW-E",
+        "latitude":47.66941,
+        "longitude":-122.124
+    },
+    {
+        "Building Name":"REDW-F CAFETERIA",
+        "latitude":47.66941,
+        "longitude":-122.124
+    },
+    {
+        "Building Name":"REDMOND TOWN B3",
+        "latitude":47.66941,
+        "longitude":-122.124
+    },
+    {
+        "Building Name":"REDMOND TOWN B4",
+        "latitude":47.66941,
+        "longitude":-122.124
+    },
+    {
+        "Building Name":"REDMOND TOWN B5",
+        "latitude":47.66941,
+        "longitude":-122.124
+    },
+    {
+        "Building Name":"REDMOND TOWN B6",
+        "latitude":47.66941,
+        "longitude":-122.124
+    },
+    {
+        "Building Name":"SAMM-D",
+        "latitude":47.53488,
+        "longitude":-122.043
+    },
+    {
+        "Building Name":"SAMM-E",
+        "latitude":47.53488,
+        "longitude":-122.043
+    },
+    {
+        "Building Name":"WILLOWS PARK I & II",
+        "latitude":47.66941,
+        "longitude":-122.124
+    },
+    {
+        "Building Name":"WILLOWS WHSE",
+        "latitude":47.66941,
+        "longitude":-122.124
+    },
+    {
+        "Building Name":"WILLOWS-9825",
+        "latitude":47.66941,
+        "longitude":-122.124
+    },
+    {
+        "Building Name":"WILLOWS-9911",
+        "latitude":47.66941,
+        "longitude":-122.124
+    },
+    {
+        "Building Name":"LEASE USE ONLY - CONNECTOR",
+        "latitude":47.66941,
+        "longitude":-122.124
+    },
+    {
+        "Building Name":"EAST CAMPUS CORE",
+        "latitude":47.66941,
+        "longitude":-122.124
+    },
+    {
+        "Building Name":"Augusta Cp",
+        "latitude":47.66941,
+        "longitude":-122.124
+    },
+    {
+        "Building Name":"Beijing W Cp",
+        "latitude":40.19063,
+        "longitude":116.4121
+    },
+    {
+        "Building Name":"Cedar Court Cp",
+        "latitude":47.66941,
+        "longitude":-122.124
+    },
+    {
+        "Building Name":"Hyd Sohini",
+        "latitude":17.36059,
+        "longitude":78.47406
+    },
+    {
+        "Building Name":"Hyderabad Campus Cp",
+        "latitude":17.36059,
+        "longitude":78.47406
+    },
+    {
+        "Building Name":"Pebble Beach Cp",
+        "latitude":47.66941,
+        "longitude":-122.124
+    },
+    {
+        "Building Name":"Ps Utilities",
+        "latitude":47.66941,
+        "longitude":-122.124
+    },
+    {
+        "Building Name":"St Andrews Cp",
+        "latitude":47.66941,
+        "longitude":-122.124
+    },
+    {
+        "Building Name":"Svc-2",
+        "latitude":37.36883,
+        "longitude":-122.036
+    },
+    {
+        "Building Name":"Torre Universal Free Trade",
+        "latitude":9.932543,
+        "longitude":-84.0796
+    },
+    {
+        "Building Name":"Troon Cp",
+        "latitude":47.66941,
+        "longitude":-122.124
+    }
+]
