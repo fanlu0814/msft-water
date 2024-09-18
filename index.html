@@ -37,11 +37,29 @@
             radius: 10                // Radius of the circle marker
         };
 
+        // Function to apply a small "jitter" to overlapping markers
+        function jitterCoordinates(lat, lon, factor = 0.0002) {
+            // Add a small random offset to the latitude and longitude to prevent overlap
+            var jitterLat = lat + (Math.random() - 0.5) * factor;
+            var jitterLon = lon + (Math.random() - 0.5) * factor;
+            return [jitterLat, jitterLon];
+        }
+
         // Function to plot sites using circle markers
         function plotSites(data) {
+            const seenLocations = new Set();
+            
             data.forEach(function(site) {
                 var lat = site.latitude;
                 var lon = site.longitude;
+                const key = `${lat},${lon}`;
+                
+                // Apply jitter if the location has already been seen (i.e., it overlaps)
+                if (seenLocations.has(key)) {
+                    [lat, lon] = jitterCoordinates(lat, lon);
+                } else {
+                    seenLocations.add(key);
+                }
 
                 // Add a circle marker for each site
                 L.circleMarker([lat, lon], circleMarkerStyle)
