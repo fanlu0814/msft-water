@@ -43,7 +43,7 @@
         function getJitterFactor() {
             var zoomLevel = map.getZoom();
             // Higher zoom level -> smaller jitter; Lower zoom level -> larger jitter
-            return Math.pow(2, (2 - zoomLevel)) * 0.05;  // Example scaling based on zoom
+            return Math.pow(2, (2 - zoomLevel)) * 0.5;  // Example scaling based on zoom
         }
 
         // Function to apply "jitter" to overlapping markers based on zoom level
