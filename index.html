@@ -22,8 +22,10 @@
     <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
 
     <script>
+        // Initialize the map
         var map = L.map('map').setView([20, 0], 2);
 
+        // Add a tile layer
         L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}', {
             attribution: '&copy; Esri &mdash; Esri, DeLorme, NAVTEQ',
             maxZoom: 16
@@ -37,11 +39,18 @@
             radius: 10                // Radius of the circle marker
         };
 
-        // Function to apply a small "jitter" to overlapping markers
-        function jitterCoordinates(lat, lon, factor = 0.0002) {
-            // Add a small random offset to the latitude and longitude to prevent overlap
-            var jitterLat = lat + (Math.random() - 0.5) * factor;
-            var jitterLon = lon + (Math.random() - 0.5) * factor;
+        // Get current zoom level and adjust jittering accordingly
+        function getJitterFactor() {
+            var zoomLevel = map.getZoom();
+            // Higher zoom level -> smaller jitter; Lower zoom level -> larger jitter
+            return Math.pow(2, (2 - zoomLevel)) * 0.001;  // Example scaling based on zoom
+        }
+
+        // Function to apply "jitter" to overlapping markers based on zoom level
+        function jitterCoordinates(lat, lon) {
+            var jitterFactor = getJitterFactor();  // Get zoom-dependent jitter factor
+            var jitterLat = lat + (Math.random() - 0.5) * jitterFactor;
+            var jitterLon = lon + (Math.random() - 0.5) * jitterFactor;
             return [jitterLat, jitterLon];
         }
 
@@ -75,6 +84,11 @@
                 plotSites(data);
             })
             .catch(error => console.error('Error loading site data:', error));
+
+        // Re-plot markers when the map zoom changes
+        map.on('zoomend', function() {
+            // Optionally, replot markers based on updated zoom (if markers need to adjust on zoom change)
+        });
     </script>
 </body>
 </html>
