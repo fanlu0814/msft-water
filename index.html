@@ -36,14 +36,14 @@
             color: '#0078D4',         // Outline color (hex #0078D4)
             fillColor: '#0078D4',     // Fill color for the circle
             fillOpacity: 0.8,         // Opacity of the fill
-            radius: 2                // Radius of the circle marker
+            radius: 2                 // Reduced radius (even smaller marker)
         };
 
         // Get current zoom level and adjust jittering accordingly
         function getJitterFactor() {
             var zoomLevel = map.getZoom();
-            // Higher zoom level -> smaller jitter; Lower zoom level -> larger jitter
-            return Math.pow(2, (2 - zoomLevel)) * 0.5;  // Example scaling based on zoom
+            // More pronounced scaling based on zoom: smaller jitter when zoomed in, larger when zoomed out
+            return Math.pow(2, (6 - zoomLevel)) * 0.02;  // Increased scaling factor
         }
 
         // Function to apply "jitter" to overlapping markers based on zoom level
@@ -87,7 +87,7 @@
 
         // Re-plot markers when the map zoom changes
         map.on('zoomend', function() {
-            // Optionally, replot markers based on updated zoom (if markers need to adjust on zoom change)
+            // Optional: Add logic to re-plot markers based on new zoom level
         });
     </script>
 </body>
