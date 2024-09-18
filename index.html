@@ -42,12 +42,8 @@
         // Get current zoom level and adjust jittering accordingly
         function getJitterFactor() {
             var zoomLevel = map.getZoom();
-            // Strong jittering when zoomed out, smaller jitter when zoomed in close
-            var jitter = Math.pow(2, (16 - zoomLevel)) * 0.05;
-            
-            // Define a minimum and maximum jitter range so that jittering is never too small or too large
-            jitter = Math.max(0.00005, Math.min(jitter, 0.01));  // Closer zoom, smaller spread; zoomed out, larger spread
-            return jitter;
+            // Make jittering effect more extreme with exaggerated scaling
+            return Math.pow(2, (16 - zoomLevel)) * 0.05;  // Larger scaling based on zoom
         }
 
         // Function to apply "jitter" to overlapping markers based on zoom level
@@ -91,4 +87,8 @@
 
         // Re-plot markers when the map zoom changes
         map.on('zoomend', function() {
-            // Optional:
+            // Optional: Add logic to re-plot markers based on new zoom level
+        });
+    </script>
+</body>
+</html>
