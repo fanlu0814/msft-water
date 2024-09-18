@@ -49,7 +49,7 @@
         }
 
         // Fetch and plot the site data from the JSON file
-        fetch('sites_sheet2.json')
+        fetch('sites.json')
             .then(response => response.json())
             .then(data => {
                 plotSites(data);
