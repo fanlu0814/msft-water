@@ -24,8 +24,6 @@
     <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
 
     <!-- Load site data from your JSON file -->
-    <script src="sites_sheet2.json"></script> <!-- make sure this file is correctly linked -->
-
     <script>
         // Initialize the map centered on the world
         var map = L.map('map').setView([20, 0], 2);
@@ -44,12 +42,12 @@
 
                 // Add a marker for each site with a popup displaying the Building Name
                 L.marker([lat, lon]).addTo(map)
-                    .bindPopup(`Building Name: ${site['Building Name']}<br>Latitude: ${site.latitude}<br>Longitude: ${site.longitude}`);
+                    .bindPopup(`Building Name: ${site['Building Name']}<br>Latitude: ${lat}<br>Longitude: ${lon}`);
             });
         }
 
         // Fetch and plot the site data from the JSON file
-        fetch('sites.json')
+        fetch('sites_correct.json')
             .then(response => response.json())
             .then(data => {
                 plotSites(data);
