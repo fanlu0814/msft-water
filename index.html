@@ -65,7 +65,7 @@
                 
                 // Apply jitter if the location has already been seen (i.e., it overlaps)
                 if (seenLocations.has(key)) {
-                    [lat, lon] = jitterCoordinates(lat, lon);
+                    // [lat, lon] = jitterCoordinates(lat, lon);
                 } else {
                     seenLocations.add(key);
                 }
