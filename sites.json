@@ -1,2892 +1,4626 @@
 [
     {
-        "Building Name":"29903 AGOURA RD",
-        "latitude":34.136,
-        "longitude":-118.775
+        "name": "29903 AGOURA RD",
+        "latitude": 34.136,
+        "longitude": -118.775,
+        "Water Stress": 4,
+        "Total Water Use": 634.5090314256153,
+        "GSF": 34256.0
+    },
+    {
+        "name": "ALBANY-STATE",
+        "latitude": 42.65117,
+        "longitude": -73.755,
+        "Water Stress": 0,
+        "Total Water Use": 97.15086028220904,
+        "GSF": 5245.0
+    },
+    {
+        "name": "ALISOVIEJO-75EN",
+        "latitude": 33.57614,
+        "longitude": -117.726,
+        "Water Stress": 4,
+        "Total Water Use": 396.9756410997718,
+        "GSF": 21432.0
+    },
+    {
+        "name": "ALPHARETTA-8000",
+        "latitude": 34.07096,
+        "longitude": -84.2747,
+        "Water Stress": 2,
+        "Total Water Use": 796.4703512173473,
+        "GSF": 43192.0
+    },
+    {
+        "name": "ASUNCION - PARAGUAY",
+        "latitude": -25.28,
+        "longitude": -57.6344,
+        "Water Stress": 0,
+        "Total Water Use": 49.04775558194271,
+        "GSF": 2647.93994140625
+    },
+    {
+        "name": "ATLANTA-881 PEACHTREE",
+        "latitude": 33.74899,
+        "longitude": -84.3903,
+        "Water Stress": 2,
+        "Total Water Use": 574.1995555287851,
+        "GSF": 30963.0
+    },
+    {
+        "name": "ATLANTA-170 17TH ST NW",
+        "latitude": 33.74899,
+        "longitude": -84.3903,
+        "Water Stress": 2,
+        "Total Water Use": 2899.541052323599,
+        "GSF": 16000.0
+    },
+    {
+        "name": "ATLANTA-200 17TH ST NW",
+        "latitude": 33.74899,
+        "longitude": -84.3903,
+        "Water Stress": 2,
+        "Total Water Use": 9993.128271060983,
+        "GSF": 523511.0
+    },
+    {
+        "name": "AUSTIN-10900",
+        "latitude": 30.27113,
+        "longitude": -97.7437,
+        "Water Stress": 2,
+        "Total Water Use": 451.24676038039576,
+        "GSF": 24362.0
+    },
+    {
+        "name": "JHU-301 WEST 39TH",
+        "latitude": 39.29088,
+        "longitude": -76.6108,
+        "Water Stress": 1,
+        "Total Water Use": 182.74363918861278,
+        "GSF": 9866.0
+    },
+    {
+        "name": "BENTONVILLE-2505",
+        "latitude": 36.37285,
+        "longitude": -94.2088,
+        "Water Stress": 0,
+        "Total Water Use": 302.49203036582554,
+        "GSF": 16331.0
+    },
+    {
+        "name": "BERKELEY 1919",
+        "latitude": 37.87084,
+        "longitude": -122.273,
+        "Water Stress": 1,
+        "Total Water Use": 503.77675842812585,
+        "GSF": 27198.0
+    },
+    {
+        "name": "BOGOTA-NO 1192",
+        "latitude": 4.653382,
+        "longitude": -74.0836,
+        "Water Stress": 0,
+        "Total Water Use": 631.767691612123,
+        "GSF": 34108.1015625
     },
     {
-        "Building Name":"ALBANY-STATE",
-        "latitude":42.65117,
-        "longitude":-73.755
+        "name": "BOISE-401WFRONT",
+        "latitude": 43.61662,
+        "longitude": -116.201,
+        "Water Stress": 4,
+        "Total Water Use": 249.99907745071016,
+        "GSF": 13497.0
     },
     {
-        "Building Name":"ALISOVIEJO-75EN",
-        "latitude":33.57614,
-        "longitude":-117.726
+        "name": "BOULDER-1650 CANYON BLVD",
+        "latitude": 40.01499,
+        "longitude": -105.271,
+        "Water Stress": 4,
+        "Total Water Use": 332.2948395544003,
+        "GSF": 17940.0
     },
     {
-        "Building Name":"ALPHARETTA-8000",
-        "latitude":34.07096,
-        "longitude":-84.2747
+        "name": "BRASILIA-PKS",
+        "latitude": -10.3333,
+        "longitude": -53.2,
+        "Water Stress": 0,
+        "Total Water Use": 1152.0000000000002,
+        "GSF": 10697.0498046875
     },
     {
-        "Building Name":"ASUNCION - PARAGUAY",
-        "latitude":-25.28,
-        "longitude":-57.6344
+        "name": "BUENOS AIRES-CATALINAS",
+        "latitude": -34.6037,
+        "longitude": -58.3815,
+        "Water Stress": 0,
+        "Total Water Use": 578.7492694086974,
+        "GSF": 31245.630859375
     },
     {
-        "Building Name":"ATLANTA-881 PEACHTREE",
-        "latitude":33.74899,
-        "longitude":-84.3903
+        "name": "BURLINGTN-15 WAY",
+        "latitude": 44.47616,
+        "longitude": -73.2129,
+        "Water Stress": 2,
+        "Total Water Use": 45.84952579953506,
+        "GSF": 62805.0
     },
     {
-        "Building Name":"ATLANTA-170 17TH ST NW",
-        "latitude":33.74899,
-        "longitude":-84.3903
+        "name": "BURLINGTON-1 WAYSIDE RD",
+        "latitude": 44.47616,
+        "longitude": -73.2129,
+        "Water Stress": 2,
+        "Total Water Use": 3715.7194140919996,
+        "GSF": 200605.0
     },
     {
-        "Building Name":"ATLANTA-200 17TH ST NW",
-        "latitude":33.74899,
-        "longitude":-84.3903
+        "name": "BURLINGTN-5 WAY",
+        "latitude": 44.47616,
+        "longitude": -73.2129,
+        "Water Stress": 2,
+        "Total Water Use": 1699.0750073759832,
+        "GSF": 91730.0
     },
     {
-        "Building Name":"AUSTIN-10900",
-        "latitude":30.27113,
-        "longitude":-97.7437
+        "name": "CALGARY-9TH",
+        "latitude": 51.04561,
+        "longitude": -114.058,
+        "Water Stress": 3,
+        "Total Water Use": 226.34760529743895,
+        "GSF": 12220.099609375
     },
     {
-        "Building Name":"JHU-301 WEST 39TH",
-        "latitude":39.29088,
-        "longitude":-76.6108
+        "name": "CAMBRIDGE-1MEM",
+        "latitude": 42.36563,
+        "longitude": -71.104,
+        "Water Stress": 1,
+        "Total Water Use": 2905.2460027462726,
+        "GSF": 156849.0
     },
     {
-        "Building Name":"BENTONVILLE-2505",
-        "latitude":36.37285,
-        "longitude":-94.2088
+        "name": "CHARLOTTE-AP1",
+        "latitude": 35.22721,
+        "longitude": -80.8431,
+        "Water Stress": 3,
+        "Total Water Use": 3517.1766044819997,
+        "GSF": 212644.734375
     },
     {
-        "Building Name":"BERKELEY 1919",
-        "latitude":37.87084,
-        "longitude":-122.273
+        "name": "CHARLOTTE-AP2",
+        "latitude": 35.22721,
+        "longitude": -80.8431,
+        "Water Stress": 3,
+        "Total Water Use": 2165.820114837,
+        "GSF": 212008.875
     },
     {
-        "Building Name":"BOGOTA-NO 1192",
-        "latitude":4.653382,
-        "longitude":-74.0836
+        "name": "CHARLOTTE-ARROWRIDGE",
+        "latitude": 35.22721,
+        "longitude": -80.8431,
+        "Water Stress": 3,
+        "Total Water Use": 22.68065815243094,
+        "GSF": 3840.0
     },
     {
-        "Building Name":"BOISE-401WFRONT",
-        "latitude":43.61662,
-        "longitude":-116.201
+        "name": "CHEYENNE-1607 CAPITOL",
+        "latitude": 41.13998,
+        "longitude": -104.82,
+        "Water Stress": 4,
+        "Total Water Use": 4.630641576845043,
+        "GSF": 0.0
     },
     {
-        "Building Name":"BOULDER-1650 CANYON BLVD",
-        "latitude":40.01499,
-        "longitude":-105.271
+        "name": "CHEYENNE-1807 CAPITOL",
+        "latitude": 41.13998,
+        "longitude": -104.82,
+        "Water Stress": 4,
+        "Total Water Use": 0.0,
+        "GSF": 0.0
     },
     {
-        "Building Name":"BRASILIA-PKS",
-        "latitude":-10.3333,
-        "longitude":-53.2
+        "name": "CHICAGO-200RAND",
+        "latitude": 41.87556,
+        "longitude": -87.6244,
+        "Water Stress": 3,
+        "Total Water Use": 1183.369716245904,
+        "GSF": 63888.0
     },
     {
-        "Building Name":"BUENOS AIRES-CATALINAS",
-        "latitude":-34.6037,
-        "longitude":-58.3815
+        "name": "CINCINNATI-4445",
+        "latitude": 39.10145,
+        "longitude": -84.5125,
+        "Water Stress": 0,
+        "Total Water Use": 286.71080387193774,
+        "GSF": 15479.0
     },
     {
-        "Building Name":"BURLINGTN-15 WAY",
-        "latitude":44.47616,
-        "longitude":-73.2129
+        "name": "COLORADO SPRINGS-555",
+        "latitude": 38.83396,
+        "longitude": -104.825,
+        "Water Stress": 4,
+        "Total Water Use": 69.42257852006091,
+        "GSF": 3748.0
     },
     {
-        "Building Name":"BURLINGTON-1 WAYSIDE RD",
-        "latitude":44.47616,
-        "longitude":-73.2129
+        "name": "CULVER CITY - 5927 BLACKWELDER",
+        "latitude": 34.02112,
+        "longitude": -118.396,
+        "Water Stress": 4,
+        "Total Water Use": 12.056700000000001,
+        "GSF": 1400.0
     },
     {
-        "Building Name":"BURLINGTN-5 WAY",
-        "latitude":44.47616,
-        "longitude":-73.2129
+        "name": "CULVER CITY-5895",
+        "latitude": 34.02112,
+        "longitude": -118.396,
+        "Water Stress": 4,
+        "Total Water Use": 84.95595663000002,
+        "GSF": 5667.0
     },
     {
-        "Building Name":"CALGARY-9TH",
-        "latitude":51.04561,
-        "longitude":-114.058
+        "name": "DENVER-7595",
+        "latitude": 39.73924,
+        "longitude": -104.985,
+        "Water Stress": 4,
+        "Total Water Use": 536.7654490215699,
+        "GSF": 28979.0
     },
     {
-        "Building Name":"CAMBRIDGE-1MEM",
-        "latitude":42.36563,
-        "longitude":-71.104
+        "name": "DES MOINES-665 GRAND AVENUE",
+        "latitude": 41.58687,
+        "longitude": -93.6249,
+        "Water Stress": 1,
+        "Total Water Use": 122.73052435270105,
+        "GSF": 6625.5498046875
     },
     {
-        "Building Name":"CHARLOTTE-AP1",
-        "latitude":35.22721,
-        "longitude":-80.8431
+        "name": "DETROIT-CAMPUS MARTIUS",
+        "latitude": 42.33155,
+        "longitude": -83.0466,
+        "Water Stress": 0,
+        "Total Water Use": 811.1772688654073,
+        "GSF": 43794.0
     },
     {
-        "Building Name":"CHARLOTTE-AP2",
-        "latitude":35.22721,
-        "longitude":-80.8431
+        "name": "DOWNERS GROVE",
+        "latitude": 41.79368,
+        "longitude": -88.0102,
+        "Water Stress": 3,
+        "Total Water Use": 537.2840808781766,
+        "GSF": 29007.0
     },
     {
-        "Building Name":"CHARLOTTE-ARROWRIDGE",
-        "latitude":35.22721,
-        "longitude":-80.8431
+        "name": "EDINA MN-3601",
+        "latitude": 44.8897,
+        "longitude": -93.3501,
+        "Water Stress": 1,
+        "Total Water Use": 970.563951940414,
+        "GSF": 44464.0
     },
     {
-        "Building Name":"CHEYENNE-1607 CAPITOL",
-        "latitude":41.13998,
-        "longitude":-104.82
+        "name": "EDMONTON-103 AVENUE NW",
+        "latitude": 53.54621,
+        "longitude": -113.491,
+        "Water Stress": 3,
+        "Total Water Use": 228.42028770261234,
+        "GSF": 12332.0
     },
     {
-        "Building Name":"CHEYENNE-1807 CAPITOL",
-        "latitude":41.13998,
-        "longitude":-104.82
+        "name": "EL PASO-5130 GATEWAY",
+        "latitude": 31.76012,
+        "longitude": -106.487,
+        "Water Stress": 4,
+        "Total Water Use": 4.630641576845043,
+        "GSF": 250.0
     },
     {
-        "Building Name":"CHICAGO-200RAND",
-        "latitude":41.87556,
-        "longitude":-87.6244
+        "name": "ELKRIDGE-6518",
+        "latitude": 39.21283,
+        "longitude": -76.7137,
+        "Water Stress": 1,
+        "Total Water Use": 411.97891980874977,
+        "GSF": 22242.0
     },
     {
-        "Building Name":"CINCINNATI-4445",
-        "latitude":39.10145,
-        "longitude":-84.5125
+        "name": "ENCINO-17835 VENTURA BLVD",
+        "latitude": 34.15913,
+        "longitude": -118.502,
+        "Water Stress": 4,
+        "Total Water Use": 69.64484931574945,
+        "GSF": 3760.0
     },
     {
-        "Building Name":"COLORADO SPRINGS-555",
-        "latitude":38.83396,
-        "longitude":-104.825
+        "name": "FAIRPORTNY-375",
+        "latitude": 43.0993,
+        "longitude": -77.443,
+        "Water Stress": 0,
+        "Total Water Use": 99.55879390216845,
+        "GSF": 5375.0
     },
     {
-        "Building Name":"CULVER CITY - 5927 BLACKWELDER",
-        "latitude":34.02112,
-        "longitude":-118.396
+        "name": "FARGO-COMMONS",
+        "latitude": 46.87723,
+        "longitude": -96.7898,
+        "Water Stress": 2,
+        "Total Water Use": 5259.717750000002,
+        "GSF": 59072.91015625
     },
     {
-        "Building Name":"CULVER CITY-5895",
-        "latitude":34.02112,
-        "longitude":-118.396
+        "name": "FARGO-HORIZON",
+        "latitude": 46.87723,
+        "longitude": -96.7898,
+        "Water Stress": 2,
+        "Total Water Use": 2073.351569927368,
+        "GSF": 122440.0
     },
     {
-        "Building Name":"DENVER-7595",
-        "latitude":39.73924,
-        "longitude":-104.985
+        "name": "FARGO-SOUTH PK2",
+        "latitude": 46.87723,
+        "longitude": -96.7898,
+        "Water Stress": 2,
+        "Total Water Use": 0.0,
+        "GSF": 3600.0
     },
     {
-        "Building Name":"DES MOINES-665 GRAND AVENUE",
-        "latitude":41.58687,
-        "longitude":-93.6249
+        "name": "FARGO-VISION",
+        "latitude": 46.87723,
+        "longitude": -96.7898,
+        "Water Stress": 2,
+        "Total Water Use": 23326.27976,
+        "GSF": 120792.25
     },
     {
-        "Building Name":"DETROIT-CAMPUS MARTIUS",
-        "latitude":42.33155,
-        "longitude":-83.0466
+        "name": "FARGO-VISTA",
+        "latitude": 46.87723,
+        "longitude": -96.7898,
+        "Water Stress": 2,
+        "Total Water Use": 3419.6918000000005,
+        "GSF": 91586.25
     },
     {
-        "Building Name":"DOWNERS GROVE",
-        "latitude":41.79368,
-        "longitude":-88.0102
+        "name": "FARGO-WOODHAVEN",
+        "latitude": 46.87723,
+        "longitude": -96.7898,
+        "Water Stress": 2,
+        "Total Water Use": 0.0,
+        "GSF": 29281.0
     },
     {
-        "Building Name":"EDINA MN-3601",
-        "latitude":44.8897,
-        "longitude":-93.3501
+        "name": "FT COLLINS-2720",
+        "latitude": 40.58718,
+        "longitude": -105.077,
+        "Water Stress": 4,
+        "Total Water Use": 461.820005493164,
+        "GSF": 29896.0
     },
     {
-        "Building Name":"EDMONTON-103 AVENUE NW",
-        "latitude":53.54621,
-        "longitude":-113.491
+        "name": "FT LAUDER-6750",
+        "latitude": 26.12231,
+        "longitude": -80.1434,
+        "Water Stress": 3,
+        "Total Water Use": 558.9740060241187,
+        "GSF": 30178.0
     },
     {
-        "Building Name":"EL PASO-5130 GATEWAY",
-        "latitude":31.76012,
-        "longitude":-106.487
+        "name": "FT LAUDER-501",
+        "latitude": 26.12231,
+        "longitude": -80.1434,
+        "Water Stress": 3,
+        "Total Water Use": 25.931592830332242,
+        "GSF": 1400.0
     },
     {
-        "Building Name":"ELKRIDGE-6518",
-        "latitude":39.21283,
-        "longitude":-76.7137
+        "name": "GOLETA-5383 HOLLISTER AVE",
+        "latitude": 34.43583,
+        "longitude": -119.828,
+        "Water Stress": 4,
+        "Total Water Use": 130.30625397241948,
+        "GSF": 7035.0
     },
     {
-        "Building Name":"ENCINO-17835 VENTURA BLVD",
-        "latitude":34.15913,
-        "longitude":-118.502
+        "name": "GUATEMALA-IWFC",
+        "latitude": 14.64247,
+        "longitude": -90.5131,
+        "Water Stress": 0,
+        "Total Water Use": 100.2441288555415,
+        "GSF": 5412.14013671875
     },
     {
-        "Building Name":"FAIRPORTNY-375",
-        "latitude":43.0993,
-        "longitude":-77.443
+        "name": "GUAYNABO-CVP",
+        "latitude": 18.35787,
+        "longitude": -66.112,
+        "Water Stress": 0,
+        "Total Water Use": 249.79532922132898,
+        "GSF": 13486.0
     },
     {
-        "Building Name":"FARGO-COMMONS",
-        "latitude":46.87723,
-        "longitude":-96.7898
+        "name": "HANOVER-7030 DORSEY",
+        "latitude": 37.74478,
+        "longitude": -77.4464,
+        "Water Stress": 1,
+        "Total Water Use": 240.7933619959423,
+        "GSF": 13000.0
     },
     {
-        "Building Name":"FARGO-HORIZON",
-        "latitude":46.87723,
-        "longitude":-96.7898
+        "name": "HILLSBORO-4735",
+        "latitude": 45.52289,
+        "longitude": -122.99,
+        "Water Stress": 0,
+        "Total Water Use": 0.0,
+        "GSF": 7105.0
     },
     {
-        "Building Name":"FARGO-SOUTH PK2",
-        "latitude":46.87723,
-        "longitude":-96.7898
+        "name": "HILLSBORO-9820",
+        "latitude": 45.52289,
+        "longitude": -122.99,
+        "Water Stress": 0,
+        "Total Water Use": 441.7709744760001,
+        "GSF": 82500.0
     },
     {
-        "Building Name":"FARGO-VISION",
-        "latitude":46.87723,
-        "longitude":-96.7898
+        "name": "HOUSTON-4201 MAIN ST",
+        "latitude": 29.75894,
+        "longitude": -95.3677,
+        "Water Stress": 2,
+        "Total Water Use": 453.6361714340478,
+        "GSF": 24491.0
     },
     {
-        "Building Name":"FARGO-VISTA",
-        "latitude":46.87723,
-        "longitude":-96.7898
+        "name": "HOUSTON-750",
+        "latitude": 29.75894,
+        "longitude": -95.3677,
+        "Water Stress": 2,
+        "Total Water Use": 753.6647004809918,
+        "GSF": 40689.0
     },
     {
-        "Building Name":"FARGO-WOODHAVEN",
-        "latitude":46.87723,
-        "longitude":-96.7898
+        "name": "HOUSTON-19426 OIL CENTER BLVD",
+        "latitude": 29.75894,
+        "longitude": -95.3677,
+        "Water Stress": 2,
+        "Total Water Use": 463.334184,
+        "GSF": 11820.0
     },
     {
-        "Building Name":"FT COLLINS-2720",
-        "latitude":40.58718,
-        "longitude":-105.077
+        "name": "INDEPENDENCE-6050",
+        "latitude": 39.09248,
+        "longitude": -94.4138,
+        "Water Stress": 1,
+        "Total Water Use": 255.07426061893233,
+        "GSF": 13771.0
     },
     {
-        "Building Name":"FT LAUDER-6750",
-        "latitude":26.12231,
-        "longitude":-80.1434
+        "name": "INDIANAPOLIS-KE",
+        "latitude": 39.76833,
+        "longitude": -86.1584,
+        "Water Stress": 2,
+        "Total Water Use": 168.2589923362415,
+        "GSF": 9084.0
     },
     {
-        "Building Name":"FT LAUDER-501",
-        "latitude":26.12231,
-        "longitude":-80.1434
+        "name": "IRVINE",
+        "latitude": 33.6857,
+        "longitude": -117.826,
+        "Water Stress": 4,
+        "Total Water Use": 332.01700105978966,
+        "GSF": 17925.0
     },
     {
-        "Building Name":"GOLETA-5383 HOLLISTER AVE",
-        "latitude":34.43583,
-        "longitude":-119.828
+        "name": "ISELIN-101 WOOD",
+        "latitude": 40.57249,
+        "longitude": -74.3163,
+        "Water Stress": 4,
+        "Total Water Use": 341.50055500916824,
+        "GSF": 18437.0
     },
     {
-        "Building Name":"GUATEMALA-IWFC",
-        "latitude":14.64247,
-        "longitude":-90.5131
+        "name": "KELOWNA-554 LEON AVE",
+        "latitude": 49.88792,
+        "longitude": -119.496,
+        "Water Stress": 0,
+        "Total Water Use": 98.28073682695918,
+        "GSF": 5306.0
     },
     {
-        "Building Name":"GUAYNABO-CVP",
-        "latitude":18.35787,
-        "longitude":-66.112
+        "name": "KINGSTON-PAN",
+        "latitude": 17.97121,
+        "longitude": -76.7928,
+        "Water Stress": 0,
+        "Total Water Use": 201.5469,
+        "GSF": 75.3499984741211
     },
     {
-        "Building Name":"HANOVER-7030 DORSEY",
-        "latitude":37.74478,
-        "longitude":-77.4464
+        "name": "LEASE USE ONLY - WEWORK MULTI SITE",
+        "latitude": 40.71273,
+        "longitude": -74.006,
+        "Water Stress": 0,
+        "Total Water Use": 2.3153207884225213,
+        "GSF": 0.0
     },
     {
-        "Building Name":"HILLSBORO-4735",
-        "latitude":45.52289,
-        "longitude":-122.99
+        "name": "W LAFAYETTE-1205",
+        "latitude": 40.42587,
+        "longitude": -86.9081,
+        "Water Stress": 1,
+        "Total Water Use": 0.0,
+        "GSF": 2393.0
     },
     {
-        "Building Name":"HILLSBORO-9820",
-        "latitude":45.52289,
-        "longitude":-122.99
+        "name": "WEST LAFAYETTE-LAB SPACE",
+        "latitude": 40.42587,
+        "longitude": -86.9081,
+        "Water Stress": 1,
+        "Total Water Use": 121.34904961560893,
+        "GSF": 7147.0
     },
     {
-        "Building Name":"HOUSTON-4201 MAIN ST",
-        "latitude":29.75894,
-        "longitude":-95.3677
+        "name": "LAS COLINAS-1",
+        "latitude": 32.82952,
+        "longitude": -96.9442,
+        "Water Stress": 3,
+        "Total Water Use": 22318.77736,
+        "GSF": 230509.015625
     },
     {
-        "Building Name":"HOUSTON-750",
-        "latitude":29.75894,
-        "longitude":-95.3677
+        "name": "LAS COLINAS-2",
+        "latitude": 32.82952,
+        "longitude": -96.9442,
+        "Water Stress": 3,
+        "Total Water Use": 32849.78797,
+        "GSF": 229752.40625
     },
     {
-        "Building Name":"HOUSTON-19426 OIL CENTER BLVD",
-        "latitude":29.75894,
-        "longitude":-95.3677
+        "name": "CARROLLTON-1420 CENTURY DR",
+        "latitude": 32.95373,
+        "longitude": -96.8903,
+        "Water Stress": 3,
+        "Total Water Use": 16.951429400384583,
+        "GSF": 2870.0
     },
     {
-        "Building Name":"INDEPENDENCE-6050",
-        "latitude":39.09248,
-        "longitude":-94.4138
+        "name": "LENEXA-16820",
+        "latitude": 38.96975,
+        "longitude": -94.7846,
+        "Water Stress": 0,
+        "Total Water Use": 182.4287555613873,
+        "GSF": 9849.0
     },
     {
-        "Building Name":"INDIANAPOLIS-KE",
-        "latitude":39.76833,
-        "longitude":-86.1584
+        "name": "LIMA WEWORK",
+        "latitude": -12.0621,
+        "longitude": -77.0365,
+        "Water Stress": 4,
+        "Total Water Use": 189.00426660050732,
+        "GSF": 10204.1904296875
     },
     {
-        "Building Name":"IRVINE",
-        "latitude":33.6857,
-        "longitude":-117.826
+        "name": "LINCOLN-151 N 8TH ST",
+        "latitude": 40.80889,
+        "longitude": -96.7078,
+        "Water Stress": 0,
+        "Total Water Use": 0.0,
+        "GSF": 793.0
     },
     {
-        "Building Name":"ISELIN-101 WOOD",
-        "latitude":40.57249,
-        "longitude":-74.3163
+        "name": "LORTON-8209 TERMINAL RD",
+        "latitude": 38.70434,
+        "longitude": -77.2203,
+        "Water Stress": 3,
+        "Total Water Use": 267.5029026111845,
+        "GSF": 39190.0
     },
     {
-        "Building Name":"KELOWNA-554 LEON AVE",
-        "latitude":49.88792,
-        "longitude":-119.496
+        "name": "LOS ANGEL-13031",
+        "latitude": 34.05369,
+        "longitude": -118.243,
+        "Water Stress": 4,
+        "Total Water Use": 418.83226934248046,
+        "GSF": 22612.0
     },
     {
-        "Building Name":"KINGSTON-PAN",
-        "latitude":17.97121,
-        "longitude":-76.7928
+        "name": "LOUISVILLE-900 E MAIN",
+        "latitude": 38.25424,
+        "longitude": -85.7594,
+        "Water Stress": 0,
+        "Total Water Use": 4.630641576845043,
+        "GSF": 0.0
     },
     {
-        "Building Name":"LEASE USE ONLY - WEWORK MULTI SITE",
-        "latitude":40.71273,
-        "longitude":-74.006
+        "name": "LOUISVILLE-1025 CANNON ST",
+        "latitude": 38.25424,
+        "longitude": -85.7594,
+        "Water Stress": 0,
+        "Total Water Use": 165.12867863029422,
+        "GSF": 8915.0
     },
     {
-        "Building Name":"W LAFAYETTE-1205",
-        "latitude":40.42587,
-        "longitude":-86.9081
+        "name": "LINCOLN SQUARE-2",
+        "latitude": 47.61442,
+        "longitude": -122.192,
+        "Water Stress": 1,
+        "Total Water Use": 689.1876471650014,
+        "GSF": 85493.0
     },
     {
-        "Building Name":"WEST LAFAYETTE-LAB SPACE",
-        "latitude":40.42587,
-        "longitude":-86.9081
+        "name": "MADISON-634",
+        "latitude": 43.07476,
+        "longitude": -89.3838,
+        "Water Stress": 3,
+        "Total Water Use": 298.92820179138187,
+        "GSF": 8126.0
     },
     {
-        "Building Name":"LAS COLINAS-1",
-        "latitude":32.82952,
-        "longitude":-96.9442
+        "name": "MALVERN",
+        "latitude": 41.00241,
+        "longitude": -95.5852,
+        "Water Stress": 2,
+        "Total Water Use": 789.190982658547,
+        "GSF": 42607.0
     },
     {
-        "Building Name":"LAS COLINAS-2",
-        "latitude":32.82952,
-        "longitude":-96.9442
+        "name": "AJ-NBP560",
+        "latitude": 39.14927,
+        "longitude": -76.7752,
+        "Water Stress": 1,
+        "Total Water Use": 3456.3108729571404,
+        "GSF": 182862.0
     },
     {
-        "Building Name":"CARROLLTON-1420 CENTURY DR",
-        "latitude":32.95373,
-        "longitude":-96.8903
+        "name": "MEDELLIN-MILLA DE ORO",
+        "latitude": 6.244338,
+        "longitude": -75.5736,
+        "Water Stress": 0,
+        "Total Water Use": 101.70741159382456,
+        "GSF": 5491.14990234375
     },
     {
-        "Building Name":"LENEXA-16820",
-        "latitude":38.96975,
-        "longitude":-94.7846
+        "name": "MEMPHIS-6750",
+        "latitude": 35.14602,
+        "longitude": -90.0518,
+        "Water Stress": 0,
+        "Total Water Use": 156.34898220059605,
+        "GSF": 8441.0
     },
     {
-        "Building Name":"LIMA WEWORK",
-        "latitude":-12.0621,
-        "longitude":-77.0365
+        "name": "MEXICOCITY-SFE",
+        "latitude": 19.43263,
+        "longitude": -99.1332,
+        "Water Stress": 4,
+        "Total Water Use": 1960.5025082383472,
+        "GSF": 105845.53125
     },
     {
-        "Building Name":"LINCOLN-151 N 8TH ST",
-        "latitude":40.80889,
-        "longitude":-96.7078
+        "name": "MIAMI - 78SW 7TH WEWORK",
+        "latitude": 25.77417,
+        "longitude": -80.1936,
+        "Water Stress": 1,
+        "Total Water Use": 99.48470363693887,
+        "GSF": 5371.0
     },
     {
-        "Building Name":"LORTON-8209 TERMINAL RD",
-        "latitude":38.70434,
-        "longitude":-77.2203
+        "name": "MIAMI-830 BRICKELL",
+        "latitude": 25.77417,
+        "longitude": -80.1936,
+        "Water Stress": 2,
+        "Total Water Use": 777.9477849099671,
+        "GSF": 36075.0
     },
     {
-        "Building Name":"LOS ANGEL-13031",
-        "latitude":34.05369,
-        "longitude":-118.243
+        "name": "MILWAUKEE-833",
+        "latitude": 43.03865,
+        "longitude": -87.9091,
+        "Water Stress": 2,
+        "Total Water Use": 147.64337603612736,
+        "GSF": 7971.0
     },
     {
-        "Building Name":"LOUISVILLE-900 E MAIN",
-        "latitude":38.25424,
-        "longitude":-85.7594
+        "name": "MINNEAPOLIS-100 WASHINGTON AVE S",
+        "latitude": 44.9773,
+        "longitude": -93.2655,
+        "Water Stress": 3,
+        "Total Water Use": 714.7487886691862,
+        "GSF": 38588.0
     },
     {
-        "Building Name":"LOUISVILLE-1025 CANNON ST",
-        "latitude":38.25424,
-        "longitude":-85.7594
+        "name": "MONTERREY-VAO",
+        "latitude": 25.65271,
+        "longitude": -100.372,
+        "Water Stress": 2,
+        "Total Water Use": 154.82217284818066,
+        "GSF": 8358.5703125
     },
     {
-        "Building Name":"LINCOLN SQUARE-2",
-        "latitude":47.61442,
-        "longitude":-122.192
+        "name": "MONTEVIDEO",
+        "latitude": -34.9059,
+        "longitude": -56.1913,
+        "Water Stress": 2,
+        "Total Water Use": 66.58862587503174,
+        "GSF": 3595.179931640625
     },
     {
-        "Building Name":"MADISON-634",
-        "latitude":43.07476,
-        "longitude":-89.3838
+        "name": "MONTREAL-MARCONI",
+        "latitude": 45.50318,
+        "longitude": -73.5698,
+        "Water Stress": 0,
+        "Total Water Use": 576.9964630411996,
+        "GSF": 31151.0
     },
     {
-        "Building Name":"MALVERN",
-        "latitude":41.00241,
-        "longitude":-95.5852
+        "name": "MONTREAL-MCGILL",
+        "latitude": 45.50318,
+        "longitude": -73.5698,
+        "Water Stress": 0,
+        "Total Water Use": 387.62174511454475,
+        "GSF": 20927.0
     },
     {
-        "Building Name":"AJ-NBP560",
-        "latitude":39.14927,
-        "longitude":-76.7752
+        "name": "MTN VIEW-1090-A",
+        "latitude": 37.38939,
+        "longitude": -122.083,
+        "Water Stress": 1,
+        "Total Water Use": 797.7453816134365,
+        "GSF": 5728.0
     },
     {
-        "Building Name":"MEDELLIN-MILLA DE ORO",
-        "latitude":6.244338,
-        "longitude":-75.5736
+        "name": "MTN VIEW-1090-B",
+        "latitude": 37.38939,
+        "longitude": -122.083,
+        "Water Stress": 1,
+        "Total Water Use": 682.3933082874645,
+        "GSF": 7306.0
     },
     {
-        "Building Name":"MEMPHIS-6750",
-        "latitude":35.14602,
-        "longitude":-90.0518
+        "name": "NASHVILLE-8 CITY",
+        "latitude": 36.16228,
+        "longitude": -86.7743,
+        "Water Stress": 1,
+        "Total Water Use": 246.70206064799646,
+        "GSF": 13319.0
     },
     {
-        "Building Name":"MEXICOCITY-SFE",
-        "latitude":19.43263,
-        "longitude":-99.1332
+        "name": "TORONTO-101 COLLEGE ST",
+        "latitude": 43.65348,
+        "longitude": -79.3839,
+        "Water Stress": 3,
+        "Total Water Use": 30.617802106099433,
+        "GSF": 1653.0
     },
     {
-        "Building Name":"MIAMI - 78SW 7TH WEWORK",
-        "latitude":25.77417,
-        "longitude":-80.1936
+        "name": "NYC-300 LAFAYETTE",
+        "latitude": 40.71273,
+        "longitude": -74.006,
+        "Water Stress": 0,
+        "Total Water Use": 1173.3304853073043,
+        "GSF": 63346.0
     },
     {
-        "Building Name":"MIAMI-830 BRICKELL",
-        "latitude":25.77417,
-        "longitude":-80.1936
+        "name": "NYC-TIMESSQUARE",
+        "latitude": 40.71273,
+        "longitude": -74.006,
+        "Water Stress": 0,
+        "Total Water Use": 3805.6835186469443,
+        "GSF": 205462.0
     },
     {
-        "Building Name":"MILWAUKEE-833",
-        "latitude":43.03865,
-        "longitude":-87.9091
+        "name": "NYC-122 FIFTH AVENUE",
+        "latitude": 40.71273,
+        "longitude": -74.006,
+        "Water Stress": 0,
+        "Total Water Use": 2767.845605878126,
+        "GSF": 145198.0
     },
     {
-        "Building Name":"MINNEAPOLIS-100 WASHINGTON AVE S",
-        "latitude":44.9773,
-        "longitude":-93.2655
+        "name": "NYC-28-40 W 23RD ST",
+        "latitude": 40.71273,
+        "longitude": -74.006,
+        "Water Stress": 0,
+        "Total Water Use": 4058.3868907785313,
+        "GSF": 219105.0
     },
     {
-        "Building Name":"MONTERREY-VAO",
-        "latitude":25.65271,
-        "longitude":-100.372
+        "name": "NYC-ONE DAG",
+        "latitude": 40.71273,
+        "longitude": -74.006,
+        "Water Stress": 0,
+        "Total Water Use": 321.2183449025869,
+        "GSF": 17342.0
     },
     {
-        "Building Name":"MONTEVIDEO",
-        "latitude":-34.9059,
-        "longitude":-56.1913
+        "name": "NEW YORK - 123 WILLIAM ST",
+        "latitude": 40.71273,
+        "longitude": -74.006,
+        "Water Stress": 0,
+        "Total Water Use": 280.3575636285063,
+        "GSF": 15136.0
     },
     {
-        "Building Name":"MONTREAL-MARCONI",
-        "latitude":45.50318,
-        "longitude":-73.5698
+        "name": "OCEANSIDE-3609 OCEAN RANCH BLVD",
+        "latitude": 32.71742,
+        "longitude": -117.163,
+        "Water Stress": 4,
+        "Total Water Use": 85.01857935087497,
+        "GSF": 4590.0
     },
     {
-        "Building Name":"MONTREAL-MCGILL",
-        "latitude":45.50318,
-        "longitude":-73.5698
+        "name": "OTTAWA",
+        "latitude": 45.42088,
+        "longitude": -75.6901,
+        "Water Stress": 0,
+        "Total Water Use": 0.47645132577155264,
+        "GSF": 88.0
     },
     {
-        "Building Name":"MTN VIEW-1090-A",
-        "latitude":37.38939,
-        "longitude":-122.083
+        "name": "OTTAWA-QUEEN",
+        "latitude": 45.42088,
+        "longitude": -75.6901,
+        "Water Stress": 0,
+        "Total Water Use": 457.8037488532083,
+        "GSF": 20207.0
     },
     {
-        "Building Name":"MTN VIEW-1090-B",
-        "latitude":37.38939,
-        "longitude":-122.083
+        "name": "OVERLAND PARK",
+        "latitude": 38.97425,
+        "longitude": -94.6852,
+        "Water Stress": 0,
+        "Total Water Use": 192.1345803064545,
+        "GSF": 10373.0
     },
     {
-        "Building Name":"NASHVILLE-8 CITY",
-        "latitude":36.16228,
-        "longitude":-86.7743
+        "name": "PANAMA COSTA",
+        "latitude": 8.971449,
+        "longitude": -79.5342,
+        "Water Stress": 1,
+        "Total Water Use": 121.82291860363938,
+        "GSF": 6576.7998046875
     },
     {
-        "Building Name":"TORONTO-101 COLLEGE ST",
-        "latitude":43.65348,
-        "longitude":-79.3839
+        "name": "MELBOURNE-3984",
+        "latitude": 28.0785,
+        "longitude": -80.6078,
+        "Water Stress": 3,
+        "Total Water Use": 2217.2252772586367,
+        "GSF": 119704.0
     },
     {
-        "Building Name":"NYC-300 LAFAYETTE",
-        "latitude":40.71273,
-        "longitude":-74.006
+        "name": "PITTSBURGH-910 RIVER",
+        "latitude": 40.44169,
+        "longitude": -79.9901,
+        "Water Stress": 2,
+        "Total Water Use": 1132.9512907572157,
+        "GSF": 61166.0
     },
     {
-        "Building Name":"NYC-TIMESSQUARE",
-        "latitude":40.71273,
-        "longitude":-74.006
+        "name": "PITTSBURGH-1001 LIBERTY",
+        "latitude": 40.44169,
+        "longitude": -79.9901,
+        "Water Stress": 1,
+        "Total Water Use": 179.15026132498105,
+        "GSF": 9672.0
     },
     {
-        "Building Name":"NYC-122 FIFTH AVENUE",
-        "latitude":40.71273,
-        "longitude":-74.006
+        "name": "TTO-INVADER BAY TWR",
+        "latitude": 10.66389,
+        "longitude": -61.5167,
+        "Water Stress": 1,
+        "Total Water Use": 0.0,
+        "GSF": 516.6699829101562
     },
     {
-        "Building Name":"NYC-28-40 W 23RD ST",
-        "latitude":40.71273,
-        "longitude":-74.006
+        "name": "PORTLAND-1414",
+        "latitude": 45.52025,
+        "longitude": -122.674,
+        "Water Stress": 0,
+        "Total Water Use": 237.79270625414668,
+        "GSF": 12838.0
     },
     {
-        "Building Name":"NYC-ONE DAG",
-        "latitude":40.71273,
-        "longitude":-74.006
+        "name": "QUANTICO-STF800",
+        "latitude": 38.03501,
+        "longitude": -98.7188,
+        "Water Stress": 3,
+        "Total Water Use": 5.186318566066449,
+        "GSF": 280.0
     },
     {
-        "Building Name":"NEW YORK - 123 WILLIAM ST",
-        "latitude":40.71273,
-        "longitude":-74.006
+        "name": "QUEBEC-2640",
+        "latitude": 52.47609,
+        "longitude": -71.8259,
+        "Water Stress": 0,
+        "Total Water Use": 114.39536951437995,
+        "GSF": 6176.0
     },
     {
-        "Building Name":"OCEANSIDE-3609 OCEAN RANCH BLVD",
-        "latitude":32.71742,
-        "longitude":-117.163
+        "name": "QUITO-EKOPARK",
+        "latitude": -0.22016,
+        "longitude": -78.5123,
+        "Water Stress": 0,
+        "Total Water Use": 86.81526828269084,
+        "GSF": 4687.18017578125
     },
     {
-        "Building Name":"OTTAWA",
-        "latitude":45.42088,
-        "longitude":-75.6901
+        "name": "RALEIGH DURHAM-3025",
+        "latitude": 42.89866,
+        "longitude": -75.6402,
+        "Water Stress": 4,
+        "Total Water Use": 1104.185745281854,
+        "GSF": 59613.0
     },
     {
-        "Building Name":"OTTAWA-QUEEN",
-        "latitude":45.42088,
-        "longitude":-75.6901
+        "name": "RALEIGH-TECH&SILICONDEV 1009",
+        "latitude": 42.89866,
+        "longitude": -75.6402,
+        "Water Stress": 4,
+        "Total Water Use": 3446.8087964414535,
+        "GSF": 186077.0
     },
     {
-        "Building Name":"OVERLAND PARK",
-        "latitude":38.97425,
-        "longitude":-94.6852
+        "name": "RENO-B",
+        "latitude": 39.52612,
+        "longitude": -119.813,
+        "Water Stress": 3,
+        "Total Water Use": 1178.6835069701372,
+        "GSF": 63635.0
     },
     {
-        "Building Name":"PANAMA COSTA",
-        "latitude":8.971449,
-        "longitude":-79.5342
+        "name": "RENO-C",
+        "latitude": 39.52612,
+        "longitude": -119.813,
+        "Water Stress": 3,
+        "Total Water Use": 886.490023471215,
+        "GSF": 47860.0
     },
     {
-        "Building Name":"MELBOURNE-3984",
-        "latitude":28.0785,
-        "longitude":-80.6078
+        "name": "RESTON-12120 SUNSET HILLS",
+        "latitude": 43.13011,
+        "longitude": -123.62,
+        "Water Stress": 0,
+        "Total Water Use": 0.0,
+        "GSF": 11775.0
     },
     {
-        "Building Name":"PITTSBURGH-910 RIVER",
-        "latitude":40.44169,
-        "longitude":-79.9901
+        "name": "RESTON-11951",
+        "latitude": 43.13011,
+        "longitude": -123.62,
+        "Water Stress": 0,
+        "Total Water Use": 432.00181398702773,
+        "GSF": 23323.0
     },
     {
-        "Building Name":"PITTSBURGH-1001 LIBERTY",
-        "latitude":40.44169,
-        "longitude":-79.9901
+        "name": "RESTON-11955",
+        "latitude": 43.13011,
+        "longitude": -123.62,
+        "Water Stress": 0,
+        "Total Water Use": 7451.980354218881,
+        "GSF": 402319.0
     },
     {
-        "Building Name":"TTO-INVADER BAY TWR",
-        "latitude":10.66389,
-        "longitude":-61.5167
+        "name": "RESTON-12012",
+        "latitude": 43.13011,
+        "longitude": -123.62,
+        "Water Stress": 0,
+        "Total Water Use": 3444.6416561834912,
+        "GSF": 185971.0
     },
     {
-        "Building Name":"PORTLAND-1414",
-        "latitude":45.52025,
-        "longitude":-122.674
+        "name": "RICHARDSON-2280 CAMPBELL",
+        "latitude": 40.11947,
+        "longitude": -95.7608,
+        "Water Stress": 3,
+        "Total Water Use": 334.22118645036784,
+        "GSF": 18044.0
     },
     {
-        "Building Name":"QUANTICO-STF800",
-        "latitude":38.03501,
-        "longitude":-98.7188
+        "name": "RICHARDSON-740 EAST CAMPBELL",
+        "latitude": 40.11947,
+        "longitude": -95.7608,
+        "Water Stress": 3,
+        "Total Water Use": 75.16457407534875,
+        "GSF": 4058.0
     },
     {
-        "Building Name":"QUEBEC-2640",
-        "latitude":52.47609,
-        "longitude":-71.8259
+        "name": "RICHMOND 4301",
+        "latitude": 37.31693,
+        "longitude": -90.0278,
+        "Water Stress": 3,
+        "Total Water Use": 256.0930017658382,
+        "GSF": 13826.0
     },
     {
-        "Building Name":"QUITO-EKOPARK",
-        "latitude":-0.22016,
-        "longitude":-78.5123
+        "name": "RIO-V-INHAUMA",
+        "latitude": -22.911,
+        "longitude": -43.2094,
+        "Water Stress": 1,
+        "Total Water Use": 261.00000000000006,
+        "GSF": 13465.759765625
     },
     {
-        "Building Name":"RALEIGH DURHAM-3025",
-        "latitude":42.89866,
-        "longitude":-75.6402
+        "name": "SACRAMENTO-1415",
+        "latitude": 38.58106,
+        "longitude": -121.494,
+        "Water Stress": 2,
+        "Total Water Use": 142.60523800051993,
+        "GSF": 7699.0
     },
     {
-        "Building Name":"RALEIGH-TECH&SILICONDEV 1009",
-        "latitude":42.89866,
-        "longitude":-75.6402
+        "name": "SAN ANTONIO-401",
+        "latitude": 29.4246,
+        "longitude": -98.4951,
+        "Water Stress": 3,
+        "Total Water Use": 169.42591401360647,
+        "GSF": 9147.0
     },
     {
-        "Building Name":"RENO-B",
-        "latitude":39.52612,
-        "longitude":-119.813
+        "name": "SAN PARK OAKS",
+        "latitude": 29.4246,
+        "longitude": -98.4951,
+        "Water Stress": 3,
+        "Total Water Use": 37.69342243551865,
+        "GSF": 2035.0
     },
     {
-        "Building Name":"RENO-C",
-        "latitude":39.52612,
-        "longitude":-119.813
+        "name": "SAN DIEGO",
+        "latitude": 32.71742,
+        "longitude": -117.163,
+        "Water Stress": 4,
+        "Total Water Use": 278.39417159992394,
+        "GSF": 15089.0
     },
     {
-        "Building Name":"RESTON-12120 SUNSET HILLS",
-        "latitude":43.13011,
-        "longitude":-123.62
+        "name": "SAN SALVADOR-QUATTRO",
+        "latitude": 13.69899,
+        "longitude": -89.1914,
+        "Water Stress": 1,
+        "Total Water Use": 69.62243773405524,
+        "GSF": 3758.7900390625
     },
     {
-        "Building Name":"RESTON-11951",
-        "latitude":43.13011,
-        "longitude":-123.62
+        "name": "SANFRAN-1355MKT",
+        "latitude": 37.77926,
+        "longitude": -122.419,
+        "Water Stress": 1,
+        "Total Water Use": 55.64539930839538,
+        "GSF": 130613.0
     },
     {
-        "Building Name":"RESTON-11955",
-        "latitude":43.13011,
-        "longitude":-123.62
+        "name": "SANFRAN-530 BRY",
+        "latitude": 37.77926,
+        "longitude": -122.419,
+        "Water Stress": 1,
+        "Total Water Use": 0.26640000472366804,
+        "GSF": 10000.0
     },
     {
-        "Building Name":"RESTON-12012",
-        "latitude":43.13011,
-        "longitude":-123.62
+        "name": "SANFRAN-555 CAL",
+        "latitude": 37.77926,
+        "longitude": -122.419,
+        "Water Stress": 1,
+        "Total Water Use": 909.0319866672965,
+        "GSF": 49077.0
     },
     {
-        "Building Name":"RICHARDSON-2280 CAMPBELL",
-        "latitude":40.11947,
-        "longitude":-95.7608
+        "name": "SANFRAN-680 FOL",
+        "latitude": 37.77926,
+        "longitude": -122.419,
+        "Water Stress": 1,
+        "Total Water Use": 202.099720979825,
+        "GSF": 10911.0
     },
     {
-        "Building Name":"RICHARDSON-740 EAST CAMPBELL",
-        "latitude":40.11947,
-        "longitude":-95.7608
+        "name": "SANTA BARBARA-U",
+        "latitude": 34.42213,
+        "longitude": -119.703,
+        "Water Stress": 4,
+        "Total Water Use": 54.0858936175501,
+        "GSF": 2920.0
     },
     {
-        "Building Name":"RICHMOND 4301",
-        "latitude":37.31693,
-        "longitude":-90.0278
+        "name": "SANTA CLARA-2840 NORTHWESTERN PKWY",
+        "latitude": 37.23333,
+        "longitude": -121.685,
+        "Water Stress": 1,
+        "Total Water Use": 0.0,
+        "GSF": 119000.0
     },
     {
-        "Building Name":"RIO-V-INHAUMA",
-        "latitude":-22.911,
-        "longitude":-43.2094
+        "name": "SANTA CLARA-3201 SCOTT BLVD",
+        "latitude": 37.23333,
+        "longitude": -121.685,
+        "Water Stress": 1,
+        "Total Water Use": 510.188653464864,
+        "GSF": 66106.0
     },
     {
-        "Building Name":"SACRAMENTO-1415",
-        "latitude":38.58106,
-        "longitude":-121.494
+        "name": "SANTA CRUZ-GOMEROS 111",
+        "latitude": -17.3333,
+        "longitude": -61.5,
+        "Water Stress": 0,
+        "Total Water Use": 1.543547192281681,
+        "GSF": 0.0
     },
     {
-        "Building Name":"SAN ANTONIO-401",
-        "latitude":29.4246,
-        "longitude":-98.4951
+        "name": "SANTA MONICA-1422-1424",
+        "latitude": 34.01947,
+        "longitude": -118.491,
+        "Water Stress": 4,
+        "Total Water Use": 332.5541554827036,
+        "GSF": 17954.0
     },
     {
-        "Building Name":"SAN PARK OAKS",
-        "latitude":29.4246,
-        "longitude":-98.4951
+        "name": "SANTIAGO-6840",
+        "latitude": -33.4378,
+        "longitude": -70.6505,
+        "Water Stress": 4,
+        "Total Water Use": 233.67999824523926,
+        "GSF": 22948.849609375
     },
     {
-        "Building Name":"SAN DIEGO",
-        "latitude":32.71742,
-        "longitude":-117.163
+        "name": "SANTODOMINGO-BM",
+        "latitude": 13.36179,
+        "longitude": 103.8606,
+        "Water Stress": 1,
+        "Total Water Use": 119.026011091225,
+        "GSF": 6426.10986328125
     },
     {
-        "Building Name":"SAN SALVADOR-QUATTRO",
-        "latitude":13.69899,
-        "longitude":-89.1914
+        "name": "SAO PAULO-SOUTH TOWER",
+        "latitude": -23.5507,
+        "longitude": -46.6334,
+        "Water Stress": 2,
+        "Total Water Use": 725.0,
+        "GSF": 82172.3828125
     },
     {
-        "Building Name":"SANFRAN-1355MKT",
-        "latitude":37.77926,
-        "longitude":-122.419
+        "name": "SVC GYM",
+        "latitude": 37.38939,
+        "longitude": -122.083,
+        "Water Stress": 1,
+        "Total Water Use": 202.32044822832134,
+        "GSF": 0.0
     },
     {
-        "Building Name":"SANFRAN-530 BRY",
-        "latitude":37.77926,
-        "longitude":-122.419
+        "name": "LEHI-TRIUMPH 3300",
+        "latitude": 40.38811,
+        "longitude": -111.849,
+        "Water Stress": 3,
+        "Total Water Use": 281.46891760694916,
+        "GSF": 15196.0
     },
     {
-        "Building Name":"SANFRAN-555 CAL",
-        "latitude":37.77926,
-        "longitude":-122.419
+        "name": "ST. LOUIS-4220 DUNCAN",
+        "latitude": 38.62803,
+        "longitude": -90.191,
+        "Water Stress": 0,
+        "Total Water Use": 561.5671653071521,
+        "GSF": 30274.0
     },
     {
-        "Building Name":"SANFRAN-680 FOL",
-        "latitude":37.77926,
-        "longitude":-122.419
+        "name": "SUNNYVALE-599",
+        "latitude": 37.36883,
+        "longitude": -122.036,
+        "Water Stress": 1,
+        "Total Water Use": 55.057,
+        "GSF": 76031.0
     },
     {
-        "Building Name":"SANTA BARBARA-U",
-        "latitude":34.42213,
-        "longitude":-119.703
+        "name": "SUNNYVALE-680",
+        "latitude": 37.36883,
+        "longitude": -122.036,
+        "Water Stress": 1,
+        "Total Water Use": 1930.1605000000002,
+        "GSF": 52500.0
     },
     {
-        "Building Name":"SANTA CLARA-2840 NORTHWESTERN PKWY",
-        "latitude":37.23333,
-        "longitude":-121.685
+        "name": "SUNNYVALE-755",
+        "latitude": 37.36883,
+        "longitude": -122.036,
+        "Water Stress": 1,
+        "Total Water Use": 2487.3387273098647,
+        "GSF": 52500.0
     },
     {
-        "Building Name":"SANTA CLARA-3201 SCOTT BLVD",
-        "latitude":37.23333,
-        "longitude":-121.685
+        "name": "MTN VIEW-1040-1050",
+        "latitude": 37.38939,
+        "longitude": -122.083,
+        "Water Stress": 1,
+        "Total Water Use": 33912.352567,
+        "GSF": 40280.71875
     },
     {
-        "Building Name":"SANTA CRUZ-GOMEROS 111",
-        "latitude":-17.3333,
-        "longitude":-61.5
+        "name": "SVC",
+        "latitude": 37.38939,
+        "longitude": -122.083,
+        "Water Stress": 1,
+        "Total Water Use": 2152.2224889930003,
+        "GSF": 643680.0
     },
     {
-        "Building Name":"SANTA MONICA-1422-1424",
-        "latitude":34.01947,
-        "longitude":-118.491
+        "name": "SVC-6",
+        "latitude": 37.38939,
+        "longitude": -122.083,
+        "Water Stress": 1,
+        "Total Water Use": 818.8826564492774,
+        "GSF": 44210.0
     },
     {
-        "Building Name":"SANTIAGO-6840",
-        "latitude":-33.4378,
-        "longitude":-70.6505
+        "name": "TALLAHASSEE-113",
+        "latitude": 30.43808,
+        "longitude": -84.2809,
+        "Water Stress": 2,
+        "Total Water Use": 9.242760587382705,
+        "GSF": 499.0
     },
     {
-        "Building Name":"SANTODOMINGO-BM",
-        "latitude":13.36179,
-        "longitude":103.8606
+        "name": "TAMPA-5426",
+        "latitude": 27.94776,
+        "longitude": -82.4584,
+        "Water Stress": 3,
+        "Total Water Use": 411.8122167119833,
+        "GSF": 22233.0
     },
     {
-        "Building Name":"SAO PAULO-SOUTH TOWER",
-        "latitude":-23.5507,
-        "longitude":-46.6334
+        "name": "TEGUCIGALPA-HBC",
+        "latitude": 14.10574,
+        "longitude": -87.204,
+        "Water Stress": 0,
+        "Total Water Use": 13.557592634792458,
+        "GSF": 731.9500122070312
     },
     {
-        "Building Name":"SVC GYM",
-        "latitude":37.38939,
-        "longitude":-122.083
+        "name": "TEMPE-60 E RIO",
+        "latitude": 33.42551,
+        "longitude": -111.94,
+        "Water Stress": 4,
+        "Total Water Use": 284.41400564982257,
+        "GSF": 15355.0
     },
     {
-        "Building Name":"LEHI-TRIUMPH 3300",
-        "latitude":40.38811,
-        "longitude":-111.849
+        "name": "TORONTO-CIBC SQUARE",
+        "latitude": 43.65348,
+        "longitude": -79.3839,
+        "Water Stress": 3,
+        "Total Water Use": 2419.9362429266043,
+        "GSF": 130648.0
     },
     {
-        "Building Name":"ST. LOUIS-4220 DUNCAN",
-        "latitude":38.62803,
-        "longitude":-90.191
+        "name": "TORRE UNIVERSAL",
+        "latitude": 9.932543,
+        "longitude": -84.0796,
+        "Water Stress": 1,
+        "Total Water Use": 3514.656088580092,
+        "GSF": 189749.953125
     },
     {
-        "Building Name":"SUNNYVALE-599",
-        "latitude":37.36883,
-        "longitude":-122.036
+        "name": "TULSA-7633",
+        "latitude": 36.15631,
+        "longitude": -95.9928,
+        "Water Stress": 1,
+        "Total Water Use": 9.353895985226984,
+        "GSF": 505.0
     },
     {
-        "Building Name":"SUNNYVALE-680",
-        "latitude":37.36883,
-        "longitude":-122.036
+        "name": "ARLINGTON-1300 WILSON BLVD",
+        "latitude": 32.73558,
+        "longitude": -97.1071,
+        "Water Stress": 0,
+        "Total Water Use": 3458.311310118338,
+        "GSF": 186708.0
     },
     {
-        "Building Name":"SUNNYVALE-755",
-        "latitude":37.36883,
-        "longitude":-122.036
+        "name": "VANCOUVER-1090",
+        "latitude": 49.26087,
+        "longitude": -123.114,
+        "Water Stress": 0,
+        "Total Water Use": 16.979019115098488,
+        "GSF": 0.0
     },
     {
-        "Building Name":"MTN VIEW-1040-1050",
-        "latitude":37.38939,
-        "longitude":-122.083
+        "name": "VANCOUVER-155",
+        "latitude": 49.26087,
+        "longitude": -123.114,
+        "Water Stress": 0,
+        "Total Water Use": 1279.242519452904,
+        "GSF": 69064.0
     },
     {
-        "Building Name":"SVC",
-        "latitude":37.38939,
-        "longitude":-122.083
+        "name": "VANCOUVER-375",
+        "latitude": 49.26087,
+        "longitude": -123.114,
+        "Water Stress": 0,
+        "Total Water Use": 317.3286059780371,
+        "GSF": 17132.0
     },
     {
-        "Building Name":"SVC-6",
-        "latitude":37.38939,
-        "longitude":-122.083
+        "name": "VANCOUVER-725",
+        "latitude": 49.26087,
+        "longitude": -123.114,
+        "Water Stress": 0,
+        "Total Water Use": 4000.7817095625805,
+        "GSF": 215995.0
     },
     {
-        "Building Name":"TALLAHASSEE-113",
-        "latitude":30.43808,
-        "longitude":-84.2809
+        "name": "VANCOUVER-858",
+        "latitude": 49.26087,
+        "longitude": -123.114,
+        "Water Stress": 0,
+        "Total Water Use": 1196.1873321306114,
+        "GSF": 64580.0
     },
     {
-        "Building Name":"TAMPA-5426",
-        "latitude":27.94776,
-        "longitude":-82.4584
+        "name": "VANCOUVER-939",
+        "latitude": 49.26087,
+        "longitude": -123.114,
+        "Water Stress": 0,
+        "Total Water Use": 1235.5477855337947,
+        "GSF": 66705.0
     },
     {
-        "Building Name":"TEGUCIGALPA-HBC",
-        "latitude":14.10574,
-        "longitude":-87.204
+        "name": "WASH DC-5404",
+        "latitude": 38.98137,
+        "longitude": -77.0849,
+        "Water Stress": 0,
+        "Total Water Use": 990.7720717817651,
+        "GSF": 53490.0
     },
     {
-        "Building Name":"TEMPE-60 E RIO",
-        "latitude":33.42551,
-        "longitude":-111.94
+        "name": "WASH DC-901 K",
+        "latitude": 38.89504,
+        "longitude": -77.0365,
+        "Water Stress": 1,
+        "Total Water Use": 1064.603021082983,
+        "GSF": 57363.0
     },
     {
-        "Building Name":"TORONTO-CIBC SQUARE",
-        "latitude":43.65348,
-        "longitude":-79.3839
+        "name": "WINNIPEG-MAIN",
+        "latitude": 49.89554,
+        "longitude": -97.1385,
+        "Water Stress": 1,
+        "Total Water Use": 218.0476505704793,
+        "GSF": 11772.0
     },
     {
-        "Building Name":"TORRE UNIVERSAL",
-        "latitude":9.932543,
-        "longitude":-84.0796
+        "name": "ADELAIDE-PIRIE",
+        "latitude": -34.9282,
+        "longitude": 138.5999,
+        "Water Stress": 4,
+        "Total Water Use": 71.77494444109814,
+        "GSF": 3875.0400390625
     },
     {
-        "Building Name":"TULSA-7633",
-        "latitude":36.15631,
-        "longitude":-95.9928
+        "name": "AHMEDABAD EARTH ARISE REGUS",
+        "latitude": 23.02162,
+        "longitude": 72.57971,
+        "Water Stress": 4,
+        "Total Water Use": 5.723472988980472,
+        "GSF": 309.0
     },
     {
-        "Building Name":"ARLINGTON-1300 WILSON BLVD",
-        "latitude":32.73558,
-        "longitude":-97.1071
+        "name": "BANGALORE-NO 80/1, 81/1 AND 81/2",
+        "latitude": 12.97679,
+        "longitude": 77.59008,
+        "Water Stress": 4,
+        "Total Water Use": 0.0,
+        "GSF": 32718.0
     },
     {
-        "Building Name":"VANCOUVER-1090",
-        "latitude":49.26087,
-        "longitude":-123.114
+        "name": "HYD-CAMPUS-DECK",
+        "latitude": 17.36059,
+        "longitude": 78.47406,
+        "Water Stress": 4,
+        "Total Water Use": 0.0,
+        "GSF": 0.0
     },
     {
-        "Building Name":"VANCOUVER-155",
-        "latitude":49.26087,
-        "longitude":-123.114
+        "name": "NEW DELHI-MALIK BUILDCON PLAZA",
+        "latitude": 28.6139,
+        "longitude": 77.20901,
+        "Water Stress": 4,
+        "Total Water Use": 0.0,
+        "GSF": 242.0
     },
     {
-        "Building Name":"VANCOUVER-375",
-        "latitude":49.26087,
-        "longitude":-123.114
+        "name": "NEW DELHI-MALIK BUILDCON-MCIPL",
+        "latitude": 28.6139,
+        "longitude": 77.20901,
+        "Water Stress": 4,
+        "Total Water Use": 0.0,
+        "GSF": 242.0
     },
     {
-        "Building Name":"VANCOUVER-725",
-        "latitude":49.26087,
-        "longitude":-123.114
+        "name": "NEW DELHI-MALIK BUILDCON-MGSCIPL",
+        "latitude": 28.6139,
+        "longitude": 77.20901,
+        "Water Stress": 4,
+        "Total Water Use": 0.0,
+        "GSF": 242.0
     },
     {
-        "Building Name":"VANCOUVER-858",
-        "latitude":49.26087,
-        "longitude":-123.114
+        "name": "NEW DELHI-MALIK BUILDCON-MSR",
+        "latitude": 28.6139,
+        "longitude": 77.20901,
+        "Water Stress": 4,
+        "Total Water Use": 0.0,
+        "GSF": 242.0
     },
     {
-        "Building Name":"VANCOUVER-939",
-        "latitude":49.26087,
-        "longitude":-123.114
+        "name": "AUCKLAND-22",
+        "latitude": -36.8521,
+        "longitude": 174.7632,
+        "Water Stress": 0,
+        "Total Water Use": 575.2368192419985,
+        "GSF": 31056.2890625
     },
     {
-        "Building Name":"WASH DC-5404",
-        "latitude":38.98137,
-        "longitude":-77.0849
+        "name": "BANDAR SERI",
+        "latitude": 4.889545,
+        "longitude": 114.9418,
+        "Water Stress": 0,
+        "Total Water Use": 7.501639354488972,
+        "GSF": 405.0
     },
     {
-        "Building Name":"WASH DC-901 K",
-        "latitude":38.89504,
-        "longitude":-77.0365
+        "name": "BENGALURU - COSMO - IGD",
+        "latitude": 12.97679,
+        "longitude": 77.59008,
+        "Water Stress": 4,
+        "Total Water Use": 859.780482855973,
+        "GSF": 46418.0
     },
     {
-        "Building Name":"WINNIPEG-MAIN",
-        "latitude":49.89554,
-        "longitude":-97.1385
+        "name": "BENGALURU COSMO-REACTOR",
+        "latitude": 12.97679,
+        "longitude": 77.59008,
+        "Water Stress": 4,
+        "Total Water Use": 106.35657573697694,
+        "GSF": 5742.0
     },
     {
-        "Building Name":"ADELAIDE-PIRIE",
-        "latitude":-34.9282,
-        "longitude":138.5999
+        "name": "BENGALURU-COSMO",
+        "latitude": 12.97679,
+        "longitude": 77.59008,
+        "Water Stress": 4,
+        "Total Water Use": 1825.93606401523,
+        "GSF": 46419.0
     },
     {
-        "Building Name":"AHMEDABAD EARTH ARISE REGUS",
-        "latitude":23.02162,
-        "longitude":72.57971
+        "name": "BENGALURU LUXOR-MIRPL",
+        "latitude": 12.97679,
+        "longitude": 77.59008,
+        "Water Stress": 4,
+        "Total Water Use": 0.0,
+        "GSF": 316866.0
     },
     {
-        "Building Name":"BANGALORE-NO 80\/1, 81\/1 AND 81\/2",
-        "latitude":12.97679,
-        "longitude":77.59008
+        "name": "BENGALURU-FERNS-MCIPL",
+        "latitude": 12.97679,
+        "longitude": 77.59008,
+        "Water Stress": 4,
+        "Total Water Use": 0.0,
+        "GSF": 0.0
     },
     {
-        "Building Name":"HYD-CAMPUS-DECK",
-        "latitude":17.36059,
-        "longitude":78.47406
+        "name": "BENGALURU-FERNS-MIRPL",
+        "latitude": 12.97679,
+        "longitude": 77.59008,
+        "Water Stress": 4,
+        "Total Water Use": 22079.0,
+        "GSF": 597906.0
     },
     {
-        "Building Name":"NEW DELHI-MALIK BUILDCON PLAZA",
-        "latitude":28.6139,
-        "longitude":77.20901
+        "name": "BENGALURU-COSM1",
+        "latitude": 12.97679,
+        "longitude": 77.59008,
+        "Water Stress": 4,
+        "Total Water Use": 3871.000005699694,
+        "GSF": 55464.0
     },
     {
-        "Building Name":"NEW DELHI-MALIK BUILDCON-MCIPL",
-        "latitude":28.6139,
-        "longitude":77.20901
+        "name": "BANGKOK-CRC",
+        "latitude": 13.75249,
+        "longitude": 100.4935,
+        "Water Stress": 3,
+        "Total Water Use": 72.0,
+        "GSF": 30499.470703125
     },
     {
-        "Building Name":"NEW DELHI-MALIK BUILDCON-MGSCIPL",
-        "latitude":28.6139,
-        "longitude":77.20901
+        "name": "BEIJING RAYCOM",
+        "latitude": 40.19063,
+        "longitude": 116.4121,
+        "Water Stress": 4,
+        "Total Water Use": 73.16413691415165,
+        "GSF": 3950.389892578125
     },
     {
-        "Building Name":"NEW DELHI-MALIK BUILDCON-MSR",
-        "latitude":28.6139,
-        "longitude":77.20901
+        "name": "BEIJING-BJW-1",
+        "latitude": 40.19063,
+        "longitude": 116.4121,
+        "Water Stress": 4,
+        "Total Water Use": 0.0,
+        "GSF": 0.0
     },
     {
-        "Building Name":"AUCKLAND-22",
-        "latitude":-36.8521,
-        "longitude":174.7632
+        "name": "BEIJING-BJW-2",
+        "latitude": 40.19063,
+        "longitude": 116.4121,
+        "Water Stress": 4,
+        "Total Water Use": 0.0,
+        "GSF": 0.0
     },
     {
-        "Building Name":"BANDAR SERI",
-        "latitude":4.889545,
-        "longitude":114.9418
+        "name": "BENGALURU-ANGKOR-MIRPL",
+        "latitude": 12.97679,
+        "longitude": 77.59008,
+        "Water Stress": 4,
+        "Total Water Use": 0.0,
+        "GSF": 203881.0
     },
     {
-        "Building Name":"BENGALURU - COSMO - IGD",
-        "latitude":12.97679,
-        "longitude":77.59008
+        "name": "BRISBANE-400",
+        "latitude": -27.469,
+        "longitude": 153.0235,
+        "Water Stress": 3,
+        "Total Water Use": 290.6931556280245,
+        "GSF": 15693.91015625
     },
     {
-        "Building Name":"BENGALURU COSMO-REACTOR",
-        "latitude":12.97679,
-        "longitude":77.59008
+        "name": "BUSAN-ARA",
+        "latitude": 35.17995,
+        "longitude": 129.0752,
+        "Water Stress": 2,
+        "Total Water Use": 5.741995555287854,
+        "GSF": 310.42999267578125
     },
     {
-        "Building Name":"BENGALURU-COSMO",
-        "latitude":12.97679,
-        "longitude":77.59008
+        "name": "CANBERRA-6",
+        "latitude": -35.2976,
+        "longitude": 149.1013,
+        "Water Stress": 4,
+        "Total Water Use": 365.07978191846314,
+        "GSF": 19709.9609375
     },
     {
-        "Building Name":"BENGALURU LUXOR-MIRPL",
-        "latitude":12.97679,
-        "longitude":77.59008
+        "name": "CHENGDU (IW) OFFICE",
+        "latitude": 30.70013,
+        "longitude": 104.0708,
+        "Water Stress": 3,
+        "Total Water Use": 182.33614272985048,
+        "GSF": 9844.3203125
     },
     {
-        "Building Name":"BENGALURU-FERNS-MCIPL",
-        "latitude":12.97679,
-        "longitude":77.59008
+        "name": "CHENNAI-POLY-MCIPL",
+        "latitude": 13.08369,
+        "longitude": 80.27019,
+        "Water Stress": 4,
+        "Total Water Use": 156.0,
+        "GSF": 9500.0
     },
     {
-        "Building Name":"BENGALURU-FERNS-MIRPL",
-        "latitude":12.97679,
-        "longitude":77.59008
+        "name": "CHENNAI-POLY-MIRPL",
+        "latitude": 13.08369,
+        "longitude": 80.27019,
+        "Water Stress": 4,
+        "Total Water Use": 0.0,
+        "GSF": 0.0
     },
     {
-        "Building Name":"BENGALURU-COSM1",
-        "latitude":12.97679,
-        "longitude":77.59008
+        "name": "CHONGQING-JIANGBEI REGUS",
+        "latitude": 30.05518,
+        "longitude": 107.8749,
+        "Water Stress": 0,
+        "Total Water Use": 0.5045855677358171,
+        "GSF": 326.8999938964844
     },
     {
-        "Building Name":"BANGKOK-CRC",
-        "latitude":13.75249,
-        "longitude":100.4935
+        "name": "CHRISTCHURCH-QB",
+        "latitude": -43.531,
+        "longitude": 172.6364,
+        "Water Stress": 0,
+        "Total Water Use": 11.623497195982909,
+        "GSF": 684.5800170898438
     },
     {
-        "Building Name":"BEIJING RAYCOM",
-        "latitude":40.19063,
-        "longitude":116.4121
+        "name": "COLOMBO UNION",
+        "latitude": 6.938861,
+        "longitude": 79.8542,
+        "Water Stress": 2,
+        "Total Water Use": 173.0933821424677,
+        "GSF": 9345.0
     },
     {
-        "Building Name":"BEIJING-BJW-1",
-        "latitude":40.19063,
-        "longitude":116.4121
+        "name": "DHAKA-LAILA",
+        "latitude": 23.7644,
+        "longitude": 90.38902,
+        "Water Stress": 4,
+        "Total Water Use": 102.39274654719758,
+        "GSF": 5528.02978515625
     },
     {
-        "Building Name":"BEIJING-BJW-2",
-        "latitude":40.19063,
-        "longitude":116.4121
+        "name": "FUZHOU-REGUS RONDGDU INTL",
+        "latitude": 27.95112,
+        "longitude": 116.353,
+        "Water Stress": 0,
+        "Total Water Use": 4.630641576845043,
+        "GSF": 0.0
     },
     {
-        "Building Name":"BENGALURU-ANGKOR-MIRPL",
-        "latitude":12.97679,
-        "longitude":77.59008
+        "name": "GUANGZHOU-TKH1",
+        "latitude": 23.1302,
+        "longitude": 113.2593,
+        "Water Stress": 0,
+        "Total Water Use": 215.97648200000023,
+        "GSF": 30795.80078125
     },
     {
-        "Building Name":"BRISBANE-400",
-        "latitude":-27.469,
-        "longitude":153.0235
+        "name": "GURGAON DLF DOWNTOWN",
+        "latitude": 28.46461,
+        "longitude": 77.02992,
+        "Water Stress": 4,
+        "Total Water Use": 0.0,
+        "GSF": 98213.0
     },
     {
-        "Building Name":"BUSAN-ARA",
-        "latitude":35.17995,
-        "longitude":129.0752
+        "name": "HANOI-CAPITAL PLACE",
+        "latitude": 21.02833,
+        "longitude": 105.854,
+        "Water Stress": 1,
+        "Total Water Use": 41.00000000000001,
+        "GSF": 9138.6396484375
     },
     {
-        "Building Name":"CANBERRA-6",
-        "latitude":-35.2976,
-        "longitude":149.1013
+        "name": "HKG-CYBERPORT",
+        "latitude": 22.27933,
+        "longitude": 114.1628,
+        "Water Stress": 1,
+        "Total Water Use": 993.9023854877128,
+        "GSF": 45919.21875
     },
     {
-        "Building Name":"CHENGDU (IW) OFFICE",
-        "latitude":30.70013,
-        "longitude":104.0708
+        "name": "HO CHI MINH-PP",
+        "latitude": 10.77639,
+        "longitude": 106.7011,
+        "Water Stress": 1,
+        "Total Water Use": 247.8319371927466,
+        "GSF": 13379.650390625
     },
     {
-        "Building Name":"CHENNAI-POLY-MCIPL",
-        "latitude":13.08369,
-        "longitude":80.27019
+        "name": "HOBART",
+        "latitude": -42.8825,
+        "longitude": 147.3281,
+        "Water Stress": 0,
+        "Total Water Use": 9.968845412737554,
+        "GSF": 538.2000122070312
     },
     {
-        "Building Name":"CHENNAI-POLY-MIRPL",
-        "latitude":13.08369,
-        "longitude":80.27019
+        "name": "HYD -CAMPUS 2",
+        "latitude": 17.36059,
+        "longitude": 78.47406,
+        "Water Stress": 4,
+        "Total Water Use": 18785.0,
+        "GSF": 393570.0
     },
     {
-        "Building Name":"CHONGQING-JIANGBEI REGUS",
-        "latitude":30.05518,
-        "longitude":107.8749
+        "name": "HYD -CAMPUS 3",
+        "latitude": 17.36059,
+        "longitude": 78.47406,
+        "Water Stress": 4,
+        "Total Water Use": 28125.999999999996,
+        "GSF": 595000.0
     },
     {
-        "Building Name":"CHRISTCHURCH-QB",
-        "latitude":-43.531,
-        "longitude":172.6364
+        "name": "HYD CAMPUS 4",
+        "latitude": 17.36059,
+        "longitude": 78.47406,
+        "Water Stress": 4,
+        "Total Water Use": 0.0,
+        "GSF": 1142631.0
     },
     {
-        "Building Name":"COLOMBO UNION",
-        "latitude":6.938861,
-        "longitude":79.8542
+        "name": "HYD-CAMPUS 1",
+        "latitude": 17.36059,
+        "longitude": 78.47406,
+        "Water Stress": 4,
+        "Total Water Use": 0.0,
+        "GSF": 0.0
     },
     {
-        "Building Name":"DHAKA-LAILA",
-        "latitude":23.7644,
-        "longitude":90.38902
+        "name": "HYD-CAMPUS CENTRAL KITCHEN",
+        "latitude": 17.36059,
+        "longitude": 78.47406,
+        "Water Stress": 4,
+        "Total Water Use": 0.0,
+        "GSF": 0.0
     },
     {
-        "Building Name":"FUZHOU-REGUS RONDGDU INTL",
-        "latitude":27.95112,
-        "longitude":116.353
+        "name": "HYD-REF PROJECT OFFICE",
+        "latitude": 17.36059,
+        "longitude": 78.47406,
+        "Water Stress": 4,
+        "Total Water Use": 77.41840319955061,
+        "GSF": 4179.68017578125
     },
     {
-        "Building Name":"GUANGZHOU-TKH1",
-        "latitude":23.1302,
-        "longitude":113.2593
+        "name": "HYD-SSKC2-MCIPL",
+        "latitude": 17.36059,
+        "longitude": 78.47406,
+        "Water Stress": 4,
+        "Total Water Use": 11043.999999999998,
+        "GSF": 1171.0
     },
     {
-        "Building Name":"GURGAON DLF DOWNTOWN",
-        "latitude":28.46461,
-        "longitude":77.02992
+        "name": "HYD-SSKC2-MGSCIPL",
+        "latitude": 17.36059,
+        "longitude": 78.47406,
+        "Water Stress": 4,
+        "Total Water Use": 0.0,
+        "GSF": 250605.0
     },
     {
-        "Building Name":"HANOI-CAPITAL PLACE",
-        "latitude":21.02833,
-        "longitude":105.854
+        "name": "HYD-SSKC2-MIRPL",
+        "latitude": 17.36059,
+        "longitude": 78.47406,
+        "Water Stress": 4,
+        "Total Water Use": 0.0,
+        "GSF": 169370.0
     },
     {
-        "Building Name":"HKG-CYBERPORT",
-        "latitude":22.27933,
-        "longitude":114.1628
+        "name": "JAKARTA-JSX",
+        "latitude": -6.17525,
+        "longitude": 106.827,
+        "Water Stress": 3,
+        "Total Water Use": 33.0,
+        "GSF": 25424.5703125
     },
     {
-        "Building Name":"HO CHI MINH-PP",
-        "latitude":10.77639,
-        "longitude":106.7011
+        "name": "KOLKATA GSMO SMART WORKS",
+        "latitude": 22.57265,
+        "longitude": 88.3639,
+        "Water Stress": 0,
+        "Total Water Use": 14.706732241512343,
+        "GSF": 793.989990234375
     },
     {
-        "Building Name":"HOBART",
-        "latitude":-42.8825,
-        "longitude":147.3281
+        "name": "MACAU-FIT",
+        "latitude": 22.18994,
+        "longitude": 113.538,
+        "Water Stress": 0,
+        "Total Water Use": 49.510819739627216,
+        "GSF": 2673.0
     },
     {
-        "Building Name":"HYD -CAMPUS 2",
-        "latitude":17.36059,
-        "longitude":78.47406
+        "name": "MAKATI-ONE AYALA",
+        "latitude": 14.55679,
+        "longitude": 121.0211,
+        "Water Stress": 2,
+        "Total Water Use": 81.93519973754883,
+        "GSF": 23054.009765625
     },
     {
-        "Building Name":"HYD -CAMPUS 3",
-        "latitude":17.36059,
-        "longitude":78.47406
+        "name": "MAKATI-ONE AYALA EAST",
+        "latitude": 14.55679,
+        "longitude": 121.0211,
+        "Water Stress": 2,
+        "Total Water Use": 0.0,
+        "GSF": 8450.3896484375
     },
     {
-        "Building Name":"HYD CAMPUS 4",
-        "latitude":17.36059,
-        "longitude":78.47406
+        "name": "MELBOURNE-FRESH",
+        "latitude": -37.8142,
+        "longitude": 144.9632,
+        "Water Stress": 3,
+        "Total Water Use": 6060.9375,
+        "GSF": 30935.740234375
     },
     {
-        "Building Name":"HYD-CAMPUS 1",
-        "latitude":17.36059,
-        "longitude":78.47406
+        "name": "KUALA LUMPUR MENARA SHELL",
+        "latitude": 3.151696,
+        "longitude": 101.6942,
+        "Water Stress": 0,
+        "Total Water Use": 461.9528037060614,
+        "GSF": 24940.0
     },
     {
-        "Building Name":"HYD-CAMPUS CENTRAL KITCHEN",
-        "latitude":17.36059,
-        "longitude":78.47406
+        "name": "MUMBAI-WINDSOR",
+        "latitude": 18.97335,
+        "longitude": 72.8281,
+        "Water Stress": 1,
+        "Total Water Use": 809.4361476325134,
+        "GSF": 43700.0
     },
     {
-        "Building Name":"HYD-REF PROJECT OFFICE",
-        "latitude":17.36059,
-        "longitude":78.47406
+        "name": "NAGOYA-LUCENT",
+        "latitude": 35.1851,
+        "longitude": 136.8998,
+        "Water Stress": 2,
+        "Total Water Use": 102.3001337156607,
+        "GSF": 5523.22021484375
     },
     {
-        "Building Name":"HYD-SSKC2-MCIPL",
-        "latitude":17.36059,
-        "longitude":78.47406
+        "name": "NANJING-XZ",
+        "latitude": 32.04383,
+        "longitude": 118.7789,
+        "Water Stress": 0,
+        "Total Water Use": 120.9894031198073,
+        "GSF": 6531.60009765625
     },
     {
-        "Building Name":"HYD-SSKC2-MGSCIPL",
-        "latitude":17.36059,
-        "longitude":78.47406
+        "name": "NEPAL REGUS",
+        "latitude": 27.69159,
+        "longitude": 85.32014,
+        "Water Stress": 2,
+        "Total Water Use": 1.5003278708977943,
+        "GSF": 81.0
     },
     {
-        "Building Name":"HYD-SSKC2-MIRPL",
-        "latitude":17.36059,
-        "longitude":78.47406
+        "name": "DELHI TEC",
+        "latitude": 28.6139,
+        "longitude": 77.20901,
+        "Water Stress": 4,
+        "Total Water Use": 0.0,
+        "GSF": 156.0
     },
     {
-        "Building Name":"JAKARTA-JSX",
-        "latitude":-6.17525,
-        "longitude":106.827
+        "name": "NOIDA SOVEREIGN",
+        "latitude": 28.57063,
+        "longitude": 77.32721,
+        "Water Stress": 4,
+        "Total Water Use": 12011.54745771551,
+        "GSF": 170931.0
     },
     {
-        "Building Name":"KOLKATA GSMO SMART WORKS",
-        "latitude":22.57265,
-        "longitude":88.3639
+        "name": "OSAKA-BREEZE",
+        "latitude": 34.70219,
+        "longitude": 135.4956,
+        "Water Stress": 1,
+        "Total Water Use": 33.0,
+        "GSF": 14940.650390625
     },
     {
-        "Building Name":"MACAU-FIT",
-        "latitude":22.18994,
-        "longitude":113.538
+        "name": "PENANG",
+        "latitude": 5.357432,
+        "longitude": 100.3036,
+        "Water Stress": 0,
+        "Total Water Use": 33.09982599128838,
+        "GSF": 1787.0
     },
     {
-        "Building Name":"MAKATI-ONE AYALA",
-        "latitude":14.55679,
-        "longitude":121.0211
+        "name": "PENANG-FREE INDUSTRIAL ZONE-LAB",
+        "latitude": 5.357432,
+        "longitude": 100.3036,
+        "Water Stress": 0,
+        "Total Water Use": 0.0,
+        "GSF": 1090.0
     },
     {
-        "Building Name":"MAKATI-ONE AYALA EAST",
-        "latitude":14.55679,
-        "longitude":121.0211
+        "name": "PERTH-100 GEO",
+        "latitude": -31.9559,
+        "longitude": 115.8606,
+        "Water Stress": 2,
+        "Total Water Use": 267.58384839656094,
+        "GSF": 14446.3701171875
     },
     {
-        "Building Name":"MELBOURNE-FRESH",
-        "latitude":-37.8142,
-        "longitude":144.9632
+        "name": "PUNE-COMMERZONE-MIRPL",
+        "latitude": 18.52143,
+        "longitude": 73.85445,
+        "Water Stress": 4,
+        "Total Water Use": 0.0,
+        "GSF": 119700.0
     },
     {
-        "Building Name":"KUALA LUMPUR MENARA SHELL",
-        "latitude":3.151696,
-        "longitude":101.6942
+        "name": "PUNE WTC TEC",
+        "latitude": 18.52143,
+        "longitude": 73.85445,
+        "Water Stress": 4,
+        "Total Water Use": 7.020052630497085,
+        "GSF": 379.0
     },
     {
-        "Building Name":"MUMBAI-WINDSOR",
-        "latitude":18.97335,
-        "longitude":72.8281
+        "name": "SEOUL-KTT",
+        "latitude": 37.56668,
+        "longitude": 126.9783,
+        "Water Stress": 2,
+        "Total Water Use": 426.00000000000006,
+        "GSF": 115640.2421875
     },
     {
-        "Building Name":"NAGOYA-LUCENT",
-        "latitude":35.1851,
-        "longitude":136.8998
+        "name": "SHANGHAI-MSRA",
+        "latitude": 31.23234,
+        "longitude": 121.4691,
+        "Water Stress": 4,
+        "Total Water Use": 981.3493794392817,
+        "GSF": 13481.48046875
     },
     {
-        "Building Name":"NANJING-XZ",
-        "latitude":32.04383,
-        "longitude":118.7789
+        "name": "SHANGHAI WEWORK FUHUI",
+        "latitude": 31.23234,
+        "longitude": 121.4691,
+        "Water Stress": 4,
+        "Total Water Use": 4.630641576845043,
+        "GSF": 0.0
     },
     {
-        "Building Name":"NEPAL REGUS",
-        "latitude":27.69159,
-        "longitude":85.32014
+        "name": "SHANGHAI-HUAXIN",
+        "latitude": 31.23234,
+        "longitude": 121.4691,
+        "Water Stress": 4,
+        "Total Water Use": 730.826376223992,
+        "GSF": 39456.51953125
     },
     {
-        "Building Name":"DELHI TEC",
-        "latitude":28.6139,
-        "longitude":77.20901
+        "name": "SHANGHAI-MRS",
+        "latitude": 31.23234,
+        "longitude": 121.4691,
+        "Water Stress": 4,
+        "Total Water Use": 301.2695409895385,
+        "GSF": 16264.830078125
     },
     {
-        "Building Name":"NOIDA SOVEREIGN",
-        "latitude":28.57063,
-        "longitude":77.32721
+        "name": "SHA-ZIZHU-BLD1",
+        "latitude": 31.23234,
+        "longitude": 121.4691,
+        "Water Stress": 4,
+        "Total Water Use": 62137.0,
+        "GSF": 446251.453125
     },
     {
-        "Building Name":"OSAKA-BREEZE",
-        "latitude":34.70219,
-        "longitude":135.4956
+        "name": "SHA-ZIZHU-BLD7",
+        "latitude": 31.23234,
+        "longitude": 121.4691,
+        "Water Stress": 4,
+        "Total Water Use": 0.0,
+        "GSF": 201309.734375
     },
     {
-        "Building Name":"PENANG",
-        "latitude":5.357432,
-        "longitude":100.3036
+        "name": "SHA-ZIZHU-CMMNS",
+        "latitude": 31.23234,
+        "longitude": 121.4691,
+        "Water Stress": 4,
+        "Total Water Use": 0.0,
+        "GSF": 0.0
     },
     {
-        "Building Name":"PENANG-FREE INDUSTRIAL ZONE-LAB",
-        "latitude":5.357432,
-        "longitude":100.3036
+        "name": "SHENYANG- REGUS",
+        "latitude": 41.80261,
+        "longitude": 123.4279,
+        "Water Stress": 3,
+        "Total Water Use": 0.0,
+        "GSF": 71.1500015258789
     },
     {
-        "Building Name":"PERTH-100 GEO",
-        "latitude":-31.9559,
-        "longitude":115.8606
+        "name": "SHENZHEN-COMTECH",
+        "latitude": 22.54457,
+        "longitude": 114.0545,
+        "Water Stress": 1,
+        "Total Water Use": 496.99999999999994,
+        "GSF": 87586.8828125
     },
     {
-        "Building Name":"PUNE-COMMERZONE-MIRPL",
-        "latitude":18.52143,
-        "longitude":73.85445
+        "name": "SINGAPORE FRASERS TOWER",
+        "latitude": 1.289918,
+        "longitude": 103.8519,
+        "Water Stress": 0,
+        "Total Water Use": 373.8,
+        "GSF": 126623.0
     },
     {
-        "Building Name":"PUNE WTC TEC",
-        "latitude":18.52143,
-        "longitude":73.85445
+        "name": "SUZHOU-SIP-B25",
+        "latitude": 31.30169,
+        "longitude": 120.5811,
+        "Water Stress": 4,
+        "Total Water Use": 45338.00000000001,
+        "GSF": 342635.125
     },
     {
-        "Building Name":"SEOUL-KTT",
-        "latitude":37.56668,
-        "longitude":126.9783
+        "name": "SUZHOU-SIP-B26",
+        "latitude": 31.30169,
+        "longitude": 120.5811,
+        "Water Stress": 4,
+        "Total Water Use": 0.0,
+        "GSF": 371617.625
     },
     {
-        "Building Name":"SHANGHAI-MSRA",
-        "latitude":31.23234,
-        "longitude":121.4691
+        "name": "SUZHOU-ZHONGMENG",
+        "latitude": 31.30169,
+        "longitude": 120.5811,
+        "Water Stress": 4,
+        "Total Water Use": 0.0,
+        "GSF": 222627.71875
     },
     {
-        "Building Name":"SHANGHAI WEWORK FUHUI",
-        "latitude":31.23234,
-        "longitude":121.4691
+        "name": "SYDNEY-DENISON",
+        "latitude": -33.8355,
+        "longitude": 151.2083,
+        "Water Stress": 3,
+        "Total Water Use": 2136.3001850616915,
+        "GSF": 115587.0625
     },
     {
-        "Building Name":"SHANGHAI-HUAXIN",
-        "latitude":31.23234,
-        "longitude":121.4691
+        "name": "SYDNEY STARTUP HUB",
+        "latitude": -33.8698,
+        "longitude": 151.2083,
+        "Water Stress": 3,
+        "Total Water Use": 215.3270582018646,
+        "GSF": 11625.1201171875
     },
     {
-        "Building Name":"SHANGHAI-MRS",
-        "latitude":31.23234,
-        "longitude":121.4691
+        "name": "SYDNEY-1 MARTIN PLACE",
+        "latitude": -33.8698,
+        "longitude": 151.2083,
+        "Water Stress": 3,
+        "Total Water Use": 320.7656635115631,
+        "GSF": 17317.119140625
     },
     {
-        "Building Name":"SHA-ZIZHU-BLD1",
-        "latitude":31.23234,
-        "longitude":121.4691
+        "name": "SYDNEY - MQFAB",
+        "latitude": -33.8896,
+        "longitude": 151.1801,
+        "Water Stress": 3,
+        "Total Water Use": 0.0,
+        "GSF": 9504.6103515625
     },
     {
-        "Building Name":"SHA-ZIZHU-BLD7",
-        "latitude":31.23234,
-        "longitude":121.4691
+        "name": "TAIPEI-MEGA",
+        "latitude": 25.09742,
+        "longitude": 121.515,
+        "Water Stress": 1,
+        "Total Water Use": 4282.0,
+        "GSF": 91747.0078125
     },
     {
-        "Building Name":"SHA-ZIZHU-CMMNS",
-        "latitude":31.23234,
-        "longitude":121.4691
+        "name": "TAIPEI AIR",
+        "latitude": 25.03752,
+        "longitude": 121.5637,
+        "Water Stress": 1,
+        "Total Water Use": 8341.077270804197,
+        "GSF": 44658.33984375
     },
     {
-        "Building Name":"SHENYANG- REGUS",
-        "latitude":41.80261,
-        "longitude":123.4279
+        "name": "TAIPEI-C2",
+        "latitude": 25.03752,
+        "longitude": 121.5637,
+        "Water Stress": 1,
+        "Total Water Use": 0.0,
+        "GSF": 91263.7890625
     },
     {
-        "Building Name":"SHENZHEN-COMTECH",
-        "latitude":22.54457,
-        "longitude":114.0545
+        "name": "TAIPEI-CLS",
+        "latitude": 25.03752,
+        "longitude": 121.5637,
+        "Water Stress": 1,
+        "Total Water Use": 3056.388770135706,
+        "GSF": 121893.8125
     },
     {
-        "Building Name":"SINGAPORE FRASERS TOWER",
-        "latitude":1.289918,
-        "longitude":103.8519
+        "name": "TOKYO-SHINAGAWA",
+        "latitude": 35.68219,
+        "longitude": 139.7622,
+        "Water Stress": 2,
+        "Total Water Use": 1309.0000000000002,
+        "GSF": 215888.0625
     },
     {
-        "Building Name":"SUZHOU-SIP-B25",
-        "latitude":31.30169,
-        "longitude":120.5811
+        "name": "WELLINGTON-10 BRANDON STREET",
+        "latitude": -41.2888,
+        "longitude": 174.7772,
+        "Water Stress": 0,
+        "Total Water Use": 287.71578875744046,
+        "GSF": 20711.009765625
     },
     {
-        "Building Name":"SUZHOU-SIP-B26",
-        "latitude":31.30169,
-        "longitude":120.5811
+        "name": "WUHAN (SERVICED OFFICE)",
+        "latitude": 30.59511,
+        "longitude": 114.2999,
+        "Water Stress": 0,
+        "Total Water Use": 3.1858814048693898,
+        "GSF": 172.0
     },
     {
-        "Building Name":"SUZHOU-ZHONGMENG",
-        "latitude":31.30169,
-        "longitude":120.5811
+        "name": "WUXI-IFS",
+        "latitude": 31.57766,
+        "longitude": 120.2953,
+        "Water Stress": 4,
+        "Total Water Use": 1640.3036280204117,
+        "GSF": 88557.0390625
     },
     {
-        "Building Name":"SYDNEY-DENISON",
-        "latitude":-33.8355,
-        "longitude":151.2083
+        "name": "XIAN REGUS",
+        "latitude": 38.19049,
+        "longitude": 116.1191,
+        "Water Stress": 4,
+        "Total Water Use": 0.0,
+        "GSF": 145.52000427246094
     },
     {
-        "Building Name":"SYDNEY STARTUP HUB",
-        "latitude":-33.8698,
-        "longitude":151.2083
+        "name": "ABIDJAN-BROADWY",
+        "latitude": 5.320357,
+        "longitude": -4.01611,
+        "Water Stress": 0,
+        "Total Water Use": 99.68845186632012,
+        "GSF": 5382.0
     },
     {
-        "Building Name":"SYDNEY-1 MARTIN PLACE",
-        "latitude":-33.8698,
-        "longitude":151.2083
+        "name": "ABU DHABI-WT",
+        "latitude": 24.45391,
+        "longitude": 54.37731,
+        "Water Stress": 4,
+        "Total Water Use": 153.51502955556688,
+        "GSF": 8288.2802734375
     },
     {
-        "Building Name":"SYDNEY - MQFAB",
-        "latitude":-33.8896,
-        "longitude":151.1801
+        "name": "ABU DHABI AIRPORT ROAD-REGUS",
+        "latitude": 24.45391,
+        "longitude": 54.37731,
+        "Water Stress": 4,
+        "Total Water Use": 3.5933778636317544,
+        "GSF": 194.0
     },
     {
-        "Building Name":"TAIPEI-MEGA",
-        "latitude":25.09742,
-        "longitude":121.515
+        "name": "ABUJA-RIVERS",
+        "latitude": 9.064331,
+        "longitude": 7.489297,
+        "Water Stress": 0,
+        "Total Water Use": 11.18763004965762,
+        "GSF": 603.9600219726562
     },
     {
-        "Building Name":"TAIPEI AIR",
-        "latitude":25.03752,
-        "longitude":121.5637
+        "name": "ACCRA-MOVEN",
+        "latitude": 5.55711,
+        "longitude": -0.20124,
+        "Water Stress": 0,
+        "Total Water Use": 35.89673350370278,
+        "GSF": 1938.0400390625
     },
     {
-        "Building Name":"TAIPEI-C2",
-        "latitude":25.03752,
-        "longitude":121.5637
+        "name": "AIX-PROV-31GOLF",
+        "latitude": 43.52984,
+        "longitude": 5.447474,
+        "Water Stress": 3,
+        "Total Water Use": 7.983226078480854,
+        "GSF": 430.989990234375
     },
     {
-        "Building Name":"TAIPEI-CLS",
-        "latitude":25.03752,
-        "longitude":121.5637
+        "name": "ALGIERS-TOUR",
+        "latitude": 36.77536,
+        "longitude": 3.060188,
+        "Water Stress": 4,
+        "Total Water Use": 55.65957012748738,
+        "GSF": 3004.989990234375
     },
     {
-        "Building Name":"TOKYO-SHINAGAWA",
-        "latitude":35.68219,
-        "longitude":139.7622
+        "name": "ALMATY-DOSTYK",
+        "latitude": 43.23639,
+        "longitude": 76.94573,
+        "Water Stress": 0,
+        "Total Water Use": 139.62365652256332,
+        "GSF": 7538.02978515625
     },
     {
-        "Building Name":"WELLINGTON-10 BRANDON STREET",
-        "latitude":-41.2888,
-        "longitude":174.7772
+        "name": "AMMAN-KHBP",
+        "latitude": 31.95157,
+        "longitude": 35.92396,
+        "Water Stress": 4,
+        "Total Water Use": 4.000400033187866,
+        "GSF": 13745.6298828125
     },
     {
-        "Building Name":"WUHAN (SERVICED OFFICE)",
-        "latitude":30.59511,
-        "longitude":114.2999
+        "name": "AMMAN-KHBP 8",
+        "latitude": 31.95157,
+        "longitude": 35.92396,
+        "Water Stress": 4,
+        "Total Water Use": 4.0004000331878675,
+        "GSF": 7238.7900390625
     },
     {
-        "Building Name":"WUXI-IFS",
-        "latitude":31.57766,
-        "longitude":120.2953
+        "name": "LISBON CSS AMOREIRAS",
+        "latitude": 38.70775,
+        "longitude": -9.13659,
+        "Water Stress": 4,
+        "Total Water Use": 5.0542,
+        "GSF": 22020.44921875
     },
     {
-        "Building Name":"XIAN REGUS",
-        "latitude":38.19049,
-        "longitude":116.1191
+        "name": "AMSTERDAM-SCIENCE PARK-408",
+        "latitude": 52.37308,
+        "longitude": 4.892453,
+        "Water Stress": 0,
+        "Total Water Use": 18.52256630738017,
+        "GSF": 0.0
     },
     {
-        "Building Name":"ABIDJAN-BROADWY",
-        "latitude":5.320357,
-        "longitude":-4.01611
+        "name": "ANKAR-BILKENT-C",
+        "latitude": 39.86387,
+        "longitude": 32.76417,
+        "Water Stress": 4,
+        "Total Water Use": 146.0,
+        "GSF": 8352.8603515625
     },
     {
-        "Building Name":"ABU DHABI-WT",
-        "latitude":24.45391,
-        "longitude":54.37731
+        "name": "ASTANA-TALAN TOWERS",
+        "latitude": 51.12822,
+        "longitude": 71.43067,
+        "Water Stress": 0,
+        "Total Water Use": 0.0,
+        "GSF": 279.79998779296875
     },
     {
-        "Building Name":"ABU DHABI AIRPORT ROAD-REGUS",
-        "latitude":24.45391,
-        "longitude":54.37731
+        "name": "ATHENS-221",
+        "latitude": 37.97556,
+        "longitude": 23.73483,
+        "Water Stress": 4,
+        "Total Water Use": 1433.9271270019533,
+        "GSF": 26858.869140625
     },
     {
-        "Building Name":"ABUJA-RIVERS",
-        "latitude":9.064331,
-        "longitude":7.489297
+        "name": "TWYCROSS",
+        "latitude": 52.57724,
+        "longitude": -1.5434,
+        "Water Stress": 2,
+        "Total Water Use": 2452.0,
+        "GSF": 72980.3671875
     },
     {
-        "Building Name":"ACCRA-MOVEN",
-        "latitude":5.55711,
-        "longitude":-0.20124
+        "name": "BAKU-LANDMARK",
+        "latitude": 40.37559,
+        "longitude": 49.8328,
+        "Water Stress": 4,
+        "Total Water Use": 45.059104525351515,
+        "GSF": 2432.659912109375
     },
     {
-        "Building Name":"AIX-PROV-31GOLF",
-        "latitude":43.52984,
-        "longitude":5.447474
+        "name": "BARCELONA-JOSEP",
+        "latitude": 41.38289,
+        "longitude": 2.177432,
+        "Water Stress": 4,
+        "Total Water Use": 128.25024911230034,
+        "GSF": 6924.0498046875
     },
     {
-        "Building Name":"ALGIERS-TOUR",
-        "latitude":36.77536,
-        "longitude":3.060188
+        "name": "BARCELONA WEWORK PALLARS",
+        "latitude": 41.38289,
+        "longitude": 2.177432,
+        "Water Stress": 4,
+        "Total Water Use": 147.53224063828307,
+        "GSF": 7965.0
     },
     {
-        "Building Name":"ALMATY-DOSTYK",
-        "latitude":43.23639,
-        "longitude":76.94573
+        "name": "WEWORK BEER SHEVA",
+        "latitude": 31.24574,
+        "longitude": 34.79252,
+        "Water Stress": 4,
+        "Total Water Use": 51.887822120928796,
+        "GSF": 5602.66015625
     },
     {
-        "Building Name":"AMMAN-KHBP",
-        "latitude":31.95157,
-        "longitude":35.92396
+        "name": "BEIRUT-PARK",
+        "latitude": 33.89592,
+        "longitude": 35.47843,
+        "Water Stress": 4,
+        "Total Water Use": 12.000100000000002,
+        "GSF": 9271.0302734375
     },
     {
-        "Building Name":"AMMAN-KHBP 8",
-        "latitude":31.95157,
-        "longitude":35.92396
+        "name": "BELFAST-QUAYS",
+        "latitude": 54.59639,
+        "longitude": -5.93018,
+        "Water Stress": 1,
+        "Total Water Use": 468.11155700326543,
+        "GSF": 27570.0
     },
     {
-        "Building Name":"LISBON CSS AMOREIRAS",
-        "latitude":38.70775,
-        "longitude":-9.13659
+        "name": "BELGRADE-SPANSK",
+        "latitude": 44.81781,
+        "longitude": 20.4569,
+        "Water Stress": 0,
+        "Total Water Use": 1665.1421000235105,
+        "GSF": 90420.0703125
     },
     {
-        "Building Name":"AMSTERDAM-SCIENCE PARK-408",
-        "latitude":52.37308,
-        "longitude":4.892453
+        "name": "BELGRADE-USCE 2",
+        "latitude": 44.81781,
+        "longitude": 20.4569,
+        "Water Stress": 0,
+        "Total Water Use": 9472.999999999998,
+        "GSF": 0.0
     },
     {
-        "Building Name":"ANKAR-BILKENT-C",
-        "latitude":39.86387,
-        "longitude":32.76417
+        "name": "BELGRADE-USCE 1",
+        "latitude": 44.81781,
+        "longitude": 20.4569,
+        "Water Stress": 0,
+        "Total Water Use": 459.54,
+        "GSF": 15444.509765625
     },
     {
-        "Building Name":"ASTANA-TALAN TOWERS",
-        "latitude":51.12822,
-        "longitude":71.43067
+        "name": "BERLIN-KARLLIEB",
+        "latitude": 52.51704,
+        "longitude": 13.38886,
+        "Water Stress": 3,
+        "Total Water Use": 508.64959999999996,
+        "GSF": 11009.419921875
     },
     {
-        "Building Name":"ATHENS-221",
-        "latitude":37.97556,
-        "longitude":23.73483
+        "name": "BERLIN-KINVOLK",
+        "latitude": 52.51704,
+        "longitude": 13.38886,
+        "Water Stress": 3,
+        "Total Water Use": 92.64987666951563,
+        "GSF": 5002.68017578125
     },
     {
-        "Building Name":"TWYCROSS",
-        "latitude":52.57724,
-        "longitude":-1.5434
+        "name": "BERLIN-UDL17",
+        "latitude": 52.51704,
+        "longitude": 13.38886,
+        "Water Stress": 0,
+        "Total Water Use": 2469.2207999999996,
+        "GSF": 31294.279296875
     },
     {
-        "Building Name":"BAKU-LANDMARK",
-        "latitude":40.37559,
-        "longitude":49.8328
+        "name": "BERN 10B",
+        "latitude": 46.94847,
+        "longitude": 7.452175,
+        "Water Stress": 0,
+        "Total Water Use": 7.964703512173472,
+        "GSF": 430.0
     },
     {
-        "Building Name":"BARCELONA-JOSEP",
-        "latitude":41.38289,
-        "longitude":2.177432
+        "name": "BORDEAUX-2 RUE MARC SANGNIER",
+        "latitude": 44.84123,
+        "longitude": -0.58004,
+        "Water Stress": 0,
+        "Total Water Use": 44.45415913771241,
+        "GSF": 2400.0
     },
     {
-        "Building Name":"BARCELONA WEWORK PALLARS",
-        "latitude":41.38289,
-        "longitude":2.177432
+        "name": "BRATISLAVA PRADIAREN 1900",
+        "latitude": 48.15926,
+        "longitude": 17.13966,
+        "Water Stress": 0,
+        "Total Water Use": 243.52,
+        "GSF": 10929.5498046875
     },
     {
-        "Building Name":"WEWORK BEER SHEVA",
-        "latitude":31.24574,
-        "longitude":34.79252
+        "name": "BRUSSELS-NEO",
+        "latitude": 50.84656,
+        "longitude": 4.351697,
+        "Water Stress": 4,
+        "Total Water Use": 564.4359562946694,
+        "GSF": 30472.880859375
     },
     {
-        "Building Name":"BEIRUT-PARK",
-        "latitude":33.89592,
-        "longitude":35.47843
+        "name": "BUCHAREST-CAMPUS (IULIU MANIU)",
+        "latitude": 44.43614,
+        "longitude": 26.10272,
+        "Water Stress": 3,
+        "Total Water Use": 4600.684219993842,
+        "GSF": 248382.65625
     },
     {
-        "Building Name":"BELFAST-QUAYS",
-        "latitude":54.59639,
-        "longitude":-5.93018
+        "name": "BUDAPEST-M",
+        "latitude": 47.49788,
+        "longitude": 19.04024,
+        "Water Stress": 0,
+        "Total Water Use": 1866.0,
+        "GSF": 25936.5
     },
     {
-        "Building Name":"BELGRADE-SPANSK",
-        "latitude":44.81781,
-        "longitude":20.4569
+        "name": "CAIRO-ABU EL FEDA",
+        "latitude": 30.05586,
+        "longitude": 31.22184,
+        "Water Stress": 4,
+        "Total Water Use": 313.0128480284175,
+        "GSF": 16899.48046875
     },
     {
-        "Building Name":"BELGRADE-USCE 2",
-        "latitude":44.81781,
-        "longitude":20.4569
+        "name": "CAIRO-CO55",
+        "latitude": 30.02777,
+        "longitude": 31.47568,
+        "Water Stress": 4,
+        "Total Water Use": 0.0,
+        "GSF": 3067.739990234375
     },
     {
-        "Building Name":"BELGRADE-USCE 1",
-        "latitude":44.81781,
-        "longitude":20.4569
+        "name": "CAIRO-SMARTVIL",
+        "latitude": 30.04439,
+        "longitude": 31.23573,
+        "Water Stress": 4,
+        "Total Water Use": 824.4023812088768,
+        "GSF": 44509.140625
     },
     {
-        "Building Name":"BERLIN-KARLLIEB",
-        "latitude":52.51704,
-        "longitude":13.38886
+        "name": "198 CAMBRIDGE SCIENCE PARK",
+        "latitude": 52.20553,
+        "longitude": 0.118664,
+        "Water Stress": 1,
+        "Total Water Use": 675.0734516387776,
+        "GSF": 36446.0
     },
     {
-        "Building Name":"BERLIN-KINVOLK",
-        "latitude":52.51704,
-        "longitude":13.38886
+        "name": "CAMBRIDGE-21STA",
+        "latitude": 52.20553,
+        "longitude": 0.118664,
+        "Water Stress": 1,
+        "Total Water Use": 2583.0000000000005,
+        "GSF": 77814.0
     },
     {
-        "Building Name":"BERLIN-UDL17",
-        "latitude":52.51704,
-        "longitude":13.38886
+        "name": "CAPETOWN-ENGEN",
+        "latitude": -33.929,
+        "longitude": 18.4174,
+        "Water Stress": 4,
+        "Total Water Use": 122.71610000000001,
+        "GSF": 8934.1201171875
     },
     {
-        "Building Name":"BERN 10B",
-        "latitude":46.94847,
-        "longitude":7.452175
+        "name": "CASABLANCA-CAPITAL TWR",
+        "latitude": 33.59451,
+        "longitude": -7.62003,
+        "Water Stress": 4,
+        "Total Water Use": 55.925154078361295,
+        "GSF": 3293.780029296875
     },
     {
-        "Building Name":"BORDEAUX-2 RUE MARC SANGNIER",
-        "latitude":44.84123,
-        "longitude":-0.58004
+        "name": "CHELTENHAM HOUSE",
+        "latitude": 51.89957,
+        "longitude": -2.07116,
+        "Water Stress": 1,
+        "Total Water Use": 191.38275223418898,
+        "GSF": 10332.41015625
     },
     {
-        "Building Name":"BRATISLAVA PRADIAREN 1900",
-        "latitude":48.15926,
-        "longitude":17.13966
+        "name": "COLOGNE",
+        "latitude": 50.93836,
+        "longitude": 6.959974,
+        "Water Stress": 0,
+        "Total Water Use": 302.74789999999996,
+        "GSF": 29854.490234375
     },
     {
-        "Building Name":"BRUSSELS-NEO",
-        "latitude":50.84656,
-        "longitude":4.351697
+        "name": "COPENHAGEN-MQFAB",
+        "latitude": 55.68672,
+        "longitude": 12.57007,
+        "Water Stress": 1,
+        "Total Water Use": 351.5145212943875,
+        "GSF": 1282.6300048828125
     },
     {
-        "Building Name":"BUCHAREST-CAMPUS (IULIU MANIU)",
-        "latitude":44.43614,
-        "longitude":26.10272
+        "name": "DAKAR",
+        "latitude": 14.69343,
+        "longitude": -17.4479,
+        "Water Stress": 4,
+        "Total Water Use": 61.0133334165103,
+        "GSF": 3293.780029296875
     },
     {
-        "Building Name":"BUDAPEST-M",
-        "latitude":47.49788,
-        "longitude":19.04024
+        "name": "DOHA-QSTP",
+        "latitude": 25.28563,
+        "longitude": 51.52642,
+        "Water Stress": 4,
+        "Total Water Use": 99.68659780084498,
+        "GSF": 5382.0
     },
     {
-        "Building Name":"CAIRO-ABU EL FEDA",
-        "latitude":30.05586,
-        "longitude":31.22184
+        "name": "BURJ ALFARDAN-LUSAIL",
+        "latitude": 25.28563,
+        "longitude": 51.52642,
+        "Water Stress": 4,
+        "Total Water Use": 335.5177660918844,
+        "GSF": 18115.810546875
     },
     {
-        "Building Name":"CAIRO-CO55",
-        "latitude":30.02777,
-        "longitude":31.47568
+        "name": "DUBAI-INTERNET",
+        "latitude": 25.20481,
+        "longitude": 55.27081,
+        "Water Stress": 4,
+        "Total Water Use": 466.88733354695637,
+        "GSF": 65381.62890625
     },
     {
-        "Building Name":"CAIRO-SMARTVIL",
-        "latitude":30.04439,
-        "longitude":31.23573
+        "name": "DUBAI REGUS",
+        "latitude": 25.20481,
+        "longitude": 55.27081,
+        "Water Stress": 4,
+        "Total Water Use": 2.9821331754882077,
+        "GSF": 161.0
     },
     {
-        "Building Name":"198 CAMBRIDGE SCIENCE PARK",
-        "latitude":52.20553,
-        "longitude":0.118664
+        "name": "DUBLIN CAB",
+        "latitude": 53.32196,
+        "longitude": -6.39427,
+        "Water Stress": 1,
+        "Total Water Use": 0.0,
+        "GSF": 0.0
     },
     {
-        "Building Name":"CAMBRIDGE-21STA",
-        "latitude":52.20553,
-        "longitude":0.118664
+        "name": "DUBLIN-LANDINGS",
+        "latitude": 53.34938,
+        "longitude": -6.26056,
+        "Water Stress": 1,
+        "Total Water Use": 810.7882949729523,
+        "GSF": 43773.0
     },
     {
-        "Building Name":"CAPETOWN-ENGEN",
-        "latitude":-33.929,
-        "longitude":18.4174
+        "name": "DUBLIN-PLACE",
+        "latitude": 53.34938,
+        "longitude": -6.26056,
+        "Water Stress": 1,
+        "Total Water Use": 55734.782502120535,
+        "GSF": 492354.1875
     },
     {
-        "Building Name":"CASABLANCA-CAPITAL TWR",
-        "latitude":33.59451,
-        "longitude":-7.62003
+        "name": "DURBAN-5 PARK LANE",
+        "latitude": -29.7337,
+        "longitude": 31.08317,
+        "Water Stress": 1,
+        "Total Water Use": 47.86231133827036,
+        "GSF": 2583.360107421875
     },
     {
-        "Building Name":"CHELTENHAM HOUSE",
-        "latitude":51.89957,
-        "longitude":-2.07116
+        "name": "EDINBURGH-WAV",
+        "latitude": 55.95335,
+        "longitude": -3.18837,
+        "Water Stress": 0,
+        "Total Water Use": 158.53464502486688,
+        "GSF": 8559.0
     },
     {
-        "Building Name":"COLOGNE",
-        "latitude":50.93836,
-        "longitude":6.959974
+        "name": "ENINGEN ACHALM",
+        "latitude": 48.48623,
+        "longitude": 9.256764,
+        "Water Stress": 0,
+        "Total Water Use": 75.20859999999999,
+        "GSF": 3762.02001953125
     },
     {
-        "Building Name":"COPENHAGEN-MQFAB",
-        "latitude":55.68672,
-        "longitude":12.57007
+        "name": "ESPOO-LINNOITUSTIE 6",
+        "latitude": 60.20477,
+        "longitude": 24.65684,
+        "Water Stress": 1,
+        "Total Water Use": 410.41727211384597,
+        "GSF": 22157.689453125
     },
     {
-        "Building Name":"DAKAR",
-        "latitude":14.69343,
-        "longitude":-17.4479
+        "name": "ESPOO-K 2-4 AB",
+        "latitude": 60.20477,
+        "longitude": 24.65684,
+        "Water Stress": 1,
+        "Total Water Use": 3741.0,
+        "GSF": 95796.3671875
     },
     {
-        "Building Name":"DOHA-QSTP",
-        "latitude":25.28563,
-        "longitude":51.52642
+        "name": "ESPOO-K 2-4 CD",
+        "latitude": 60.20477,
+        "longitude": 24.65684,
+        "Water Stress": 1,
+        "Total Water Use": 2699.0,
+        "GSF": 170383.359375
     },
     {
-        "Building Name":"BURJ ALFARDAN-LUSAIL",
-        "latitude":25.28563,
-        "longitude":51.52642
+        "name": "ESPOO-K 2-4 FG",
+        "latitude": 60.20477,
+        "longitude": 24.65684,
+        "Water Stress": 1,
+        "Total Water Use": 5007.272727272727,
+        "GSF": 31613.869140625
     },
     {
-        "Building Name":"DUBAI-INTERNET",
-        "latitude":25.20481,
-        "longitude":55.27081
+        "name": "ESPOO-SINI",
+        "latitude": 60.20477,
+        "longitude": 24.65684,
+        "Water Stress": 1,
+        "Total Water Use": 3064.0,
+        "GSF": 19479.609375
     },
     {
-        "Building Name":"DUBAI REGUS",
-        "latitude":25.20481,
-        "longitude":55.27081
+        "name": "OSLO-EUFEMIA",
+        "latitude": 59.91333,
+        "longitude": 10.73897,
+        "Water Stress": 1,
+        "Total Water Use": 9171.0,
+        "GSF": 98544.421875
     },
     {
-        "Building Name":"DUBLIN CAB",
-        "latitude":53.32196,
-        "longitude":-6.39427
+        "name": "FRANKFURT MESSETURM",
+        "latitude": 50.11064,
+        "longitude": 8.682092,
+        "Water Stress": 3,
+        "Total Water Use": 190.8037411526467,
+        "GSF": 10301.150390625
     },
     {
-        "Building Name":"DUBLIN-LANDINGS",
-        "latitude":53.34938,
-        "longitude":-6.26056
+        "name": "GENEVA-WESTHIVE-PONT ROUGE",
+        "latitude": 46.17589,
+        "longitude": 6.122613,
+        "Water Stress": 0,
+        "Total Water Use": 0.0,
+        "GSF": 1786.8199462890625
     },
     {
-        "Building Name":"DUBLIN-PLACE",
-        "latitude":53.34938,
-        "longitude":-6.26056
+        "name": "GOTHENBURG-OSTRA HAMNGATAN 16",
+        "latitude": 57.70723,
+        "longitude": 11.96702,
+        "Water Stress": 0,
+        "Total Water Use": 16.3489436034202,
+        "GSF": 882.6500244140625
     },
     {
-        "Building Name":"DURBAN-5 PARK LANE",
-        "latitude":-29.7337,
-        "longitude":31.08317
+        "name": "HAIFA-25",
+        "latitude": 32.79931,
+        "longitude": 34.98957,
+        "Water Stress": 2,
+        "Total Water Use": 1424.8887984863281,
+        "GSF": 83797.7421875
     },
     {
-        "Building Name":"EDINBURGH-WAV",
-        "latitude":55.95335,
-        "longitude":-3.18837
+        "name": "HAMBURG HANSEFORUM",
+        "latitude": 53.55034,
+        "longitude": 10.00065,
+        "Water Stress": 0,
+        "Total Water Use": 128.7895,
+        "GSF": 11807.0302734375
     },
     {
-        "Building Name":"ENINGEN ACHALM",
-        "latitude":48.48623,
-        "longitude":9.256764
+        "name": "HERZLIYA-SHENK4 PARKING",
+        "latitude": 32.17388,
+        "longitude": 34.82631,
+        "Water Stress": 4,
+        "Total Water Use": 0.0,
+        "GSF": 0.0
     },
     {
-        "Building Name":"ESPOO-LINNOITUSTIE 6",
-        "latitude":60.20477,
-        "longitude":24.65684
+        "name": "HERZLIYA-AT3",
+        "latitude": 32.16398,
+        "longitude": 34.81759,
+        "Water Stress": 4,
+        "Total Water Use": 33557.0,
+        "GSF": 529230.375
     },
     {
-        "Building Name":"ESPOO-K 2-4 AB",
-        "latitude":60.20477,
-        "longitude":24.65684
+        "name": "VANTAA-RIIHIKUJA",
+        "latitude": 60.29333,
+        "longitude": 25.04078,
+        "Water Stress": 1,
+        "Total Water Use": 1742.3548647513173,
+        "GSF": 94066.6015625
     },
     {
-        "Building Name":"ESPOO-K 2-4 CD",
-        "latitude":60.20477,
-        "longitude":24.65684
+        "name": "IASI-PALAS CAMPUS",
+        "latitude": 47.16156,
+        "longitude": 27.58378,
+        "Water Stress": 2,
+        "Total Water Use": 665.6736110066556,
+        "GSF": 35938.51953125
     },
     {
-        "Building Name":"ESPOO-K 2-4 FG",
-        "latitude":60.20477,
-        "longitude":24.65684
+        "name": "DUBLIN-COURT",
+        "latitude": 53.34938,
+        "longitude": -6.26056,
+        "Water Stress": 1,
+        "Total Water Use": 1760.5200805664058,
+        "GSF": 135469.0625
     },
     {
-        "Building Name":"ESPOO-SINI",
-        "latitude":60.20477,
-        "longitude":24.65684
+        "name": "ISLAMABAD-HIVE AT ISE",
+        "latitude": 33.69381,
+        "longitude": 73.06515,
+        "Water Stress": 0,
+        "Total Water Use": 0.0,
+        "GSF": 350.0
     },
     {
-        "Building Name":"OSLO-EUFEMIA",
-        "latitude":59.91333,
-        "longitude":10.73897
+        "name": "ISTANBUL-BELL",
+        "latitude": 41.00638,
+        "longitude": 28.97587,
+        "Water Stress": 4,
+        "Total Water Use": 1577.3615,
+        "GSF": 48789.98046875
     },
     {
-        "Building Name":"FRANKFURT MESSETURM",
-        "latitude":50.11064,
-        "longitude":8.682092
+        "name": "JEDDAH-GRAVITA",
+        "latitude": 21.58101,
+        "longitude": 39.16536,
+        "Water Stress": 4,
+        "Total Water Use": 0.0,
+        "GSF": 438.0899963378906
     },
     {
-        "Building Name":"GENEVA-WESTHIVE-PONT ROUGE",
-        "latitude":46.17589,
-        "longitude":6.122613
+        "name": "JEDDAH-JAMEEL",
+        "latitude": 21.58101,
+        "longitude": 39.16536,
+        "Water Stress": 4,
+        "Total Water Use": 98.29925939326657,
+        "GSF": 5306.64990234375
     },
     {
-        "Building Name":"GOTHENBURG-OSTRA HAMNGATAN 16",
-        "latitude":57.70723,
-        "longitude":11.96702
+        "name": "JOHANNESBURG-CH",
+        "latitude": -26.205,
+        "longitude": 28.04972,
+        "Water Stress": 4,
+        "Total Water Use": 999.7096999999999,
+        "GSF": 88759.9375
     },
     {
-        "Building Name":"HAIFA-25",
-        "latitude":32.79931,
-        "longitude":34.98957
+        "name": "KARACHI DOLMEN REGUS",
+        "latitude": 24.85468,
+        "longitude": 67.02071,
+        "Water Stress": 4,
+        "Total Water Use": 0.5850043858747571,
+        "GSF": 379.0
     },
     {
-        "Building Name":"HAMBURG HANSEFORUM",
-        "latitude":53.55034,
-        "longitude":10.00065
+        "name": "KHOBAR",
+        "latitude": 26.304,
+        "longitude": 50.19602,
+        "Water Stress": 4,
+        "Total Water Use": 113.24697040332238,
+        "GSF": 6113.9501953125
     },
     {
-        "Building Name":"HERZLIYA-SHENK4 PARKING",
-        "latitude":32.17388,
-        "longitude":34.82631
+        "name": "KIEV-2 MAIDAN NEZALEZHNOSTI",
+        "latitude": 50.45003,
+        "longitude": 30.52414,
+        "Water Stress": 0,
+        "Total Water Use": 0.0,
+        "GSF": 344.45001220703125
     },
     {
-        "Building Name":"HERZLIYA-AT3",
-        "latitude":32.16398,
-        "longitude":34.81759
+        "name": "KIEV-75",
+        "latitude": 50.45003,
+        "longitude": 30.52414,
+        "Water Stress": 0,
+        "Total Water Use": 6.380098190682647,
+        "GSF": 344.45001220703125
     },
     {
-        "Building Name":"VANTAA-RIIHIKUJA",
-        "latitude":60.29333,
-        "longitude":25.04078
+        "name": "KUWAIT-ARRAYA",
+        "latitude": 29.2734,
+        "longitude": 47.49795,
+        "Water Stress": 4,
+        "Total Water Use": 1061.1428571428573,
+        "GSF": 7938.4501953125
     },
     {
-        "Building Name":"IASI-PALAS CAMPUS",
-        "latitude":47.16156,
-        "longitude":27.58378
+        "name": "KIEV-UNIT CITY BUSINESS PARK",
+        "latitude": 50.45003,
+        "longitude": 30.52414,
+        "Water Stress": 0,
+        "Total Water Use": 0.0,
+        "GSF": 22650.51953125
     },
     {
-        "Building Name":"DUBLIN-COURT",
-        "latitude":53.34938,
-        "longitude":-6.26056
+        "name": "LAGOS-KINGS TOWER",
+        "latitude": 6.455058,
+        "longitude": 3.39418,
+        "Water Stress": 3,
+        "Total Water Use": 1493.7318113866766,
+        "GSF": 80643.890625
     },
     {
-        "Building Name":"ISLAMABAD-HIVE AT ISE",
-        "latitude":33.69381,
-        "longitude":73.06515
+        "name": "LAHORE-REGUS ASKARI TOWER",
+        "latitude": 31.56568,
+        "longitude": 74.31418,
+        "Water Stress": 4,
+        "Total Water Use": 0.43219321383887066,
+        "GSF": 140.0
     },
     {
-        "Building Name":"ISTANBUL-BELL",
-        "latitude":41.00638,
-        "longitude":28.97587
+        "name": "LILLE-165",
+        "latitude": 50.63657,
+        "longitude": 3.063528,
+        "Water Stress": 4,
+        "Total Water Use": 17.151896400634044,
+        "GSF": 925.7000122070312
     },
     {
-        "Building Name":"JEDDAH-GRAVITA",
-        "latitude":21.58101,
-        "longitude":39.16536
+        "name": "LIN-IND5",
+        "latitude": 58.40981,
+        "longitude": 15.62453,
+        "Water Stress": 1,
+        "Total Water Use": 148.7362074482628,
+        "GSF": 8029.93994140625
     },
     {
-        "Building Name":"JEDDAH-JAMEEL",
-        "latitude":21.58101,
-        "longitude":39.16536
+        "name": "LISBON-MALEO",
+        "latitude": 38.70775,
+        "longitude": -9.13659,
+        "Water Stress": 4,
+        "Total Water Use": 118.41476640308144,
+        "GSF": 6393.22021484375
     },
     {
-        "Building Name":"JOHANNESBURG-CH",
-        "latitude":-26.205,
-        "longitude":28.04972
+        "name": "LJUBLJANA-CP",
+        "latitude": 46.05003,
+        "longitude": 14.50693,
+        "Water Stress": 0,
+        "Total Water Use": 187.57784811040244,
+        "GSF": 6447.2099609375
     },
     {
-        "Building Name":"KARACHI DOLMEN REGUS",
-        "latitude":24.85468,
-        "longitude":67.02071
+        "name": "LUANDA LAUNCH",
+        "latitude": -8.82727,
+        "longitude": 13.24395,
+        "Water Stress": 4,
+        "Total Water Use": 4261.0,
+        "GSF": 1614.5999755859375
     },
     {
-        "Building Name":"KHOBAR",
-        "latitude":26.304,
-        "longitude":50.19602
+        "name": "LUXEMBOURG-CLAU",
+        "latitude": 49.81587,
+        "longitude": 6.129675,
+        "Water Stress": 2,
+        "Total Water Use": 248.325932589089,
+        "GSF": 13406.669921875
     },
     {
-        "Building Name":"KIEV-2 MAIDAN NEZALEZHNOSTI",
-        "latitude":50.45003,
-        "longitude":30.52414
+        "name": "LYNGBY",
+        "latitude": 55.77186,
+        "longitude": 12.50514,
+        "Water Stress": 1,
+        "Total Water Use": 4888.799999999999,
+        "GSF": 212610.53125
     },
     {
-        "Building Name":"KIEV-75",
-        "latitude":50.45003,
-        "longitude":30.52414
+        "name": "LYNGBY-KANALVEJ 5",
+        "latitude": 55.77186,
+        "longitude": 12.50514,
+        "Water Stress": 1,
+        "Total Water Use": 0.0,
+        "GSF": 21011.330078125
     },
     {
-        "Building Name":"KUWAIT-ARRAYA",
-        "latitude":29.2734,
-        "longitude":47.49795
+        "name": "WELLIO LYON PART-DIEU, CI-APR\u00c8S LE",
+        "latitude": 45.75781,
+        "longitude": 4.832011,
+        "Water Stress": 0,
+        "Total Water Use": 37.082177747375106,
+        "GSF": 2002.0
     },
     {
-        "Building Name":"KIEV-UNIT CITY BUSINESS PARK",
-        "latitude":50.45003,
-        "longitude":30.52414
+        "name": "MADRID-LA FINCA",
+        "latitude": 40.43465,
+        "longitude": -3.81483,
+        "Water Stress": 4,
+        "Total Water Use": 1198.5083688672307,
+        "GSF": 64705.30859375
     },
     {
-        "Building Name":"LAGOS-KINGS TOWER",
-        "latitude":6.455058,
-        "longitude":3.39418
+        "name": "MALTA-SKYPARKS",
+        "latitude": 35.85965,
+        "longitude": 14.48929,
+        "Water Stress": 4,
+        "Total Water Use": 2.7003000000000004,
+        "GSF": 4273.31005859375
     },
     {
-        "Building Name":"LAHORE-REGUS ASKARI TOWER",
-        "latitude":31.56568,
-        "longitude":74.31418
+        "name": "MANAMA",
+        "latitude": 26.2235,
+        "longitude": 50.58224,
+        "Water Stress": 4,
+        "Total Water Use": 78.96170016836169,
+        "GSF": 2132.030029296875
     },
     {
-        "Building Name":"LILLE-165",
-        "latitude":50.63657,
-        "longitude":3.063528
+        "name": "MANCHESTER UA92",
+        "latitude": 53.47949,
+        "longitude": -2.24511,
+        "Water Stress": 1,
+        "Total Water Use": 144.73533312586864,
+        "GSF": 7814.0
     },
     {
-        "Building Name":"LIN-IND5",
-        "latitude":58.40981,
-        "longitude":15.62453
+        "name": "PORT LOUIS-DIAS",
+        "latitude": -20.1625,
+        "longitude": 57.5028,
+        "Water Stress": 0,
+        "Total Water Use": 49.84422593316006,
+        "GSF": 2691.0
     },
     {
-        "Building Name":"LISBON-MALEO",
-        "latitude":38.70775,
-        "longitude":-9.13659
+        "name": "CHESTER-LINENHALL HOUSE",
+        "latitude": 53.19089,
+        "longitude": -2.8909,
+        "Water Stress": 0,
+        "Total Water Use": 29.265654765660674,
+        "GSF": 1580.0
     },
     {
-        "Building Name":"LJUBLJANA-CP",
-        "latitude":46.05003,
-        "longitude":14.50693
+        "name": "COVENTRY-BRANDON COURT",
+        "latitude": 52.40818,
+        "longitude": -1.51048,
+        "Water Stress": 1,
+        "Total Water Use": 141.19474638505727,
+        "GSF": 7622.85009765625
     },
     {
-        "Building Name":"LUANDA LAUNCH",
-        "latitude":-8.82727,
-        "longitude":13.24395
+        "name": "EDINBURGH-CAUSEWAY HOUSE",
+        "latitude": 55.95335,
+        "longitude": -3.18837,
+        "Water Stress": 0,
+        "Total Water Use": 182.76216175492016,
+        "GSF": 9867.0
     },
     {
-        "Building Name":"LUXEMBOURG-CLAU",
-        "latitude":49.81587,
-        "longitude":6.129675
+        "name": "ENFIELD-GENOTIN ROAD",
+        "latitude": 51.65209,
+        "longitude": -0.08102,
+        "Water Stress": 3,
+        "Total Water Use": 1020.593403536647,
+        "GSF": 55100.0
     },
     {
-        "Building Name":"LYNGBY",
-        "latitude":55.77186,
-        "longitude":12.50514
+        "name": "MILAN-PORTA VOLTA",
+        "latitude": 45.46419,
+        "longitude": 9.189635,
+        "Water Stress": 1,
+        "Total Water Use": 3690.0,
+        "GSF": 68717.3828125
     },
     {
-        "Building Name":"LYNGBY-KANALVEJ 5",
-        "latitude":55.77186,
-        "longitude":12.50514
+        "name": "MINSK-INTERNATSIONALNAYA ST",
+        "latitude": 53.90247,
+        "longitude": 27.56182,
+        "Water Stress": 1,
+        "Total Water Use": 0.0,
+        "GSF": 0.0
     },
     {
-        "Building Name":"WELLIO LYON PART-DIEU, CI-APR\u00c8S LE",
-        "latitude":45.75781,
-        "longitude":4.832011
+        "name": "MOSCOW-KHBP",
+        "latitude": 55.62558,
+        "longitude": 37.60639,
+        "Water Stress": 4,
+        "Total Water Use": 0.0,
+        "GSF": 110.87000274658203
     },
     {
-        "Building Name":"MADRID-LA FINCA",
-        "latitude":40.43465,
-        "longitude":-3.81483
+        "name": "MOSCOW-TIMURA FRUNZE ST",
+        "latitude": 55.62558,
+        "longitude": 37.60639,
+        "Water Stress": 4,
+        "Total Water Use": 0.0,
+        "GSF": 0.0
     },
     {
-        "Building Name":"MALTA-SKYPARKS",
-        "latitude":35.85965,
-        "longitude":14.48929
+        "name": "MUNICH-HQ",
+        "latitude": 48.13711,
+        "longitude": 11.57538,
+        "Water Stress": 0,
+        "Total Water Use": 11333.9968,
+        "GSF": 316235.5625
     },
     {
-        "Building Name":"MANAMA",
-        "latitude":26.2235,
-        "longitude":50.58224
+        "name": "NAIROBI-OVAL",
+        "latitude": -1.28325,
+        "longitude": 36.81724,
+        "Water Stress": 0,
+        "Total Water Use": 286.2545454198664,
+        "GSF": 33932.0
     },
     {
-        "Building Name":"MANCHESTER UA92",
-        "latitude":53.47949,
-        "longitude":-2.24511
+        "name": "NAIROBI-WAIYAKI WAY",
+        "latitude": -1.28325,
+        "longitude": 36.81724,
+        "Water Stress": 0,
+        "Total Water Use": 1255.1631832533103,
+        "GSF": 67764.0
     },
     {
-        "Building Name":"PORT LOUIS-DIAS",
-        "latitude":-20.1625,
-        "longitude":57.5028
+        "name": "NANTES-CENTRE DES SALORGES",
+        "latitude": 47.21864,
+        "longitude": -1.55414,
+        "Water Stress": 0,
+        "Total Water Use": 39.27728726134716,
+        "GSF": 2120.510009765625
     },
     {
-        "Building Name":"CHESTER-LINENHALL HOUSE",
-        "latitude":53.19089,
-        "longitude":-2.8909
+        "name": "NAZARET PAULUS",
+        "latitude": 32.70663,
+        "longitude": 35.30482,
+        "Water Stress": 4,
+        "Total Water Use": 110.08,
+        "GSF": 3153.85009765625
     },
     {
-        "Building Name":"COVENTRY-BRANDON COURT",
-        "latitude":52.40818,
-        "longitude":-1.51048
+        "name": "DELFT-MQFAB",
+        "latitude": 51.99946,
+        "longitude": 4.362725,
+        "Water Stress": 0,
+        "Total Water Use": 1544.892820372563,
+        "GSF": 21223.26953125
     },
     {
-        "Building Name":"EDINBURGH-CAUSEWAY HOUSE",
-        "latitude":55.95335,
-        "longitude":-3.18837
+        "name": "NICOSIA-LIMASSO",
+        "latitude": 35.17465,
+        "longitude": 33.36388,
+        "Water Stress": 4,
+        "Total Water Use": 80.10590000000002,
+        "GSF": 4843.7998046875
     },
     {
-        "Building Name":"ENFIELD-GENOTIN ROAD",
-        "latitude":51.65209,
-        "longitude":-0.08102
+        "name": "DUBLIN-HARCOURT",
+        "latitude": 53.34938,
+        "longitude": -6.26056,
+        "Water Stress": 1,
+        "Total Water Use": 263.6872539518641,
+        "GSF": 14236.0
     },
     {
-        "Building Name":"MILAN-PORTA VOLTA",
-        "latitude":45.46419,
-        "longitude":9.189635
+        "name": "LONDON-PADDNGTN",
+        "latitude": 51.50745,
+        "longitude": -0.12777,
+        "Water Stress": 3,
+        "Total Water Use": 969.0821466358233,
+        "GSF": 52319.5
     },
     {
-        "Building Name":"MINSK-INTERNATSIONALNAYA ST",
-        "latitude":53.90247,
-        "longitude":27.56182
+        "name": "PARIS-ISSY",
+        "latitude": 48.82505,
+        "longitude": 2.273457,
+        "Water Stress": 1,
+        "Total Water Use": 3546.545454545454,
+        "GSF": 343694.53125
     },
     {
-        "Building Name":"MOSCOW-KHBP",
-        "latitude":55.62558,
-        "longitude":37.60639
+        "name": "PRAGUE-BBC",
+        "latitude": 50.08747,
+        "longitude": 14.42125,
+        "Water Stress": 0,
+        "Total Water Use": 192.20999999999998,
+        "GSF": 158814.53125
     },
     {
-        "Building Name":"MOSCOW-TIMURA FRUNZE ST",
-        "latitude":55.62558,
-        "longitude":37.60639
+        "name": "RABAT",
+        "latitude": 34.02236,
+        "longitude": -6.83402,
+        "Water Stress": 4,
+        "Total Water Use": 177.5466,
+        "GSF": 2691.0
     },
     {
-        "Building Name":"MUNICH-HQ",
-        "latitude":48.13711,
-        "longitude":11.57538
+        "name": "RABAT LA ROCADE",
+        "latitude": 34.02236,
+        "longitude": -6.83402,
+        "Water Stress": 4,
+        "Total Water Use": 0.0,
+        "GSF": 327.2200012207031
     },
     {
-        "Building Name":"NAIROBI-OVAL",
-        "latitude":-1.28325,
-        "longitude":36.81724
+        "name": "LONDON-7 SWALLOW",
+        "latitude": 51.50745,
+        "longitude": -0.12777,
+        "Water Stress": 3,
+        "Total Water Use": 5.199999779462814,
+        "GSF": 2992.0
     },
     {
-        "Building Name":"NAIROBI-WAIYAKI WAY",
-        "latitude":-1.28325,
-        "longitude":36.81724
+        "name": "REYKJAVIK-BORG 28",
+        "latitude": 64.14598,
+        "longitude": -21.9422,
+        "Water Stress": 0,
+        "Total Water Use": 6.225527352237003,
+        "GSF": 1344.4200439453125
     },
     {
-        "Building Name":"NANTES-CENTRE DES SALORGES",
-        "latitude":47.21864,
-        "longitude":-1.55414
+        "name": "RIGA-ZALA1",
+        "latitude": 56.9494,
+        "longitude": 24.10518,
+        "Water Stress": 0,
+        "Total Water Use": 10.180000000000001,
+        "GSF": 8174.18017578125
     },
     {
-        "Building Name":"NAZARET PAULUS",
-        "latitude":32.70663,
-        "longitude":35.30482
+        "name": "RIYADH-GATE2",
+        "latitude": 24.63892,
+        "longitude": 46.71601,
+        "Water Stress": 4,
+        "Total Water Use": 577.9966816217983,
+        "GSF": 31204.83984375
     },
     {
-        "Building Name":"DELFT-MQFAB",
-        "latitude":51.99946,
-        "longitude":4.362725
+        "name": "ROME-AVIGNONE",
+        "latitude": 41.89332,
+        "longitude": 12.48293,
+        "Water Stress": 4,
+        "Total Water Use": 576.0,
+        "GSF": 25884.619140625
     },
     {
-        "Building Name":"NICOSIA-LIMASSO",
-        "latitude":35.17465,
-        "longitude":33.36388
+        "name": "MUSCAT-KOM",
+        "latitude": 23.54068,
+        "longitude": 58.18907,
+        "Water Stress": 4,
+        "Total Water Use": 0.08451428643060585,
+        "GSF": 3599.27001953125
     },
     {
-        "Building Name":"DUBLIN-HARCOURT",
-        "latitude":53.34938,
-        "longitude":-6.26056
+        "name": "SANDNES-GRENSEVEIEN 21",
+        "latitude": 58.98313,
+        "longitude": 6.394641,
+        "Water Stress": 0,
+        "Total Water Use": 8.7796964296982,
+        "GSF": 2583.35009765625
     },
     {
-        "Building Name":"LONDON-PADDNGTN",
-        "latitude":51.50745,
-        "longitude":-0.12777
+        "name": "SARAJEVO-UNITIC",
+        "latitude": 44.1347,
+        "longitude": 16.97838,
+        "Water Stress": 0,
+        "Total Water Use": 54.73418343830842,
+        "GSF": 2954.719970703125
     },
     {
-        "Building Name":"PARIS-ISSY",
-        "latitude":48.82505,
-        "longitude":2.273457
+        "name": "SCHIPHOL-EVERT",
+        "latitude": 52.30804,
+        "longitude": 4.762198,
+        "Water Stress": 0,
+        "Total Water Use": 1618.2923074075277,
+        "GSF": 87368.6875
     },
     {
-        "Building Name":"PRAGUE-BBC",
-        "latitude":50.08747,
-        "longitude":14.42125
+        "name": "SKOPJE-CARAT",
+        "latitude": 41.99618,
+        "longitude": 21.43192,
+        "Water Stress": 2,
+        "Total Water Use": 55.426740202812546,
+        "GSF": 2992.389892578125
     },
     {
-        "Building Name":"RABAT",
-        "latitude":34.02236,
-        "longitude":-6.83402
+        "name": "SOFIA-EXPO2000",
+        "latitude": 42.6977,
+        "longitude": 23.32174,
+        "Water Stress": 0,
+        "Total Water Use": 27.130000000000003,
+        "GSF": 8455.1201171875
     },
     {
-        "Building Name":"RABAT LA ROCADE",
-        "latitude":34.02236,
-        "longitude":-6.83402
+        "name": "STRASBOURG-23-LA HAYE",
+        "latitude": 48.58461,
+        "longitude": 7.750713,
+        "Water Stress": 0,
+        "Total Water Use": 223.30212639225502,
+        "GSF": 12421.66015625
     },
     {
-        "Building Name":"LONDON-7 SWALLOW",
-        "latitude":51.50745,
-        "longitude":-0.12777
+        "name": "STUTTGART-STEP",
+        "latitude": 48.77845,
+        "longitude": 9.180013,
+        "Water Stress": 3,
+        "Total Water Use": 93.44189999999999,
+        "GSF": 8677.400390625
     },
     {
-        "Building Name":"REYKJAVIK-BORG 28",
-        "latitude":64.14598,
-        "longitude":-21.9422
+        "name": "TALLINN-AKAD",
+        "latitude": 59.43722,
+        "longitude": 24.74537,
+        "Water Stress": 1,
+        "Total Water Use": 2175.0,
+        "GSF": 73877.1015625
     },
     {
-        "Building Name":"RIGA-ZALA1",
-        "latitude":56.9494,
-        "longitude":24.10518
+        "name": "TAMPERE-KALEVANTIE 2",
+        "latitude": 61.49802,
+        "longitude": 23.76031,
+        "Water Stress": 1,
+        "Total Water Use": 206.056133907704,
+        "GSF": 11124.599609375
     },
     {
-        "Building Name":"RIYADH-GATE2",
-        "latitude":24.63892,
-        "longitude":46.71601
+        "name": "TARTU-RAEKOJA",
+        "latitude": 58.38012,
+        "longitude": 26.72245,
+        "Water Stress": 0,
+        "Total Water Use": 104.00000000000003,
+        "GSF": 3423.0
     },
     {
-        "Building Name":"ROME-AVIGNONE",
-        "latitude":41.89332,
-        "longitude":12.48293
+        "name": "TBILISI-AXIS TOWERS-TERMINAL",
+        "latitude": 41.69346,
+        "longitude": 44.80145,
+        "Water Stress": 1,
+        "Total Water Use": 12.132280931334016,
+        "GSF": 655.530029296875
     },
     {
-        "Building Name":"MUSCAT-KOM",
-        "latitude":23.54068,
-        "longitude":58.18907
+        "name": "TEL AVIV-144 DERECH MENACHEM",
+        "latitude": 32.0853,
+        "longitude": 34.78181,
+        "Water Stress": 4,
+        "Total Water Use": 962.3923166327751,
+        "GSF": 51957.828125
     },
     {
-        "Building Name":"SANDNES-GRENSEVEIEN 21",
-        "latitude":58.98313,
-        "longitude":6.394641
+        "name": "TIMISOARA-OPENVILLE",
+        "latitude": 45.75384,
+        "longitude": 21.22575,
+        "Water Stress": 0,
+        "Total Water Use": 242.12698677007356,
+        "GSF": 13071.91015625
     },
     {
-        "Building Name":"SARAJEVO-UNITIC",
-        "latitude":44.1347,
-        "longitude":16.97838
+        "name": "TOULOUSE-55 AVE LOUIS BREGUET",
+        "latitude": 43.60446,
+        "longitude": 1.444247,
+        "Water Stress": 3,
+        "Total Water Use": 66.25299480292874,
+        "GSF": 3576.8798828125
     },
     {
-        "Building Name":"SCHIPHOL-EVERT",
-        "latitude":52.30804,
-        "longitude":4.762198
+        "name": "TROMSO-GR58",
+        "latitude": 69.65163,
+        "longitude": 18.95586,
+        "Water Stress": 0,
+        "Total Water Use": 296.06469985716467,
+        "GSF": 15984.5400390625
     },
     {
-        "Building Name":"SKOPJE-CARAT",
-        "latitude":41.99618,
-        "longitude":21.43192
+        "name": "TRONDHEIM-KONGENS",
+        "latitude": 63.43045,
+        "longitude": 10.39521,
+        "Water Stress": 0,
+        "Total Water Use": 264.90511268657434,
+        "GSF": 19063.0390625
     },
     {
-        "Building Name":"SOFIA-EXPO2000",
-        "latitude":42.6977,
-        "longitude":23.32174
+        "name": "TUNIS-REGUS URBAIN NORD",
+        "latitude": 33.84394,
+        "longitude": 9.400138,
+        "Water Stress": 3,
+        "Total Water Use": 0.0,
+        "GSF": 527.4400024414062
     },
     {
-        "Building Name":"STRASBOURG-23-LA HAYE",
-        "latitude":48.58461,
-        "longitude":7.750713
+        "name": "LONDON-WILSON ST",
+        "latitude": 51.50745,
+        "longitude": -0.12777,
+        "Water Stress": 3,
+        "Total Water Use": 6.000000000000001,
+        "GSF": 11065.0
     },
     {
-        "Building Name":"STUTTGART-STEP",
-        "latitude":48.77845,
-        "longitude":9.180013
+        "name": "UK CAMPUS BLD1",
+        "latitude": 51.45642,
+        "longitude": -0.97007,
+        "Water Stress": 3,
+        "Total Water Use": 816.0,
+        "GSF": 76606.0
     },
     {
-        "Building Name":"TALLINN-AKAD",
-        "latitude":59.43722,
-        "longitude":24.74537
+        "name": "UK CAMPUS BLD2",
+        "latitude": 51.45642,
+        "longitude": -0.97007,
+        "Water Stress": 3,
+        "Total Water Use": 13785.0,
+        "GSF": 109885.0
     },
     {
-        "Building Name":"TAMPERE-KALEVANTIE 2",
-        "latitude":61.49802,
-        "longitude":23.76031
+        "name": "STOCKHOLM-REGERINGSGATAN 27",
+        "latitude": 59.32512,
+        "longitude": 18.07109,
+        "Water Stress": 0,
+        "Total Water Use": 620.8595641938927,
+        "GSF": 33519.08984375
     },
     {
-        "Building Name":"TARTU-RAEKOJA",
-        "latitude":58.38012,
-        "longitude":26.72245
+        "name": "VILNIUS-BH",
+        "latitude": 54.68705,
+        "longitude": 25.28291,
+        "Water Stress": 3,
+        "Total Water Use": 55.0,
+        "GSF": 8570.9404296875
     },
     {
-        "Building Name":"TBILISI-AXIS TOWERS-TERMINAL",
-        "latitude":41.69346,
-        "longitude":44.80145
+        "name": "LISBON-VIRTUAL",
+        "latitude": 38.70775,
+        "longitude": -9.13659,
+        "Water Stress": 4,
+        "Total Water Use": 2425.69,
+        "GSF": 69099.390625
     },
     {
-        "Building Name":"TEL AVIV-144 DERECH MENACHEM",
-        "latitude":32.0853,
-        "longitude":34.78181
+        "name": "WALLDORF",
+        "latitude": 49.30381,
+        "longitude": 8.643352,
+        "Water Stress": 3,
+        "Total Water Use": 9.5568,
+        "GSF": 6464.43017578125
     },
     {
-        "Building Name":"TIMISOARA-OPENVILLE",
-        "latitude":45.75384,
-        "longitude":21.22575
+        "name": "WARSAW-JEROZ",
+        "latitude": 52.23372,
+        "longitude": 21.07143,
+        "Water Stress": 0,
+        "Total Water Use": 759.4499996948243,
+        "GSF": 48911.8203125
     },
     {
-        "Building Name":"TOULOUSE-55 AVE LOUIS BREGUET",
-        "latitude":43.60446,
-        "longitude":1.444247
+        "name": "WINDHOEK",
+        "latitude": -22.5776,
+        "longitude": 17.07727,
+        "Water Stress": 1,
+        "Total Water Use": 39.670100000000005,
+        "GSF": 2443.429931640625
     },
     {
-        "Building Name":"TROMSO-GR58",
-        "latitude":69.65163,
-        "longitude":18.95586
+        "name": "WINDHOEK-MAERUA MALL",
+        "latitude": -22.5776,
+        "longitude": 17.07727,
+        "Water Stress": 1,
+        "Total Water Use": 0.0,
+        "GSF": 414.3999938964844
     },
     {
-        "Building Name":"TRONDHEIM-KONGENS",
-        "latitude":63.43045,
-        "longitude":10.39521
+        "name": "WOLFSBURG",
+        "latitude": 52.42056,
+        "longitude": 10.78617,
+        "Water Stress": 3,
+        "Total Water Use": 8.8368,
+        "GSF": 415.80999755859375
     },
     {
-        "Building Name":"TUNIS-REGUS URBAIN NORD",
-        "latitude":33.84394,
-        "longitude":9.400138
+        "name": "AARHUS-ABOGADE",
+        "latitude": 56.14963,
+        "longitude": 10.2134,
+        "Water Stress": 1,
+        "Total Water Use": 77.83182362361147,
+        "GSF": 4688.7998046875
     },
     {
-        "Building Name":"LONDON-WILSON ST",
-        "latitude":51.50745,
-        "longitude":-0.12777
+        "name": "AARHUS-ABOGADE01",
+        "latitude": 56.14963,
+        "longitude": 10.2134,
+        "Water Stress": 1,
+        "Total Water Use": 0.0,
+        "GSF": 4688.7998046875
     },
     {
-        "Building Name":"UK CAMPUS BLD1",
-        "latitude":51.45642,
-        "longitude":-0.97007
+        "name": "QUIMPER-3 RUE PITRE",
+        "latitude": 47.99603,
+        "longitude": -4.10248,
+        "Water Stress": 1,
+        "Total Water Use": 91.0334119461017,
+        "GSF": 4914.72998046875
     },
     {
-        "Building Name":"UK CAMPUS BLD2",
-        "latitude":51.45642,
-        "longitude":-0.97007
+        "name": "YAVNE-GAN RAVE 5",
+        "latitude": 31.87689,
+        "longitude": 34.7383,
+        "Water Stress": 4,
+        "Total Water Use": 73.87161237303484,
+        "GSF": 12507.76953125
     },
     {
-        "Building Name":"STOCKHOLM-REGERINGSGATAN 27",
-        "latitude":59.32512,
-        "longitude":18.07109
+        "name": "YEREVAN-CITADEL",
+        "latitude": 40.17771,
+        "longitude": 44.51262,
+        "Water Stress": 3,
+        "Total Water Use": 28.331560751915095,
+        "GSF": 1397.1700439453125
     },
     {
-        "Building Name":"VILNIUS-BH",
-        "latitude":54.68705,
-        "longitude":25.28291
+        "name": "ZAGREB-NETCITY",
+        "latitude": 45.84264,
+        "longitude": 15.96223,
+        "Water Stress": 0,
+        "Total Water Use": 805.7640070070802,
+        "GSF": 13562.6396484375
     },
     {
-        "Building Name":"LISBON-VIRTUAL",
-        "latitude":38.70775,
-        "longitude":-9.13659
+        "name": "ZAVENTEM-PASS",
+        "latitude": 50.88062,
+        "longitude": 4.473001,
+        "Water Stress": 4,
+        "Total Water Use": 696.6151962542608,
+        "GSF": 37609.421875
     },
     {
-        "Building Name":"WALLDORF",
-        "latitude":49.30381,
-        "longitude":8.643352
+        "name": "ZURICH-SEE",
+        "latitude": 47.37445,
+        "longitude": 8.541042,
+        "Water Stress": 0,
+        "Total Water Use": 926.7967000000001,
+        "GSF": 9117.1103515625
     },
     {
-        "Building Name":"WARSAW-JEROZ",
-        "latitude":52.23372,
-        "longitude":21.07143
+        "name": "ZURICH TALSTRASSE",
+        "latitude": 47.37445,
+        "longitude": 8.541042,
+        "Water Stress": 0,
+        "Total Water Use": 245.33739999999995,
+        "GSF": 6555.27978515625
     },
     {
-        "Building Name":"WINDHOEK",
-        "latitude":-22.5776,
-        "longitude":17.07727
+        "name": "ZURICH CIRCLE SPACES",
+        "latitude": 47.37445,
+        "longitude": 8.541042,
+        "Water Stress": 0,
+        "Total Water Use": 54.8267962698453,
+        "GSF": 2960.10009765625
     },
     {
-        "Building Name":"WINDHOEK-MAERUA MALL",
-        "latitude":-22.5776,
-        "longitude":17.07727
+        "name": "ZURICH THE CIRCLE",
+        "latitude": 47.37445,
+        "longitude": 8.541042,
+        "Water Stress": 0,
+        "Total Water Use": 1012.6353565717408,
+        "GSF": 54670.359375
     },
     {
-        "Building Name":"WOLFSBURG",
-        "latitude":52.42056,
-        "longitude":10.78617
+        "name": "1",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "Water Stress": 1,
+        "Total Water Use": 42.47230020000001,
+        "GSF": 0.0
     },
     {
-        "Building Name":"AARHUS-ABOGADE",
-        "latitude":56.14963,
-        "longitude":10.2134
+        "name": "10",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "Water Stress": 1,
+        "Total Water Use": 757.01764803,
+        "GSF": 0.0
     },
     {
-        "Building Name":"AARHUS-ABOGADE01",
-        "latitude":56.14963,
-        "longitude":10.2134
+        "name": "11",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "Water Stress": 1,
+        "Total Water Use": 102.94422495,
+        "GSF": 0.0
     },
     {
-        "Building Name":"QUIMPER-3 RUE PITRE",
-        "latitude":47.99603,
-        "longitude":-4.10248
+        "name": "16",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "Water Stress": 1,
+        "Total Water Use": 5419.6850593,
+        "GSF": 164537.34375
     },
     {
-        "Building Name":"YAVNE-GAN RAVE 5",
-        "latitude":31.87689,
-        "longitude":34.7383
+        "name": "16-18 CAFETERIA",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "Water Stress": 1,
+        "Total Water Use": 0.0,
+        "GSF": 18188.5390625
     },
     {
-        "Building Name":"YEREVAN-CITADEL",
-        "latitude":40.17771,
-        "longitude":44.51262
+        "name": "17",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "Water Stress": 1,
+        "Total Water Use": 6245.616096379999,
+        "GSF": 154459.140625
     },
     {
-        "Building Name":"ZAGREB-NETCITY",
-        "latitude":45.84264,
-        "longitude":15.96223
+        "name": "18",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "Water Stress": 1,
+        "Total Water Use": 15111.28858262,
+        "GSF": 157652.40625
     },
     {
-        "Building Name":"ZAVENTEM-PASS",
-        "latitude":50.88062,
-        "longitude":4.473001
+        "name": "19",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "Water Stress": 1,
+        "Total Water Use": 1981.4312249900001,
+        "GSF": 43993.41015625
     },
     {
-        "Building Name":"ZURICH-SEE",
-        "latitude":47.37445,
-        "longitude":8.541042
+        "name": "2",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "Water Stress": 1,
+        "Total Water Use": 0.0,
+        "GSF": 0.0
     },
     {
-        "Building Name":"ZURICH TALSTRASSE",
-        "latitude":47.37445,
-        "longitude":8.541042
+        "name": "20",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "Water Stress": 1,
+        "Total Water Use": 106.00662164,
+        "GSF": 17456.4296875
     },
     {
-        "Building Name":"ZURICH CIRCLE SPACES",
-        "latitude":47.37445,
-        "longitude":8.541042
+        "name": "21",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "Water Stress": 1,
+        "Total Water Use": 3159.3864650200003,
+        "GSF": 43511.96875
     },
     {
-        "Building Name":"ZURICH THE CIRCLE",
-        "latitude":47.37445,
-        "longitude":8.541042
+        "name": "22",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "Water Stress": 1,
+        "Total Water Use": 5452.59919925,
+        "GSF": 115759.7421875
     },
     {
-        "Building Name":"1",
-        "latitude":47.66941,
-        "longitude":-122.124
+        "name": "25",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "Water Stress": 1,
+        "Total Water Use": 21609.98962078,
+        "GSF": 241681.703125
     },
     {
-        "Building Name":"10",
-        "latitude":47.66941,
-        "longitude":-122.124
+        "name": "26",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "Water Stress": 1,
+        "Total Water Use": 0.0,
+        "GSF": 197419.0
     },
     {
-        "Building Name":"11",
-        "latitude":47.66941,
-        "longitude":-122.124
+        "name": "27",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "Water Stress": 1,
+        "Total Water Use": 18062.28444173,
+        "GSF": 242176.984375
     },
     {
-        "Building Name":"16",
-        "latitude":47.66941,
-        "longitude":-122.124
+        "name": "28",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "Water Stress": 1,
+        "Total Water Use": 2086.8321810300004,
+        "GSF": 106853.6328125
     },
     {
-        "Building Name":"16-18 CAFETERIA",
-        "latitude":47.66941,
-        "longitude":-122.124
+        "name": "3",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "Water Stress": 1,
+        "Total Water Use": 2764.1404506900003,
+        "GSF": 240035.953125
     },
     {
-        "Building Name":"17",
-        "latitude":47.66941,
-        "longitude":-122.124
+        "name": "30",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "Water Stress": 1,
+        "Total Water Use": 0.0,
+        "GSF": 0.0
     },
     {
-        "Building Name":"18",
-        "latitude":47.66941,
-        "longitude":-122.124
+        "name": "30-32 CAFETERIA",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "Water Stress": 1,
+        "Total Water Use": 0.0,
+        "GSF": 0.0
     },
     {
-        "Building Name":"19",
-        "latitude":47.66941,
-        "longitude":-122.124
+        "name": "31",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "Water Stress": 1,
+        "Total Water Use": 0.0,
+        "GSF": 0.0
     },
     {
-        "Building Name":"2",
-        "latitude":47.66941,
-        "longitude":-122.124
+        "name": "31-OUTDOOR MEETING SPACES",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "Water Stress": 1,
+        "Total Water Use": 0.0,
+        "GSF": 0.0
     },
     {
-        "Building Name":"20",
-        "latitude":47.66941,
-        "longitude":-122.124
+        "name": "32",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "Water Stress": 1,
+        "Total Water Use": 0.0,
+        "GSF": 0.0
     },
     {
-        "Building Name":"21",
-        "latitude":47.66941,
-        "longitude":-122.124
+        "name": "33",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "Water Stress": 1,
+        "Total Water Use": 0.0,
+        "GSF": 0.0
     },
     {
-        "Building Name":"22",
-        "latitude":47.66941,
-        "longitude":-122.124
+        "name": "34",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "Water Stress": 1,
+        "Total Water Use": 0.0,
+        "GSF": 0.0
     },
     {
-        "Building Name":"25",
-        "latitude":47.66941,
-        "longitude":-122.124
+        "name": "34-35 CAFETERIA",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "Water Stress": 1,
+        "Total Water Use": 0.0,
+        "GSF": 0.0
     },
     {
-        "Building Name":"26",
-        "latitude":47.66941,
-        "longitude":-122.124
+        "name": "35",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "Water Stress": 1,
+        "Total Water Use": 0.0,
+        "GSF": 0.0
     },
     {
-        "Building Name":"27",
-        "latitude":47.66941,
-        "longitude":-122.124
+        "name": "36",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "Water Stress": 1,
+        "Total Water Use": 9852.559156520001,
+        "GSF": 320498.5625
     },
     {
-        "Building Name":"28",
-        "latitude":47.66941,
-        "longitude":-122.124
+        "name": "37",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "Water Stress": 1,
+        "Total Water Use": 4606.26101686,
+        "GSF": 276227.0
     },
     {
-        "Building Name":"3",
-        "latitude":47.66941,
-        "longitude":-122.124
+        "name": "4",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "Water Stress": 1,
+        "Total Water Use": 1296.8133286200002,
+        "GSF": 186972.0
     },
     {
-        "Building Name":"30",
-        "latitude":47.66941,
-        "longitude":-122.124
+        "name": "40",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "Water Stress": 1,
+        "Total Water Use": 0.0,
+        "GSF": 0.0
     },
     {
-        "Building Name":"30-32 CAFETERIA",
-        "latitude":47.66941,
-        "longitude":-122.124
+        "name": "40-41 CAFETERIA",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "Water Stress": 1,
+        "Total Water Use": 0.0,
+        "GSF": 0.0
     },
     {
-        "Building Name":"31",
-        "latitude":47.66941,
-        "longitude":-122.124
+        "name": "41",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "Water Stress": 1,
+        "Total Water Use": 0.0,
+        "GSF": 0.0
     },
     {
-        "Building Name":"31-OUTDOOR MEETING SPACES",
-        "latitude":47.66941,
-        "longitude":-122.124
+        "name": "42",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "Water Stress": 1,
+        "Total Water Use": 0.0,
+        "GSF": 0.0
     },
     {
-        "Building Name":"32",
-        "latitude":47.66941,
-        "longitude":-122.124
+        "name": "42-44 CAFETERIA",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "Water Stress": 1,
+        "Total Water Use": 0.0,
+        "GSF": 0.0
     },
     {
-        "Building Name":"33",
-        "latitude":47.66941,
-        "longitude":-122.124
+        "name": "43",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "Water Stress": 1,
+        "Total Water Use": 0.0,
+        "GSF": 0.0
     },
     {
-        "Building Name":"34",
-        "latitude":47.66941,
-        "longitude":-122.124
+        "name": "44",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "Water Stress": 1,
+        "Total Water Use": 0.0,
+        "GSF": 0.0
     },
     {
-        "Building Name":"34-35 CAFETERIA",
-        "latitude":47.66941,
-        "longitude":-122.124
+        "name": "5",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "Water Stress": 1,
+        "Total Water Use": 1193.06659675,
+        "GSF": 115040.0
     },
     {
-        "Building Name":"35",
-        "latitude":47.66941,
-        "longitude":-122.124
+        "name": "6",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "Water Stress": 1,
+        "Total Water Use": 3148.9198063699996,
+        "GSF": 173910.34375
     },
     {
-        "Building Name":"36",
-        "latitude":47.66941,
-        "longitude":-122.124
+        "name": "7",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "Water Stress": 1,
+        "Total Water Use": 832.55550458,
+        "GSF": 153246.4375
     },
     {
-        "Building Name":"37",
-        "latitude":47.66941,
-        "longitude":-122.124
+        "name": "8",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "Water Stress": 1,
+        "Total Water Use": 2665.64408249,
+        "GSF": 192261.71875
     },
     {
-        "Building Name":"4",
-        "latitude":47.66941,
-        "longitude":-122.124
+        "name": "9",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "Water Stress": 1,
+        "Total Water Use": 0.0,
+        "GSF": 182010.0
     },
     {
-        "Building Name":"40",
-        "latitude":47.66941,
-        "longitude":-122.124
+        "name": "EAST CAMPUS BACK OF HOUSE",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "Water Stress": 1,
+        "Total Water Use": 0.0,
+        "GSF": 112871.0
     },
     {
-        "Building Name":"40-41 CAFETERIA",
-        "latitude":47.66941,
-        "longitude":-122.124
+        "name": "ONE ESTERRA",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "Water Stress": 1,
+        "Total Water Use": 0.0,
+        "GSF": 246638.0
     },
     {
-        "Building Name":"41",
-        "latitude":47.66941,
-        "longitude":-122.124
+        "name": "REDMOND TECHNOLOGY STATION",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "Water Stress": 1,
+        "Total Water Use": 0.0,
+        "GSF": 5044.0
     },
     {
-        "Building Name":"42",
-        "latitude":47.66941,
-        "longitude":-122.124
+        "name": "THE SQUARE",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "Water Stress": 1,
+        "Total Water Use": 424.723002,
+        "GSF": 0.0
     },
     {
-        "Building Name":"42-44 CAFETERIA",
-        "latitude":47.66941,
-        "longitude":-122.124
+        "name": "THERMAL ENERGY CENTER",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "Water Stress": 1,
+        "Total Water Use": 34006.15343294316,
+        "GSF": 125573.0
     },
     {
-        "Building Name":"43",
-        "latitude":47.66941,
-        "longitude":-122.124
+        "name": "121",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "Water Stress": 1,
+        "Total Water Use": 7739.115543190001,
+        "GSF": 185759.1875
     },
     {
-        "Building Name":"44",
-        "latitude":47.66941,
-        "longitude":-122.124
+        "name": "121-CABIN SOUTH",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "Water Stress": 1,
+        "Total Water Use": 0.0,
+        "GSF": 666.3499755859375
     },
     {
-        "Building Name":"5",
-        "latitude":47.66941,
-        "longitude":-122.124
+        "name": "122",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "Water Stress": 1,
+        "Total Water Use": 6361.29065516,
+        "GSF": 279053.40625
     },
     {
-        "Building Name":"6",
-        "latitude":47.66941,
-        "longitude":-122.124
+        "name": "50",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "Water Stress": 1,
+        "Total Water Use": 8182.750083963732,
+        "GSF": 237788.9375
     },
     {
-        "Building Name":"7",
-        "latitude":47.66941,
-        "longitude":-122.124
+        "name": "82",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "Water Stress": 1,
+        "Total Water Use": 1087.05997511,
+        "GSF": 72593.0
     },
     {
-        "Building Name":"8",
-        "latitude":47.66941,
-        "longitude":-122.124
+        "name": "83",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "Water Stress": 1,
+        "Total Water Use": 13751.95163703,
+        "GSF": 336335.6875
     },
     {
-        "Building Name":"9",
-        "latitude":47.66941,
-        "longitude":-122.124
+        "name": "84",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "Water Stress": 1,
+        "Total Water Use": 0.0,
+        "GSF": 146085.90625
     },
     {
-        "Building Name":"EAST CAMPUS BACK OF HOUSE",
-        "latitude":47.66941,
-        "longitude":-122.124
+        "name": "85",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "Water Stress": 1,
+        "Total Water Use": 0.0,
+        "GSF": 196025.84375
     },
     {
-        "Building Name":"ONE ESTERRA",
-        "latitude":47.66941,
-        "longitude":-122.124
+        "name": "86",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "Water Stress": 1,
+        "Total Water Use": 0.0,
+        "GSF": 193900.0
     },
     {
-        "Building Name":"REDMOND TECHNOLOGY STATION",
-        "latitude":47.66941,
-        "longitude":-122.124
+        "name": "87",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "Water Stress": 1,
+        "Total Water Use": 0.0,
+        "GSF": 106747.453125
     },
     {
-        "Building Name":"THE SQUARE",
-        "latitude":47.66941,
-        "longitude":-122.124
+        "name": "88",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "Water Stress": 1,
+        "Total Water Use": 0.0,
+        "GSF": 227700.421875
     },
     {
-        "Building Name":"THERMAL ENERGY CENTER",
-        "latitude":47.66941,
-        "longitude":-122.124
+        "name": "88 GARAGE",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "Water Stress": 1,
+        "Total Water Use": 70324.42333995999,
+        "GSF": 0.0
     },
     {
-        "Building Name":"121",
-        "latitude":47.66941,
-        "longitude":-122.124
+        "name": "REDMOND WOODS-A",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "Water Stress": 1,
+        "Total Water Use": 0.0,
+        "GSF": 36984.0
     },
     {
-        "Building Name":"121-CABIN SOUTH",
-        "latitude":47.66941,
-        "longitude":-122.124
+        "name": "REDMOND WOODS-B",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "Water Stress": 1,
+        "Total Water Use": 0.0,
+        "GSF": 20622.0
     },
     {
-        "Building Name":"122",
-        "latitude":47.66941,
-        "longitude":-122.124
+        "name": "109",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "Water Stress": 1,
+        "Total Water Use": 9878.303729930001,
+        "GSF": 214264.171875
     },
     {
-        "Building Name":"50",
-        "latitude":47.66941,
-        "longitude":-122.124
+        "name": "111",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "Water Stress": 1,
+        "Total Water Use": 7443.3273912,
+        "GSF": 102854.53125
     },
     {
-        "Building Name":"82",
-        "latitude":47.66941,
-        "longitude":-122.124
+        "name": "112",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "Water Stress": 1,
+        "Total Water Use": 0.0,
+        "GSF": 0.0
     },
     {
-        "Building Name":"83",
-        "latitude":47.66941,
-        "longitude":-122.124
+        "name": "113",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "Water Stress": 1,
+        "Total Water Use": 0.0,
+        "GSF": 0.0
     },
     {
-        "Building Name":"84",
-        "latitude":47.66941,
-        "longitude":-122.124
+        "name": "114",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "Water Stress": 1,
+        "Total Water Use": 0.0,
+        "GSF": 0.0
     },
     {
-        "Building Name":"85",
-        "latitude":47.66941,
-        "longitude":-122.124
+        "name": "115",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "Water Stress": 1,
+        "Total Water Use": 0.0,
+        "GSF": 0.0
     },
     {
-        "Building Name":"86",
-        "latitude":47.66941,
-        "longitude":-122.124
+        "name": "120",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "Water Stress": 1,
+        "Total Water Use": 1206.4177378200002,
+        "GSF": 18989.6796875
     },
     {
-        "Building Name":"87",
-        "latitude":47.66941,
-        "longitude":-122.124
+        "name": "123",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "Water Stress": 1,
+        "Total Water Use": 4082.3072771199995,
+        "GSF": 58271.01171875
     },
     {
-        "Building Name":"88",
-        "latitude":47.66941,
-        "longitude":-122.124
+        "name": "124",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "Water Stress": 1,
+        "Total Water Use": 1295.2234564200003,
+        "GSF": 37336.71875
     },
     {
-        "Building Name":"88 GARAGE",
-        "latitude":47.66941,
-        "longitude":-122.124
+        "name": "125",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "Water Stress": 1,
+        "Total Water Use": 9518.447513690002,
+        "GSF": 37347.4296875
     },
     {
-        "Building Name":"REDMOND WOODS-A",
-        "latitude":47.66941,
-        "longitude":-122.124
+        "name": "126",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "Water Stress": 1,
+        "Total Water Use": 65.08633954,
+        "GSF": 36636.421875
     },
     {
-        "Building Name":"REDMOND WOODS-B",
-        "latitude":47.66941,
-        "longitude":-122.124
+        "name": "127",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "Water Stress": 1,
+        "Total Water Use": 7521.45068278,
+        "GSF": 99178.9765625
     },
     {
-        "Building Name":"109",
-        "latitude":47.66941,
-        "longitude":-122.124
+        "name": "127B",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "Water Stress": 1,
+        "Total Water Use": 0.0,
+        "GSF": 0.0
     },
     {
-        "Building Name":"111",
-        "latitude":47.66941,
-        "longitude":-122.124
+        "name": "130",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "Water Stress": 1,
+        "Total Water Use": 0.0,
+        "GSF": 21959.0
     },
     {
-        "Building Name":"112",
-        "latitude":47.66941,
-        "longitude":-122.124
+        "name": "131",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "Water Stress": 1,
+        "Total Water Use": 0.0,
+        "GSF": 17623.0
     },
     {
-        "Building Name":"113",
-        "latitude":47.66941,
-        "longitude":-122.124
+        "name": "132",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "Water Stress": 1,
+        "Total Water Use": 0.0,
+        "GSF": 234019.0
     },
     {
-        "Building Name":"114",
-        "latitude":47.66941,
-        "longitude":-122.124
+        "name": "133",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "Water Stress": 1,
+        "Total Water Use": 0.0,
+        "GSF": 0.0
     },
     {
-        "Building Name":"115",
-        "latitude":47.66941,
-        "longitude":-122.124
+        "name": "136",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "Water Stress": 1,
+        "Total Water Use": 0.0,
+        "GSF": 98605.0
     },
     {
-        "Building Name":"120",
-        "latitude":47.66941,
-        "longitude":-122.124
+        "name": "92",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "Water Stress": 1,
+        "Total Water Use": 8971.09994015,
+        "GSF": 224503.984375
     },
     {
-        "Building Name":"123",
-        "latitude":47.66941,
-        "longitude":-122.124
+        "name": "99",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "Water Stress": 1,
+        "Total Water Use": 23863.495724200002,
+        "GSF": 278510.9375
     },
     {
-        "Building Name":"124",
-        "latitude":47.66941,
-        "longitude":-122.124
+        "name": "COMMONS",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "Water Stress": 1,
+        "Total Water Use": 0.0,
+        "GSF": 6261.02978515625
     },
     {
-        "Building Name":"125",
-        "latitude":47.66941,
-        "longitude":-122.124
+        "name": "COMMONS TRANSIT CENTER",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "Water Stress": 1,
+        "Total Water Use": 0.0,
+        "GSF": 0.0
     },
     {
-        "Building Name":"126",
-        "latitude":47.66941,
-        "longitude":-122.124
+        "name": "SEA-821 2ND",
+        "latitude": 47.60383,
+        "longitude": -122.33,
+        "Water Stress": 1,
+        "Total Water Use": 308.19698078849865,
+        "GSF": 49739.0
     },
     {
-        "Building Name":"127",
-        "latitude":47.66941,
-        "longitude":-122.124
+        "name": "STUDIO A",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "Water Stress": 1,
+        "Total Water Use": 7503.341281340002,
+        "GSF": 307663.84375
     },
     {
-        "Building Name":"127B",
-        "latitude":47.66941,
-        "longitude":-122.124
+        "name": "STUDIO B",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "Water Stress": 1,
+        "Total Water Use": 7237.378374740001,
+        "GSF": 308994.84375
     },
     {
-        "Building Name":"130",
-        "latitude":47.66941,
-        "longitude":-122.124
+        "name": "STUDIO C",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "Water Stress": 1,
+        "Total Water Use": 7118.45214877,
+        "GSF": 276130.65625
     },
     {
-        "Building Name":"131",
-        "latitude":47.66941,
-        "longitude":-122.124
+        "name": "STUDIO D",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "Water Stress": 1,
+        "Total Water Use": 3895.69413494,
+        "GSF": 277581.625
     },
     {
-        "Building Name":"132",
-        "latitude":47.66941,
-        "longitude":-122.124
+        "name": "STUDIO E",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "Water Stress": 1,
+        "Total Water Use": 3206.4693946,
+        "GSF": 145182.515625
     },
     {
-        "Building Name":"133",
-        "latitude":47.66941,
-        "longitude":-122.124
+        "name": "STUDIO F",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "Water Stress": 1,
+        "Total Water Use": 8594.538709580002,
+        "GSF": 144694.28125
     },
     {
-        "Building Name":"136",
-        "latitude":47.66941,
-        "longitude":-122.124
+        "name": "STUDIO G",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "Water Stress": 1,
+        "Total Water Use": 6837.086408879999,
+        "GSF": 145444.046875
     },
     {
-        "Building Name":"92",
-        "latitude":47.66941,
-        "longitude":-122.124
+        "name": "STUDIO H",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "Water Stress": 1,
+        "Total Water Use": 7153.23249585,
+        "GSF": 146168.59375
     },
     {
-        "Building Name":"99",
-        "latitude":47.66941,
-        "longitude":-122.124
+        "name": "STUDIO X",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "Water Stress": 1,
+        "Total Water Use": 5245.667026335999,
+        "GSF": 121552.671875
     },
     {
-        "Building Name":"COMMONS",
-        "latitude":47.66941,
-        "longitude":-122.124
+        "name": "STUDIOS A-D GARAGE",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "Water Stress": 1,
+        "Total Water Use": 30149.374906660003,
+        "GSF": 0.0
     },
     {
-        "Building Name":"COMMONS TRANSIT CENTER",
-        "latitude":47.66941,
-        "longitude":-122.124
+        "name": "SUBMIXER CAFETERIA",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "Water Stress": 1,
+        "Total Water Use": 0.0,
+        "GSF": 28529.650390625
     },
     {
-        "Building Name":"SEA-821 2ND",
-        "latitude":47.60383,
-        "longitude":-122.33
+        "name": "THE MIXER CAFETERIA",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "Water Stress": 1,
+        "Total Water Use": 14183.5905831,
+        "GSF": 210670.6875
     },
     {
-        "Building Name":"STUDIO A",
-        "latitude":47.66941,
-        "longitude":-122.124
+        "name": "ADVANTA-C",
+        "latitude": 47.61442,
+        "longitude": -122.192,
+        "Water Stress": 1,
+        "Total Water Use": 1124.1645639300002,
+        "GSF": 130613.0
     },
     {
-        "Building Name":"STUDIO B",
-        "latitude":47.66941,
-        "longitude":-122.124
+        "name": "BELLEVUE SPRING DISTRICT-12280",
+        "latitude": 47.61442,
+        "longitude": -122.192,
+        "Water Stress": 1,
+        "Total Water Use": 0.0,
+        "GSF": 96231.0
     },
     {
-        "Building Name":"STUDIO C",
-        "latitude":47.66941,
-        "longitude":-122.124
+        "name": "BELLEVUE-1814",
+        "latitude": 47.61442,
+        "longitude": -122.192,
+        "Water Stress": 1,
+        "Total Water Use": 162.55686163,
+        "GSF": 1725.0
     },
     {
-        "Building Name":"STUDIO D",
-        "latitude":47.66941,
-        "longitude":-122.124
+        "name": "BRAVERN-1",
+        "latitude": 47.61442,
+        "longitude": -122.192,
+        "Water Stress": 1,
+        "Total Water Use": 0.0,
+        "GSF": 255171.0
     },
     {
-        "Building Name":"STUDIO E",
-        "latitude":47.66941,
-        "longitude":-122.124
+        "name": "BRAVERN-2",
+        "latitude": 47.61442,
+        "longitude": -122.192,
+        "Water Stress": 1,
+        "Total Water Use": 0.0,
+        "GSF": 494523.0
     },
     {
-        "Building Name":"STUDIO F",
-        "latitude":47.66941,
-        "longitude":-122.124
+        "name": "CEDAR PARK BAY2",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "Water Stress": 1,
+        "Total Water Use": 0.0,
+        "GSF": 5849.0
     },
     {
-        "Building Name":"STUDIO G",
-        "latitude":47.66941,
-        "longitude":-122.124
+        "name": "CITY CENTER",
+        "latitude": 47.61442,
+        "longitude": -122.192,
+        "Water Stress": 1,
+        "Total Water Use": 0.0,
+        "GSF": 561584.0
     },
     {
-        "Building Name":"STUDIO H",
-        "latitude":47.66941,
-        "longitude":-122.124
+        "name": "LINCOLN SQUARE",
+        "latitude": 47.61442,
+        "longitude": -122.192,
+        "Water Stress": 1,
+        "Total Water Use": 0.0,
+        "GSF": 86576.0
     },
     {
-        "Building Name":"STUDIO X",
-        "latitude":47.66941,
-        "longitude":-122.124
+        "name": "MILLENNIUM A",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "Water Stress": 1,
+        "Total Water Use": 0.0,
+        "GSF": 67794.0
     },
     {
-        "Building Name":"STUDIOS A-D GARAGE",
-        "latitude":47.66941,
-        "longitude":-122.124
+        "name": "MILLENNIUM B",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "Water Stress": 1,
+        "Total Water Use": 0.0,
+        "GSF": 42908.0
     },
     {
-        "Building Name":"SUBMIXER CAFETERIA",
-        "latitude":47.66941,
-        "longitude":-122.124
+        "name": "MILLENNIUM C",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "Water Stress": 1,
+        "Total Water Use": 0.0,
+        "GSF": 99945.0
     },
     {
-        "Building Name":"THE MIXER CAFETERIA",
-        "latitude":47.66941,
-        "longitude":-122.124
+        "name": "MILLENNIUM D",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "Water Stress": 1,
+        "Total Water Use": 6094.370580602857,
+        "GSF": 99898.0
     },
     {
-        "Building Name":"ADVANTA-C",
-        "latitude":47.61442,
-        "longitude":-122.192
+        "name": "MILLENNIUM E",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "Water Stress": 1,
+        "Total Water Use": 7876.740883400714,
+        "GSF": 80751.0
     },
     {
-        "Building Name":"BELLEVUE SPRING DISTRICT-12280",
-        "latitude":47.61442,
-        "longitude":-122.192
+        "name": "MILLENNIUM F",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "Water Stress": 1,
+        "Total Water Use": 611.4999983557143,
+        "GSF": 87897.0
     },
     {
-        "Building Name":"BELLEVUE-1814",
-        "latitude":47.61442,
-        "longitude":-122.192
+        "name": "BEAR CREEK A",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "Water Stress": 1,
+        "Total Water Use": 1374.3188523086862,
+        "GSF": 74197.0
     },
     {
-        "Building Name":"BRAVERN-1",
-        "latitude":47.61442,
-        "longitude":-122.192
+        "name": "MARYMOOR",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "Water Stress": 1,
+        "Total Water Use": 1397.50144921,
+        "GSF": 67009.0
     },
     {
-        "Building Name":"BRAVERN-2",
-        "latitude":47.61442,
-        "longitude":-122.192
+        "name": "REDMOND COMMUTE TRANSPORTATION LOT 5",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "Water Stress": 1,
+        "Total Water Use": 3759.284490046957,
+        "GSF": 202957.0
     },
     {
-        "Building Name":"CEDAR PARK BAY2",
-        "latitude":47.66941,
-        "longitude":-122.124
+        "name": "REDMOND RIDGE 1",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "Water Stress": 1,
+        "Total Water Use": 29880.43133703,
+        "GSF": 45625.0
     },
     {
-        "Building Name":"CITY CENTER",
-        "latitude":47.61442,
-        "longitude":-122.192
+        "name": "REDMOND UNION HILL",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "Water Stress": 1,
+        "Total Water Use": 637.769003095714,
+        "GSF": 34432.0
     },
     {
-        "Building Name":"LINCOLN SQUARE",
-        "latitude":47.61442,
-        "longitude":-122.192
+        "name": "REDMOND WOODS-C",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "Water Stress": 1,
+        "Total Water Use": 766.3341358352397,
+        "GSF": 41373.0
     },
     {
-        "Building Name":"MILLENNIUM A",
-        "latitude":47.66941,
-        "longitude":-122.124
+        "name": "REDMOND-10500",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "Water Stress": 1,
+        "Total Water Use": 243.34947614636073,
+        "GSF": 13138.0
     },
     {
-        "Building Name":"MILLENNIUM B",
-        "latitude":47.66941,
-        "longitude":-122.124
+        "name": "REDMOND-17760",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "Water Stress": 1,
+        "Total Water Use": 7400.7453141099995,
+        "GSF": 66000.0
     },
     {
-        "Building Name":"MILLENNIUM C",
-        "latitude":47.66941,
-        "longitude":-122.124
+        "name": "SILVERDALE-9633",
+        "latitude": 47.65941,
+        "longitude": -122.677,
+        "Water Stress": 0,
+        "Total Water Use": 355.51810354147625,
+        "GSF": 4884.0
     },
     {
-        "Building Name":"MILLENNIUM D",
-        "latitude":47.66941,
-        "longitude":-122.124
+        "name": "TUKWILA-5",
+        "latitude": 47.46274,
+        "longitude": -122.256,
+        "Water Stress": 1,
+        "Total Water Use": 2203.648236155326,
+        "GSF": 118971.0
     },
     {
-        "Building Name":"MILLENNIUM E",
-        "latitude":47.66941,
-        "longitude":-122.124
+        "name": "REDW-A",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "Water Stress": 1,
+        "Total Water Use": 0.0,
+        "GSF": 0.0
     },
     {
-        "Building Name":"MILLENNIUM F",
-        "latitude":47.66941,
-        "longitude":-122.124
+        "name": "REDW-B",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "Water Stress": 1,
+        "Total Water Use": 0.0,
+        "GSF": 0.0
     },
     {
-        "Building Name":"BEAR CREEK A",
-        "latitude":47.66941,
-        "longitude":-122.124
+        "name": "REDW-C",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "Water Stress": 1,
+        "Total Water Use": 0.0,
+        "GSF": 0.0
     },
     {
-        "Building Name":"MARYMOOR",
-        "latitude":47.66941,
-        "longitude":-122.124
+        "name": "REDW-D",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "Water Stress": 1,
+        "Total Water Use": 0.0,
+        "GSF": 0.0
     },
     {
-        "Building Name":"REDMOND COMMUTE TRANSPORTATION LOT 5",
-        "latitude":47.66941,
-        "longitude":-122.124
+        "name": "REDW-E",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "Water Stress": 1,
+        "Total Water Use": 0.0,
+        "GSF": 0.0
     },
     {
-        "Building Name":"REDMOND RIDGE 1",
-        "latitude":47.66941,
-        "longitude":-122.124
+        "name": "REDW-F CAFETERIA",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "Water Stress": 1,
+        "Total Water Use": 40156.55975224341,
+        "GSF": 40524.390625
     },
     {
-        "Building Name":"REDMOND UNION HILL",
-        "latitude":47.66941,
-        "longitude":-122.124
+        "name": "REDMOND TOWN B3",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "Water Stress": 1,
+        "Total Water Use": 1590.6439042125799,
+        "GSF": 85876.0
     },
     {
-        "Building Name":"REDMOND WOODS-C",
-        "latitude":47.66941,
-        "longitude":-122.124
+        "name": "REDMOND TOWN B4",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "Water Stress": 1,
+        "Total Water Use": 5748.515498628051,
+        "GSF": 124643.0
     },
     {
-        "Building Name":"REDMOND-10500",
-        "latitude":47.66941,
-        "longitude":-122.124
+        "name": "REDMOND TOWN B5",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "Water Stress": 1,
+        "Total Water Use": 1771.7575575661429,
+        "GSF": 101106.0
     },
     {
-        "Building Name":"REDMOND-17760",
-        "latitude":47.66941,
-        "longitude":-122.124
+        "name": "REDMOND TOWN B6",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "Water Stress": 1,
+        "Total Water Use": 1492.5854381813092,
+        "GSF": 84603.0
     },
     {
-        "Building Name":"SILVERDALE-9633",
-        "latitude":47.65941,
-        "longitude":-122.677
+        "name": "SAMM-D",
+        "latitude": 47.53488,
+        "longitude": -122.043,
+        "Water Stress": 1,
+        "Total Water Use": 3301.588419998,
+        "GSF": 220442.0
     },
     {
-        "Building Name":"TUKWILA-5",
-        "latitude":47.46274,
-        "longitude":-122.256
+        "name": "SAMM-E",
+        "latitude": 47.53488,
+        "longitude": -122.043,
+        "Water Stress": 1,
+        "Total Water Use": 2862.0853361556915,
+        "GSF": 168566.0
     },
     {
-        "Building Name":"REDW-A",
-        "latitude":47.66941,
-        "longitude":-122.124
+        "name": "WILLOWS PARK I & II",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "Water Stress": 1,
+        "Total Water Use": 0.0,
+        "GSF": 30049.0
     },
     {
-        "Building Name":"REDW-B",
-        "latitude":47.66941,
-        "longitude":-122.124
+        "name": "WILLOWS WHSE",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "Water Stress": 1,
+        "Total Water Use": 480.35338736000006,
+        "GSF": 76966.0
     },
     {
-        "Building Name":"REDW-C",
-        "latitude":47.66941,
-        "longitude":-122.124
+        "name": "WILLOWS-9825",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "Water Stress": 1,
+        "Total Water Use": 0.0,
+        "GSF": 31558.0
     },
     {
-        "Building Name":"REDW-D",
-        "latitude":47.66941,
-        "longitude":-122.124
+        "name": "WILLOWS-9911",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "Water Stress": 1,
+        "Total Water Use": 0.0,
+        "GSF": 46584.0
     },
     {
-        "Building Name":"REDW-E",
-        "latitude":47.66941,
-        "longitude":-122.124
-    },
-    {
-        "Building Name":"REDW-F CAFETERIA",
-        "latitude":47.66941,
-        "longitude":-122.124
-    },
-    {
-        "Building Name":"REDMOND TOWN B3",
-        "latitude":47.66941,
-        "longitude":-122.124
-    },
-    {
-        "Building Name":"REDMOND TOWN B4",
-        "latitude":47.66941,
-        "longitude":-122.124
-    },
-    {
-        "Building Name":"REDMOND TOWN B5",
-        "latitude":47.66941,
-        "longitude":-122.124
-    },
-    {
-        "Building Name":"REDMOND TOWN B6",
-        "latitude":47.66941,
-        "longitude":-122.124
-    },
-    {
-        "Building Name":"SAMM-D",
-        "latitude":47.53488,
-        "longitude":-122.043
-    },
-    {
-        "Building Name":"SAMM-E",
-        "latitude":47.53488,
-        "longitude":-122.043
-    },
-    {
-        "Building Name":"WILLOWS PARK I & II",
-        "latitude":47.66941,
-        "longitude":-122.124
-    },
-    {
-        "Building Name":"WILLOWS WHSE",
-        "latitude":47.66941,
-        "longitude":-122.124
-    },
-    {
-        "Building Name":"WILLOWS-9825",
-        "latitude":47.66941,
-        "longitude":-122.124
-    },
-    {
-        "Building Name":"WILLOWS-9911",
-        "latitude":47.66941,
-        "longitude":-122.124
-    },
-    {
-        "Building Name":"LEASE USE ONLY - CONNECTOR",
-        "latitude":47.66941,
-        "longitude":-122.124
-    },
-    {
-        "Building Name":"EAST CAMPUS CORE",
-        "latitude":47.66941,
-        "longitude":-122.124
-    },
-    {
-        "Building Name":"Augusta Cp",
-        "latitude":47.66941,
-        "longitude":-122.124
-    },
-    {
-        "Building Name":"Beijing W Cp",
-        "latitude":40.19063,
-        "longitude":116.4121
-    },
-    {
-        "Building Name":"Cedar Court Cp",
-        "latitude":47.66941,
-        "longitude":-122.124
-    },
-    {
-        "Building Name":"Hyd Sohini",
-        "latitude":17.36059,
-        "longitude":78.47406
-    },
-    {
-        "Building Name":"Hyderabad Campus Cp",
-        "latitude":17.36059,
-        "longitude":78.47406
-    },
-    {
-        "Building Name":"Pebble Beach Cp",
-        "latitude":47.66941,
-        "longitude":-122.124
-    },
-    {
-        "Building Name":"Ps Utilities",
-        "latitude":47.66941,
-        "longitude":-122.124
-    },
-    {
-        "Building Name":"St Andrews Cp",
-        "latitude":47.66941,
-        "longitude":-122.124
-    },
-    {
-        "Building Name":"Svc-2",
-        "latitude":37.36883,
-        "longitude":-122.036
-    },
-    {
-        "Building Name":"Torre Universal Free Trade",
-        "latitude":9.932543,
-        "longitude":-84.0796
-    },
-    {
-        "Building Name":"Troon Cp",
-        "latitude":47.66941,
-        "longitude":-122.124
+        "name": "LEASE USE ONLY - CONNECTOR",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "Water Stress": 1,
+        "Total Water Use": 0.0,
+        "GSF": 7795.0
+    },
+    {
+        "name": "EAST CAMPUS CORE",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "Water Stress": 1,
+        "Total Water Use": 0.0,
+        "GSF": 0.0
+    },
+    {
+        "name": "Augusta Cp",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "Water Stress": 1,
+        "Total Water Use": 53086.61255246001,
+        "GSF": 652955.53515625
+    },
+    {
+        "name": "Beijing W Cp",
+        "latitude": 40.19063,
+        "longitude": 116.4121,
+        "Water Stress": 4,
+        "Total Water Use": 100624.0,
+        "GSF": 1306751.8125
+    },
+    {
+        "name": "Cedar Court Cp",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "Water Stress": 1,
+        "Total Water Use": 22666.905799700802,
+        "GSF": 432979.9453125
+    },
+    {
+        "name": "Hyd Sohini",
+        "latitude": 17.36059,
+        "longitude": 78.47406,
+        "Water Stress": 4,
+        "Total Water Use": 3722.275999927346,
+        "GSF": 102271.0
+    },
+    {
+        "name": "Hyderabad Campus Cp",
+        "latitude": 17.36059,
+        "longitude": 78.47406,
+        "Water Stress": 4,
+        "Total Water Use": 21098.0,
+        "GSF": 355834.0
+    },
+    {
+        "name": "Pebble Beach Cp",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "Water Stress": 1,
+        "Total Water Use": 26177.361064377597,
+        "GSF": 409777.763671875
+    },
+    {
+        "name": "Ps Utilities",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "Water Stress": 1,
+        "Total Water Use": 11466.892675939998,
+        "GSF": 703718.2421875
+    },
+    {
+        "name": "St Andrews Cp",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "Water Stress": 1,
+        "Total Water Use": 43454.8412196,
+        "GSF": 746291.60546875
+    },
+    {
+        "name": "Svc-2",
+        "latitude": 37.36883,
+        "longitude": -122.036,
+        "Water Stress": 1,
+        "Total Water Use": 81722.07522434896,
+        "GSF": 113949.0
+    },
+    {
+        "name": "Torre Universal Free Trade",
+        "latitude": 9.932543,
+        "longitude": -84.0796,
+        "Water Stress": 1,
+        "Total Water Use": 3495.6,
+        "GSF": 147466.0
+    },
+    {
+        "name": "Troon Cp",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "Water Stress": 1,
+        "Total Water Use": 19944.27673143,
+        "GSF": 441291.8671875
     }
 ]
