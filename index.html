@@ -107,9 +107,9 @@
 
         // Function to calculate dynamic radius based on total water use
         function calculateRadius(totalWaterUse) {
-            const minRadius = 4;
-            const maxRadius = 40;
-            const scaleFactor = 0.0004;
+            const minRadius = 5;
+            const maxRadius = 50;
+            const scaleFactor = 0.0005;
 
             const radius = Math.min(maxRadius, minRadius + totalWaterUse * scaleFactor);
             return radius;
