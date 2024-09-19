@@ -50,7 +50,7 @@
             var zoomLevel = map.getZoom();
             // Jitter scaling based on zoom level with controlled minimum and maximum jittering factor
             var jitter = Math.pow(2, (16 - zoomLevel)) * 0.01; // Adjust scaling
-            jitter = Math.max(0.005, Math.min(jitter, 0.025));  // Limit maximum jitter when zoomed out, and set a minimum to avoid overlap
+            jitter = Math.max(0.005, Math.min(jitter, 0.03));  // Limit maximum jitter when zoomed out, and set a minimum to avoid overlap
             return jitter;
         }
 
