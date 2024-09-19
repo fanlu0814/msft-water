@@ -32,43 +32,80 @@
             minZoom: 2
         }).addTo(map);
 
+        // Define the style for the circle markers
+        var circleMarkerStyle = {
+            color: '#0078D4',         // Outline color (hex #0078D4)
+            fillColor: '#0078D4',     // Fill color for the circle
+            fillOpacity: 0.8,         // Opacity of the fill
+            radius: 8                 // Marker radius set to 4
+        };
+
         var markersLayer = L.layerGroup().addTo(map); // Layer group to manage markers
 
-        // Function to calculate dynamic radius based on total water usage
-        function calculateRadius(totalWaterUse) {
-            const minRadius = 4;  // Minimum marker radius
-            const maxRadius = 30; // Maximum marker radius
-            const scaleFactor = 0.0001; // Adjust this factor to fine-tune the scaling
-            
-            // Calculate radius based on Total Water Use, scaling between min and max radius
-            const radius = Math.min(maxRadius, minRadius + totalWaterUse * scaleFactor);
-            return radius;
+        // Store original jitter values for each lat/lon combination
+        var originalJitteredCoordinates = new Map(); // Key: 'lat,lon', Value: Array of original jittered offsets for each overlap
+
+        // Get current zoom level and adjust jittering accordingly
+        function getJitterFactor() {
+            var zoomLevel = map.getZoom();
+            // Slightly increase the minimum and maximum jittering factors
+            var jitter = Math.pow(2, (13 - zoomLevel)) * 0.1; // Increased scaling for spread
+            jitter = Math.max(0.3, Math.min(jitter, 20));   // Larger minimum and maximum jitter for bigger spread
+            return jitter;
         }
 
-        // Function to plot sites using circle markers with dynamic size
+        // Function to apply "jitter" to overlapping markers based on zoom level, relative to the original jitter
+        function applyZoomFactorToJitter(lat, lon, count) {
+            const key = ${lat},${lon}; // Unique key for each lat/lon
+            var jitterFactor = getJitterFactor(); // Get zoom-dependent jitter factor
+
+            // If original jitter offsets for this lat/lon aren't stored yet, create them
+            if (!originalJitteredCoordinates.has(key)) {
+                originalJitteredCoordinates.set(key, []);
+            }
+
+            // Ensure we have original jitter values for each overlap index
+            if (originalJitteredCoordinates.get(key).length <= count) {
+                // Create the original random jitter offsets, relative to the original position
+                var jitterLatOffset = (Math.random() - 0.5) * 0.06; // Keep initial random jitter for separation
+                var jitterLonOffset = (Math.random() - 0.5) * 0.06; 
+                originalJitteredCoordinates.get(key).push([jitterLatOffset, jitterLonOffset]);
+            }
+
+            // Retrieve the original jitter offset and scale it based on the zoom level
+            const [originalLatOffset, originalLonOffset] = originalJitteredCoordinates.get(key)[count];
+            const adjustedLat = lat + originalLatOffset * jitterFactor;
+            const adjustedLon = lon + originalLonOffset * jitterFactor;
+
+            return [adjustedLat, adjustedLon];
+        }
+
+        // Function to plot sites using circle markers
         function plotSites(data) {
             markersLayer.clearLayers(); // Clear old markers
 
+            const locationCount = new Map(); // Track how many markers share the same lat/lon
+            
             data.forEach(function(site) {
                 var lat = site.latitude;
                 var lon = site.longitude;
+                const key = ${lat},${lon};
 
-                // Calculate dynamic radius based on total water use
-                var totalWaterUse = site['Total Water Use'] || 0; // Ensure Total Water Use is present
-                var dynamicRadius = calculateRadius(totalWaterUse);
+                // Track how many markers share the same lat/lon
+                if (!locationCount.has(key)) {
+                    locationCount.set(key, 0); // Initialize counter for this location
+                } else {
+                    locationCount.set(key, locationCount.get(key) + 1); // Increment counter for this location
+                }
 
-                // Define the style for the circle markers
-                var circleMarkerStyle = {
-                    color: '#0078D4',         // Outline color (hex #0078D4)
-                    fillColor: '#0078D4',     // Fill color for the circle
-                    fillOpacity: 0.8,         // Opacity of the fill
-                    radius: dynamicRadius     // Dynamic radius based on water usage
-                };
+                // Apply jitter based on zoom and overlap count
+                const count = locationCount.get(key); // Get the current overlap count
+                [lat, lon] = applyZoomFactorToJitter(lat, lon, count);
 
                 // Add a circle marker for each site
                 L.circleMarker([lat, lon], circleMarkerStyle)
                     .addTo(markersLayer)
-                    .bindPopup(`Building Name: ${site['Building Name']}<br>Water Stress: ${site['Water Stress']}<br>Total Water Use: ${totalWaterUse}<br>GSF: ${site['GSF']}`);
+                    .bindPopup(`Building Name: ${site['name']}<br>Water Stress: ${site['Water Stress']}<br>Total Water Use: ${site['Total Water Use']}<br>GSF: ${site['GSF']}`);
             });
         }
 
