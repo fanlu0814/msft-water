@@ -133,14 +133,14 @@
             padding: 10px 20px;
             border: 2px solid #ccc;
             border-radius: 30px;
-            display: inline-block;
             transition: background-color 0.3s ease, border-color 0.3s ease;
-            height: 50px; /* Set a fixed height */
-            justify-content: center; /* Center checkbox and text horizontally */
+            height: 50px; /* Fixed height */
+            justify-content: flex-start; /* Align checkbox and text horizontally */
             white-space: nowrap; /* Prevent text from wrapping */
-            min-width: 200px; /* Ensure the label has a minimum width */
+            width: 100%; /* Ensure full width of the container is used */
+            box-sizing: border-box; /* Ensure padding and border are included in the element’s width */
         }
-
+        
         .region-filter-container input[type="checkbox"] {
             appearance: none;
             width: 20px;
@@ -153,35 +153,37 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            position: relative; /* Position relative to center the checkmark */
+            position: relative;
         }
-
+        
         .region-filter-container input[type="checkbox"]:checked {
             background-color: #007AFF;
             border-color: #007AFF;
         }
-
+        
         .region-filter-container input[type="checkbox"]:before {
             content: ''; /* Empty content for unchecked state */
             position: absolute;
         }
-
+        
         .region-filter-container input[type="checkbox"]:checked:before {
             content: '✔';
             color: white;
             font-size: 14px;
             position: absolute;
         }
-
+        
         .region-filter-container input[type="checkbox"] + label {
             display: flex;
             align-items: center;
+            flex-grow: 1; /* Allow the label text to take up the remaining space */
         }
-
+        
         .region-filter-container input[type="checkbox"]:checked + label {
             border-color: #007AFF;
             background-color: #f0f8ff;
         }
+
 
     </style>
 </head>
