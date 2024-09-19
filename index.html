@@ -428,17 +428,35 @@
             });
         });
 
-    // Assuming markersLayer is your layer group for markers
-    let markersLayer = L.layerGroup().addTo(map); // Ensure this is initialized in your map setup
-
+    // Function to toggle all filters (check/uncheck all)
     function toggleAllFilters(source) {
         const checkboxes = document.querySelectorAll('.region-filter');
+        const allChecked = source.checked;
+
+        // Set all region checkboxes to the same state as "Check All"
         checkboxes.forEach((checkbox) => {
-            checkbox.checked = source.checked;
+            checkbox.checked = allChecked;
         });
+
+        // Update the text of the "Check All/Uncheck All" button
+        updateCheckAllText();
 
         // Call the function to update markers on the map
         updateMarkers();
+    }
+
+    // Function to update the text based on the status of the region checkboxes
+    function updateCheckAllText() {
+        const checkAllBox = document.getElementById('checkAll');
+        const checkboxes = document.querySelectorAll('.region-filter');
+        const allChecked = Array.from(checkboxes).every(checkbox => checkbox.checked);
+
+        // Update the text based on whether all checkboxes are checked
+        if (allChecked) {
+            checkAllBox.nextElementSibling.innerText = 'Uncheck All';
+        } else {
+            checkAllBox.nextElementSibling.innerText = 'Check All';
+        }
     }
 
     // Function to update the markers based on the selected filters
@@ -456,8 +474,16 @@
         // Add the markers for the selected regions
         plotSites(selectedRegions);
 
-        // Force a map refresh to ensure updated markers are displayed
-        map.invalidateSize(); //
+        // Force the map to refresh without changing zoom or center
+        map.setView(map.getCenter(), map.getZoom(), { animate: false });
+    }
+
+
+
+    // Event listener to track individual checkbox changes
+    document.querySelectorAll('.region-filter').forEach((checkbox) => {
+        checkbox.addEventListener('change', updateCheckAllText);
+    });
 
 
     // Function to plot markers based on selected regions
@@ -469,6 +495,7 @@
             // let marker = L.marker([lat, lng]).addTo(markersLayer);
         });
     }
+    
 
         // Fetch and plot the site data from the JSON file
         let siteData = [];
@@ -491,6 +518,12 @@
         // Toggle water stress level display when switch is toggled
         document.getElementById('toggleWaterStress').addEventListener('change', function() {
             showWaterStress = this.checked; // Toggle the state
+
+         // Event listener to track individual checkbox changes
+        document.querySelectorAll('.region-filter').forEach((checkbox) => {
+            checkbox.addEventListener('change', updateCheckAllText);
+        });
+
 
             // Re-plot markers with updated colors based on water stress
             plotSites(siteData);
