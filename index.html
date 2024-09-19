@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>World Map with Sites</title>
+    <title>World Map of Sites</title>
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
     <style>
         #map {
@@ -41,6 +41,9 @@
 
         var markersLayer = L.layerGroup().addTo(map); // Layer group to manage markers
 
+        // Store jittered positions to ensure consistency across zoom events
+        var jitteredCoordinates = new Map(); // Key: 'lat,lon', Value: [jitteredLat, jitteredLon]
+
         // Get current zoom level and adjust jittering accordingly
         function getJitterFactor() {
             var zoomLevel = map.getZoom();
@@ -52,10 +55,15 @@
 
         // Function to apply "jitter" to overlapping markers based on zoom level
         function jitterCoordinates(lat, lon) {
-            var jitterFactor = getJitterFactor();  // Get zoom-dependent jitter factor
-            var jitterLat = lat + (Math.random() - 0.5) * jitterFactor;
-            var jitterLon = lon + (Math.random() - 0.5) * jitterFactor;
-            return [jitterLat, jitterLon];
+            const key = `${lat},${lon}`; // Unique key for each lat/lon
+            if (!jitteredCoordinates.has(key)) {
+                // Only jitter if not already jittered
+                var jitterFactor = getJitterFactor();  // Get zoom-dependent jitter factor
+                var jitterLat = lat + (Math.random() - 0.5) * jitterFactor;
+                var jitterLon = lon + (Math.random() - 0.5) * jitterFactor;
+                jitteredCoordinates.set(key, [jitterLat, jitterLon]); // Store jittered coordinates
+            }
+            return jitteredCoordinates.get(key); // Return consistent jittered coordinates
         }
 
         // Function to plot sites using circle markers
