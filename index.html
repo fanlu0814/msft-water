@@ -77,7 +77,7 @@
             font-weight: bold;
         }
 
-        /* Toggle switch */
+        /*  switch */
         .switch {
             position: relative;
             display: inline-block;
@@ -137,6 +137,7 @@
         <div id="map"></div>
 
         <!-- Toggle section occupies 20% of the space -->
+        
         <div class="toggle-section">
             <div class="toggle-container">
                 <span class="toggle-label">Water Stress Level</span>
@@ -145,7 +146,15 @@
                     <span class="slider"></span>
                 </label>
             </div>
+            <!-- Add the summary below the toggle switch -->
+            <div class="summary-container">
+                <h3>Summary</h3>
+                <p>Total Water Usage: <span id="total-water-usage">0</span> L</p>
+                <p>Total Square Footage: <span id="total-sqft">0</span> sqft</p>
+                <p>Total Buildings: <span id="total-buildings">0</span></p>
+            </div>
         </div>
+
     </div>
 
     <!-- Include Leaflet.js -->
@@ -170,6 +179,23 @@
             }
         }
 
+        // Add the updateSummary function here
+        function updateSummary(data) {
+            let totalWaterUsage = 0;
+            let totalSqft = 0;
+            let totalBuildings = data.length;
+    
+            data.forEach(function(site) {
+                totalWaterUsage += site['total water use'];
+                totalSqft += site['gsf'];
+            });
+    
+            // Update the summary in the HTML
+            document.getElementById('total-water-usage').innerText = Math.round(totalWaterUsage);
+            document.getElementById('total-sqft').innerText = Math.round(totalSqft);
+            document.getElementById('total-buildings').innerText = totalBuildings;
+        }
+        
         // Define the bounds you want to restrict to (use LatLngBounds)
         var southWest = L.latLng(-85, -180);
         var northEast = L.latLng(85, 180);
@@ -306,6 +332,7 @@
             .then(data => {
                 siteData = data;
                 plotSites(siteData);
+                updateSummary(siteData);  // Call updateSummary to update the summary section
             })
             .catch(error => console.error('Error loading site data:', error));
 
