@@ -13,6 +13,25 @@
         /* Apply the Roboto font to the entire body */
         body {
             font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Title wrapper with background and shadow */
+        .title-wrapper {
+            background-color: white;
+            width: 100%;
+            padding: 15px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Light shadow */
+        }
+
+        /* Style for the title */
+        h1 {
+            font-weight: 500;
+            color: #333;
+            text-align: left;
+            font-size: 24px; /* Smaller title */
+            margin: 0;
         }
 
         #map {
@@ -20,86 +39,13 @@
             width: 100%;
         }
 
-        /* Style for the title */
-        h1 {
-            text-align: left;
-            font-weight: 500;
-            color: #333;
-        }
-
-        /* Container for the toggle switch */
-        .toggle-container {
-            display: flex;
-            justify-content: left;
-            align-items: center;
-            margin: 20px 0;
-            padding-left: 10px;
-        }
-
-        .toggle-label {
-            margin-right: 10px;
-            font-size: 16px;
-            font-weight: bold;
-        }
-
-        /* Toggle switch */
-        .switch {
-            position: relative;
-            display: inline-block;
-            width: 50px;
-            height: 25px;
-        }
-
-        .switch input {
-            opacity: 0;
-            width: 0;
-            height: 0;
-        }
-
-        .slider {
-            position: absolute;
-            cursor: pointer;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background-color: #ccc;
-            transition: 0.4s;
-            border-radius: 25px;
-        }
-
-        .slider:before {
-            position: absolute;
-            content: "";
-            height: 19px;
-            width: 19px;
-            left: 3px;
-            bottom: 3px;
-            background-color: white;
-            transition: 0.4s;
-            border-radius: 50%;
-        }
-
-        input:checked + .slider {
-            background-color: #8B1B06; /* Custom color for active state */
-        }
-
-        input:checked + .slider:before {
-            transform: translateX(24px);
-        }
     </style>
 </head>
 <body>
 
-    <h1>Microsoft Water Portfolio</h1>
-
-    <!-- Water Stress Toggle Switch -->
-    <div class="toggle-container">
-        <span class="toggle-label">Water Stress Level</span>
-        <label class="switch">
-            <input type="checkbox" id="toggleWaterStress">
-            <span class="slider"></span>
-        </label>
+    <!-- Full width title section with shadow -->
+    <div class="title-wrapper">
+        <h1>Microsoft Water Portfolio</h1>
     </div>
 
     <div id="map"></div>
@@ -109,7 +55,7 @@
 
     <script>
         // Initialize the map
-        var map = L.map('map').setView([20, 0], 3);
+        var map = L.map('map').setView([20, 0], 2);
 
         // Add a tile layer
         L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}', {
@@ -158,9 +104,9 @@
 
         // Function to calculate dynamic radius based on total water use
         function calculateRadius(totalWaterUse) {
-            const minRadius = 5;
-            const maxRadius = 50;
-            const scaleFactor = 0.0005;
+            const minRadius = 4;
+            const maxRadius = 40;
+            const scaleFactor = 0.0004;
 
             const radius = Math.min(maxRadius, minRadius + totalWaterUse * scaleFactor);
             return radius;
@@ -233,20 +179,4 @@
             })
             .catch(error => console.error('Error loading site data:', error));
 
-        // Re-plot markers when the map zoom changes
-        map.on('zoomend', function() {
-            if (siteData.length) {
-                plotSites(siteData);
-            }
-        });
-
-        // Toggle water stress level display when switch is toggled
-        document.getElementById('toggleWaterStress').addEventListener('change', function() {
-            showWaterStress = this.checked; // Toggle the state
-
-            // Re-plot markers with updated colors based on water stress
-            plotSites(siteData);
-        });
-    </script>
-</body>
-</
+        // Re-plot 
