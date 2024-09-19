@@ -373,7 +373,7 @@
             return selectedRegions;
         }
         
-       function plotSites(data) {
+        function plotSites(data) {
             markersLayer.clearLayers();
         
             const locationCount = new Map();
@@ -415,17 +415,20 @@
                                 Total Water Use: ${Math.round(site['total water use']).toLocaleString()} m³<br>
                                 GSF: ${Math.round(site['gsf']).toLocaleString()} sqft`);
             });
-            // Add this line to update the summary after plotting the markers
+        
+            // Call updateSummary with filtered data
             updateSummary(data.filter(site => selectedRegions.includes(site['region'])));
         }
+
 
         //Add Event Listener for Region Checkboxes
         document.querySelectorAll('.region-filter').forEach(checkbox => {
             checkbox.addEventListener('change', function() {
                 plotSites(siteData);  // Re-plot markers based on selected regions
-                updateSummary(siteData);  // Optionally update summary based on filtered regions
+                updateSummary(siteData.filter(site => getSelectedRegions().includes(site['region'])));  // Update summary
             });
         });
+
 
 
         // Fetch and plot the site data from the JSON file
