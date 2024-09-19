@@ -10,11 +10,14 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 
     <style>
-        /* Apply the Roboto font to the entire body */
-        body {
-            font-family: 'Roboto', sans-serif;
+        html, body {
+            height: 100%;
             margin: 0;
             padding: 0;
+        }
+
+        body {
+            font-family: 'Roboto', sans-serif;
         }
 
         /* Title wrapper with background and shadow */
@@ -26,6 +29,8 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
+            position: relative;
+            z-index: 10;
         }
 
         /* Style for the title */
@@ -96,7 +101,11 @@
         }
 
         #map {
-            height: 800px;
+            position: absolute;
+            top: 60px; /* Adjust this value according to the height of your title-wrapper */
+            left: 0;
+            right: 0;
+            bottom: 0;
             width: 100%;
         }
 
