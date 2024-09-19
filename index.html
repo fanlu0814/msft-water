@@ -27,20 +27,65 @@
             color: #333;
         }
 
-        /* Style for the button */
-        #toggleWaterStress {
-            display: block;
-            margin: 10px auto;
-            padding: 10px 20px;
-            background-color: #0078D4;
-            color: white;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
+        /* Container for the toggle switch */
+        .toggle-container {
+            display: flex;
+            justify-content: left;
+            align-items: center;
+            margin: 20px 0;
+            padding-left: 10px;
         }
 
-        #toggleWaterStress:hover {
-            background-color: #005A9E;
+        .toggle-label {
+            margin-right: 10px;
+            font-size: 16px;
+            font-weight: bold;
+        }
+
+        /* Toggle switch */
+        .switch {
+            position: relative;
+            display: inline-block;
+            width: 50px;
+            height: 25px;
+        }
+
+        .switch input {
+            opacity: 0;
+            width: 0;
+            height: 0;
+        }
+
+        .slider {
+            position: absolute;
+            cursor: pointer;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: #ccc;
+            transition: 0.4s;
+            border-radius: 25px;
+        }
+
+        .slider:before {
+            position: absolute;
+            content: "";
+            height: 19px;
+            width: 19px;
+            left: 3px;
+            bottom: 3px;
+            background-color: white;
+            transition: 0.4s;
+            border-radius: 50%;
+        }
+
+        input:checked + .slider {
+            background-color: #8B1B06; /* Custom color for active state */
+        }
+
+        input:checked + .slider:before {
+            transform: translateX(24px);
         }
     </style>
 </head>
@@ -48,8 +93,14 @@
 
     <h1>Microsoft Water Portfolio</h1>
 
-    <!-- Button to toggle water stress level colors -->
-    <button id="toggleWaterStress">Show Water Stress Level</button>
+    <!-- Water Stress Toggle Switch -->
+    <div class="toggle-container">
+        <span class="toggle-label">Water Stress Level</span>
+        <label class="switch">
+            <input type="checkbox" id="toggleWaterStress">
+            <span class="slider"></span>
+        </label>
+    </div>
 
     <div id="map"></div>
 
@@ -57,8 +108,8 @@
     <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
 
     <script>
-    // Initialize the map with zoomed-in by one level
-    var map = L.map('map').setView([20, 0], 3); // Change the zoom level from 2 to 3
+        // Initialize the map
+        var map = L.map('map').setView([20, 0], 2);
 
         // Add a tile layer
         L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}', {
@@ -189,18 +240,13 @@
             }
         });
 
-        // Toggle water stress level display when button is clicked
-        document.getElementById('toggleWaterStress').addEventListener('click', function() {
-            showWaterStress = !showWaterStress; // Toggle the state
-
-            // Update the button text based on the current state
-            document.getElementById('toggleWaterStress').textContent = showWaterStress
-                ? 'Hide Water Stress Level'
-                : 'Show Water Stress Level';
+        // Toggle water stress level display when switch is toggled
+        document.getElementById('toggleWaterStress').addEventListener('change', function() {
+            showWaterStress = this.checked; // Toggle the state
 
             // Re-plot markers with updated colors based on water stress
             plotSites(siteData);
         });
     </script>
 </body>
-</html>
+</
