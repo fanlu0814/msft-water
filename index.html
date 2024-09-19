@@ -33,56 +33,14 @@
             font-weight: 500;
             color: #333;
             text-align: left;
-            font-size: 24px;
+            font-size: 24px; /* Smaller title */
             margin: 0;
-        }
-
-        /* Side menu */
-        .side-menu {
-            width: 20%; /* 20% of the screen width */
-            max-width: 300px;
-            background-color: #f8f8f8;
-            height: 100%;
-            position: fixed;
-            top: 60px; /* Below the title */
-            left: -20%; /* Initially hidden */
-            transition: 0.3s ease;
-            padding: 20px;
-            z-index: 1000;
-            box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.1);
-        }
-
-        /* When side menu is open */
-        .side-menu.open {
-            left: 0; /* Slide into view */
-        }
-
-        /* Map container */
-        #map {
-            height: 800px;
-            width: 100%;
-            margin-top: 60px; /* Push map below the title */
-        }
-
-        /* Toggle button for showing/hiding side menu */
-        .toggle-button {
-            position: absolute;
-            top: 70px; /* Below the title */
-            left: 20px;
-            z-index: 1100;
-            background-color: #0078D4;
-            color: white;
-            border: none;
-            padding: 10px;
-            cursor: pointer;
-            border-radius: 5px;
         }
 
         /* Toggle container style */
         .toggle-container {
             display: flex;
             align-items: center;
-            margin-bottom: 20px;
         }
 
         .toggle-label {
@@ -136,20 +94,21 @@
         input:checked + .slider:before {
             transform: translateX(24px);
         }
+
+        #map {
+            height: 800px;
+            width: 100%;
+        }
+
     </style>
 </head>
 <body>
 
-    <!-- Full width title section with shadow -->
+    <!-- Full width title section with shadow and toggle -->
     <div class="title-wrapper">
         <h1>Microsoft Water Portfolio</h1>
-    </div>
 
-    <!-- Side Menu -->
-    <div id="sideMenu" class="side-menu">
-        <h2>Settings</h2>
-
-        <!-- Water Stress Toggle Switch inside side menu -->
+        <!-- Water Stress Toggle Switch -->
         <div class="toggle-container">
             <span class="toggle-label">Water Stress Level</span>
             <label class="switch">
@@ -158,9 +117,6 @@
             </label>
         </div>
     </div>
-
-    <!-- Toggle Button -->
-    <button id="menuToggle" class="toggle-button">☰</button>
 
     <div id="map"></div>
 
@@ -180,8 +136,108 @@
 
         var markersLayer = L.layerGroup().addTo(map); // Layer group to manage markers
 
+        // Store original jitter values for each lat/lon combination
+        var originalJitteredCoordinates = new Map(); // Key: 'lat,lon', Value: Array of original jittered offsets for each overlap
+
         // Variable to track if water stress level is toggled on
         var showWaterStress = false;
+
+        // Get current zoom level and adjust jittering accordingly
+        function getJitterFactor() {
+            var zoomLevel = map.getZoom();
+            var jitter = Math.pow(2, (13 - zoomLevel)) * 0.1;
+            jitter = Math.max(0.3, Math.min(jitter, 20));  
+            return jitter;
+        }
+
+        // Function to apply "jitter" to overlapping markers based on zoom level, relative to the original jitter
+        function applyZoomFactorToJitter(lat, lon, count) {
+            const key = `${lat},${lon}`;
+            var jitterFactor = getJitterFactor();
+
+            if (!originalJitteredCoordinates.has(key)) {
+                originalJitteredCoordinates.set(key, []);
+            }
+
+            if (originalJitteredCoordinates.get(key).length <= count) {
+                var jitterLatOffset = (Math.random() - 0.5) * 0.06;
+                var jitterLonOffset = (Math.random() - 0.5) * 0.06; 
+                originalJitteredCoordinates.get(key).push([jitterLatOffset, jitterLonOffset]);
+            }
+
+            const [originalLatOffset, originalLonOffset] = originalJitteredCoordinates.get(key)[count];
+            const adjustedLat = lat + originalLatOffset * jitterFactor;
+            const adjustedLon = lon + originalLonOffset * jitterFactor;
+
+            return [adjustedLat, adjustedLon];
+        }
+
+        // Function to calculate dynamic radius based on total water use
+        function calculateRadius(totalWaterUse) {
+            const minRadius = 4;
+            const maxRadius = 40;
+            const scaleFactor = 0.0004;
+
+            const radius = Math.min(maxRadius, minRadius + totalWaterUse * scaleFactor);
+            return radius;
+        }
+
+        // Function to get marker color based on water stress level
+        function getMarkerColor(waterStress) {
+            switch(waterStress) {
+                case 4:
+                    return '#8B1B06'; // Dark Red
+                case 3:
+                    return '#E83B14'; // Red Orange
+                case 2:
+                    return '#F09D2E'; // Orange
+                case 1:
+                    return '#FBE545'; // Yellow
+                case 0:
+                    return '#FFFEA3'; // Light Yellow
+                default:
+                    return '#0078D4'; // Default color
+            }
+        }
+
+        // Function to plot sites using circle markers
+        function plotSites(data) {
+            markersLayer.clearLayers();
+
+            const locationCount = new Map();
+            
+            data.forEach(function(site) {
+                var lat = site.latitude;
+                var lon = site.longitude;
+                const key = `${lat},${lon}`;
+
+                if (!locationCount.has(key)) {
+                    locationCount.set(key, 0);
+                } else {
+                    locationCount.set(key, locationCount.get(key) + 1);
+                }
+
+                const count = locationCount.get(key);
+                [lat, lon] = applyZoomFactorToJitter(lat, lon, count);
+
+                const dynamicRadius = calculateRadius(site['Total Water Use']);
+                
+                // Choose color based on water stress if toggled on
+                var markerColor = showWaterStress ? getMarkerColor(site['Water Stress']) : '#0078D4';
+
+                var circleMarkerStyle = {
+                    color: markerColor,       // Outline color based on water stress or default
+                    fillColor: markerColor,   // Fill color based on water stress or default
+                    fillOpacity: 0.6,
+                    weight: 1,
+                    radius: dynamicRadius
+                };
+
+                L.circleMarker([lat, lon], circleMarkerStyle)
+                    .addTo(markersLayer)
+                    .bindPopup(`Building Name: ${site['name']}<br>Water Stress: ${site['Water Stress']}<br>Total Water Use: ${site['Total Water Use']}<br>GSF: ${site['GSF']}`);
+            });
+        }
 
         // Fetch and plot the site data from the JSON file
         let siteData = [];
@@ -193,37 +249,19 @@
             })
             .catch(error => console.error('Error loading site data:', error));
 
-        // Function to plot sites using circle markers
-        function plotSites(data) {
-            markersLayer.clearLayers();
-            data.forEach(function(site) {
-                var lat = site.latitude;
-                var lon = site.longitude;
-
-                var circleMarkerStyle = {
-                    color: showWaterStress ? getMarkerColor(site['Water Stress']) : '#0078D4',
-                    fillColor: showWaterStress ? getMarkerColor(site['Water Stress']) : '#0078D4',
-                    fillOpacity: 0.6,
-                    radius: 8
-                };
-
-                L.circleMarker([lat, lon], circleMarkerStyle)
-                    .addTo(markersLayer)
-                    .bindPopup(`Building Name: ${site['name']}<br>Water Stress: ${site['Water Stress']}`);
-            });
-        }
+        // Re-plot markers when the map zoom changes
+        map.on('zoomend', function() {
+            if (siteData.length) {
+                plotSites(siteData);
+            }
+        });
 
         // Toggle water stress level display when switch is toggled
         document.getElementById('toggleWaterStress').addEventListener('change', function() {
-            showWaterStress = this.checked;
-            plotSites(siteData);
-        });
+            showWaterStress = this.checked; // Toggle the state
 
-        // Side menu toggle functionality
-        const sideMenu = document.getElementById('sideMenu');
-        const menuToggle = document.getElementById('menuToggle');
-        menuToggle.addEventListener('click', function() {
-            sideMenu.classList.toggle('open');
+            // Re-plot markers with updated colors based on water stress
+            plotSites(siteData);
         });
     </script>
 </body>
