@@ -38,91 +38,18 @@
             margin: 0;
         }
 
-        /* Toggle container style */
-        .toggle-container {
-            position: absolute;
-            top: 20px;
-            right: 20px; /* Align to the right corner of the map */
-            z-index: 1000; /* Make sure it appears on top of the map */
-            background-color: white;
-            padding: 10px;
-            border-radius: 5px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-        }
-
-        .toggle-label {
-            margin-right: 10px;
-            font-size: 16px;
-            font-weight: bold;
-        }
-
-        /* Toggle switch */
-        .switch {
-            position: relative;
-            display: inline-block;
-            width: 50px;
-            height: 25px;
-        }
-
-        .switch input {
-            opacity: 0;
-            width: 0;
-            height: 0;
-        }
-
-        .slider {
-            position: absolute;
-            cursor: pointer;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background-color: #ccc;
-            transition: 0.4s;
-            border-radius: 25px;
-        }
-
-        .slider:before {
-            position: absolute;
-            content: "";
-            height: 19px;
-            width: 19px;
-            left: 3px;
-            bottom: 3px;
-            background-color: white;
-            transition: 0.4s;
-            border-radius: 50%;
-        }
-
-        input:checked + .slider {
-            background-color: #8B1B06; /* Custom color for active state */
-        }
-
-        input:checked + .slider:before {
-            transform: translateX(24px);
-        }
-
         #map {
             height: 800px;
-            width: 100vw; /* Ensure full viewport width */
+            width: 100vw; /* Fix map to full viewport width */
         }
 
     </style>
 </head>
 <body>
 
-    <!-- Full width title section with shadow and toggle -->
+    <!-- Full width title section with shadow -->
     <div class="title-wrapper">
         <h1>Microsoft Water Portfolio</h1>
-    </div>
-
-    <!-- Water Stress Toggle Switch - Moved to top-right of the map -->
-    <div class="toggle-container">
-        <span class="toggle-label">Water Stress Level</span>
-        <label class="switch">
-            <input type="checkbox" id="toggleWaterStress">
-            <span class="slider"></span>
-        </label>
     </div>
 
     <div id="map"></div>
