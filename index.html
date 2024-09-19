@@ -39,6 +39,8 @@
             radius: 2                 // Reduced radius (even smaller marker)
         };
 
+        var markersLayer = L.layerGroup().addTo(map); // Layer group to manage markers
+
         // Get current zoom level and adjust jittering accordingly
         function getJitterFactor() {
             var zoomLevel = map.getZoom();
@@ -56,6 +58,8 @@
 
         // Function to plot sites using circle markers
         function plotSites(data) {
+            markersLayer.clearLayers(); // Clear old markers
+
             const seenLocations = new Set();
             
             data.forEach(function(site) {
@@ -72,22 +76,26 @@
 
                 // Add a circle marker for each site
                 L.circleMarker([lat, lon], circleMarkerStyle)
-                    .addTo(map)
+                    .addTo(markersLayer)
                     .bindPopup(`Building Name: ${site['Building Name']}<br>Latitude: ${lat}<br>Longitude: ${lon}`);
             });
         }
 
         // Fetch and plot the site data from the JSON file
+        let siteData = [];
         fetch('sites.json')
             .then(response => response.json())
             .then(data => {
-                plotSites(data);
+                siteData = data; // Store data for re-plotting on zoom
+                plotSites(siteData); // Initial plot
             })
             .catch(error => console.error('Error loading site data:', error));
 
         // Re-plot markers when the map zoom changes
         map.on('zoomend', function() {
-            // Optional: Add logic to re-plot markers based on new zoom level
+            if (siteData.length) {
+                plotSites(siteData); // Replot with updated jitter
+            }
         });
     </script>
 </body>
