@@ -431,14 +431,13 @@
     // Assuming markersLayer is your layer group for markers
     let markersLayer = L.layerGroup().addTo(map); // Ensure this is initialized in your map setup
 
-    // Function to toggle all filters (check/uncheck all)
     function toggleAllFilters(source) {
         const checkboxes = document.querySelectorAll('.region-filter');
         checkboxes.forEach((checkbox) => {
             checkbox.checked = source.checked;
         });
 
-        // Call the function to update markers on the map immediately
+        // Call the function to update markers on the map
         updateMarkers();
     }
 
@@ -457,12 +456,9 @@
         // Add the markers for the selected regions
         plotSites(selectedRegions);
 
-        // Force the map to refresh without zoom or pan changes
-        map.setView(map.getCenter(), map.getZoom(), { animate: false });
+        // Force a map refresh to ensure updated markers are displayed
+        map.invalidateSize(); //
 
-        // Ensure the map resizes correctly (if necessary)
-        map.invalidateSize();
-    }
 
     // Function to plot markers based on selected regions
     function plotSites(selectedRegions) {
