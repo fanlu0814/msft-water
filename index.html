@@ -447,8 +447,11 @@
                 selectedRegions.push(checkbox.value);
             });
     
-            // Assuming you have a plotSites function that takes the selected regions
+            // Assuming plotSites is your function for plotting markers
             plotSites(selectedRegions);
+            
+            // Redraw the map to reflect the marker changes without changing zoom or center
+            map.invalidateSize();  // Ensure the map resizes correctly if necessary
         }
 
         // Fetch and plot the site data from the JSON file
