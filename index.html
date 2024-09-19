@@ -48,9 +48,9 @@
         // Get current zoom level and adjust jittering accordingly
         function getJitterFactor() {
             var zoomLevel = map.getZoom();
-            // Jitter scaling based on zoom level with controlled minimum and maximum jittering factor
-            var jitter = Math.pow(2, (16 - zoomLevel)) * 0.03; // Adjust scaling for better spread
-            jitter = Math.max(0.008, Math.min(jitter, 0.03));  // Limit maximum jitter, increase minimum to spread them out more
+            // Slightly increase the minimum and maximum jittering factors
+            var jitter = Math.pow(2, (16 - zoomLevel)) * 0.04; // Increased scaling for spread
+            jitter = Math.max(0.01, Math.min(jitter, 0.04));   // Larger minimum and maximum jitter for bigger spread
             return jitter;
         }
 
@@ -67,7 +67,7 @@
             // Ensure we have original jitter values for each overlap index
             if (originalJitteredCoordinates.get(key).length <= count) {
                 // Create the original random jitter offsets, relative to the original position
-                var jitterLatOffset = (Math.random() - 0.5) * 0.06; // Increase initial random jitter for better separation
+                var jitterLatOffset = (Math.random() - 0.5) * 0.06; // Keep initial random jitter for separation
                 var jitterLonOffset = (Math.random() - 0.5) * 0.06; 
                 originalJitteredCoordinates.get(key).push([jitterLatOffset, jitterLonOffset]);
             }
