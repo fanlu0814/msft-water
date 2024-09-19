@@ -428,34 +428,51 @@
             });
         });
 
-        function toggleAllFilters(source) {
-            const checkboxes = document.querySelectorAll('.region-filter');
-            checkboxes.forEach((checkbox) => {
-                checkbox.checked = source.checked;
-            });
-    
-            // Call the function to update markers on the map
-            updateMarkers();
-        }
-    
-        // Function to update the markers based on the selected filters
-        function updateMarkers() {
-            const selectedRegions = [];
-            const checkboxes = document.querySelectorAll('.region-filter:checked');
-    
-            checkboxes.forEach((checkbox) => {
-                selectedRegions.push(checkbox.value);
-            });
-    
-            // Clear existing markers before re-adding
-            markersLayer.clearLayers(); // Assuming 'markersLayer' is your layer group for markers
-    
-            // Assuming 'plotSites' is your function for plotting markers
-            plotSites(selectedRegions);
-    
-            // Explicitly refresh the map without changing zoom or center
-            map.setView(map.getCenter(), map.getZoom(), { animate: false }); // Reapply the same center and zoom
-        }
+    // Assuming markersLayer is your layer group for markers
+    let markersLayer = L.layerGroup().addTo(map); // Ensure this is initialized in your map setup
+
+    // Function to toggle all filters (check/uncheck all)
+    function toggleAllFilters(source) {
+        const checkboxes = document.querySelectorAll('.region-filter');
+        checkboxes.forEach((checkbox) => {
+            checkbox.checked = source.checked;
+        });
+
+        // Call the function to update markers on the map immediately
+        updateMarkers();
+    }
+
+    // Function to update the markers based on the selected filters
+    function updateMarkers() {
+        const selectedRegions = [];
+        const checkboxes = document.querySelectorAll('.region-filter:checked');
+
+        checkboxes.forEach((checkbox) => {
+            selectedRegions.push(checkbox.value);
+        });
+
+        // Clear the existing markers
+        markersLayer.clearLayers();
+
+        // Add the markers for the selected regions
+        plotSites(selectedRegions);
+
+        // Force the map to refresh without zoom or pan changes
+        map.setView(map.getCenter(), map.getZoom(), { animate: false });
+
+        // Ensure the map resizes correctly (if necessary)
+        map.invalidateSize();
+    }
+
+    // Function to plot markers based on selected regions
+    function plotSites(selectedRegions) {
+        // Example: Replace with your actual marker plotting logic
+        selectedRegions.forEach(region => {
+            // Add your marker plotting logic for each region here
+            // For example:
+            // let marker = L.marker([lat, lng]).addTo(markersLayer);
+        });
+    }
 
         // Fetch and plot the site data from the JSON file
         let siteData = [];
