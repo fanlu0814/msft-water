@@ -61,9 +61,14 @@
             padding: 15px;
             box-shadow: inset 0px 0px 6px rgba(0, 0, 0, 0.1); /* Light shadow inside */
             background-color: #f5f5f5;
-            display: flex;
-            align-items: center;
-            justify-content: center;
+            position: relative;
+        }
+
+        /* Align toggle container to the top-left of the toggle section */
+        .toggle-container {
+            position: absolute;
+            top: 15px;    /* Padding from top */
+            left: 15px;   /* Padding from left */
         }
 
         .toggle-label {
@@ -133,11 +138,13 @@
 
         <!-- Toggle section occupies 20% of the space -->
         <div class="toggle-section">
-            <span class="toggle-label">Water Stress Level</span>
-            <label class="switch">
-                <input type="checkbox" id="toggleWaterStress">
-                <span class="slider"></span>
-            </label>
+            <div class="toggle-container">
+                <span class="toggle-label">Water Stress Level</span>
+                <label class="switch">
+                    <input type="checkbox" id="toggleWaterStress">
+                    <span class="slider"></span>
+                </label>
+            </div>
         </div>
     </div>
 
@@ -145,7 +152,6 @@
     <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
 
     <script>
-        // Initialize the map
         // Define the bounds you want to restrict to (use LatLngBounds)
         var southWest = L.latLng(-85, -180);
         var northEast = L.latLng(85, 180);
