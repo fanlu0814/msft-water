@@ -48,9 +48,9 @@
         // Get current zoom level and adjust jittering accordingly
         function getJitterFactor() {
             var zoomLevel = map.getZoom();
-            // Larger jittering at low zoom levels (zoomed out), smaller jittering at high zoom levels (zoomed in)
-            var jitter = Math.pow(2, (16 - zoomLevel)) * 0.05; // Stronger jitter effect based on zoom level
-            jitter = Math.max(0.0002, Math.min(jitter, 0.05)); // Minimum jitter at higher zoom, maximum at low zoom
+            // Jitter scaling based on zoom level with controlled minimum jittering factor
+            var jitter = Math.pow(2, (16 - zoomLevel)) * 0.02; // Gradual scaling
+            jitter = Math.max(0.002, jitter); // Minimum jitter factor to avoid markers being squeezed together too much
             return jitter;
         }
 
