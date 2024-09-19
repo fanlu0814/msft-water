@@ -42,7 +42,7 @@
         var markersLayer = L.layerGroup().addTo(map); // Layer group to manage markers
 
         // Store jittered positions to ensure consistency across zoom events
-        var jitteredCoordinates = new Map(); // Key: 'lat,lon', Value: [jitteredLat, jitteredLon]
+        var jitteredCoordinates = new Map(); // Key: 'lat,lon', Value: Array of jittered coordinates for each overlap
 
         // Get current zoom level and adjust jittering accordingly
         function getJitterFactor() {
@@ -54,35 +54,47 @@
         }
 
         // Function to apply "jitter" to overlapping markers based on zoom level
-        function jitterCoordinates(lat, lon) {
+        function jitterCoordinates(lat, lon, count) {
             const key = `${lat},${lon}`; // Unique key for each lat/lon
+
+            // Ensure a list of jittered positions exists for this lat/lon
             if (!jitteredCoordinates.has(key)) {
+                jitteredCoordinates.set(key, []); // Initialize an empty array for this lat/lon
+            }
+
+            // Check if we already have jittered coordinates for this overlap index
+            if (jitteredCoordinates.get(key).length <= count) {
                 // Only jitter if not already jittered
                 var jitterFactor = getJitterFactor();  // Get zoom-dependent jitter factor
                 var jitterLat = lat + (Math.random() - 0.5) * jitterFactor;
                 var jitterLon = lon + (Math.random() - 0.5) * jitterFactor;
-                jitteredCoordinates.set(key, [jitterLat, jitterLon]); // Store jittered coordinates
+                jitteredCoordinates.get(key).push([jitterLat, jitterLon]); // Store jittered coordinates for this overlap index
             }
-            return jitteredCoordinates.get(key); // Return consistent jittered coordinates
+
+            return jitteredCoordinates.get(key)[count]; // Return the jittered coordinates for this overlap
         }
 
         // Function to plot sites using circle markers
         function plotSites(data) {
             markersLayer.clearLayers(); // Clear old markers
 
-            const seenLocations = new Set();
+            const locationCount = new Map(); // Track how many markers share the same lat/lon
             
             data.forEach(function(site) {
                 var lat = site.latitude;
                 var lon = site.longitude;
                 const key = `${lat},${lon}`;
-                
-                // Apply jitter if the location has already been seen (i.e., it overlaps)
-                if (seenLocations.has(key)) {
-                    [lat, lon] = jitterCoordinates(lat, lon);
+
+                // Track how many markers share the same lat/lon
+                if (!locationCount.has(key)) {
+                    locationCount.set(key, 0); // Initialize counter for this location
                 } else {
-                    seenLocations.add(key);
+                    locationCount.set(key, locationCount.get(key) + 1); // Increment counter for this location
                 }
+
+                // Apply jitter if the location has already been seen (i.e., it overlaps)
+                const count = locationCount.get(key); // Get the current overlap count
+                [lat, lon] = jitterCoordinates(lat, lon, count);
 
                 // Add a circle marker for each site
                 L.circleMarker([lat, lon], circleMarkerStyle)
