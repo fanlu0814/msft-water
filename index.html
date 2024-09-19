@@ -149,7 +149,7 @@
             <!-- Add the summary below the toggle switch -->
             <div class="summary-container">
                 <h3>Summary</h3>
-                <p>Total Water Usage: <span id="total-water-usage">0</span> L</p>
+                <p>Total Water Usage: <span id="total-water-usage">0</span> m³</p>
                 <p>Total Square Footage: <span id="total-sqft">0</span> sqft</p>
                 <p>Total Buildings: <span id="total-buildings">0</span></p>
             </div>
@@ -184,17 +184,18 @@
             let totalWaterUsage = 0;
             let totalSqft = 0;
             let totalBuildings = data.length;
-    
+        
             data.forEach(function(site) {
                 totalWaterUsage += site['total water use'];
                 totalSqft += site['gsf'];
             });
-    
-            // Update the summary in the HTML
-            document.getElementById('total-water-usage').innerText = Math.round(totalWaterUsage);
-            document.getElementById('total-sqft').innerText = Math.round(totalSqft);
-            document.getElementById('total-buildings').innerText = totalBuildings;
+        
+            // Update the summary in the HTML with numbers formatted with commas
+            document.getElementById('total-water-usage').innerText = Math.round(totalWaterUsage).toLocaleString();
+            document.getElementById('total-sqft').innerText = Math.round(totalSqft).toLocaleString();
+            document.getElementById('total-buildings').innerText = totalBuildings.toLocaleString();
         }
+
         
         // Define the bounds you want to restrict to (use LatLngBounds)
         var southWest = L.latLng(-85, -180);
