@@ -117,7 +117,20 @@
 
         // Function to get marker color based on water stress level
         function getMarkerColor(waterStress) {
-            return waterStress > 3 ? '#8B1B06' : '#FBE545';
+            switch(waterStress) {
+                case 4:
+                    return '#8B1B06'; // Dark Red
+                case 3:
+                    return '#E83B14'; // Red Orange
+                case 2:
+                    return '#F09D2E'; // Orange
+                case 1:
+                    return '#FBE545'; // Yellow
+                case 0:
+                    return '#FFFEA3'; // Light Yellow
+                default:
+                    return '#0078D4'; // Default color
+            }
         }
 
         // Function to plot sites using circle markers
