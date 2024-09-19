@@ -36,7 +36,7 @@
             color: '#0078D4',         // Outline color (hex #0078D4)
             fillColor: '#0078D4',     // Fill color for the circle
             fillOpacity: 0.8,         // Opacity of the fill
-            radius: 30                 // Reduced radius (half the original size)
+            radius: 5                 // Reduced radius (half the original size)
         };
 
         // Get current zoom level and adjust jittering accordingly
@@ -88,6 +88,7 @@
         // Re-plot markers when the map zoom changes
         map.on('zoomend', function() {
             // Optionally, replot markers based on updated zoom (if markers need to adjust on zoom change)
+            plotSites(siteData);
         });
     </script>
 </body>
