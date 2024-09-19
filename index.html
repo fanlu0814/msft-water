@@ -124,27 +124,32 @@
         }
         
         /* CSS for region filter */
-        .region-filter-container label {
+        .region-filter-container {
             display: flex;
+            flex-direction: column;
+            gap: 15px; /* Spacing between filters */
+        }
+        
+        .region-filter-container label {
+            display: inline-flex;
             align-items: center;
-            margin-bottom: 10px;
             cursor: pointer;
-            font-size: 16px;
-            padding: 10px 20px;
+            font-size: 80%; /* Scale down the text to 80% */
+            padding: 8px 16px; /* Reduced padding for the 80% scale */
             border: 2px solid #ccc;
             border-radius: 30px;
             transition: background-color 0.3s ease, border-color 0.3s ease;
-            height: 50px; /* Fixed height */
+            height: auto; /* Auto height to wrap content */
             justify-content: flex-start; /* Align checkbox and text horizontally */
-            white-space: nowrap; /* Prevent text from wrapping */
-            width: 100%; /* Ensure full width of the container is used */
-            box-sizing: border-box; /* Ensure padding and border are included in the element’s width */
+            white-space: nowrap; /* Prevent text wrapping */
+            width: auto; /* Wrap the container around the content */
+            box-sizing: border-box; /* Include padding and border in the width */
         }
         
         .region-filter-container input[type="checkbox"] {
             appearance: none;
-            width: 20px;
-            height: 20px;
+            width: 16px; /* Scale down the checkbox to 80% */
+            height: 16px; /* Scale down the checkbox to 80% */
             border: 2px solid #ccc;
             border-radius: 50%;
             margin-right: 10px;
@@ -169,21 +174,19 @@
         .region-filter-container input[type="checkbox"]:checked:before {
             content: '✔';
             color: white;
-            font-size: 14px;
+            font-size: 12px; /* Scale down the checkmark */
             position: absolute;
         }
         
         .region-filter-container input[type="checkbox"] + label {
             display: flex;
             align-items: center;
-            flex-grow: 1; /* Allow the label text to take up the remaining space */
         }
         
         .region-filter-container input[type="checkbox"]:checked + label {
             border-color: #007AFF;
             background-color: #f0f8ff;
         }
-
 
     </style>
 </head>
