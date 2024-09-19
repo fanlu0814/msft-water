@@ -152,6 +152,24 @@
     <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
 
     <script>
+        // Add the getWaterStressDescription function here
+        function getWaterStressDescription(waterStress) {
+            switch(waterStress) {
+                case 0:
+                    return 'Low (<10%)';
+                case 1:
+                    return 'Low-medium (10-20%)';
+                case 2:
+                    return 'Medium-high (20-40%)';
+                case 3:
+                    return 'High (40-80%)';
+                case 4:
+                    return 'Extremely high (>80%)';
+                default:
+                    return 'Unknown';
+            }
+        }
+
         // Define the bounds you want to restrict to (use LatLngBounds)
         var southWest = L.latLng(-85, -180);
         var northEast = L.latLng(85, 180);
@@ -274,7 +292,7 @@
                     .bindPopup(`<strong style="font-size: larger;">${site['name']}</strong><br>
                                 Campus: ${site['campus']}<br>
                                 Region: ${site['region']}<br>
-                                Water Stress: ${site['water stress']}<br>
+                                Water Stress: ${getWaterStressDescription(site['water stress'])}<br>
                                 Total Water Use: ${Math.round(site['total water use'])}<br>
                                 GSF: ${Math.round(site['gsf'])}`);
 
