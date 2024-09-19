@@ -37,7 +37,7 @@
             color: '#0078D4',         // Outline color (hex #0078D4)
             fillColor: '#0078D4',     // Fill color for the circle
             fillOpacity: 0.8,         // Opacity of the fill
-            radius: 8                 // Marker radius set to 8
+            radius: calculateRadius(site['Total Water Use'])  // Dynamic radius based on water usage
         };
 
         var markersLayer = L.layerGroup().addTo(map); // Layer group to manage markers
@@ -80,6 +80,17 @@
             return [adjustedLat, adjustedLon];
         }
 
+        // Function to calculate dynamic radius based on total water use
+        function calculateRadius(totalWaterUse) {
+            const minRadius = 4;  // Minimum marker radius
+            const maxRadius = 30; // Maximum marker radius
+            const scaleFactor = 0.0001; // Adjust this factor to fine-tune the scaling
+            
+            // Calculate radius based on Total Water Use, scaling between min and max radius
+            const radius = Math.min(maxRadius, minRadius + totalWaterUse * scaleFactor);
+            return radius;
+        }
+        
         // Function to plot sites using circle markers
         function plotSites(data) {
             markersLayer.clearLayers(); // Clear old markers
