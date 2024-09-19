@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Microsoft Water Portfolio</title>
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
-    
+
     <!-- Link to Google Fonts for a nicer font (Roboto) -->
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 
@@ -42,7 +42,7 @@
             margin: 0;
         }
 
-        /* Container for the map and toggle section */
+        /* Container for the map and info panel section */
         .content-wrapper {
             display: flex;
             height: calc(100% - 60px); /* Subtract height of the title-wrapper */
@@ -55,8 +55,8 @@
             position: relative;
         }
 
-        /* Toggle section takes 20% of the width */
-        .toggle-section {
+        /* Info panel takes 20% of the width */
+        .info-panel {
             width: 20%;
             padding: 15px;
             box-shadow: inset 0px 0px 6px rgba(0, 0, 0, 0.1); /* Light shadow inside */
@@ -66,13 +66,10 @@
             flex-direction: column; /* Stack items vertically */
             gap: 20px; /* Add space between sections */
         }
-        
-        /* Align toggle container to the top-left of the toggle section */
+
+        /* Align toggle container to the top-left of the info panel */
         .toggle-container {
-            position: absolute;
-            top: 15px;    /* Padding from top */
-            left: 15px;   /* Padding from left */
-            margin-bottom: 0px; /* Add more space below the water stress toggle */
+            margin-bottom: 20px; /* Ensure spacing below the water stress toggle */
         }
 
         .toggle-label {
@@ -81,7 +78,7 @@
             font-weight: bold;
         }
 
-        /*  switch */
+        /* Toggle switch */
         .switch {
             position: relative;
             display: inline-block;
@@ -126,7 +123,7 @@
         input:checked + .slider:before {
             transform: translateX(24px);
         }
-        
+
         /* CSS for region filter */
         .region-filter-container {
             display: flex;
@@ -140,6 +137,7 @@
             margin-bottom: 8px; /* Add a little space below the title */
         }
 
+        /* Region filter label styling */
         .region-filter-container label {
             display: inline-flex;
             align-items: center;
@@ -177,14 +175,14 @@
         }
 
         .region-filter-container input[type="checkbox"]:before {
-            content: '';
+            content: ''; /* Empty content for unchecked state */
             position: absolute;
         }
 
         .region-filter-container input[type="checkbox"]:checked:before {
             content: '✔';
             color: white;
-            font-size: 12px;
+            font-size: 12px; /* Scale down the checkmark */
             position: absolute;
         }
 
@@ -197,7 +195,6 @@
             border-color: #007AFF;
             background-color: #f0f8ff;
         }
-
     </style>
 </head>
 <body>
@@ -211,9 +208,9 @@
         <!-- Map occupies 80% of the space -->
         <div id="map"></div>
 
-        <!-- Toggle section occupies 20% of the space -->
-        
-        <div class="toggle-section">
+        <!-- Info panel occupies 20% of the space -->
+        <div class="info-panel">
+            <!-- Toggle section -->
             <div class="toggle-container">
                 <span class="toggle-label">Water Stress Level</span>
                 <label class="switch">
@@ -222,6 +219,7 @@
                 </label>
             </div>
 
+            <!-- Region filter section -->
             <div class="region-filter-container">
                 <h3>Filter by Region</h3>
                 <label><input type="checkbox" class="region-filter" value="Puget Sound" checked> Puget Sound</label><br>
@@ -231,7 +229,7 @@
                 <label><input type="checkbox" class="region-filter" value="Asia" checked> Asia</label><br>
             </div>
             
-            <!-- Add the summary below the toggle switch -->
+            <!-- Summary section -->
             <div class="summary-container">
                 <h3>Summary</h3>
                 <p>Total Water Usage: <span id="total-water-usage">0</span> m³</p>
@@ -239,11 +237,11 @@
                 <p>Total Buildings: <span id="total-buildings">0</span></p>
             </div>
         </div>
-
     </div>
 
     <!-- Include Leaflet.js -->
     <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+
 
     <script>
         // Add the getWaterStressDescription function here
