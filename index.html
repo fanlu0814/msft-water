@@ -42,10 +42,28 @@
             margin: 0;
         }
 
-        /* Toggle container style */
-        .toggle-container {
+        /* Container for the map and toggle section */
+        .content-wrapper {
+            display: flex;
+            height: calc(100% - 60px); /* Subtract height of the title-wrapper */
+        }
+
+        /* Map takes 80% of the width */
+        #map {
+            width: 80%;
+            height: 100%;
+            position: relative;
+        }
+
+        /* Toggle section takes 20% of the width */
+        .toggle-section {
+            width: 20%;
+            padding: 15px;
+            box-shadow: inset 0px 0px 6px rgba(0, 0, 0, 0.1); /* Light shadow inside */
+            background-color: #f5f5f5;
             display: flex;
             align-items: center;
+            justify-content: center;
         }
 
         .toggle-label {
@@ -100,15 +118,6 @@
             transform: translateX(24px);
         }
 
-        #map {
-            position: absolute;
-            top: 60px; /* Adjust this value according to the height of your title-wrapper */
-            left: 0;
-            right: 0;
-            bottom: 0;
-            width: 100%;
-        }
-
     </style>
 </head>
 <body>
@@ -116,9 +125,14 @@
     <!-- Full width title section with shadow and toggle -->
     <div class="title-wrapper">
         <h1>Microsoft Water Portfolio</h1>
+    </div>
 
-        <!-- Water Stress Toggle Switch -->
-        <div class="toggle-container">
+    <div class="content-wrapper">
+        <!-- Map occupies 80% of the space -->
+        <div id="map"></div>
+
+        <!-- Toggle section occupies 20% of the space -->
+        <div class="toggle-section">
             <span class="toggle-label">Water Stress Level</span>
             <label class="switch">
                 <input type="checkbox" id="toggleWaterStress">
@@ -126,8 +140,6 @@
             </label>
         </div>
     </div>
-
-    <div id="map"></div>
 
     <!-- Include Leaflet.js -->
     <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
