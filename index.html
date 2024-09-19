@@ -37,7 +37,7 @@
             color: '#0078D4',         // Outline color (hex #0078D4)
             fillColor: '#0078D4',     // Fill color for the circle
             fillOpacity: 0.8,         // Opacity of the fill
-            radius: 8                 // Marker radius set to 4
+            radius: 8                 // Marker radius set to 8
         };
 
         var markersLayer = L.layerGroup().addTo(map); // Layer group to manage markers
@@ -56,7 +56,7 @@
 
         // Function to apply "jitter" to overlapping markers based on zoom level, relative to the original jitter
         function applyZoomFactorToJitter(lat, lon, count) {
-            const key = ${lat},${lon}; // Unique key for each lat/lon
+            const key = `${lat},${lon}`; // Unique key for each lat/lon
             var jitterFactor = getJitterFactor(); // Get zoom-dependent jitter factor
 
             // If original jitter offsets for this lat/lon aren't stored yet, create them
@@ -89,7 +89,7 @@
             data.forEach(function(site) {
                 var lat = site.latitude;
                 var lon = site.longitude;
-                const key = ${lat},${lon};
+                const key = `${lat},${lon}`;  // Fix key interpolation
 
                 // Track how many markers share the same lat/lon
                 if (!locationCount.has(key)) {
@@ -105,7 +105,7 @@
                 // Add a circle marker for each site
                 L.circleMarker([lat, lon], circleMarkerStyle)
                     .addTo(markersLayer)
-                    .bindPopup(Building Name: ${site['Building Name']}<br>Latitude: ${lat}<br>Longitude: ${lon});
+                    .bindPopup(`Building Name: ${site['Building Name']}<br>Latitude: ${lat}<br>Longitude: ${lon}`); // Fixed template string
             });
         }
 
