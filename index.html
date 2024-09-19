@@ -146,6 +146,16 @@
                     <span class="slider"></span>
                 </label>
             </div>
+
+            <div class="region-filter-container">
+                <h3>Filter by Region</h3>
+                <label><input type="checkbox" class="region-filter" value="Puget Sound" checked> Puget Sound</label><br>
+                <label><input type="checkbox" class="region-filter" value="NorAm" checked> North America</label><br>
+                <label><input type="checkbox" class="region-filter" value="LatAm" checked> Latin America</label><br>
+                <label><input type="checkbox" class="region-filter" value="EMEA" checked> EMEA</label><br>
+                <label><input type="checkbox" class="region-filter" value="APAC" checked> APAC</label><br>
+            </div>
+            
             <!-- Add the summary below the toggle switch -->
             <div class="summary-container">
                 <h3>Summary</h3>
@@ -281,50 +291,64 @@
             }
         }
 
-        // Function to plot sites using circle markers
-        function plotSites(data) {
+        function getSelectedRegions() {
+            const checkboxes = document.querySelectorAll('.region-filter:checked');
+            const selectedRegions = Array.from(checkboxes).map(cb => cb.value);
+            return selectedRegions;
+        }
+        
+       function plotSites(data) {
             markersLayer.clearLayers();
-
+        
             const locationCount = new Map();
-            
+            const selectedRegions = getSelectedRegions();  // Get selected regions
+        
             data.forEach(function(site) {
+                if (!selectedRegions.includes(site['region'])) return;  // Skip sites not in selected regions
+        
                 var lat = site.latitude;
                 var lon = site.longitude;
                 const key = `${lat},${lon}`;
-
+        
                 if (!locationCount.has(key)) {
                     locationCount.set(key, 0);
                 } else {
                     locationCount.set(key, locationCount.get(key) + 1);
                 }
-
+        
                 const count = locationCount.get(key);
                 [lat, lon] = applyZoomFactorToJitter(lat, lon, count);
-
+        
                 const dynamicRadius = calculateRadius(site['total water use']);
-                
-                // Choose color based on water stress if toggled on
                 var markerColor = showWaterStress ? getMarkerColor(site['water stress']) : '#0078D4';
-
+        
                 var circleMarkerStyle = {
-                    color: markerColor,       // Outline color based on water stress or default
-                    fillColor: markerColor,   // Fill color based on water stress or default
+                    color: markerColor,
+                    fillColor: markerColor,
                     fillOpacity: 0.6,
                     weight: 1,
                     radius: dynamicRadius
                 };
-
+        
                 L.circleMarker([lat, lon], circleMarkerStyle)
                     .addTo(markersLayer)
                     .bindPopup(`<strong style="font-size: larger;">${site['name']}</strong><br>
                                 Campus: ${site['campus']}<br>
                                 Region: ${site['region']}<br>
                                 Water Stress: ${getWaterStressDescription(site['water stress'])}<br>
-                                Total Water Use: ${Math.round(site['total water use'])}<br>
-                                GSF: ${Math.round(site['gsf'])}`);
-
+                                Total Water Use: ${Math.round(site['total water use']).toLocaleString()} m³<br>
+                                GSF: ${Math.round(site['gsf']).toLocaleString()} sqft`);
             });
         }
+
+        //Add Event Listener for Region Checkboxes
+        document.querySelectorAll('.region-filter').forEach(checkbox => {
+            checkbox.addEventListener('change', function() {
+                plotSites(siteData);  // Re-plot markers based on selected regions
+                updateSummary(siteData);  // Optionally update summary based on filtered regions
+            });
+        });
+
 
         // Fetch and plot the site data from the JSON file
         let siteData = [];
