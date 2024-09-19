@@ -429,34 +429,14 @@
         });
 
     // Function to toggle all filters (check/uncheck all)
-    function toggleAllFilters(source) {
+     function toggleAllFilters(source) {
         const checkboxes = document.querySelectorAll('.region-filter');
-        const allChecked = source.checked;
-
-        // Set all region checkboxes to the same state as "Check All"
         checkboxes.forEach((checkbox) => {
-            checkbox.checked = allChecked;
+            checkbox.checked = source.checked;
         });
-
-        // Update the text of the "Check All/Uncheck All" button
-        updateCheckAllText();
 
         // Call the function to update markers on the map
         updateMarkers();
-    }
-
-    // Function to update the text based on the status of the region checkboxes
-    function updateCheckAllText() {
-        const checkAllBox = document.getElementById('checkAll');
-        const checkboxes = document.querySelectorAll('.region-filter');
-        const allChecked = Array.from(checkboxes).every(checkbox => checkbox.checked);
-
-        // Update the text based on whether all checkboxes are checked
-        if (allChecked) {
-            checkAllBox.nextElementSibling.innerText = 'Uncheck All';
-        } else {
-            checkAllBox.nextElementSibling.innerText = 'Check All';
-        }
     }
 
     // Function to update the markers based on the selected filters
@@ -468,16 +448,15 @@
             selectedRegions.push(checkbox.value);
         });
 
-        // Clear the existing markers
-        markersLayer.clearLayers();
+        // Clear existing markers before re-adding
+        markersLayer.clearLayers(); // Assuming 'markersLayer' is your layer group for markers
 
-        // Add the markers for the selected regions
+        // Assuming 'plotSites' is your function for plotting markers
         plotSites(selectedRegions);
 
-        // Force the map to refresh without changing zoom or center
-        map.setView(map.getCenter(), map.getZoom(), { animate: false });
+        // Explicitly refresh the map without changing zoom or center
+        map.setView(map.getCenter(), map.getZoom(), { animate: false }); // Reapply the same center and zoom
     }
-
 
 
     // Event listener to track individual checkbox changes
@@ -519,10 +498,6 @@
         document.getElementById('toggleWaterStress').addEventListener('change', function() {
             showWaterStress = this.checked; // Toggle the state
 
-         // Event listener to track individual checkbox changes
-        document.querySelectorAll('.region-filter').forEach((checkbox) => {
-            checkbox.addEventListener('change', updateCheckAllText);
-        });
 
 
             // Re-plot markers with updated colors based on water stress
