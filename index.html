@@ -50,7 +50,7 @@
             var zoomLevel = map.getZoom();
             // Slightly increase the minimum and maximum jittering factors
             var jitter = Math.pow(2, (16 - zoomLevel)) * 0.04; // Increased scaling for spread
-            jitter = Math.max(0.01, Math.min(jitter, 0.04));   // Larger minimum and maximum jitter for bigger spread
+            jitter = Math.max(0.015, Math.min(jitter, 0.06));   // Larger minimum and maximum jitter for bigger spread
             return jitter;
         }
 
