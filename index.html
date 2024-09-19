@@ -179,4 +179,20 @@
             })
             .catch(error => console.error('Error loading site data:', error));
 
-        // Re-plot 
+        // Re-plot markers when the map zoom changes
+        map.on('zoomend', function() {
+            if (siteData.length) {
+                plotSites(siteData);
+            }
+        });
+
+        // Toggle water stress level display when switch is toggled
+        document.getElementById('toggleWaterStress').addEventListener('change', function() {
+            showWaterStress = this.checked; // Toggle the state
+
+            // Re-plot markers with updated colors based on water stress
+            plotSites(siteData);
+        });
+    </script>
+</body>
+</html>
