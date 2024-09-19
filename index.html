@@ -127,6 +127,7 @@
         .region-filter-container {
             display: flex;
             flex-direction: column;
+            align-items: flex-start; /* Align filters to the left */
             gap: 15px; /* Spacing between filters */
         }
         
@@ -135,14 +136,14 @@
             align-items: center;
             cursor: pointer;
             font-size: 80%; /* Scale down the text to 80% */
-            padding: 8px 16px; /* Reduced padding for the 80% scale */
+            padding: 8px 16px; /* Adjust padding to scale with the container */
             border: 2px solid #ccc;
             border-radius: 30px;
             transition: background-color 0.3s ease, border-color 0.3s ease;
             height: auto; /* Auto height to wrap content */
             justify-content: flex-start; /* Align checkbox and text horizontally */
             white-space: nowrap; /* Prevent text wrapping */
-            width: auto; /* Wrap the container around the content */
+            width: auto; /* Allow the width to fit the content */
             box-sizing: border-box; /* Include padding and border in the width */
         }
         
