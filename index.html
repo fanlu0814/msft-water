@@ -246,115 +246,213 @@
     <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
 
 
-<script>
-    // Assuming markersLayer is your layer group for markers
-    let markersLayer = L.layerGroup().addTo(map);
+    <script>
+        // Add the getWaterStressDescription function here
+        function getWaterStressDescription(waterStress) {
+            switch(waterStress) {
+                case 0:
+                    return 'Low (<10%)';
+                case 1:
+                    return 'Low-medium (10-20%)';
+                case 2:
+                    return 'Medium-high (20-40%)';
+                case 3:
+                    return 'High (40-80%)';
+                case 4:
+                    return 'Extremely high (>80%)';
+                default:
+                    return 'Unknown';
+            }
+        }
 
-    // Function to get selected regions
-    function getSelectedRegions() {
-        const checkboxes = document.querySelectorAll('.region-filter:checked');
-        const selectedRegions = Array.from(checkboxes).map(cb => cb.value);
-        return selectedRegions;
-    }
+        // Add the updateSummary function here
+        function updateSummary(filteredData) {
+            let totalWaterUsage = 0;
+            let totalSqft = 0;
+            let totalBuildings = filteredData.length;
+        
+            filteredData.forEach(function(site) {
+                totalWaterUsage += site['total water use'];
+                totalSqft += site['gsf'];
+            });
+        
+            // Update the summary in the HTML with numbers formatted with commas
+            document.getElementById('total-water-usage').innerText = Math.round(totalWaterUsage).toLocaleString();
+            document.getElementById('total-sqft').innerText = Math.round(totalSqft).toLocaleString();
+            document.getElementById('total-buildings').innerText = totalBuildings.toLocaleString();
+        }
 
-    // Function to plot markers based on selected regions and update the summary
-    function plotSites(data) {
-        markersLayer.clearLayers();
+        
+        // Define the bounds you want to restrict to (use LatLngBounds)
+        var southWest = L.latLng(-85, -180);
+        var northEast = L.latLng(85, 180);
+        var bounds = L.latLngBounds(southWest, northEast);
 
-        const locationCount = new Map();
-        const selectedRegions = getSelectedRegions();  // Get selected regions
+        // Initialize the map with restricted bounds
+        var map = L.map('map', {
+            maxBounds: bounds,  // Set the bounds
+            maxBoundsViscosity: 1.0  // Makes the map bounce back when out of bounds
+        }).setView([20, 0], 2);
 
-        data.forEach(function(site) {
-            if (!selectedRegions.includes(site['region'])) return;  // Skip sites not in selected regions
+        // Add a tile layer
+        L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}', {
+            attribution: '&copy; Esri &mdash; Esri, DeLorme, NAVTEQ',
+            maxZoom: 16,
+            minZoom: 2
+        }).addTo(map);
 
-            var lat = site.latitude;
-            var lon = site.longitude;
+        var markersLayer = L.layerGroup().addTo(map); // Layer group to manage markers
+
+        // Store original jitter values for each lat/lon combination
+        var originalJitteredCoordinates = new Map(); // Key: 'lat,lon', Value: Array of original jittered offsets for each overlap
+
+        // Variable to track if water stress level is toggled on
+        var showWaterStress = false;
+
+        // Get current zoom level and adjust jittering accordingly
+        function getJitterFactor() {
+            var zoomLevel = map.getZoom();
+            var jitter = Math.pow(2, (13 - zoomLevel)) * 0.1;
+            jitter = Math.max(0.3, Math.min(jitter, 20));  
+            return jitter;
+        }
+
+        // Function to apply "jitter" to overlapping markers based on zoom level, relative to the original jitter
+        function applyZoomFactorToJitter(lat, lon, count) {
             const key = `${lat},${lon}`;
+            var jitterFactor = getJitterFactor();
 
-            if (!locationCount.has(key)) {
-                locationCount.set(key, 0);
-            } else {
-                locationCount.set(key, locationCount.get(key) + 1);
+            if (!originalJitteredCoordinates.has(key)) {
+                originalJitteredCoordinates.set(key, []);
             }
 
-            const count = locationCount.get(key);
-            [lat, lon] = applyZoomFactorToJitter(lat, lon, count);
+            if (originalJitteredCoordinates.get(key).length <= count) {
+                var jitterLatOffset = (Math.random() - 0.5) * 0.06;
+                var jitterLonOffset = (Math.random() - 0.5) * 0.06; 
+                originalJitteredCoordinates.get(key).push([jitterLatOffset, jitterLonOffset]);
+            }
 
-            const dynamicRadius = calculateRadius(site['total water use']);
-            var markerColor = showWaterStress ? getMarkerColor(site['water stress']) : '#0078D4';
+            const [originalLatOffset, originalLonOffset] = originalJitteredCoordinates.get(key)[count];
+            const adjustedLat = lat + originalLatOffset * jitterFactor;
+            const adjustedLon = lon + originalLonOffset * jitterFactor;
 
-            var circleMarkerStyle = {
-                color: markerColor,
-                fillColor: markerColor,
-                fillOpacity: 0.6,
-                weight: 1,
-                radius: dynamicRadius
-            };
-
-            L.circleMarker([lat, lon], circleMarkerStyle)
-                .addTo(markersLayer)
-                .bindPopup(`<strong style="font-size: larger;">${site['name']}</strong><br>
-                            Campus: ${site['campus']}<br>
-                            Region: ${site['region']}<br>
-                            Water Stress: ${getWaterStressDescription(site['water stress'])}<br>
-                            Total Water Use: ${Math.round(site['total water use']).toLocaleString()} m³<br>
-                            GSF: ${Math.round(site['gsf']).toLocaleString()} sqft`);
-        });
-
-        // Call updateSummary with filtered data
-        updateSummary(data.filter(site => selectedRegions.includes(site['region'])));
-    }
-
-    // Function to update the summary based on currently visible data (filtered)
-    function updateSummary(filteredData) {
-        let totalWaterUsage = 0;
-        let totalSqft = 0;
-        let totalBuildings = filteredData.length;
-
-        filteredData.forEach(function(site) {
-            totalWaterUsage += site['total water use'];
-            totalSqft += site['gsf'];
-        });
-
-        // Update the summary in the HTML with numbers formatted with commas
-        document.getElementById('total-water-usage').innerText = Math.round(totalWaterUsage).toLocaleString();
-        document.getElementById('total-sqft').innerText = Math.round(totalSqft).toLocaleString();
-        document.getElementById('total-buildings').innerText = totalBuildings.toLocaleString();
-    }
-
-    // Event Listener for Region Checkboxes
-    document.querySelectorAll('.region-filter').forEach(checkbox => {
-        checkbox.addEventListener('change', function() {
-            plotSites(siteData);  // Re-plot markers based on selected regions
-        });
-    });
-
-    // Fetch and plot the site data from the JSON file
-    let siteData = [];
-    fetch('sites.json')
-        .then(response => response.json())
-        .then(data => {
-            siteData = data;
-            plotSites(siteData);  // Plot all markers initially
-            updateSummary(siteData);  // Call updateSummary to update the summary section initially
-        })
-        .catch(error => console.error('Error loading site data:', error));
-
-    // Re-plot markers when the map zoom changes
-    map.on('zoomend', function() {
-        if (siteData.length) {
-            plotSites(siteData);
+            return [adjustedLat, adjustedLon];
         }
-    });
 
-    // Toggle water stress level display when switch is toggled
-    document.getElementById('toggleWaterStress').addEventListener('change', function() {
-        showWaterStress = this.checked;  // Toggle the state
+        // Function to calculate dynamic radius based on total water use
+        function calculateRadius(totalWaterUse) {
+            const minRadius = 4;
+            const maxRadius = 40;
+            const scaleFactor = 0.0004;
 
-        // Re-plot markers with updated colors based on water stress
-        plotSites(siteData);
-    });
-</script>
+            const radius = Math.min(maxRadius, minRadius + totalWaterUse * scaleFactor);
+            return radius;
+        }
 
+        // Function to get marker color based on water stress level
+        function getMarkerColor(waterStress) {
+            switch(waterStress) {
+                case 4:
+                    return '#8B1B06'; // Dark Red
+                case 3:
+                    return '#E83B14'; // Red Orange
+                case 2:
+                    return '#F09D2E'; // Orange
+                case 1:
+                    return '#FBE545'; // Yellow
+                case 0:
+                    return '#FFFEA3'; // Light Yellow
+                default:
+                    return '#0078D4'; // Default color
+            }
+        }
+
+        function getSelectedRegions() {
+            const checkboxes = document.querySelectorAll('.region-filter:checked');
+            const selectedRegions = Array.from(checkboxes).map(cb => cb.value);
+            return selectedRegions;
+        }
+        
+       function plotSites(data) {
+            markersLayer.clearLayers();
+        
+            const locationCount = new Map();
+            const selectedRegions = getSelectedRegions();  // Get selected regions
+        
+            data.forEach(function(site) {
+                if (!selectedRegions.includes(site['region'])) return;  // Skip sites not in selected regions
+        
+                var lat = site.latitude;
+                var lon = site.longitude;
+                const key = `${lat},${lon}`;
+        
+                if (!locationCount.has(key)) {
+                    locationCount.set(key, 0);
+                } else {
+                    locationCount.set(key, locationCount.get(key) + 1);
+                }
+        
+                const count = locationCount.get(key);
+                [lat, lon] = applyZoomFactorToJitter(lat, lon, count);
+        
+                const dynamicRadius = calculateRadius(site['total water use']);
+                var markerColor = showWaterStress ? getMarkerColor(site['water stress']) : '#0078D4';
+        
+                var circleMarkerStyle = {
+                    color: markerColor,
+                    fillColor: markerColor,
+                    fillOpacity: 0.6,
+                    weight: 1,
+                    radius: dynamicRadius
+                };
+        
+                L.circleMarker([lat, lon], circleMarkerStyle)
+                    .addTo(markersLayer)
+                    .bindPopup(`<strong style="font-size: larger;">${site['name']}</strong><br>
+                                Campus: ${site['campus']}<br>
+                                Region: ${site['region']}<br>
+                                Water Stress: ${getWaterStressDescription(site['water stress'])}<br>
+                                Total Water Use: ${Math.round(site['total water use']).toLocaleString()} m³<br>
+                                GSF: ${Math.round(site['gsf']).toLocaleString()} sqft`);
+            });
+            // Add this line to update the summary after plotting the markers
+            updateSummary(data.filter(site => selectedRegions.includes(site['region'])));
+        }
+
+        //Add Event Listener for Region Checkboxes
+        document.querySelectorAll('.region-filter').forEach(checkbox => {
+            checkbox.addEventListener('change', function() {
+                plotSites(siteData);  // Re-plot markers based on selected regions
+                updateSummary(siteData);  // Optionally update summary based on filtered regions
+            });
+        });
+
+
+        // Fetch and plot the site data from the JSON file
+        let siteData = [];
+        fetch('sites.json')
+            .then(response => response.json())
+            .then(data => {
+                siteData = data;
+                plotSites(siteData);
+                updateSummary(siteData);  // Call updateSummary to update the summary section
+            })
+            .catch(error => console.error('Error loading site data:', error));
+
+        // Re-plot markers when the map zoom changes
+        map.on('zoomend', function() {
+            if (siteData.length) {
+                plotSites(siteData);
+            }
+        });
+
+        // Toggle water stress level display when switch is toggled
+        document.getElementById('toggleWaterStress').addEventListener('change', function() {
+            showWaterStress = this.checked; // Toggle the state
+
+            // Re-plot markers with updated colors based on water stress
+            plotSites(siteData);
+        });
+    </script>
 </body>
 </html>
