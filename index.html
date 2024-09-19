@@ -49,7 +49,7 @@
         function getJitterFactor() {
             var zoomLevel = map.getZoom();
             // Slightly increase the minimum and maximum jittering factors
-            var jitter = Math.pow(2, (6 - zoomLevel)) * 0.08; // Increased scaling for spread
+            var jitter = Math.pow(2, (10 - zoomLevel)) * 0.08; // Increased scaling for spread
             jitter = Math.max(0.05, Math.min(jitter, 0.2));   // Larger minimum and maximum jitter for bigger spread
             return jitter;
         }
