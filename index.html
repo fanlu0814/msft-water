@@ -103,9 +103,9 @@
                 [lat, lon] = applyZoomFactorToJitter(lat, lon, count);
 
                 // Add a circle marker for each site
-                L.circleMarker([lat, lon], circleMarkerStyle)
-                    .addTo(markersLayer)
-                    .bindPopup(`Building Name: ${site['Building Name']}<br>Latitude: ${lat}<br>Longitude: ${lon}`);
+               L.circleMarker([lat, lon], circleMarkerStyle)
+                   .addTo(markersLayer) 
+                   .bindPopup(`Building Name: ${site['name']}<br>Water Stress: ${site['Water Stress']}<br>Total Water Use: ${site['Total Water Use']}<br>GSF: ${site['GSF']}`);
             });
         }
 
