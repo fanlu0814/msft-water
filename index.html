@@ -146,7 +146,16 @@
 
     <script>
         // Initialize the map
-        var map = L.map('map').setView([20, 0], 2);
+        // Define the bounds you want to restrict to (use LatLngBounds)
+        var southWest = L.latLng(-85, -180);
+        var northEast = L.latLng(85, 180);
+        var bounds = L.latLngBounds(southWest, northEast);
+
+        // Initialize the map with restricted bounds
+        var map = L.map('map', {
+            maxBounds: bounds,  // Set the bounds
+            maxBoundsViscosity: 1.0  // Makes the map bounce back when out of bounds
+        }).setView([20, 0], 2);
 
         // Add a tile layer
         L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}', {
