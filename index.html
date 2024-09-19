@@ -67,8 +67,8 @@
             // Ensure we have original jitter values for each overlap index
             if (originalJitteredCoordinates.get(key).length <= count) {
                 // Create the original random jitter offsets, relative to the original position
-                var jitterLatOffset = (Math.random() - 0.5) * 0.01; // Small fixed random jitter for initial spread
-                var jitterLonOffset = (Math.random() - 0.5) * 0.01; 
+                var jitterLatOffset = (Math.random() - 0.5) * 0.05; // Increased initial random jitter for spread
+                var jitterLonOffset = (Math.random() - 0.5) * 0.05; 
                 originalJitteredCoordinates.get(key).push([jitterLatOffset, jitterLonOffset]);
             }
 
