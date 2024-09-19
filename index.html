@@ -225,12 +225,15 @@
             <!-- Region filter section -->
             <div class="region-filter-container">
                 <h3>Filter by Region</h3>
+                <label><input type="checkbox" id="checkAll" onclick="toggleAllFilters(this)"> Check All/Uncheck All</label><br> <!-- New Checkbox -->
+            
                 <label><input type="checkbox" class="region-filter" value="Puget Sound" checked> Puget Sound</label><br>
                 <label><input type="checkbox" class="region-filter" value="NorAm" checked> North America</label><br>
                 <label><input type="checkbox" class="region-filter" value="LatAm" checked> Latin America</label><br>
                 <label><input type="checkbox" class="region-filter" value="EMEA" checked> EMEA</label><br>
                 <label><input type="checkbox" class="region-filter" value="Asia" checked> Asia</label><br>
             </div>
+
             
             <!-- Summary section -->
             <div class="summary-container">
@@ -425,6 +428,12 @@
             });
         });
 
+        function toggleAllFilters(source) {
+            const checkboxes = document.querySelectorAll('.region-filter');
+            checkboxes.forEach((checkbox) => {
+                checkbox.checked = source.checked;
+        });
+        }
 
         // Fetch and plot the site data from the JSON file
         let siteData = [];
@@ -451,6 +460,7 @@
             // Re-plot markers with updated colors based on water stress
             plotSites(siteData);
         });
+
     </script>
 </body>
 </html>
