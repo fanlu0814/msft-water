@@ -32,14 +32,6 @@
             minZoom: 2
         }).addTo(map);
 
-        // Define the style for the circle markers
-        var circleMarkerStyle = {
-            color: '#0078D4',         // Outline color (hex #0078D4)
-            fillColor: '#0078D4',     // Fill color for the circle
-            fillOpacity: 0.8,         // Opacity of the fill
-            radius: calculateRadius(site['Total Water Use'])  // Dynamic radius based on water usage
-        };
-
         var markersLayer = L.layerGroup().addTo(map); // Layer group to manage markers
 
         // Store original jitter values for each lat/lon combination
@@ -113,10 +105,21 @@
                 const count = locationCount.get(key); // Get the current overlap count
                 [lat, lon] = applyZoomFactorToJitter(lat, lon, count);
 
+                // Calculate dynamic radius based on total water use
+                const dynamicRadius = calculateRadius(site['Total Water Use']);
+
+                // Define the style for the circle markers, applying dynamic radius
+                var circleMarkerStyle = {
+                    color: '#0078D4',         // Outline color (hex #0078D4)
+                    fillColor: '#0078D4',     // Fill color for the circle
+                    fillOpacity: 0.8,         // Opacity of the fill
+                    radius: dynamicRadius     // Dynamic radius based on water usage
+                };
+
                 // Add a circle marker for each site
-               L.circleMarker([lat, lon], circleMarkerStyle)
-                   .addTo(markersLayer)
-                   .bindPopup(`Building Name: ${site['name']}<br>Water Stress: ${site['Water Stress']}<br>Total Water Use: ${site['Total Water Use']}<br>GSF: ${site['GSF']}`);
+                L.circleMarker([lat, lon], circleMarkerStyle)
+                    .addTo(markersLayer)
+                    .bindPopup(`Building Name: ${site['Building Name']}<br>Water Stress: ${site['Water Stress']}<br>Total Water Use: ${site['Total Water Use']}<br>GSF: ${site['GSF']}`);
             });
         }
 
