@@ -76,7 +76,7 @@
         function calculateRadius(totalWaterUse) {
             const minRadius = 3;  // Minimum marker radius
             const maxRadius = 100; // Maximum marker radius
-            const scaleFactor = 0.0001; // Adjust this factor to fine-tune the scaling
+            const scaleFactor = 0.001; // Adjust this factor to fine-tune the scaling
             
             // Calculate radius based on Total Water Use, scaling between min and max radius
             const radius = Math.min(maxRadius, minRadius + totalWaterUse * scaleFactor);
