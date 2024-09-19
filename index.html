@@ -447,11 +447,14 @@
                 selectedRegions.push(checkbox.value);
             });
     
-            // Assuming plotSites is your function for plotting markers
+            // Clear existing markers before re-adding
+            markersLayer.clearLayers(); // Assuming 'markersLayer' is your layer group for markers
+    
+            // Assuming 'plotSites' is your function for plotting markers
             plotSites(selectedRegions);
-            
-            // Redraw the map to reflect the marker changes without changing zoom or center
-            map.invalidateSize();  // Ensure the map resizes correctly if necessary
+    
+            // Explicitly refresh the map without changing zoom or center
+            map.setView(map.getCenter(), map.getZoom(), { animate: false }); // Reapply the same center and zoom
         }
 
         // Fetch and plot the site data from the JSON file
