@@ -198,6 +198,25 @@
             border-color: #007AFF;
             background-color: #f0f8ff;
         }
+
+        .summary-section {
+            text-align: left;
+        }
+        
+        .summary-section p {
+            margin: 8px 0;
+            font-size: 16px;
+        }
+        
+        .summary-section strong {
+            font-weight: bold;
+        }
+        
+        .summary-value {
+            color: grey;
+            margin-left: 10px;
+        }
+
     </style>
 </head>
 <body>
@@ -235,9 +254,9 @@
             <!-- Summary section -->
             <div class="summary-container">
                 <h3>Summary</h3>
-                <p>Total Water Usage: <span id="total-water-usage">0</span> m³</p>
-                <p>Total Square Footage: <span id="total-sqft">0</span> sqft</p>
-                <p>Total Buildings: <span id="total-buildings">0</span></p>
+                    <p><strong>Total Water Usage:</strong> <span id="total-water-usage" class="summary-value"></span> m³</p>
+                    <p><strong>Total Square Footage:</strong> <span id="total-sqft" class="summary-value"></span> sqft</p>
+                    <p><strong>Total Buildings:</strong> <span id="total-buildings" class="summary-value"></span></p>
             </div>
         </div>
     </div>
