@@ -256,10 +256,10 @@
                 const count = locationCount.get(key);
                 [lat, lon] = applyZoomFactorToJitter(lat, lon, count);
 
-                const dynamicRadius = calculateRadius(site['Total Water Use']);
+                const dynamicRadius = calculateRadius(site['total water use']);
                 
                 // Choose color based on water stress if toggled on
-                var markerColor = showWaterStress ? getMarkerColor(site['Water Stress']) : '#0078D4';
+                var markerColor = showWaterStress ? getMarkerColor(site['water stress']) : '#0078D4';
 
                 var circleMarkerStyle = {
                     color: markerColor,       // Outline color based on water stress or default
@@ -271,7 +271,7 @@
 
                 L.circleMarker([lat, lon], circleMarkerStyle)
                     .addTo(markersLayer)
-                    .bindPopup(`Building Name: ${site['name']}<br>Water Stress: ${site['Water Stress']}<br>Total Water Use: ${site['Total Water Use']}<br>GSF: ${site['GSF']}`);
+                    .bindPopup(`Building Name: ${site['name']}<br>Water Stress: ${site['water stress']}<br>Total Water Use: ${site['total water use']}<br>GSF: ${site['gsf']}`);
             });
         }
 
