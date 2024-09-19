@@ -16,21 +16,40 @@
         }
 
         #map {
-            height: 800px;
+            height: 600px;
             width: 100%;
         }
 
         /* Style for the title */
         h1 {
-            text-align: left;
-            font-weight: 500;
+            text-align: center;
+            font-weight: 700;
             color: #333;
+        }
+
+        /* Style for the button */
+        #toggleWaterStress {
+            display: block;
+            margin: 10px auto;
+            padding: 10px 20px;
+            background-color: #0078D4;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        #toggleWaterStress:hover {
+            background-color: #005A9E;
         }
     </style>
 </head>
 <body>
 
     <h1>Microsoft Water Portfolio</h1>
+
+    <!-- Button to toggle water stress level colors -->
+    <button id="toggleWaterStress">Show Water Stress Level</button>
 
     <div id="map"></div>
 
@@ -53,11 +72,14 @@
         // Store original jitter values for each lat/lon combination
         var originalJitteredCoordinates = new Map(); // Key: 'lat,lon', Value: Array of original jittered offsets for each overlap
 
+        // Variable to track if water stress level is toggled on
+        var showWaterStress = false;
+
         // Get current zoom level and adjust jittering accordingly
         function getJitterFactor() {
             var zoomLevel = map.getZoom();
             var jitter = Math.pow(2, (13 - zoomLevel)) * 0.1;
-            jitter = Math.max(0.3, Math.min(jitter, 20));
+            jitter = Math.max(0.3, Math.min(jitter, 20));  
             return jitter;
         }
 
@@ -72,7 +94,7 @@
 
             if (originalJitteredCoordinates.get(key).length <= count) {
                 var jitterLatOffset = (Math.random() - 0.5) * 0.06;
-                var jitterLonOffset = (Math.random() - 0.5) * 0.06;
+                var jitterLonOffset = (Math.random() - 0.5) * 0.06; 
                 originalJitteredCoordinates.get(key).push([jitterLatOffset, jitterLonOffset]);
             }
 
@@ -93,12 +115,17 @@
             return radius;
         }
 
+        // Function to get marker color based on water stress level
+        function getMarkerColor(waterStress) {
+            return waterStress > 4 ? '#8B1B06' : '#FBE545';
+        }
+
         // Function to plot sites using circle markers
         function plotSites(data) {
             markersLayer.clearLayers();
 
             const locationCount = new Map();
-
+            
             data.forEach(function(site) {
                 var lat = site.latitude;
                 var lon = site.longitude;
@@ -114,10 +141,13 @@
                 [lat, lon] = applyZoomFactorToJitter(lat, lon, count);
 
                 const dynamicRadius = calculateRadius(site['Total Water Use']);
+                
+                // Choose color based on water stress if toggled on
+                var markerColor = showWaterStress ? getMarkerColor(site['Water Stress']) : '#0078D4';
 
                 var circleMarkerStyle = {
-                    color: '#0078D4',
-                    fillColor: '#0078D4',
+                    color: markerColor,       // Outline color based on water stress or default
+                    fillColor: markerColor,   // Fill color based on water stress or default
                     fillOpacity: 0.6,
                     weight: 1,
                     radius: dynamicRadius
@@ -144,6 +174,19 @@
             if (siteData.length) {
                 plotSites(siteData);
             }
+        });
+
+        // Toggle water stress level display when button is clicked
+        document.getElementById('toggleWaterStress').addEventListener('click', function() {
+            showWaterStress = !showWaterStress; // Toggle the state
+
+            // Update the button text based on the current state
+            document.getElementById('toggleWaterStress').textContent = showWaterStress
+                ? 'Hide Water Stress Level'
+                : 'Show Water Stress Level';
+
+            // Re-plot markers with updated colors based on water stress
+            plotSites(siteData);
         });
     </script>
 </body>
