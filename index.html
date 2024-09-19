@@ -432,7 +432,23 @@
             const checkboxes = document.querySelectorAll('.region-filter');
             checkboxes.forEach((checkbox) => {
                 checkbox.checked = source.checked;
-        });
+            });
+    
+            // Call the function to update markers on the map
+            updateMarkers();
+        }
+    
+        // Function to update the markers based on the selected filters
+        function updateMarkers() {
+            const selectedRegions = [];
+            const checkboxes = document.querySelectorAll('.region-filter:checked');
+    
+            checkboxes.forEach((checkbox) => {
+                selectedRegions.push(checkbox.value);
+            });
+    
+            // Assuming you have a plotSites function that takes the selected regions
+            plotSites(selectedRegions);
         }
 
         // Fetch and plot the site data from the JSON file
