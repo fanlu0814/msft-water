@@ -1,0 +1,5312 @@
+[
+    {
+        "region": "Puget Sound",
+        "campus": "PUGET SOUND",
+        "name": "1",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "water stress": 1,
+        "total water use": 707.924987792969,
+        "gsf": 0.0
+    },
+    {
+        "region": "Puget Sound",
+        "campus": "PUGET SOUND",
+        "name": "2",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "water stress": 1,
+        "total water use": 1840.6050090789772,
+        "gsf": 0.0
+    },
+    {
+        "region": "Puget Sound",
+        "campus": "PUGET SOUND",
+        "name": "3",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "water stress": 1,
+        "total water use": 20243.823429822933,
+        "gsf": 240035.953125
+    },
+    {
+        "region": "Puget Sound",
+        "campus": "PUGET SOUND",
+        "name": "4",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "water stress": 1,
+        "total water use": 10247.922372817999,
+        "gsf": 186972.0
+    },
+    {
+        "region": "Puget Sound",
+        "campus": "PUGET SOUND",
+        "name": "5",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "water stress": 1,
+        "total water use": 2137.9334886074057,
+        "gsf": 115040.0
+    },
+    {
+        "region": "Puget Sound",
+        "campus": "PUGET SOUND",
+        "name": "6",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "water stress": 1,
+        "total water use": 16794.812766313556,
+        "gsf": 173910.34375
+    },
+    {
+        "region": "Puget Sound",
+        "campus": "PUGET SOUND",
+        "name": "7",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "water stress": 1,
+        "total water use": 12688.847768783578,
+        "gsf": 153246.4375
+    },
+    {
+        "region": "Puget Sound",
+        "campus": "PUGET SOUND",
+        "name": "8",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "water stress": 1,
+        "total water use": 5918.253021240236,
+        "gsf": 192261.71875
+    },
+    {
+        "region": "Puget Sound",
+        "campus": "PUGET SOUND",
+        "name": "9",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "water stress": 1,
+        "total water use": 3371.2921142578075,
+        "gsf": 182010.0
+    },
+    {
+        "region": "Puget Sound",
+        "campus": "PUGET SOUND",
+        "name": "10",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "water stress": 1,
+        "total water use": 11.32680034637452,
+        "gsf": 0.0
+    },
+    {
+        "region": "Puget Sound",
+        "campus": "PUGET SOUND",
+        "name": "11",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "water stress": 1,
+        "total water use": 23910.87466096878,
+        "gsf": 0.0
+    },
+    {
+        "region": "Puget Sound",
+        "campus": "PUGET SOUND",
+        "name": "16",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "water stress": 1,
+        "total water use": 8019.374429225922,
+        "gsf": 164537.34375
+    },
+    {
+        "region": "Puget Sound",
+        "campus": "PUGET SOUND",
+        "name": "17",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "water stress": 1,
+        "total water use": 4383.471603393558,
+        "gsf": 154459.140625
+    },
+    {
+        "region": "Puget Sound",
+        "campus": "PUGET SOUND",
+        "name": "18",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "water stress": 1,
+        "total water use": 13056.968688964856,
+        "gsf": 157652.40625
+    },
+    {
+        "region": "Puget Sound",
+        "campus": "PUGET SOUND",
+        "name": "19",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "water stress": 1,
+        "total water use": 676.776298999786,
+        "gsf": 43993.41015625
+    },
+    {
+        "region": "Puget Sound",
+        "campus": "PUGET SOUND",
+        "name": "20",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "water stress": 1,
+        "total water use": 3403.7034461498333,
+        "gsf": 17456.4296875
+    },
+    {
+        "region": "Puget Sound",
+        "campus": "PUGET SOUND",
+        "name": "21",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "water stress": 1,
+        "total water use": 3029.9189696311955,
+        "gsf": 43511.96875
+    },
+    {
+        "region": "Puget Sound",
+        "campus": "PUGET SOUND",
+        "name": "22",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "water stress": 1,
+        "total water use": 1546.1081926822665,
+        "gsf": 115759.7421875
+    },
+    {
+        "region": "Puget Sound",
+        "campus": "PUGET SOUND",
+        "name": "25",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "water stress": 1,
+        "total water use": 34065.35130000115,
+        "gsf": 241681.703125
+    },
+    {
+        "region": "Puget Sound",
+        "campus": "PUGET SOUND",
+        "name": "27",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "water stress": 1,
+        "total water use": 18394.723190307643,
+        "gsf": 242176.984375
+    },
+    {
+        "region": "Puget Sound",
+        "campus": "PUGET SOUND",
+        "name": "28",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "water stress": 1,
+        "total water use": 2381.459687709809,
+        "gsf": 106853.6328125
+    },
+    {
+        "region": "Puget Sound",
+        "campus": "PUGET SOUND",
+        "name": "30",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "water stress": 1,
+        "total water use": 0.0,
+        "gsf": 122130.1328125
+    },
+    {
+        "region": "Puget Sound",
+        "campus": "PUGET SOUND",
+        "name": "31",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "water stress": 1,
+        "total water use": 0.0,
+        "gsf": 129134.8671875
+    },
+    {
+        "region": "Puget Sound",
+        "campus": "PUGET SOUND",
+        "name": "32",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "water stress": 1,
+        "total water use": 0.0,
+        "gsf": 127907.703125
+    },
+    {
+        "region": "Puget Sound",
+        "campus": "PUGET SOUND",
+        "name": "33",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "water stress": 1,
+        "total water use": 0.0,
+        "gsf": 203192.953125
+    },
+    {
+        "region": "Puget Sound",
+        "campus": "PUGET SOUND",
+        "name": "34",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "water stress": 1,
+        "total water use": 0.0,
+        "gsf": 282618.59375
+    },
+    {
+        "region": "Puget Sound",
+        "campus": "PUGET SOUND",
+        "name": "35",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "water stress": 1,
+        "total water use": 0.0,
+        "gsf": 216821.296875
+    },
+    {
+        "region": "Puget Sound",
+        "campus": "PUGET SOUND",
+        "name": "36",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "water stress": 1,
+        "total water use": 9208.68844604493,
+        "gsf": 320498.5625
+    },
+    {
+        "region": "Puget Sound",
+        "campus": "PUGET SOUND",
+        "name": "37",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "water stress": 1,
+        "total water use": 3590.5955047607436,
+        "gsf": 276227.0
+    },
+    {
+        "region": "Puget Sound",
+        "campus": "PUGET SOUND",
+        "name": "40",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "water stress": 1,
+        "total water use": 0.0,
+        "gsf": 212619.171875
+    },
+    {
+        "region": "Puget Sound",
+        "campus": "PUGET SOUND",
+        "name": "41",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "water stress": 1,
+        "total water use": 0.0,
+        "gsf": 211657.234375
+    },
+    {
+        "region": "Puget Sound",
+        "campus": "PUGET SOUND",
+        "name": "42",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "water stress": 1,
+        "total water use": 0.0,
+        "gsf": 218483.671875
+    },
+    {
+        "region": "Puget Sound",
+        "campus": "PUGET SOUND",
+        "name": "43",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "water stress": 1,
+        "total water use": 0.0,
+        "gsf": 238131.0625
+    },
+    {
+        "region": "Puget Sound",
+        "campus": "PUGET SOUND",
+        "name": "44",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "water stress": 1,
+        "total water use": 0.0,
+        "gsf": 152089.5625
+    },
+    {
+        "region": "Puget Sound",
+        "campus": "PUGET SOUND",
+        "name": "50",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "water stress": 1,
+        "total water use": 6144.7889385223425,
+        "gsf": 237788.9375
+    },
+    {
+        "region": "Puget Sound",
+        "campus": "PUGET SOUND",
+        "name": "82",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "water stress": 1,
+        "total water use": 1849.1001033782964,
+        "gsf": 72593.0
+    },
+    {
+        "region": "Puget Sound",
+        "campus": "PUGET SOUND",
+        "name": "83",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "water stress": 1,
+        "total water use": 15696.113161087036,
+        "gsf": 336335.6875
+    },
+    {
+        "region": "Puget Sound",
+        "campus": "PUGET SOUND",
+        "name": "84",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "water stress": 1,
+        "total water use": 0.0,
+        "gsf": 146085.90625
+    },
+    {
+        "region": "Puget Sound",
+        "campus": "PUGET SOUND",
+        "name": "85",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "water stress": 1,
+        "total water use": 0.0,
+        "gsf": 196025.84375
+    },
+    {
+        "region": "Puget Sound",
+        "campus": "PUGET SOUND",
+        "name": "86",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "water stress": 1,
+        "total water use": 0.0,
+        "gsf": 193900.0
+    },
+    {
+        "region": "Puget Sound",
+        "campus": "PUGET SOUND",
+        "name": "87",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "water stress": 1,
+        "total water use": 52312.82582545284,
+        "gsf": 106747.453125
+    },
+    {
+        "region": "Puget Sound",
+        "campus": "PUGET SOUND",
+        "name": "88",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "water stress": 1,
+        "total water use": 0.0,
+        "gsf": 227700.421875
+    },
+    {
+        "region": "Puget Sound",
+        "campus": "PUGET SOUND",
+        "name": "92",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "water stress": 1,
+        "total water use": 7336.934783935558,
+        "gsf": 224503.984375
+    },
+    {
+        "region": "Puget Sound",
+        "campus": "PUGET SOUND",
+        "name": "99",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "water stress": 1,
+        "total water use": 22237.33995437623,
+        "gsf": 278510.9375
+    },
+    {
+        "region": "Puget Sound",
+        "campus": "PUGET SOUND",
+        "name": "109",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "water stress": 1,
+        "total water use": 3774.6561133861546,
+        "gsf": 214264.171875
+    },
+    {
+        "region": "Puget Sound",
+        "campus": "PUGET SOUND",
+        "name": "111",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "water stress": 1,
+        "total water use": 5105.5551500320435,
+        "gsf": 102854.53125
+    },
+    {
+        "region": "Puget Sound",
+        "campus": "PUGET SOUND",
+        "name": "112",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "water stress": 1,
+        "total water use": 0.0,
+        "gsf": 115063.171875
+    },
+    {
+        "region": "Puget Sound",
+        "campus": "PUGET SOUND",
+        "name": "113",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "water stress": 1,
+        "total water use": 0.0,
+        "gsf": 115697.359375
+    },
+    {
+        "region": "Puget Sound",
+        "campus": "PUGET SOUND",
+        "name": "114",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "water stress": 1,
+        "total water use": 0.0,
+        "gsf": 86764.03125
+    },
+    {
+        "region": "Puget Sound",
+        "campus": "PUGET SOUND",
+        "name": "115",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "water stress": 1,
+        "total water use": 0.0,
+        "gsf": 115455.3828125
+    },
+    {
+        "region": "Puget Sound",
+        "campus": "PUGET SOUND",
+        "name": "120",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "water stress": 1,
+        "total water use": 965.6096916198744,
+        "gsf": 18989.6796875
+    },
+    {
+        "region": "Puget Sound",
+        "campus": "PUGET SOUND",
+        "name": "121",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "water stress": 1,
+        "total water use": 4893.177602767944,
+        "gsf": 185759.1875
+    },
+    {
+        "region": "Puget Sound",
+        "campus": "PUGET SOUND",
+        "name": "122",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "water stress": 1,
+        "total water use": 5244.308336257934,
+        "gsf": 279053.40625
+    },
+    {
+        "region": "Puget Sound",
+        "campus": "PUGET SOUND",
+        "name": "123",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "water stress": 1,
+        "total water use": 2259.6966018676767,
+        "gsf": 58271.01171875
+    },
+    {
+        "region": "Puget Sound",
+        "campus": "PUGET SOUND",
+        "name": "124",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "water stress": 1,
+        "total water use": 498.37919044494663,
+        "gsf": 37336.71875
+    },
+    {
+        "region": "Puget Sound",
+        "campus": "PUGET SOUND",
+        "name": "125",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "water stress": 1,
+        "total water use": 790.0443077087401,
+        "gsf": 37347.4296875
+    },
+    {
+        "region": "Puget Sound",
+        "campus": "PUGET SOUND",
+        "name": "126",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "water stress": 1,
+        "total water use": 76.45590138435364,
+        "gsf": 36636.421875
+    },
+    {
+        "region": "Puget Sound",
+        "campus": "PUGET SOUND",
+        "name": "127",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "water stress": 1,
+        "total water use": 7124.557210445405,
+        "gsf": 99178.9765625
+    },
+    {
+        "region": "Puget Sound",
+        "campus": "PUGET SOUND",
+        "name": "130",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "water stress": 1,
+        "total water use": 406.7370300292968,
+        "gsf": 21959.0
+    },
+    {
+        "region": "Puget Sound",
+        "campus": "PUGET SOUND",
+        "name": "131",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "water stress": 1,
+        "total water use": 326.42319488525396,
+        "gsf": 17623.0
+    },
+    {
+        "region": "Puget Sound",
+        "campus": "PUGET SOUND",
+        "name": "133",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "water stress": 1,
+        "total water use": 0.0,
+        "gsf": 33696.0
+    },
+    {
+        "region": "Puget Sound",
+        "campus": "PUGET SOUND",
+        "name": "136",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "water stress": 1,
+        "total water use": 4980.960235595714,
+        "gsf": 98605.0
+    },
+    {
+        "region": "Puget Sound",
+        "campus": "PUGET SOUND",
+        "name": "121-122 GARAGE",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "water stress": 1,
+        "total water use": 0.0,
+        "gsf": 303246.96875
+    },
+    {
+        "region": "Puget Sound",
+        "campus": "PUGET SOUND",
+        "name": "127B",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "water stress": 1,
+        "total water use": 0.0,
+        "gsf": 0.0
+    },
+    {
+        "region": "Americas",
+        "campus": "-",
+        "name": "1500 Bd Robert-Bourassa",
+        "latitude": 45.5017,
+        "longitude": -73.5673,
+        "water stress": 0,
+        "total water use": 1277.79776000976,
+        "gsf": 0.0
+    },
+    {
+        "region": "Puget Sound",
+        "campus": "PUGET SOUND",
+        "name": "16-18 CAFETERIA",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "water stress": 1,
+        "total water use": 0.0,
+        "gsf": 18188.5390625
+    },
+    {
+        "region": "Puget Sound",
+        "campus": "PUGET SOUND",
+        "name": "16-18 GARAGE",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "water stress": 1,
+        "total water use": 0.0,
+        "gsf": 0.0
+    },
+    {
+        "region": "EMEA",
+        "campus": "CAMBRIDGE LABS",
+        "name": "198 CAMBRIDGE SCIENCE PARK",
+        "latitude": 52.20553,
+        "longitude": 0.118664,
+        "water stress": 1,
+        "total water use": 675.0734710693358,
+        "gsf": 36446.0
+    },
+    {
+        "region": "Puget Sound",
+        "campus": "PUGET SOUND",
+        "name": "25 GARAGE",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "water stress": 1,
+        "total water use": 0.0,
+        "gsf": 0.0
+    },
+    {
+        "region": "Puget Sound",
+        "campus": "PUGET SOUND",
+        "name": "27 GARAGE",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "water stress": 1,
+        "total water use": 0.0,
+        "gsf": 0.0
+    },
+    {
+        "region": "Americas",
+        "campus": "AGOURA HILLS",
+        "name": "29903 AGOURA RD",
+        "latitude": 34.136,
+        "longitude": -118.775,
+        "water stress": 4,
+        "total water use": 317.254508972169,
+        "gsf": 34256.0
+    },
+    {
+        "region": "Puget Sound",
+        "campus": "PUGET SOUND",
+        "name": "30 GARAGE",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "water stress": 1,
+        "total water use": 0.0,
+        "gsf": 0.0
+    },
+    {
+        "region": "Puget Sound",
+        "campus": "PUGET SOUND",
+        "name": "30-32 CAFETERIA",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "water stress": 1,
+        "total water use": 0.0,
+        "gsf": 30243.060546875
+    },
+    {
+        "region": "Puget Sound",
+        "campus": "PUGET SOUND",
+        "name": "31 GARAGE",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "water stress": 1,
+        "total water use": 0.0,
+        "gsf": 0.0
+    },
+    {
+        "region": "Puget Sound",
+        "campus": "PUGET SOUND",
+        "name": "31-OUTDOOR MEETING SPACES",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "water stress": 1,
+        "total water use": 0.0,
+        "gsf": 362.0
+    },
+    {
+        "region": "Puget Sound",
+        "campus": "PUGET SOUND",
+        "name": "32 GARAGE",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "water stress": 1,
+        "total water use": 0.0,
+        "gsf": 0.0
+    },
+    {
+        "region": "Puget Sound",
+        "campus": "PUGET SOUND",
+        "name": "34-35 CAFETERIA",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "water stress": 1,
+        "total water use": 0.0,
+        "gsf": 43658.76171875
+    },
+    {
+        "region": "Puget Sound",
+        "campus": "PUGET SOUND",
+        "name": "37 GARAGE",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "water stress": 1,
+        "total water use": 4768.582824707034,
+        "gsf": 0.0
+    },
+    {
+        "region": "Puget Sound",
+        "campus": "PUGET SOUND",
+        "name": "40 GARAGE",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "water stress": 1,
+        "total water use": 0.0,
+        "gsf": 0.0
+    },
+    {
+        "region": "Puget Sound",
+        "campus": "PUGET SOUND",
+        "name": "40-41 CAFETERIA",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "water stress": 1,
+        "total water use": 0.0,
+        "gsf": 17015.4609375
+    },
+    {
+        "region": "Puget Sound",
+        "campus": "PUGET SOUND",
+        "name": "41 GARAGE",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "water stress": 1,
+        "total water use": 0.0,
+        "gsf": 0.0
+    },
+    {
+        "region": "Puget Sound",
+        "campus": "PUGET SOUND",
+        "name": "42-44 CAFETERIA",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "water stress": 1,
+        "total water use": 0.0,
+        "gsf": 44251.23828125
+    },
+    {
+        "region": "Puget Sound",
+        "campus": "PUGET SOUND",
+        "name": "50 GARAGE",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "water stress": 1,
+        "total water use": 0.0,
+        "gsf": 0.0
+    },
+    {
+        "region": "Puget Sound",
+        "campus": "PUGET SOUND",
+        "name": "86 GARAGE",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "water stress": 1,
+        "total water use": 0.0,
+        "gsf": 0.0
+    },
+    {
+        "region": "Puget Sound",
+        "campus": "PUGET SOUND",
+        "name": "88 GARAGE",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "water stress": 1,
+        "total water use": 0.0,
+        "gsf": 0.0
+    },
+    {
+        "region": "Puget Sound",
+        "campus": "PUGET SOUND",
+        "name": "92 GARAGE",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "water stress": 1,
+        "total water use": 0.0,
+        "gsf": 0.0
+    },
+    {
+        "region": "Puget Sound",
+        "campus": "PUGET SOUND",
+        "name": "99 GARAGE",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "water stress": 1,
+        "total water use": 0.0,
+        "gsf": 0.0
+    },
+    {
+        "region": "EMEA",
+        "campus": "-",
+        "name": "Aachen-Sonnenweg",
+        "latitude": 50.7753,
+        "longitude": 6.0839,
+        "water stress": 1,
+        "total water use": 256.000396728516,
+        "gsf": 0.0
+    },
+    {
+        "region": "EMEA",
+        "campus": "XAMARIN AARHUS",
+        "name": "AARHUS-ABOGADE",
+        "latitude": 56.14963,
+        "longitude": 10.2134,
+        "water stress": 1,
+        "total water use": 97.01675033569335,
+        "gsf": 5237.759765625
+    },
+    {
+        "region": "EMEA",
+        "campus": "ABIDJAN",
+        "name": "ABIDJAN-BROADWY",
+        "latitude": 5.320357,
+        "longitude": -4.01611,
+        "water stress": 0,
+        "total water use": 99.68845367431642,
+        "gsf": 5382.0
+    },
+    {
+        "region": "EMEA",
+        "campus": "ABU DHABI",
+        "name": "ABU DHABI-WT",
+        "latitude": 24.45391,
+        "longitude": 54.37731,
+        "water stress": 4,
+        "total water use": 153.51502990722602,
+        "gsf": 8288.2802734375
+    },
+    {
+        "region": "Asia",
+        "campus": "ADELAIDE",
+        "name": "ADELAIDE-PIRIE",
+        "latitude": -34.9282,
+        "longitude": 138.5999,
+        "water stress": 4,
+        "total water use": 71.77494621276854,
+        "gsf": 3875.0400390625
+    },
+    {
+        "region": "Asia",
+        "campus": "AHMEDABAD-GSMO",
+        "name": "AHMEDABAD EARTH ARISE REGUS",
+        "latitude": 23.02162,
+        "longitude": 72.57971,
+        "water stress": 4,
+        "total water use": 2.861736416816712,
+        "gsf": 309.0
+    },
+    {
+        "region": "Americas",
+        "campus": "MARYLAND AZURE",
+        "name": "AJ-NBP560",
+        "latitude": 39.14927,
+        "longitude": -76.7752,
+        "water stress": 1,
+        "total water use": 0.0,
+        "gsf": 182862.0
+    },
+    {
+        "region": "Americas",
+        "campus": "ALBANY-STATE",
+        "name": "ALBANY-STATE",
+        "latitude": 42.65117,
+        "longitude": -73.755,
+        "water stress": 0,
+        "total water use": 0.0,
+        "gsf": 5245.0
+    },
+    {
+        "region": "EMEA",
+        "campus": "ALGIERS",
+        "name": "ALGIERS-TOUR",
+        "latitude": 36.77536,
+        "longitude": 3.060188,
+        "water stress": 4,
+        "total water use": 55.65957069396972,
+        "gsf": 3004.98999023438
+    },
+    {
+        "region": "Americas",
+        "campus": "ALISOVIEJO-75 ENT",
+        "name": "ALISOVIEJO-75EN",
+        "latitude": 33.57614,
+        "longitude": -117.726,
+        "water stress": 4,
+        "total water use": 396.9756317138677,
+        "gsf": 21432.0
+    },
+    {
+        "region": "EMEA",
+        "campus": "ALMATY",
+        "name": "ALMATY-DOSTYK",
+        "latitude": 43.23639,
+        "longitude": 76.94573,
+        "water stress": 0,
+        "total water use": 139.6236534118656,
+        "gsf": 7538.02978515625
+    },
+    {
+        "region": "EMEA",
+        "campus": "AMMAN",
+        "name": "AMMAN-KHBP",
+        "latitude": 31.95157,
+        "longitude": 35.92396,
+        "water stress": 4,
+        "total water use": 578.5328922271731,
+        "gsf": 13745.6298828125
+    },
+    {
+        "region": "EMEA",
+        "campus": "AMMAN-NEW",
+        "name": "AMMAN-KHBP 8",
+        "latitude": 31.95157,
+        "longitude": 35.92396,
+        "water stress": 4,
+        "total water use": 322.3084087371825,
+        "gsf": 7238.7900390625
+    },
+    {
+        "region": "EMEA",
+        "campus": "ANKAR",
+        "name": "ANKAR-BILKENT-C",
+        "latitude": 39.86387,
+        "longitude": 32.76417,
+        "water stress": 4,
+        "total water use": 210.0,
+        "gsf": 8352.8603515625
+    },
+    {
+        "region": "Americas",
+        "campus": "VA, ARLGTN 1300 GSMO",
+        "name": "ARLINGTON-1300 WILSON BLVD",
+        "latitude": 32.73558,
+        "longitude": -97.1071,
+        "water stress": 0,
+        "total water use": 3458.311157226563,
+        "gsf": 186708.0
+    },
+    {
+        "region": "EMEA",
+        "campus": "ASTANA TALAN TOWERS",
+        "name": "ASTANA-TALAN TOWERS",
+        "latitude": 51.12822,
+        "longitude": 71.43067,
+        "water stress": 0,
+        "total water use": 5.182613968849189,
+        "gsf": 279.799987792969
+    },
+    {
+        "region": "EMEA",
+        "campus": "ATHENS",
+        "name": "ATHENS-221",
+        "latitude": 37.97556,
+        "longitude": 23.73483,
+        "water stress": 4,
+        "total water use": 1677.184179365636,
+        "gsf": 26858.869140625
+    },
+    {
+        "region": "Americas",
+        "campus": "ATLANTA",
+        "name": "ATLANTA-170 17TH ST NW",
+        "latitude": 33.74899,
+        "longitude": -84.3903,
+        "water stress": 2,
+        "total water use": 296.3610534667968,
+        "gsf": 16000.0
+    },
+    {
+        "region": "Americas",
+        "campus": "ATLANTA",
+        "name": "ATLANTA-200 17TH ST NW",
+        "latitude": 33.74899,
+        "longitude": -84.3903,
+        "water stress": 2,
+        "total water use": 9696.766845703127,
+        "gsf": 523511.0
+    },
+    {
+        "region": "Asia",
+        "campus": "AUCKLAND",
+        "name": "AUCKLAND-22",
+        "latitude": -36.8521,
+        "longitude": 174.7632,
+        "water stress": 0,
+        "total water use": 575.23681640625,
+        "gsf": 31056.2890625
+    },
+    {
+        "region": "Puget Sound",
+        "campus": "PUGET SOUND",
+        "name": "Augusta CP",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "water stress": 1,
+        "total water use": 49144.15389633183,
+        "gsf": 0.0
+    },
+    {
+        "region": "Asia",
+        "campus": "-",
+        "name": "Aura Khatha 434/170",
+        "latitude": 12.9716,
+        "longitude": 77.5946,
+        "water stress": 4,
+        "total water use": 646.8080291748048,
+        "gsf": 0.0
+    },
+    {
+        "region": "Americas",
+        "campus": "AUSTIN-10900",
+        "name": "AUSTIN-10900",
+        "latitude": 30.27113,
+        "longitude": -97.7437,
+        "water stress": 2,
+        "total water use": 451.24676513671926,
+        "gsf": 24362.0
+    },
+    {
+        "region": "Americas",
+        "campus": "-",
+        "name": "AUSTIN-9240 RESEARCH BLVD",
+        "latitude": 30.2672,
+        "longitude": -97.7431,
+        "water stress": 4,
+        "total water use": 18.5225658416748,
+        "gsf": 0.0
+    },
+    {
+        "region": "EMEA",
+        "campus": "BAKU LANDMARK",
+        "name": "BAKU-LANDMARK",
+        "latitude": 40.37559,
+        "longitude": 49.8328,
+        "water stress": 4,
+        "total water use": 33.79432940483094,
+        "gsf": 2432.65991210938
+    },
+    {
+        "region": "Asia",
+        "campus": "BANGALORE-COSMOS",
+        "name": "BANGALORE - IDC CP",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "water stress": 0,
+        "total water use": 3444.0,
+        "gsf": 0.0
+    },
+    {
+        "region": "Asia",
+        "campus": "ASIA TO BE MAPPED",
+        "name": "BANGALORE-NO 80/1, 81/1 AND 81/2",
+        "latitude": 12.97679,
+        "longitude": 77.59008,
+        "water stress": 4,
+        "total water use": 0.0,
+        "gsf": 32718.0
+    },
+    {
+        "region": "Asia",
+        "campus": "BANGKOK CRC",
+        "name": "BANGKOK-CRC",
+        "latitude": 13.75249,
+        "longitude": 100.4935,
+        "water stress": 3,
+        "total water use": 30.0,
+        "gsf": 30499.470703125
+    },
+    {
+        "region": "Asia",
+        "campus": "BANGKOK CRC",
+        "name": "BANGKOK-ONE-TOWER 4",
+        "latitude": 13.7563,
+        "longitude": 100.5018,
+        "water stress": 3,
+        "total water use": 45.65999984741209,
+        "gsf": 17330.0390625
+    },
+    {
+        "region": "EMEA",
+        "campus": "BARCELONA",
+        "name": "BARCELONA-JOSEP",
+        "latitude": 41.38289,
+        "longitude": 2.177432,
+        "water stress": 4,
+        "total water use": 128.25025177002001,
+        "gsf": 6924.0498046875
+    },
+    {
+        "region": "Puget Sound",
+        "campus": "PUGET SOUND",
+        "name": "BEAR CREEK A",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "water stress": 1,
+        "total water use": 1374.3188781738236,
+        "gsf": 74197.0
+    },
+    {
+        "region": "Americas",
+        "campus": "-",
+        "name": "BEDFORD-90 WESTERN PKWY",
+        "latitude": 44.7304,
+        "longitude": -63.6586,
+        "water stress": 1,
+        "total water use": 18.5225658416748,
+        "gsf": 0.0
+    },
+    {
+        "region": "Asia",
+        "campus": "BEIJING",
+        "name": "BEIJING RAYCOM",
+        "latitude": 40.19063,
+        "longitude": 116.4121,
+        "water stress": 4,
+        "total water use": 73.16413879394533,
+        "gsf": 3950.38989257813
+    },
+    {
+        "region": "Asia",
+        "campus": "BEIJING",
+        "name": "BEIJING W CP",
+        "latitude": 40.19063,
+        "longitude": 116.4121,
+        "water stress": 4,
+        "total water use": 102073.0,
+        "gsf": 0.0
+    },
+    {
+        "region": "Asia",
+        "campus": "BEIJING",
+        "name": "BEIJING-BJW-1",
+        "latitude": 40.19063,
+        "longitude": 116.4121,
+        "water stress": 4,
+        "total water use": 0.0,
+        "gsf": 667872.6875
+    },
+    {
+        "region": "Asia",
+        "campus": "BEIJING",
+        "name": "BEIJING-BJW-2",
+        "latitude": 40.19063,
+        "longitude": 116.4121,
+        "water stress": 4,
+        "total water use": 0.0,
+        "gsf": 638879.125
+    },
+    {
+        "region": "EMEA",
+        "campus": "BEIRUT",
+        "name": "BEIRUT-PARK",
+        "latitude": 33.89592,
+        "longitude": 35.47843,
+        "water stress": 4,
+        "total water use": 6.20999979972839,
+        "gsf": 9271.0302734375
+    },
+    {
+        "region": "EMEA",
+        "campus": "BELFAST-QUAYS",
+        "name": "BELFAST-QUAYS",
+        "latitude": 54.59639,
+        "longitude": -5.93018,
+        "water stress": 1,
+        "total water use": 510.66714477539045,
+        "gsf": 27570.0
+    },
+    {
+        "region": "EMEA",
+        "campus": "BELGRADE",
+        "name": "BELGRADE-SPANSK",
+        "latitude": 44.81781,
+        "longitude": 20.4569,
+        "water stress": 0,
+        "total water use": 697.8382110595701,
+        "gsf": 90420.0703125
+    },
+    {
+        "region": "EMEA",
+        "campus": "BELGRADE-SER OFFICE",
+        "name": "BELGRADE-USCE 1",
+        "latitude": 44.81781,
+        "longitude": 20.4569,
+        "water stress": 0,
+        "total water use": 579.0500049591067,
+        "gsf": 15444.509765625
+    },
+    {
+        "region": "EMEA",
+        "campus": "BELGRADE LTS R&D",
+        "name": "BELGRADE-USCE 2",
+        "latitude": 44.81781,
+        "longitude": 20.4569,
+        "water stress": 0,
+        "total water use": 14492.0,
+        "gsf": 242352.75
+    },
+    {
+        "region": "Americas",
+        "campus": "-",
+        "name": "Bellevue",
+        "latitude": 47.6101,
+        "longitude": -122.2015,
+        "water stress": 1,
+        "total water use": 702.1164093017579,
+        "gsf": 0.0
+    },
+    {
+        "region": "Puget Sound",
+        "campus": "PUGET SOUND",
+        "name": "BELLEVUE-1814",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "water stress": 1,
+        "total water use": 73.62420153617852,
+        "gsf": 1725.0
+    },
+    {
+        "region": "Asia",
+        "campus": "BENGALURU",
+        "name": "BENGALURU - COSMO - IGD",
+        "latitude": 12.97679,
+        "longitude": 77.59008,
+        "water stress": 4,
+        "total water use": 0.0,
+        "gsf": 46418.0
+    },
+    {
+        "region": "Asia",
+        "campus": "BENGALURU",
+        "name": "BENGALURU COSMO-REACTOR",
+        "latitude": 12.97679,
+        "longitude": 77.59008,
+        "water stress": 4,
+        "total water use": 0.0,
+        "gsf": 5742.0
+    },
+    {
+        "region": "Asia",
+        "campus": "BENGALURU",
+        "name": "BENGALURU LUXOR-MIRPL",
+        "latitude": 12.97679,
+        "longitude": 77.59008,
+        "water stress": 4,
+        "total water use": 5869.171508789063,
+        "gsf": 316866.0
+    },
+    {
+        "region": "Asia",
+        "campus": "BENGALURU",
+        "name": "BENGALURU-COSM1",
+        "latitude": 12.97679,
+        "longitude": 77.59008,
+        "water stress": 4,
+        "total water use": 0.0,
+        "gsf": 55464.0
+    },
+    {
+        "region": "Asia",
+        "campus": "BENGALURU",
+        "name": "BENGALURU-COSMO",
+        "latitude": 12.97679,
+        "longitude": 77.59008,
+        "water stress": 4,
+        "total water use": 0.0,
+        "gsf": 46419.0
+    },
+    {
+        "region": "Asia",
+        "campus": "BENGALURU",
+        "name": "BENGALURU-FERNS-MCIPL",
+        "latitude": 12.97679,
+        "longitude": 77.59008,
+        "water stress": 4,
+        "total water use": 31708.319091796897,
+        "gsf": 60941.0
+    },
+    {
+        "region": "Asia",
+        "campus": "BENGALURU",
+        "name": "BENGALURU-FERNS-MIRPL",
+        "latitude": 12.97679,
+        "longitude": 77.59008,
+        "water stress": 4,
+        "total water use": 0.0,
+        "gsf": 536965.0
+    },
+    {
+        "region": "Americas",
+        "campus": "BENTONVILLE-2505",
+        "name": "BENTONVILLE-2505",
+        "latitude": 36.37285,
+        "longitude": -94.2088,
+        "water stress": 0,
+        "total water use": 302.49201965332077,
+        "gsf": 16331.0
+    },
+    {
+        "region": "Americas",
+        "campus": "BERKELEY-SHATTUCK",
+        "name": "BERKELEY 1919",
+        "latitude": 37.87084,
+        "longitude": -122.273,
+        "water stress": 1,
+        "total water use": 503.77674865722594,
+        "gsf": 27198.0
+    },
+    {
+        "region": "EMEA",
+        "campus": "BERLIN-KARLLIEB",
+        "name": "BERLIN-KARLLIEB",
+        "latitude": 52.51704,
+        "longitude": 13.38886,
+        "water stress": 3,
+        "total water use": 203.92270660400393,
+        "gsf": 11009.419921875
+    },
+    {
+        "region": "EMEA",
+        "campus": "BERLIN-UDL",
+        "name": "BERLIN-UDL17",
+        "latitude": 52.51704,
+        "longitude": 13.38886,
+        "water stress": 0,
+        "total water use": 579.6451721191405,
+        "gsf": 31294.279296875
+    },
+    {
+        "region": "Americas",
+        "campus": "BOGOTA",
+        "name": "BOGOTA-NO 1192",
+        "latitude": 4.653382,
+        "longitude": -74.0836,
+        "water stress": 0,
+        "total water use": 347.0,
+        "gsf": 27769.5
+    },
+    {
+        "region": "Americas",
+        "campus": "BOISE-401 W FRONT",
+        "name": "BOISE-401WFRONT",
+        "latitude": 43.61662,
+        "longitude": -116.201,
+        "water stress": 4,
+        "total water use": 249.99906921386756,
+        "gsf": 13497.0
+    },
+    {
+        "region": "EMEA",
+        "campus": "BORDEAUX",
+        "name": "BORDEAUX-2 RUE MARC SANGNIER",
+        "latitude": 44.84123,
+        "longitude": -0.58004,
+        "water stress": 0,
+        "total water use": 44.45415973663331,
+        "gsf": 2400.0
+    },
+    {
+        "region": "Americas",
+        "campus": "BOULDER CANYON BLVD",
+        "name": "BOULDER-1650 CANYON BLVD",
+        "latitude": 40.01499,
+        "longitude": -105.271,
+        "water stress": 4,
+        "total water use": 332.2948379516604,
+        "gsf": 17940.0
+    },
+    {
+        "region": "Americas",
+        "campus": "BRASILIA",
+        "name": "BRASILIA-PKS",
+        "latitude": -10.3333,
+        "longitude": -53.2,
+        "water stress": 0,
+        "total water use": 677.9715309143068,
+        "gsf": 10697.0498046875
+    },
+    {
+        "region": "EMEA",
+        "campus": "BRATISLAVA-PRADIAREN",
+        "name": "BRATISLAVA PRADIAREN 1900",
+        "latitude": 48.15926,
+        "longitude": 17.13966,
+        "water stress": 0,
+        "total water use": 118.55999946594235,
+        "gsf": 10929.5498046875
+    },
+    {
+        "region": "Puget Sound",
+        "campus": "PUGET SOUND",
+        "name": "BRAVERN-1",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "water stress": 1,
+        "total water use": 4280.9912109375,
+        "gsf": 231123.0
+    },
+    {
+        "region": "Puget Sound",
+        "campus": "PUGET SOUND",
+        "name": "BRAVERN-2",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "water stress": 1,
+        "total water use": 8700.790283203127,
+        "gsf": 469740.0
+    },
+    {
+        "region": "Asia",
+        "campus": "BRISBANE-CLIPCHAMP",
+        "name": "BRISBANE-315 BRUNSWICK",
+        "latitude": -27.4698,
+        "longitude": 153.0251,
+        "water stress": 3,
+        "total water use": 91.51407623291016,
+        "gsf": 4940.68017578125
+    },
+    {
+        "region": "Asia",
+        "campus": "BRISBANE",
+        "name": "BRISBANE-400",
+        "latitude": -27.469,
+        "longitude": 153.0235,
+        "water stress": 3,
+        "total water use": 290.6931610107421,
+        "gsf": 15693.91015625
+    },
+    {
+        "region": "EMEA",
+        "campus": "BRUSSELS-NEO",
+        "name": "BRUSSELS-NEO",
+        "latitude": 50.84656,
+        "longitude": 4.351697,
+        "water stress": 4,
+        "total water use": 564.4359741210936,
+        "gsf": 30472.880859375
+    },
+    {
+        "region": "EMEA",
+        "campus": "BUCHAREST-CAMPUS",
+        "name": "BUCHAREST-CAMPUS (IULIU MANIU)",
+        "latitude": 44.43614,
+        "longitude": 26.10272,
+        "water stress": 3,
+        "total water use": 2418.826824188234,
+        "gsf": 248382.65625
+    },
+    {
+        "region": "EMEA",
+        "campus": "BUDAPEST",
+        "name": "BUDAPEST-M",
+        "latitude": 47.49788,
+        "longitude": 19.04024,
+        "water stress": 0,
+        "total water use": 1267.0,
+        "gsf": 25936.5
+    },
+    {
+        "region": "Americas",
+        "campus": "BUENOS ARS CATALINAS",
+        "name": "BUENOS AIRES-CATALINAS",
+        "latitude": -34.6037,
+        "longitude": -58.3815,
+        "water stress": 0,
+        "total water use": 578.7492828369143,
+        "gsf": 31245.630859375
+    },
+    {
+        "region": "EMEA",
+        "campus": "DOHA-BURJ ALFARDAN",
+        "name": "BURJ ALFARDAN-LUSAIL",
+        "latitude": 25.28563,
+        "longitude": 51.52642,
+        "water stress": 4,
+        "total water use": 82.0,
+        "gsf": 18115.810546875
+    },
+    {
+        "region": "Americas",
+        "campus": "BURLINGTN-15 WAY",
+        "name": "BURLINGTN-15 WAY",
+        "latitude": 44.47616,
+        "longitude": -73.2129,
+        "water stress": 2,
+        "total water use": 1163.3097839355469,
+        "gsf": 62805.0
+    },
+    {
+        "region": "Americas",
+        "campus": "BURLINGTON-5 WAYSIDE",
+        "name": "BURLINGTN-5 WAY",
+        "latitude": 44.47616,
+        "longitude": -73.2129,
+        "water stress": 2,
+        "total water use": 1699.0750122070315,
+        "gsf": 91730.0
+    },
+    {
+        "region": "Americas",
+        "campus": "BURLINGTON-1 WAYSIDE",
+        "name": "BURLINGTON-1 WAYSIDE RD",
+        "latitude": 44.47616,
+        "longitude": -73.2129,
+        "water stress": 2,
+        "total water use": 3715.719360351563,
+        "gsf": 200605.0
+    },
+    {
+        "region": "EMEA",
+        "campus": "CAIRO-ABU EL FEDA",
+        "name": "CAIRO-ABU EL FEDA",
+        "latitude": 30.05586,
+        "longitude": 31.22184,
+        "water stress": 4,
+        "total water use": 313.0128479003904,
+        "gsf": 16899.48046875
+    },
+    {
+        "region": "EMEA",
+        "campus": "CAIRO-CO55",
+        "name": "CAIRO-CO55",
+        "latitude": 30.02777,
+        "longitude": 31.47568,
+        "water stress": 4,
+        "total water use": 93.70714759826662,
+        "gsf": 3067.73999023438
+    },
+    {
+        "region": "EMEA",
+        "campus": "CAIRO-SMARTVILLAGE",
+        "name": "CAIRO-SMARTVIL",
+        "latitude": 30.04439,
+        "longitude": 31.23573,
+        "water stress": 4,
+        "total water use": 824.4234924316405,
+        "gsf": 44509.140625
+    },
+    {
+        "region": "Americas",
+        "campus": "CALGARY-9TH",
+        "name": "CALGARY-9TH",
+        "latitude": 51.04561,
+        "longitude": -114.058,
+        "water stress": 3,
+        "total water use": 226.34761047363244,
+        "gsf": 12220.099609375
+    },
+    {
+        "region": "Americas",
+        "campus": "CAMBRIDGE",
+        "name": "CAMBRIDGE-1MEM",
+        "latitude": 42.36563,
+        "longitude": -71.104,
+        "water stress": 1,
+        "total water use": 2905.2460327148397,
+        "gsf": 156849.0
+    },
+    {
+        "region": "EMEA",
+        "campus": "CAMBRIDGE R&D",
+        "name": "CAMBRIDGE-21STA",
+        "latitude": 52.20553,
+        "longitude": 0.118664,
+        "water stress": 1,
+        "total water use": 3792.0,
+        "gsf": 77814.0
+    },
+    {
+        "region": "Asia",
+        "campus": "CANBERRA",
+        "name": "CANBERRA-6",
+        "latitude": -35.2976,
+        "longitude": 149.1013,
+        "water stress": 4,
+        "total water use": 237.47781372070315,
+        "gsf": 12821.0
+    },
+    {
+        "region": "EMEA",
+        "campus": "CAPETOWN",
+        "name": "CAPETOWN-ENGEN",
+        "latitude": -33.929,
+        "longitude": 18.4174,
+        "water stress": 4,
+        "total water use": 165.48283767700198,
+        "gsf": 8934.1201171875
+    },
+    {
+        "region": "Americas",
+        "campus": "LAS COLINAS",
+        "name": "CARROLLTON-1420 CENTURY DR",
+        "latitude": 32.95373,
+        "longitude": -96.8903,
+        "water stress": 3,
+        "total water use": 16.951429367065437,
+        "gsf": 2870.0
+    },
+    {
+        "region": "EMEA",
+        "campus": "CASABLANCA CAPITAL TWR",
+        "name": "CASABLANCA-CAPITAL TWR",
+        "latitude": 33.59451,
+        "longitude": -7.62003,
+        "water stress": 4,
+        "total water use": 91.0,
+        "gsf": 3293.78002929688
+    },
+    {
+        "region": "Puget Sound",
+        "campus": "PUGET SOUND",
+        "name": "Cedar Court CP",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "water stress": 1,
+        "total water use": 8247.326187849052,
+        "gsf": 0.0
+    },
+    {
+        "region": "Puget Sound",
+        "campus": "PUGET SOUND",
+        "name": "CEDAR PARK BAY2",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "water stress": 1,
+        "total water use": 108.33849334716795,
+        "gsf": 5849.0
+    },
+    {
+        "region": "Americas",
+        "campus": "CHARLOTTE",
+        "name": "CHARLOTTE-AP1",
+        "latitude": 35.22721,
+        "longitude": -80.8431,
+        "water stress": 3,
+        "total water use": 16440.850097656257,
+        "gsf": 212644.734375
+    },
+    {
+        "region": "Americas",
+        "campus": "CHARLOTTE",
+        "name": "CHARLOTTE-AP2",
+        "latitude": 35.22721,
+        "longitude": -80.8431,
+        "water stress": 3,
+        "total water use": 3046.909221649171,
+        "gsf": 212008.875
+    },
+    {
+        "region": "Americas",
+        "campus": "CHARLOTTE",
+        "name": "CHARLOTTE-ARROWRIDGE",
+        "latitude": 35.22721,
+        "longitude": -80.8431,
+        "water stress": 3,
+        "total water use": 22.680657863616958,
+        "gsf": 3840.0
+    },
+    {
+        "region": "EMEA",
+        "campus": "CHELTENHAM-HOUSE",
+        "name": "CHELTENHAM HOUSE",
+        "latitude": 51.89957,
+        "longitude": -2.07116,
+        "water stress": 1,
+        "total water use": 191.38275146484364,
+        "gsf": 10332.41015625
+    },
+    {
+        "region": "Asia",
+        "campus": "CHENGDU",
+        "name": "CHENGDU (IW) OFFICE",
+        "latitude": 30.70013,
+        "longitude": 104.0708,
+        "water stress": 3,
+        "total water use": 24.0,
+        "gsf": 7190.35009765625
+    },
+    {
+        "region": "Asia",
+        "campus": "CHENNAI-GSMO",
+        "name": "CHENNAI-POLY-MCIPL",
+        "latitude": 13.08369,
+        "longitude": 80.27019,
+        "water stress": 4,
+        "total water use": 609.4280014038087,
+        "gsf": 8200.0
+    },
+    {
+        "region": "Asia",
+        "campus": "CHENNAI-GSMO",
+        "name": "CHENNAI-POLY-MIRPL",
+        "latitude": 13.08369,
+        "longitude": 80.27019,
+        "water stress": 4,
+        "total water use": 0.0,
+        "gsf": 1300.0
+    },
+    {
+        "region": "Americas",
+        "campus": "CHICAGO-200 RANDOLPH",
+        "name": "CHICAGO-200RAND",
+        "latitude": 41.87556,
+        "longitude": -87.6244,
+        "water stress": 3,
+        "total water use": 1183.3697204589841,
+        "gsf": 63888.0
+    },
+    {
+        "region": "Asia",
+        "campus": "CHONGQING CDC",
+        "name": "CHONGQING-JIANGBEI REGUS",
+        "latitude": 30.05518,
+        "longitude": 107.8749,
+        "water stress": 0,
+        "total water use": 6.055026769638061,
+        "gsf": 326.899993896484
+    },
+    {
+        "region": "Asia",
+        "campus": "CHRISTCHURCH",
+        "name": "CHRISTCHURCH-QB",
+        "latitude": -43.531,
+        "longitude": 172.6364,
+        "water stress": 0,
+        "total water use": 12.680178165435835,
+        "gsf": 684.580017089844
+    },
+    {
+        "region": "Americas",
+        "campus": "CINCINNATI-4445",
+        "name": "CINCINNATI-4445",
+        "latitude": 39.10145,
+        "longitude": -84.5125,
+        "water stress": 0,
+        "total water use": 286.7108001708984,
+        "gsf": 15479.0
+    },
+    {
+        "region": "EMEA",
+        "campus": "COLOGNE",
+        "name": "COLOGNE",
+        "latitude": 50.93836,
+        "longitude": 6.959974,
+        "water stress": 0,
+        "total water use": 552.9727020263678,
+        "gsf": 29854.490234375
+    },
+    {
+        "region": "Asia",
+        "campus": "COLOMBO-UNION",
+        "name": "COLOMBO UNION",
+        "latitude": 6.938861,
+        "longitude": 79.8542,
+        "water stress": 2,
+        "total water use": 173.09338760376002,
+        "gsf": 9345.0
+    },
+    {
+        "region": "Puget Sound",
+        "campus": "PUGET SOUND",
+        "name": "COMMONS",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "water stress": 1,
+        "total water use": 0.0,
+        "gsf": 6261.02978515625
+    },
+    {
+        "region": "Puget Sound",
+        "campus": "PUGET SOUND",
+        "name": "COMMONS TRANSIT CENTER",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "water stress": 1,
+        "total water use": 2279.518520355225,
+        "gsf": 0.0
+    },
+    {
+        "region": "EMEA",
+        "campus": "COPENHAGEN-MQFAB",
+        "name": "COPENHAGEN-MQFAB",
+        "latitude": 55.68672,
+        "longitude": 12.57007,
+        "water stress": 1,
+        "total water use": 5.867578625679013,
+        "gsf": 1282.63000488281
+    },
+    {
+        "region": "EMEA",
+        "campus": "METASWITCH COVENTRY",
+        "name": "COVENTRY-BRANDON COURT",
+        "latitude": 52.40818,
+        "longitude": -1.51048,
+        "water stress": 1,
+        "total water use": 141.1947441101076,
+        "gsf": 7622.85009765625
+    },
+    {
+        "region": "Americas",
+        "campus": "CULVER CITY",
+        "name": "CULVER CITY - 5927 BLACKWELDER",
+        "latitude": 34.02112,
+        "longitude": -118.396,
+        "water stress": 4,
+        "total water use": 8.495100259780891,
+        "gsf": 1400.0
+    },
+    {
+        "region": "Americas",
+        "campus": "CULVER CITY",
+        "name": "CULVER CITY-5895",
+        "latitude": 34.02112,
+        "longitude": -118.396,
+        "water stress": 4,
+        "total water use": 175.56539916992182,
+        "gsf": 5667.0
+    },
+    {
+        "region": "EMEA",
+        "campus": "DAKAR",
+        "name": "DAKAR",
+        "latitude": 14.69343,
+        "longitude": -17.4479,
+        "water stress": 4,
+        "total water use": 15.253333568573009,
+        "gsf": 3293.78002929688
+    },
+    {
+        "region": "Asia",
+        "campus": "NEW DELHI-GSMO",
+        "name": "DELHI TEC",
+        "latitude": 28.6139,
+        "longitude": 77.20901,
+        "water stress": 4,
+        "total water use": 2.8895203471183795,
+        "gsf": 156.0
+    },
+    {
+        "region": "Americas",
+        "campus": "DETROIT-MARTIUS",
+        "name": "DETROIT-CAMPUS MARTIUS",
+        "latitude": 42.33155,
+        "longitude": -83.0466,
+        "water stress": 0,
+        "total water use": 811.1772766113278,
+        "gsf": 43794.0
+    },
+    {
+        "region": "Asia",
+        "campus": "DHAKA",
+        "name": "DHAKA-LAILA",
+        "latitude": 23.7644,
+        "longitude": 90.38902,
+        "water stress": 4,
+        "total water use": 102.39274978637697,
+        "gsf": 5528.02978515625
+    },
+    {
+        "region": "EMEA",
+        "campus": "DOHA",
+        "name": "DOHA-QSTP",
+        "latitude": 25.28563,
+        "longitude": 51.52642,
+        "water stress": 4,
+        "total water use": 99.68659973144531,
+        "gsf": 5382.0
+    },
+    {
+        "region": "Americas",
+        "campus": "DOWNERS GROVE",
+        "name": "DOWNERS GROVE",
+        "latitude": 41.79368,
+        "longitude": -88.0102,
+        "water stress": 3,
+        "total water use": 537.2840881347659,
+        "gsf": 29007.0
+    },
+    {
+        "region": "EMEA",
+        "campus": "VI-UAE",
+        "name": "DUBAI-DUBAI MEDIA CITY BLD 5",
+        "latitude": 25.2048,
+        "longitude": 55.2708,
+        "water stress": 4,
+        "total water use": 0.0,
+        "gsf": 17.8299999237061
+    },
+    {
+        "region": "EMEA",
+        "campus": "DUBAI",
+        "name": "DUBAI-INTERNET",
+        "latitude": 25.20481,
+        "longitude": 55.27081,
+        "water stress": 4,
+        "total water use": 1150.137001037597,
+        "gsf": 65381.62890625
+    },
+    {
+        "region": "EMEA",
+        "campus": "DUBLIN",
+        "name": "DUBLIN CAB",
+        "latitude": 53.32196,
+        "longitude": -6.39427,
+        "water stress": 1,
+        "total water use": 0.0,
+        "gsf": 0.0
+    },
+    {
+        "region": "EMEA",
+        "campus": "DUBLIN",
+        "name": "DUBLIN-COURT",
+        "latitude": 53.34938,
+        "longitude": -6.26056,
+        "water stress": 1,
+        "total water use": 2509.2346801757762,
+        "gsf": 135469.0625
+    },
+    {
+        "region": "EMEA",
+        "campus": "DUBLIN",
+        "name": "DUBLIN-HARCOURT",
+        "latitude": 53.34938,
+        "longitude": -6.26056,
+        "water stress": 1,
+        "total water use": 263.6872558593756,
+        "gsf": 0.0
+    },
+    {
+        "region": "EMEA",
+        "campus": "DUBLIN",
+        "name": "DUBLIN-LANDINGS",
+        "latitude": 53.34938,
+        "longitude": -6.26056,
+        "water stress": 1,
+        "total water use": 810.7882690429691,
+        "gsf": 43773.0
+    },
+    {
+        "region": "EMEA",
+        "campus": "DUBLIN",
+        "name": "DUBLIN-PLACE",
+        "latitude": 53.34938,
+        "longitude": -6.26056,
+        "water stress": 1,
+        "total water use": 9119.6630859375,
+        "gsf": 492354.1875
+    },
+    {
+        "region": "EMEA",
+        "campus": "DURBAN PARK LANE",
+        "name": "DURBAN-5 PARK LANE",
+        "latitude": -29.7337,
+        "longitude": 31.08317,
+        "water stress": 1,
+        "total water use": 47.862310409545906,
+        "gsf": 2583.36010742188
+    },
+    {
+        "region": "Puget Sound",
+        "campus": "PUGET SOUND",
+        "name": "EAST CAMPUS BACK OF HOUSE",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "water stress": 1,
+        "total water use": 0.0,
+        "gsf": 112871.0
+    },
+    {
+        "region": "Puget Sound",
+        "campus": "PUGET SOUND",
+        "name": "EAST CAMPUS CORE",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "water stress": 1,
+        "total water use": 0.0,
+        "gsf": 0.0
+    },
+    {
+        "region": "Puget Sound",
+        "campus": "PUGET SOUND",
+        "name": "EAST CAMPUS GARAGE",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "water stress": 1,
+        "total water use": 16423.859985351573,
+        "gsf": 0.0
+    },
+    {
+        "region": "Americas",
+        "campus": "EDINA MN-3601",
+        "name": "EDINA MN-3601",
+        "latitude": 44.8897,
+        "longitude": -93.3501,
+        "water stress": 1,
+        "total water use": 823.5874328613278,
+        "gsf": 44464.0
+    },
+    {
+        "region": "EMEA",
+        "campus": "METASWITCH EDINBURGH",
+        "name": "EDINBURGH-CAUSEWAY HOUSE",
+        "latitude": 55.95335,
+        "longitude": -3.18837,
+        "water stress": 0,
+        "total water use": 182.7621574401852,
+        "gsf": 9867.0
+    },
+    {
+        "region": "EMEA",
+        "campus": "EDINBURGH",
+        "name": "EDINBURGH-WAV",
+        "latitude": 55.95335,
+        "longitude": -3.18837,
+        "water stress": 0,
+        "total water use": 158.53464889526398,
+        "gsf": 8559.0
+    },
+    {
+        "region": "Americas",
+        "campus": "EDMONTON-103 AVE",
+        "name": "EDMONTON-103 AVENUE NW",
+        "latitude": 53.54621,
+        "longitude": -113.491,
+        "water stress": 3,
+        "total water use": 265.46541595458956,
+        "gsf": 14332.0
+    },
+    {
+        "region": "EMEA",
+        "campus": "METASWITCH ENFIELD",
+        "name": "ENFIELD-GENOTIN ROAD",
+        "latitude": 51.65209,
+        "longitude": -0.08102,
+        "water stress": 3,
+        "total water use": 1020.5934448242191,
+        "gsf": 55100.0
+    },
+    {
+        "region": "EMEA",
+        "campus": "ENINGEN",
+        "name": "ENINGEN ACHALM",
+        "latitude": 48.48623,
+        "longitude": 9.256764,
+        "water stress": 0,
+        "total water use": 69.68226242065428,
+        "gsf": 3762.02001953125
+    },
+    {
+        "region": "EMEA",
+        "campus": "ESPOO-MS TALO",
+        "name": "ESPOO-K 2-4 AB",
+        "latitude": 60.20477,
+        "longitude": 24.65684,
+        "water stress": 1,
+        "total water use": 1790.5440673828077,
+        "gsf": 96668.25
+    },
+    {
+        "region": "EMEA",
+        "campus": "ESPOO-MS TALO",
+        "name": "ESPOO-K 2-4 CD",
+        "latitude": 60.20477,
+        "longitude": 24.65684,
+        "water stress": 1,
+        "total water use": 3155.937011718756,
+        "gsf": 170383.359375
+    },
+    {
+        "region": "EMEA",
+        "campus": "ESPOO-MS TALO",
+        "name": "ESPOO-K 2-4 FG",
+        "latitude": 60.20477,
+        "longitude": 24.65684,
+        "water stress": 1,
+        "total water use": 422.5399971008301,
+        "gsf": 31613.869140625
+    },
+    {
+        "region": "EMEA",
+        "campus": "ESPOO-LINNOITUSTIE",
+        "name": "ESPOO-LINNOITUSTIE 6",
+        "latitude": 60.20477,
+        "longitude": 24.65684,
+        "water stress": 1,
+        "total water use": 0.0,
+        "gsf": 22157.689453125
+    },
+    {
+        "region": "EMEA",
+        "campus": "ESPOO-SINMAENTIE R&D",
+        "name": "ESPOO-SINI",
+        "latitude": 60.20477,
+        "longitude": 24.65684,
+        "water stress": 1,
+        "total water use": 1352.68003845215,
+        "gsf": 19479.609375
+    },
+    {
+        "region": "Americas",
+        "campus": "FAIRPORT",
+        "name": "FAIRPORTNY-375",
+        "latitude": 43.0993,
+        "longitude": -77.443,
+        "water stress": 0,
+        "total water use": 33.18626403808592,
+        "gsf": 5375.0
+    },
+    {
+        "region": "Americas",
+        "campus": "FARGO",
+        "name": "FARGO-COMMONS",
+        "latitude": 46.87723,
+        "longitude": -96.7898,
+        "water stress": 2,
+        "total water use": 3785.4099884033235,
+        "gsf": 59072.91015625
+    },
+    {
+        "region": "Americas",
+        "campus": "FARGO",
+        "name": "FARGO-HORIZON",
+        "latitude": 46.87723,
+        "longitude": -96.7898,
+        "water stress": 2,
+        "total water use": 1758.3229761123666,
+        "gsf": 122440.0
+    },
+    {
+        "region": "Americas",
+        "campus": "FARGO",
+        "name": "FARGO-VISION",
+        "latitude": 46.87723,
+        "longitude": -96.7898,
+        "water stress": 2,
+        "total water use": 9096.340320587164,
+        "gsf": 120792.25
+    },
+    {
+        "region": "Americas",
+        "campus": "FARGO",
+        "name": "FARGO-VISTA",
+        "latitude": 46.87723,
+        "longitude": -96.7898,
+        "water stress": 2,
+        "total water use": 1491.4515380859389,
+        "gsf": 91586.25
+    },
+    {
+        "region": "EMEA",
+        "campus": "FRANKFURT-MESSETURM",
+        "name": "FRANKFURT MESSETURM",
+        "latitude": 50.11064,
+        "longitude": 8.682092,
+        "water stress": 3,
+        "total water use": 169.03000020980832,
+        "gsf": 10301.150390625
+    },
+    {
+        "region": "EMEA",
+        "campus": "-",
+        "name": "FRANKFURT-SCHILLERSTR 15-17",
+        "latitude": 50.6521,
+        "longitude": 9.1624,
+        "water stress": 3,
+        "total water use": 18.5225658416748,
+        "gsf": 0.0
+    },
+    {
+        "region": "Americas",
+        "campus": "FORT COLLINS-2720",
+        "name": "FT COLLINS-2720",
+        "latitude": 40.58718,
+        "longitude": -105.077,
+        "water stress": 4,
+        "total water use": 0.0,
+        "gsf": 29896.0
+    },
+    {
+        "region": "Americas",
+        "campus": "FORT LAUDERDALE",
+        "name": "FT LAUDER-6750",
+        "latitude": 26.12231,
+        "longitude": -80.1434,
+        "water stress": 3,
+        "total water use": 558.9739837646484,
+        "gsf": 30178.0
+    },
+    {
+        "region": "EMEA",
+        "campus": "GENEVA-ARCENTER",
+        "name": "GENEVA-ARCENTER",
+        "latitude": 46.2044,
+        "longitude": 6.1432,
+        "water stress": 0,
+        "total water use": 68.4871902465822,
+        "gsf": 7394.8701171875
+    },
+    {
+        "region": "EMEA",
+        "campus": "VENDOR OWNED EMEA",
+        "name": "GENEVA-NATIONS BUSINESS CENTER",
+        "latitude": 46.2044,
+        "longitude": 6.1432,
+        "water stress": 0,
+        "total water use": 4.482461214065556,
+        "gsf": 242.0
+    },
+    {
+        "region": "EMEA",
+        "campus": "GENEVA-WESTHIVE",
+        "name": "GENEVA-WESTHIVE-PONT ROUGE",
+        "latitude": 46.17589,
+        "longitude": 6.122613,
+        "water stress": 0,
+        "total water use": 33.09649085998536,
+        "gsf": 1786.81994628906
+    },
+    {
+        "region": "Americas",
+        "campus": "GOLETA 5383 HOLLISTR",
+        "name": "GOLETA-5383 HOLLISTER AVE",
+        "latitude": 34.43583,
+        "longitude": -119.828,
+        "water stress": 4,
+        "total water use": 130.3062515258784,
+        "gsf": 7035.0
+    },
+    {
+        "region": "Asia",
+        "campus": "GUANGZHOU",
+        "name": "GUANGZHOU-TKH1",
+        "latitude": 23.1302,
+        "longitude": 113.2593,
+        "water stress": 0,
+        "total water use": 148.0,
+        "gsf": 30795.80078125
+    },
+    {
+        "region": "Americas",
+        "campus": "GUATEMALA-IWFC",
+        "name": "GUATEMALA-IWFC",
+        "latitude": 14.64247,
+        "longitude": -90.5131,
+        "water stress": 0,
+        "total water use": 100.24413299560548,
+        "gsf": 5412.14013671875
+    },
+    {
+        "region": "Americas",
+        "campus": "GUAYNABO-CVP",
+        "name": "GUAYNABO-CVP",
+        "latitude": 18.35787,
+        "longitude": -66.112,
+        "water stress": 0,
+        "total water use": 249.795318603516,
+        "gsf": 13486.0
+    },
+    {
+        "region": "EMEA",
+        "campus": "-",
+        "name": "Guldensporenpark 32",
+        "latitude": 50.9946,
+        "longitude": 3.7465,
+        "water stress": 1,
+        "total water use": 169.8519287109372,
+        "gsf": 0.0
+    },
+    {
+        "region": "Asia",
+        "campus": "GURGAON-GSMO",
+        "name": "GURGAON DLF DOWNTOWN",
+        "latitude": 28.46461,
+        "longitude": 77.02992,
+        "water stress": 4,
+        "total water use": 1819.1568603515634,
+        "gsf": 98213.0
+    },
+    {
+        "region": "EMEA",
+        "campus": "HAIFA",
+        "name": "HAIFA-25",
+        "latitude": 32.79931,
+        "longitude": 34.98957,
+        "water stress": 2,
+        "total water use": 1775.9700012207036,
+        "gsf": 66682.9765625
+    },
+    {
+        "region": "EMEA",
+        "campus": "HAMBURG HANSE FORUM",
+        "name": "HAMBURG HANSEFORUM",
+        "latitude": 53.55034,
+        "longitude": 10.00065,
+        "water stress": 0,
+        "total water use": 218.69650268554685,
+        "gsf": 11807.0302734375
+    },
+    {
+        "region": "Asia",
+        "campus": "HANOI",
+        "name": "HANOI-CAPITAL PLACE",
+        "latitude": 21.02833,
+        "longitude": 105.854,
+        "water stress": 1,
+        "total water use": 41.0,
+        "gsf": 9138.6396484375
+    },
+    {
+        "region": "Americas",
+        "campus": "HANOVER DORSEY",
+        "name": "HANOVER-7030 DORSEY",
+        "latitude": 37.74478,
+        "longitude": -77.4464,
+        "water stress": 1,
+        "total water use": 240.79337310791047,
+        "gsf": 13000.0
+    },
+    {
+        "region": "EMEA",
+        "campus": "HERZLIYA",
+        "name": "HERZLIYA-AT3",
+        "latitude": 32.16398,
+        "longitude": 34.81759,
+        "water stress": 4,
+        "total water use": 38274.97949218752,
+        "gsf": 529230.375
+    },
+    {
+        "region": "Americas",
+        "campus": "HILLSBORO",
+        "name": "HILLSBORO-4735",
+        "latitude": 45.52289,
+        "longitude": -122.99,
+        "water stress": 0,
+        "total water use": 1152.1036376953127,
+        "gsf": 62200.0
+    },
+    {
+        "region": "Americas",
+        "campus": "HILLSBORO",
+        "name": "HILLSBORO-9820",
+        "latitude": 45.52289,
+        "longitude": -122.99,
+        "water stress": 0,
+        "total water use": 8560.229049682634,
+        "gsf": 82500.0
+    },
+    {
+        "region": "Asia",
+        "campus": "HK CYBERPORT",
+        "name": "HKG-CYBERPORT",
+        "latitude": 22.27933,
+        "longitude": 114.1628,
+        "water stress": 1,
+        "total water use": 615.2770385742192,
+        "gsf": 45919.21875
+    },
+    {
+        "region": "Asia",
+        "campus": "HO CHI MINH",
+        "name": "HO CHI MINH-PP",
+        "latitude": 10.77639,
+        "longitude": 106.7011,
+        "water stress": 1,
+        "total water use": 247.83194732666047,
+        "gsf": 13379.650390625
+    },
+    {
+        "region": "Americas",
+        "campus": "HOUSTON-FAWKES RE&S",
+        "name": "HOUSTON-19426 OIL CENTER BLVD",
+        "latitude": 29.75894,
+        "longitude": -95.3677,
+        "water stress": 2,
+        "total water use": 69.65154314041138,
+        "gsf": 11820.0
+    },
+    {
+        "region": "Americas",
+        "campus": "HOUSTON AZURE 4201",
+        "name": "HOUSTON-4201 MAIN ST",
+        "latitude": 29.75894,
+        "longitude": -95.3677,
+        "water stress": 2,
+        "total water use": 453.63615417480474,
+        "gsf": 24491.0
+    },
+    {
+        "region": "Americas",
+        "campus": "HOUSTON-750",
+        "name": "HOUSTON-750",
+        "latitude": 29.75894,
+        "longitude": -95.3677,
+        "water stress": 2,
+        "total water use": 753.6647186279292,
+        "gsf": 40689.0
+    },
+    {
+        "region": "Americas",
+        "campus": "-",
+        "name": "HUNTVALLEY-200 INTERNATIONAL CIRCLE",
+        "latitude": 39.4993,
+        "longitude": -76.6575,
+        "water stress": 1,
+        "total water use": 2017.1259155273403,
+        "gsf": 0.0
+    },
+    {
+        "region": "Asia",
+        "campus": "HYDERABAD",
+        "name": "HYD -CAMPUS 2",
+        "latitude": 17.36059,
+        "longitude": 78.47406,
+        "water stress": 4,
+        "total water use": 0.0,
+        "gsf": 393570.0
+    },
+    {
+        "region": "Asia",
+        "campus": "HYDERABAD",
+        "name": "HYD -CAMPUS 3",
+        "latitude": 17.36059,
+        "longitude": 78.47406,
+        "water stress": 4,
+        "total water use": 215226.40979003906,
+        "gsf": 595000.0
+    },
+    {
+        "region": "Asia",
+        "campus": "HYDERABAD",
+        "name": "HYD CAMPUS 4",
+        "latitude": 17.36059,
+        "longitude": 78.47406,
+        "water stress": 4,
+        "total water use": 7591.0,
+        "gsf": 1142631.0
+    },
+    {
+        "region": "Asia",
+        "campus": "HYDERABAD",
+        "name": "HYD-CAMPUS 1",
+        "latitude": 17.36059,
+        "longitude": 78.47406,
+        "water stress": 4,
+        "total water use": 47360.0,
+        "gsf": 355834.0
+    },
+    {
+        "region": "Asia",
+        "campus": "HYDERABAD",
+        "name": "HYD-CAMPUS CENTRAL KITCHEN",
+        "latitude": 17.36059,
+        "longitude": 78.47406,
+        "water stress": 4,
+        "total water use": 0.0,
+        "gsf": 68457.0
+    },
+    {
+        "region": "Asia",
+        "campus": "HYDERABAD",
+        "name": "HYD-CAMPUS-GARAGE",
+        "latitude": 17.36059,
+        "longitude": 78.47406,
+        "water stress": 4,
+        "total water use": 0.0,
+        "gsf": 400000.0
+    },
+    {
+        "region": "Asia",
+        "campus": "HYDERABAD",
+        "name": "HYD-REF PROJECT OFFICE",
+        "latitude": 17.36059,
+        "longitude": 78.47406,
+        "water stress": 4,
+        "total water use": 0.0,
+        "gsf": 4179.68017578125
+    },
+    {
+        "region": "Asia",
+        "campus": "HYDERABAD",
+        "name": "HYD-SSKC2-MCIPL",
+        "latitude": 17.36059,
+        "longitude": 78.47406,
+        "water stress": 4,
+        "total water use": 524.0960083007816,
+        "gsf": 250605.0
+    },
+    {
+        "region": "Asia",
+        "campus": "HYDERABAD",
+        "name": "HYD-SSKC2-MGSCIPL",
+        "latitude": 17.36059,
+        "longitude": 78.47406,
+        "water stress": 4,
+        "total water use": 0.0,
+        "gsf": 1171.0
+    },
+    {
+        "region": "Asia",
+        "campus": "HYDERABAD",
+        "name": "HYD-SSKC2-MIRPL",
+        "latitude": 17.36059,
+        "longitude": 78.47406,
+        "water stress": 4,
+        "total water use": 0.0,
+        "gsf": 169370.0
+    },
+    {
+        "region": "EMEA",
+        "campus": "IASI",
+        "name": "IASI-PALAS CAMPUS",
+        "latitude": 47.16156,
+        "longitude": 27.58378,
+        "water stress": 2,
+        "total water use": 302.0,
+        "gsf": 35938.51953125
+    },
+    {
+        "region": "Americas",
+        "campus": "IRVINE-3 PARK PLAZA",
+        "name": "IRVINE",
+        "latitude": 33.6857,
+        "longitude": -117.826,
+        "water stress": 4,
+        "total water use": 332.0169982910161,
+        "gsf": 17925.0
+    },
+    {
+        "region": "EMEA",
+        "campus": "ISTANBUL-BELLAVUE",
+        "name": "ISTANBUL-BELL",
+        "latitude": 41.00638,
+        "longitude": 28.97587,
+        "water stress": 4,
+        "total water use": 2064.840003967285,
+        "gsf": 48789.98046875
+    },
+    {
+        "region": "Asia",
+        "campus": "JAKARTA",
+        "name": "JAKARTA-JSX",
+        "latitude": -6.17525,
+        "longitude": 106.827,
+        "water stress": 3,
+        "total water use": 57.0,
+        "gsf": 24778.73046875
+    },
+    {
+        "region": "EMEA",
+        "campus": "JEDDAH-GRAVITA",
+        "name": "JEDDAH-GRAVITA",
+        "latitude": 21.58101,
+        "longitude": 39.16536,
+        "water stress": 4,
+        "total water use": 13.896554946899398,
+        "gsf": 750.25
+    },
+    {
+        "region": "Americas",
+        "campus": "BALTIMORE 301",
+        "name": "JHU-301 WEST 39TH",
+        "latitude": 39.29088,
+        "longitude": -76.6108,
+        "water stress": 1,
+        "total water use": 182.74364089965843,
+        "gsf": 9866.0
+    },
+    {
+        "region": "EMEA",
+        "campus": "JOHANNESBURG-CH",
+        "name": "JOHANNESBURG-CH",
+        "latitude": -26.205,
+        "longitude": 28.04972,
+        "water stress": 4,
+        "total water use": 3102.4760131835938,
+        "gsf": 88759.9375
+    },
+    {
+        "region": "EMEA",
+        "campus": "DTU LYNGBY",
+        "name": "K. LYNGBY-TECH UNI",
+        "latitude": 55.6761,
+        "longitude": 12.5683,
+        "water stress": 1,
+        "total water use": 1.8275599181652096,
+        "gsf": 118.400001525879
+    },
+    {
+        "region": "EMEA",
+        "campus": "KHOBAR-PRINCE",
+        "name": "KHOBAR-PRINCE TURKEY ST",
+        "latitude": 26.2172,
+        "longitude": 50.1971,
+        "water stress": 4,
+        "total water use": 7.37698245048523,
+        "gsf": 398.269989013672
+    },
+    {
+        "region": "EMEA",
+        "campus": "KIEV",
+        "name": "KIEV-2 MAIDAN NEZALEZHNOSTI",
+        "latitude": 50.45003,
+        "longitude": 30.52414,
+        "water stress": 0,
+        "total water use": 7.177494764328002,
+        "gsf": 387.5
+    },
+    {
+        "region": "EMEA",
+        "campus": "KIEV",
+        "name": "KIEV-75",
+        "latitude": 50.45003,
+        "longitude": 30.52414,
+        "water stress": 0,
+        "total water use": 6.380098342895508,
+        "gsf": 344.450012207031
+    },
+    {
+        "region": "EMEA",
+        "campus": "KOSICE LETNA",
+        "name": "KOSICE-LETNA 27",
+        "latitude": 48.7164,
+        "longitude": 21.2611,
+        "water stress": 1,
+        "total water use": 6.499753475189208,
+        "gsf": 350.910003662109
+    },
+    {
+        "region": "Asia",
+        "campus": "MENARA SHELL",
+        "name": "KUALA LUMPUR MENARA SHELL",
+        "latitude": 3.151696,
+        "longitude": 101.6942,
+        "water stress": 0,
+        "total water use": 461.95280456542906,
+        "gsf": 24940.0
+    },
+    {
+        "region": "EMEA",
+        "campus": "KUWAIT",
+        "name": "KUWAIT-ARRAYA",
+        "latitude": 29.2734,
+        "longitude": 47.49795,
+        "water stress": 4,
+        "total water use": 86.6858878135681,
+        "gsf": 7938.4501953125
+    },
+    {
+        "region": "EMEA",
+        "campus": "LAGOS KINGSWAY",
+        "name": "LAGOS-KINGS TOWER",
+        "latitude": 6.455058,
+        "longitude": 3.39418,
+        "water stress": 3,
+        "total water use": 516.1868591308595,
+        "gsf": 80643.890625
+    },
+    {
+        "region": "Americas",
+        "campus": "LAS COLINAS",
+        "name": "LAS COLINAS-1",
+        "latitude": 32.82952,
+        "longitude": -96.9442,
+        "water stress": 3,
+        "total water use": 22349.060638427756,
+        "gsf": 230509.015625
+    },
+    {
+        "region": "Americas",
+        "campus": "LAS COLINAS",
+        "name": "LAS COLINAS-2",
+        "latitude": 32.82952,
+        "longitude": -96.9442,
+        "water stress": 3,
+        "total water use": 11045.826187133789,
+        "gsf": 229752.40625
+    },
+    {
+        "region": "Americas",
+        "campus": "SILICON SLOPES CTR",
+        "name": "LEHI-TRIUMPH 3300",
+        "latitude": 40.38811,
+        "longitude": -111.849,
+        "water stress": 3,
+        "total water use": 281.46892547607484,
+        "gsf": 15196.0
+    },
+    {
+        "region": "Americas",
+        "campus": "LENEXA-RISKIQ",
+        "name": "LENEXA-16820",
+        "latitude": 38.96975,
+        "longitude": -94.7846,
+        "water stress": 0,
+        "total water use": 182.42875671386756,
+        "gsf": 9849.0
+    },
+    {
+        "region": "EMEA",
+        "campus": "LILLE",
+        "name": "LILLE-165",
+        "latitude": 50.63657,
+        "longitude": 3.063528,
+        "water stress": 4,
+        "total water use": 17.151896953582803,
+        "gsf": 925.700012207031
+    },
+    {
+        "region": "Americas",
+        "campus": "LIMA WEWORK",
+        "name": "LIMA WEWORK",
+        "latitude": -12.0621,
+        "longitude": -77.0365,
+        "water stress": 4,
+        "total water use": 189.00426864623998,
+        "gsf": 10204.1904296875
+    },
+    {
+        "region": "Puget Sound",
+        "campus": "PUGET SOUND",
+        "name": "LINCOLN SQUARE",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "water stress": 1,
+        "total water use": 804.1016235351564,
+        "gsf": 43412.0
+    },
+    {
+        "region": "Puget Sound",
+        "campus": "LSQ-PACWEST",
+        "name": "LINCOLN SQUARE-2",
+        "latitude": 47.61442,
+        "longitude": -122.192,
+        "water stress": 1,
+        "total water use": 800.6009216308595,
+        "gsf": 43223.0
+    },
+    {
+        "region": "EMEA",
+        "campus": "LINKOPING",
+        "name": "LIN-IND5",
+        "latitude": 58.40981,
+        "longitude": 15.62453,
+        "water stress": 1,
+        "total water use": 148.7362060546872,
+        "gsf": 8029.93994140625
+    },
+    {
+        "region": "EMEA",
+        "campus": "VIRTUAL",
+        "name": "LISBON-VIRTUAL",
+        "latitude": 38.70775,
+        "longitude": -9.13659,
+        "water stress": 4,
+        "total water use": 2189.089996337891,
+        "gsf": 69099.390625
+    },
+    {
+        "region": "EMEA",
+        "campus": "LJUBLJANA",
+        "name": "LJUBLJANA-CP",
+        "latitude": 46.05003,
+        "longitude": 14.50693,
+        "water stress": 0,
+        "total water use": 119.41886901855469,
+        "gsf": 6447.2099609375
+    },
+    {
+        "region": "EMEA",
+        "campus": "PADDINGTON",
+        "name": "LONDON-PADDNGTN",
+        "latitude": 51.50745,
+        "longitude": -0.12777,
+        "water stress": 3,
+        "total water use": 1936.6268920898403,
+        "gsf": 104555.0
+    },
+    {
+        "region": "Americas",
+        "campus": "LOS ANGELES-13031",
+        "name": "LOS ANGEL-13031",
+        "latitude": 34.05369,
+        "longitude": -118.243,
+        "water stress": 4,
+        "total water use": 418.8322906494143,
+        "gsf": 22612.0
+    },
+    {
+        "region": "EMEA",
+        "campus": "LUANDA-LAUNCH",
+        "name": "LUANDA LAUNCH",
+        "latitude": -8.82727,
+        "longitude": 13.24395,
+        "water stress": 4,
+        "total water use": 65.0,
+        "gsf": 1614.59997558594
+    },
+    {
+        "region": "EMEA",
+        "campus": "LYNGBY",
+        "name": "LYNGBY",
+        "latitude": 55.77186,
+        "longitude": 12.50514,
+        "water stress": 1,
+        "total water use": 5205.385040283203,
+        "gsf": 219187.328125
+    },
+    {
+        "region": "EMEA",
+        "campus": "LYNGBY-KANALVEJ 5",
+        "name": "LYNGBY-KANALVEJ 5",
+        "latitude": 55.77186,
+        "longitude": 12.50514,
+        "water stress": 1,
+        "total water use": 389.18376159667906,
+        "gsf": 21011.330078125
+    },
+    {
+        "region": "EMEA",
+        "campus": "-",
+        "name": "LYON-49 QUAI RAMBAUD",
+        "latitude": 48.8566,
+        "longitude": 2.3522,
+        "water stress": 1,
+        "total water use": 0.3334062024950975,
+        "gsf": 0.0
+    },
+    {
+        "region": "Asia",
+        "campus": "MACAU",
+        "name": "MACAU-FIT",
+        "latitude": 22.18994,
+        "longitude": 113.538,
+        "water stress": 0,
+        "total water use": 49.51082038879394,
+        "gsf": 2673.0
+    },
+    {
+        "region": "Americas",
+        "campus": "MADISON-634",
+        "name": "MADISON-634",
+        "latitude": 43.07476,
+        "longitude": -89.3838,
+        "water stress": 3,
+        "total water use": 150.514377593994,
+        "gsf": 8126.0
+    },
+    {
+        "region": "EMEA",
+        "campus": "MADRID",
+        "name": "MADRID-LA FINCA",
+        "latitude": 40.43465,
+        "longitude": -3.81483,
+        "water stress": 4,
+        "total water use": 1045.0,
+        "gsf": 64705.30859375
+    },
+    {
+        "region": "Asia",
+        "campus": "MAKATI CITY",
+        "name": "MAKATI-ONE AYALA",
+        "latitude": 14.55679,
+        "longitude": 121.0211,
+        "water stress": 2,
+        "total water use": 192.41999912261957,
+        "gsf": 23054.009765625
+    },
+    {
+        "region": "Asia",
+        "campus": "MAKATI CITY",
+        "name": "MAKATI-ONE AYALA EAST",
+        "latitude": 14.55679,
+        "longitude": 121.0211,
+        "water stress": 2,
+        "total water use": 71.0,
+        "gsf": 8450.3896484375
+    },
+    {
+        "region": "EMEA",
+        "campus": "MALTA SKYPARK",
+        "name": "MALTA-SKYPARKS",
+        "latitude": 35.85965,
+        "longitude": 14.48929,
+        "water stress": 4,
+        "total water use": 17.299999862909296,
+        "gsf": 4273.31005859375
+    },
+    {
+        "region": "Americas",
+        "campus": "MALVERN",
+        "name": "MALVERN",
+        "latitude": 41.00241,
+        "longitude": -95.5852,
+        "water stress": 2,
+        "total water use": 789.1909790039064,
+        "gsf": 42607.0
+    },
+    {
+        "region": "EMEA",
+        "campus": "MANAMA",
+        "name": "MANAMA",
+        "latitude": 26.2235,
+        "longitude": 50.58224,
+        "water stress": 4,
+        "total water use": 39.49066829681399,
+        "gsf": 2132.03002929688
+    },
+    {
+        "region": "EMEA",
+        "campus": "MANCHESTER-UNI",
+        "name": "MANCHESTER UA92",
+        "latitude": 53.47949,
+        "longitude": -2.24511,
+        "water stress": 1,
+        "total water use": 144.73532867431678,
+        "gsf": 7814.0
+    },
+    {
+        "region": "Asia",
+        "campus": "-",
+        "name": "MANLY-19 RIALTO LN",
+        "latitude": -31.2532,
+        "longitude": 146.9211,
+        "water stress": 0,
+        "total water use": 42.657468795776396,
+        "gsf": 0.0
+    },
+    {
+        "region": "Puget Sound",
+        "campus": "PUGET SOUND",
+        "name": "MARYMOOR",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "water stress": 1,
+        "total water use": 872.1636011600492,
+        "gsf": 67009.0
+    },
+    {
+        "region": "Americas",
+        "campus": "MEDELLIN",
+        "name": "MEDELLIN-MILLA DE ORO",
+        "latitude": 6.244338,
+        "longitude": -75.5736,
+        "water stress": 0,
+        "total water use": 50.0,
+        "gsf": 5491.14990234375
+    },
+    {
+        "region": "Americas",
+        "campus": "PEPSI COLA DR",
+        "name": "MELBOURNE-3984",
+        "latitude": 28.0785,
+        "longitude": -80.6078,
+        "water stress": 3,
+        "total water use": 3628.6940155029297,
+        "gsf": 119704.0
+    },
+    {
+        "region": "Asia",
+        "campus": "-",
+        "name": "Melbourne-530 Collins",
+        "latitude": -37.8136,
+        "longitude": 144.9631,
+        "water stress": 3,
+        "total water use": 28.9337921142578,
+        "gsf": 0.0
+    },
+    {
+        "region": "Asia",
+        "campus": "MELBOURNE",
+        "name": "MELBOURNE-FRESH",
+        "latitude": -37.8142,
+        "longitude": 144.9632,
+        "water stress": 3,
+        "total water use": 574.0858154296873,
+        "gsf": 30993.859375
+    },
+    {
+        "region": "Americas",
+        "campus": "MEMPHIS-6750 POPLAR",
+        "name": "MEMPHIS-6750",
+        "latitude": 35.14602,
+        "longitude": -90.0518,
+        "water stress": 0,
+        "total water use": 156.3489875793456,
+        "gsf": 8441.0
+    },
+    {
+        "region": "Americas",
+        "campus": "MEXICO CITY",
+        "name": "MEXICOCITY-SFE",
+        "latitude": 19.43263,
+        "longitude": -99.1332,
+        "water stress": 4,
+        "total water use": 1952.9545898437557,
+        "gsf": 105436.5
+    },
+    {
+        "region": "EMEA",
+        "campus": "MILAN PASUBIO",
+        "name": "MILAN-PORTA VOLTA",
+        "latitude": 45.46419,
+        "longitude": 9.189635,
+        "water stress": 1,
+        "total water use": 2258.619934082034,
+        "gsf": 68717.3828125
+    },
+    {
+        "region": "Puget Sound",
+        "campus": "PUGET SOUND",
+        "name": "MILLENNIUM A",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "water stress": 1,
+        "total water use": 1255.7189025878881,
+        "gsf": 67794.0
+    },
+    {
+        "region": "Puget Sound",
+        "campus": "PUGET SOUND",
+        "name": "MILLENNIUM B",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "water stress": 1,
+        "total water use": 794.7662658691405,
+        "gsf": 42908.0
+    },
+    {
+        "region": "Puget Sound",
+        "campus": "PUGET SOUND",
+        "name": "MILLENNIUM C",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "water stress": 1,
+        "total water use": 1851.2378540039037,
+        "gsf": 99945.0
+    },
+    {
+        "region": "Puget Sound",
+        "campus": "PUGET SOUND",
+        "name": "MILLENNIUM D",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "water stress": 1,
+        "total water use": 10873.728412389764,
+        "gsf": 99898.0
+    },
+    {
+        "region": "Puget Sound",
+        "campus": "PUGET SOUND",
+        "name": "MILLENNIUM E",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "water stress": 1,
+        "total water use": 6190.096140384667,
+        "gsf": 80751.0
+    },
+    {
+        "region": "Puget Sound",
+        "campus": "PUGET SOUND",
+        "name": "MILLENNIUM F",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "water stress": 1,
+        "total water use": 99.109501838684,
+        "gsf": 87897.0
+    },
+    {
+        "region": "Americas",
+        "campus": "MINNEAPOLIS 100 WASH",
+        "name": "MINNEAPOLIS-100 WASHINGTON AVE S",
+        "latitude": 44.9773,
+        "longitude": -93.2655,
+        "water stress": 3,
+        "total water use": 714.7488098144532,
+        "gsf": 38588.0
+    },
+    {
+        "region": "Americas",
+        "campus": "MONTERREY-VAO",
+        "name": "MONTERREY-VAO",
+        "latitude": 25.65271,
+        "longitude": -100.372,
+        "water stress": 2,
+        "total water use": 154.822174072266,
+        "gsf": 8358.5703125
+    },
+    {
+        "region": "Americas",
+        "campus": "MONTEVIDEO",
+        "name": "MONTEVIDEO",
+        "latitude": -34.9059,
+        "longitude": -56.1913,
+        "water stress": 2,
+        "total water use": 66.58862686157234,
+        "gsf": 3595.17993164063
+    },
+    {
+        "region": "Americas",
+        "campus": "MONTREAL-MARCONI",
+        "name": "MONTREAL-MARCONI",
+        "latitude": 45.50318,
+        "longitude": -73.5698,
+        "water stress": 0,
+        "total water use": 576.9964599609373,
+        "gsf": 31151.0
+    },
+    {
+        "region": "Americas",
+        "campus": "MONTREAL-MCGILL",
+        "name": "MONTREAL-MCGILL",
+        "latitude": 45.50318,
+        "longitude": -73.5698,
+        "water stress": 0,
+        "total water use": 387.62173461914045,
+        "gsf": 20927.0
+    },
+    {
+        "region": "Americas",
+        "campus": "MOUNTAIN VIEW",
+        "name": "MTN VIEW-1040-1050",
+        "latitude": 37.38939,
+        "longitude": -122.083,
+        "water stress": 1,
+        "total water use": 66947.05129241943,
+        "gsf": 40280.71875
+    },
+    {
+        "region": "Americas",
+        "campus": "MTN VIEW-1090 A",
+        "name": "MTN VIEW-1090-A",
+        "latitude": 37.38939,
+        "longitude": -122.083,
+        "water stress": 1,
+        "total water use": 576.2509479522708,
+        "gsf": 5728.0
+    },
+    {
+        "region": "Americas",
+        "campus": "MTN VIEW-1090 B",
+        "name": "MTN VIEW-1090-B",
+        "latitude": 37.38939,
+        "longitude": -122.083,
+        "water stress": 1,
+        "total water use": 417.67574787139915,
+        "gsf": 7306.0
+    },
+    {
+        "region": "Asia",
+        "campus": "MUMBAI-GSMO",
+        "name": "MUMBAI-WINDSOR",
+        "latitude": 18.97335,
+        "longitude": 72.8281,
+        "water stress": 1,
+        "total water use": 809.4361267089843,
+        "gsf": 43700.0
+    },
+    {
+        "region": "EMEA",
+        "campus": "MUNICH",
+        "name": "MUNICH-HQ",
+        "latitude": 48.13711,
+        "longitude": 11.57538,
+        "water stress": 0,
+        "total water use": 5857.494140625,
+        "gsf": 316235.5625
+    },
+    {
+        "region": "EMEA",
+        "campus": "RUSAYL",
+        "name": "MUSCAT-KOM",
+        "latitude": 23.54068,
+        "longitude": 58.18907,
+        "water stress": 4,
+        "total water use": 13.627475738525401,
+        "gsf": 3599.27001953125
+    },
+    {
+        "region": "Asia",
+        "campus": "NAGOYA",
+        "name": "NAGOYA-LUCENT",
+        "latitude": 35.1851,
+        "longitude": 136.8998,
+        "water stress": 2,
+        "total water use": 102.30013275146484,
+        "gsf": 5523.22021484375
+    },
+    {
+        "region": "EMEA",
+        "campus": "NAIROBI-WAIYAKI WAY",
+        "name": "NAIROBI-WAIYAKI WAY",
+        "latitude": -1.28325,
+        "longitude": 36.81724,
+        "water stress": 0,
+        "total water use": 1255.16317749024,
+        "gsf": 67764.0
+    },
+    {
+        "region": "Asia",
+        "campus": "NANJING",
+        "name": "NANJING-XZ",
+        "latitude": 32.04383,
+        "longitude": 118.7789,
+        "water stress": 0,
+        "total water use": 120.98939895629881,
+        "gsf": 6531.60009765625
+    },
+    {
+        "region": "EMEA",
+        "campus": "NANTES ST-HERBLAIN",
+        "name": "NANTES-1 RUE FRANCOISE SAGAN",
+        "latitude": 47.2184,
+        "longitude": -1.5536,
+        "water stress": 0,
+        "total water use": 39.87538146972659,
+        "gsf": 2152.80004882813
+    },
+    {
+        "region": "EMEA",
+        "campus": "NANTES-SALORGES",
+        "name": "NANTES-CENTRE DES SALORGES",
+        "latitude": 47.21864,
+        "longitude": -1.55414,
+        "water stress": 0,
+        "total water use": 39.277287483215275,
+        "gsf": 2120.51000976563
+    },
+    {
+        "region": "EMEA",
+        "campus": "NAZARETH",
+        "name": "NAZARET PAULUS",
+        "latitude": 32.70663,
+        "longitude": 35.30482,
+        "water stress": 4,
+        "total water use": 18.38999962806701,
+        "gsf": 3153.85009765625
+    },
+    {
+        "region": "Asia",
+        "campus": "ASIA TO BE MAPPED",
+        "name": "NEW DELHI-MALIK BUILDCON PLAZA",
+        "latitude": 28.6139,
+        "longitude": 77.20901,
+        "water stress": 4,
+        "total water use": 4.482461214065556,
+        "gsf": 242.0
+    },
+    {
+        "region": "Asia",
+        "campus": "ASIA TO BE MAPPED",
+        "name": "NEW DELHI-MALIK BUILDCON-MCIPL",
+        "latitude": 28.6139,
+        "longitude": 77.20901,
+        "water stress": 4,
+        "total water use": 4.482461214065556,
+        "gsf": 242.0
+    },
+    {
+        "region": "Asia",
+        "campus": "ASIA TO BE MAPPED",
+        "name": "NEW DELHI-MALIK BUILDCON-MGSCIPL",
+        "latitude": 28.6139,
+        "longitude": 77.20901,
+        "water stress": 4,
+        "total water use": 4.482461214065556,
+        "gsf": 242.0
+    },
+    {
+        "region": "Asia",
+        "campus": "ASIA TO BE MAPPED",
+        "name": "NEW DELHI-MALIK BUILDCON-MSR",
+        "latitude": 28.6139,
+        "longitude": 77.20901,
+        "water stress": 4,
+        "total water use": 4.482461214065556,
+        "gsf": 242.0
+    },
+    {
+        "region": "Americas",
+        "campus": "NYC-WILLIAM VEXCEL",
+        "name": "NEW YORK - 123 WILLIAM ST",
+        "latitude": 40.71273,
+        "longitude": -74.006,
+        "water stress": 0,
+        "total water use": 280.35756683349604,
+        "gsf": 15136.0
+    },
+    {
+        "region": "Americas",
+        "campus": "NEWTON-WASHINGTON",
+        "name": "NEWTON WASHINGTON",
+        "latitude": 42.337,
+        "longitude": -71.2092,
+        "water stress": 1,
+        "total water use": 0.0,
+        "gsf": 0.0
+    },
+    {
+        "region": "EMEA",
+        "campus": "NICOSIA",
+        "name": "NICOSIA-LIMASSO",
+        "latitude": 35.17465,
+        "longitude": 33.36388,
+        "water stress": 4,
+        "total water use": 53.07279920578004,
+        "gsf": 4843.7998046875
+    },
+    {
+        "region": "Asia",
+        "campus": "NOIDA IDC",
+        "name": "NOIDA KP TOWERS",
+        "latitude": 28.5355,
+        "longitude": 77.391,
+        "water stress": 4,
+        "total water use": 1340.126220703128,
+        "gsf": 72351.0
+    },
+    {
+        "region": "Asia",
+        "campus": "NOIDA SOV CAP GATE",
+        "name": "NOIDA SOVEREIGN",
+        "latitude": 28.57063,
+        "longitude": 77.32721,
+        "water stress": 4,
+        "total water use": 3166.080688476563,
+        "gsf": 170931.0
+    },
+    {
+        "region": "Asia",
+        "campus": "NOIDA IDC",
+        "name": "NOIDA-ETT",
+        "latitude": 28.5355,
+        "longitude": 77.391,
+        "water stress": 4,
+        "total water use": 0.0,
+        "gsf": 62218.0
+    },
+    {
+        "region": "Asia",
+        "campus": "NOIDA IDC",
+        "name": "NOIDA-KP2-MGSCIPL",
+        "latitude": 28.5355,
+        "longitude": 77.391,
+        "water stress": 4,
+        "total water use": 20.18959665298464,
+        "gsf": 1090.0
+    },
+    {
+        "region": "Asia",
+        "campus": "NOIDA IDC",
+        "name": "NOIDA-KP2-MIRPL",
+        "latitude": 28.5355,
+        "longitude": 77.391,
+        "water stress": 4,
+        "total water use": 5072.497558593757,
+        "gsf": 273855.0
+    },
+    {
+        "region": "Americas",
+        "campus": "NYC-122 FIFTH AVE",
+        "name": "NYC-122 FIFTH AVENUE",
+        "latitude": 40.71273,
+        "longitude": -74.006,
+        "water stress": 0,
+        "total water use": 2689.4395751953075,
+        "gsf": 145198.0
+    },
+    {
+        "region": "Americas",
+        "campus": "NYC LAFAYETTE",
+        "name": "NYC-300 LAFAYETTE",
+        "latitude": 40.71273,
+        "longitude": -74.006,
+        "water stress": 0,
+        "total water use": 1173.3305053710935,
+        "gsf": 63346.0
+    },
+    {
+        "region": "Americas",
+        "campus": "-",
+        "name": "NYC-55 Broad St",
+        "latitude": 40.7128,
+        "longitude": -74.006,
+        "water stress": 0,
+        "total water use": 18.73557662963868,
+        "gsf": 0.0
+    },
+    {
+        "region": "Americas",
+        "campus": "NYC-ONE DAG",
+        "name": "NYC-ONE DAG",
+        "latitude": 40.71273,
+        "longitude": -74.006,
+        "water stress": 0,
+        "total water use": 321.2183532714839,
+        "gsf": 17342.0
+    },
+    {
+        "region": "Americas",
+        "campus": "NYC ONE WORLD TR RES",
+        "name": "NYC-ONE WORLD TRADE CENTER",
+        "latitude": 40.7128,
+        "longitude": -74.006,
+        "water stress": 0,
+        "total water use": 139.4749259948736,
+        "gsf": 7530.0
+    },
+    {
+        "region": "Americas",
+        "campus": "NYC-11 TIME SQ",
+        "name": "NYC-TIMESSQUARE",
+        "latitude": 40.71273,
+        "longitude": -74.006,
+        "water stress": 0,
+        "total water use": 3805.6834716796925,
+        "gsf": 205462.0
+    },
+    {
+        "region": "Americas",
+        "campus": "OCEANSIDE-MSS ACADMY",
+        "name": "OCEANSIDE-3609 OCEAN RANCH BLVD",
+        "latitude": 32.71742,
+        "longitude": -117.163,
+        "water stress": 4,
+        "total water use": 85.01858139038087,
+        "gsf": 4590.0
+    },
+    {
+        "region": "Puget Sound",
+        "campus": "PUGET SOUND",
+        "name": "ONE ESTERRA",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "water stress": 1,
+        "total water use": 4568.368652343756,
+        "gsf": 246638.0
+    },
+    {
+        "region": "Asia",
+        "campus": "OSAKA BREEZE TOWER",
+        "name": "OSAKA-BREEZE",
+        "latitude": 34.70219,
+        "longitude": 135.4956,
+        "water stress": 1,
+        "total water use": 32.0,
+        "gsf": 14940.650390625
+    },
+    {
+        "region": "EMEA",
+        "campus": "EUFEMIA",
+        "name": "OSLO-EUFEMIA",
+        "latitude": 59.91333,
+        "longitude": 10.73897,
+        "water stress": 1,
+        "total water use": 8530.0,
+        "gsf": 98544.421875
+    },
+    {
+        "region": "Americas",
+        "campus": "OTTAWA-QUEEN",
+        "name": "OTTAWA",
+        "latitude": 45.42088,
+        "longitude": -75.6901,
+        "water stress": 0,
+        "total water use": 0.5197650790214544,
+        "gsf": 88.0
+    },
+    {
+        "region": "Americas",
+        "campus": "OTTAWA-QUEEN",
+        "name": "OTTAWA-QUEEN",
+        "latitude": 45.42088,
+        "longitude": -75.6901,
+        "water stress": 0,
+        "total water use": 374.28549957275396,
+        "gsf": 20207.0
+    },
+    {
+        "region": "EMEA",
+        "campus": "-",
+        "name": "Oxford",
+        "latitude": 51.752,
+        "longitude": -1.2577,
+        "water stress": 0,
+        "total water use": 106.0416870117186,
+        "gsf": 0.0
+    },
+    {
+        "region": "Americas",
+        "campus": "PANAMA CITY-COSTA",
+        "name": "PANAMA COSTA",
+        "latitude": 8.971449,
+        "longitude": -79.5342,
+        "water stress": 1,
+        "total water use": 121.82291793823202,
+        "gsf": 6576.7998046875
+    },
+    {
+        "region": "EMEA",
+        "campus": "-",
+        "name": "PARIS-1 RUE DU DEPART",
+        "latitude": 48.8566,
+        "longitude": 2.3522,
+        "water stress": 1,
+        "total water use": 0.4815867394208903,
+        "gsf": 0.0
+    },
+    {
+        "region": "EMEA",
+        "campus": "PARIS-ISSY",
+        "name": "PARIS-ISSY",
+        "latitude": 48.82505,
+        "longitude": 2.273457,
+        "water stress": 1,
+        "total water use": 4296.0,
+        "gsf": 500789.71875
+    },
+    {
+        "region": "Puget Sound",
+        "campus": "PUGET SOUND",
+        "name": "Pebble Beach CP",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "water stress": 1,
+        "total water use": 33397.0698695183,
+        "gsf": 0.0
+    },
+    {
+        "region": "Asia",
+        "campus": "PENANG",
+        "name": "PENANG",
+        "latitude": 5.357432,
+        "longitude": 100.3036,
+        "water stress": 0,
+        "total water use": 33.099826812744126,
+        "gsf": 1787.0
+    },
+    {
+        "region": "Asia",
+        "campus": "PENANG",
+        "name": "PENANG-FREE INDUSTRIAL ZONE-LAB",
+        "latitude": 5.357432,
+        "longitude": 100.3036,
+        "water stress": 0,
+        "total water use": 0.0,
+        "gsf": 1090.0
+    },
+    {
+        "region": "Asia",
+        "campus": "PENANG",
+        "name": "PENANG-MEDAN BAYAN-MUKIM 12",
+        "latitude": 5.357,
+        "longitude": 100.302,
+        "water stress": 0,
+        "total water use": 0.0,
+        "gsf": 29931.0
+    },
+    {
+        "region": "Asia",
+        "campus": "PERTH",
+        "name": "PERTH-100 GEO",
+        "latitude": -31.9559,
+        "longitude": 115.8606,
+        "water stress": 2,
+        "total water use": 267.58385467529286,
+        "gsf": 14446.3701171875
+    },
+    {
+        "region": "Americas",
+        "campus": "PITTSBURGH-910 AVERE",
+        "name": "PITTSBURGH-910 RIVER",
+        "latitude": 40.44169,
+        "longitude": -79.9901,
+        "water stress": 2,
+        "total water use": 1132.9512634277341,
+        "gsf": 61166.0
+    },
+    {
+        "region": "Americas",
+        "campus": "-",
+        "name": "PLANO-1501 SUMMIT AVE",
+        "latitude": 32.9483,
+        "longitude": -96.7299,
+        "water stress": 4,
+        "total water use": 103.72637557983397,
+        "gsf": 0.0
+    },
+    {
+        "region": "EMEA",
+        "campus": "MAURITIUS",
+        "name": "PORT LOUIS-DIAS",
+        "latitude": -20.1625,
+        "longitude": 57.5028,
+        "water stress": 0,
+        "total water use": 49.844226837158175,
+        "gsf": 2691.0
+    },
+    {
+        "region": "EMEA",
+        "campus": "PRAGUE BBC",
+        "name": "PRAGUE-BBC",
+        "latitude": 50.08747,
+        "longitude": 14.42125,
+        "water stress": 0,
+        "total water use": 888.8999948501582,
+        "gsf": 161583.453125
+    },
+    {
+        "region": "Puget Sound",
+        "campus": "PUGET SOUND",
+        "name": "PS Utilities",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "water stress": 1,
+        "total water use": 11740.228474378586,
+        "gsf": 0.0
+    },
+    {
+        "region": "Asia",
+        "campus": "PUNE WTC TEC",
+        "name": "PUNE WTC TEC",
+        "latitude": 18.52143,
+        "longitude": 73.85445,
+        "water stress": 4,
+        "total water use": 7.020052671432494,
+        "gsf": 379.0
+    },
+    {
+        "region": "Asia",
+        "campus": "PUNE GSMO",
+        "name": "PUNE-COMMERZONE-MIRPL",
+        "latitude": 18.52143,
+        "longitude": 73.85445,
+        "water stress": 4,
+        "total water use": 1935.608093261724,
+        "gsf": 119700.0
+    },
+    {
+        "region": "Asia",
+        "campus": "-",
+        "name": "Pune-Samrat Ashok Path C",
+        "latitude": 18.5204,
+        "longitude": 73.8567,
+        "water stress": 4,
+        "total water use": 203.74822998046918,
+        "gsf": 0.0
+    },
+    {
+        "region": "Asia",
+        "campus": "-",
+        "name": "Pune-Samrat Ashok Path D",
+        "latitude": 18.5204,
+        "longitude": 73.8567,
+        "water stress": 4,
+        "total water use": 197.57403564453122,
+        "gsf": 0.0
+    },
+    {
+        "region": "Asia",
+        "campus": "-",
+        "name": "Pune-Samrat Ashok Path G",
+        "latitude": 18.5204,
+        "longitude": 73.8567,
+        "water stress": 4,
+        "total water use": 453.80287170410156,
+        "gsf": 0.0
+    },
+    {
+        "region": "Americas",
+        "campus": "QUEBEC-2640",
+        "name": "QUEBEC-2640",
+        "latitude": 52.47609,
+        "longitude": -71.8259,
+        "water stress": 0,
+        "total water use": 114.39537048339842,
+        "gsf": 6176.0
+    },
+    {
+        "region": "Americas",
+        "campus": "QUITO-EKOPARK",
+        "name": "QUITO-EKOPARK",
+        "latitude": -0.22016,
+        "longitude": -78.5123,
+        "water stress": 0,
+        "total water use": 86.81526947021484,
+        "gsf": 4687.18017578125
+    },
+    {
+        "region": "EMEA",
+        "campus": "RABAT REGUS",
+        "name": "RABAT LA ROCADE",
+        "latitude": 34.02236,
+        "longitude": -6.83402,
+        "water stress": 4,
+        "total water use": 6.060954093933106,
+        "gsf": 327.220001220703
+    },
+    {
+        "region": "Americas",
+        "campus": "RALEIGH-TECH/DEV",
+        "name": "RALEIGH-TECH&SILICONDEV 1009",
+        "latitude": 42.89866,
+        "longitude": -75.6402,
+        "water stress": 4,
+        "total water use": 3446.623535156256,
+        "gsf": 186077.0
+    },
+    {
+        "region": "Puget Sound",
+        "campus": "PUGET SOUND",
+        "name": "REDMOND COMMUTE TRANSPORTATION LOT 3",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "water stress": 1,
+        "total water use": 0.0,
+        "gsf": 0.0
+    },
+    {
+        "region": "Puget Sound",
+        "campus": "PUGET SOUND",
+        "name": "REDMOND COMMUTE TRANSPORTATION LOT 5",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "water stress": 1,
+        "total water use": 3759.284545898437,
+        "gsf": 202957.0
+    },
+    {
+        "region": "Puget Sound",
+        "campus": "PUGET SOUND",
+        "name": "REDMOND RIDGE 1",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "water stress": 1,
+        "total water use": 15908.490600585948,
+        "gsf": 45625.0
+    },
+    {
+        "region": "Puget Sound",
+        "campus": "PUGET SOUND",
+        "name": "REDMOND TECHNOLOGY STATION",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "water stress": 1,
+        "total water use": 280.3383035659789,
+        "gsf": 5044.0
+    },
+    {
+        "region": "Puget Sound",
+        "campus": "PUGET SOUND",
+        "name": "REDMOND TOWN B3",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "water stress": 1,
+        "total water use": 1590.6439819335963,
+        "gsf": 85876.0
+    },
+    {
+        "region": "Puget Sound",
+        "campus": "PUGET SOUND",
+        "name": "REDMOND TOWN B4",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "water stress": 1,
+        "total water use": 2308.7081909179683,
+        "gsf": 124643.0
+    },
+    {
+        "region": "Puget Sound",
+        "campus": "PUGET SOUND",
+        "name": "REDMOND TOWN B5",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "water stress": 1,
+        "total water use": 1872.7426757812557,
+        "gsf": 101106.0
+    },
+    {
+        "region": "Puget Sound",
+        "campus": "PUGET SOUND",
+        "name": "REDMOND TOWN B6",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "water stress": 1,
+        "total water use": 1567.064758300776,
+        "gsf": 84603.0
+    },
+    {
+        "region": "Puget Sound",
+        "campus": "PUGET SOUND",
+        "name": "REDMOND UNION HILL",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "water stress": 1,
+        "total water use": 584.6215667724608,
+        "gsf": 34432.0
+    },
+    {
+        "region": "Puget Sound",
+        "campus": "PUGET SOUND",
+        "name": "REDMOND WOODS-A",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "water stress": 1,
+        "total water use": 685.03857421875,
+        "gsf": 36984.0
+    },
+    {
+        "region": "Puget Sound",
+        "campus": "PUGET SOUND",
+        "name": "REDMOND WOODS-B",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "water stress": 1,
+        "total water use": 381.9723587036135,
+        "gsf": 20622.0
+    },
+    {
+        "region": "Puget Sound",
+        "campus": "PUGET SOUND",
+        "name": "REDMOND WOODS-C",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "water stress": 1,
+        "total water use": 766.3341522216792,
+        "gsf": 41373.0
+    },
+    {
+        "region": "Puget Sound",
+        "campus": "PUGET SOUND",
+        "name": "REDMOND-10500",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "water stress": 1,
+        "total water use": 243.34947967529286,
+        "gsf": 13138.0
+    },
+    {
+        "region": "Puget Sound",
+        "campus": "PUGET SOUND",
+        "name": "REDMOND-17760",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "water stress": 1,
+        "total water use": 3729.3489148616777,
+        "gsf": 66000.0
+    },
+    {
+        "region": "Puget Sound",
+        "campus": "PUGET SOUND",
+        "name": "REDW-A",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "water stress": 1,
+        "total water use": 0.0,
+        "gsf": 141681.4375
+    },
+    {
+        "region": "Puget Sound",
+        "campus": "PUGET SOUND",
+        "name": "REDW-B",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "water stress": 1,
+        "total water use": 0.0,
+        "gsf": 149981.453125
+    },
+    {
+        "region": "Puget Sound",
+        "campus": "PUGET SOUND",
+        "name": "REDW-C",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "water stress": 1,
+        "total water use": 0.0,
+        "gsf": 141154.859375
+    },
+    {
+        "region": "Puget Sound",
+        "campus": "PUGET SOUND",
+        "name": "REDW-D",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "water stress": 1,
+        "total water use": 0.0,
+        "gsf": 129291.6796875
+    },
+    {
+        "region": "Puget Sound",
+        "campus": "PUGET SOUND",
+        "name": "REDW-E",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "water stress": 1,
+        "total water use": 0.0,
+        "gsf": 141608.8125
+    },
+    {
+        "region": "Puget Sound",
+        "campus": "PUGET SOUND",
+        "name": "Redwest CP",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "water stress": 1,
+        "total water use": 46264.314559936545,
+        "gsf": 0.0
+    },
+    {
+        "region": "Puget Sound",
+        "campus": "PUGET SOUND",
+        "name": "REDW-F CAFETERIA",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "water stress": 1,
+        "total water use": 0.0,
+        "gsf": 40524.390625
+    },
+    {
+        "region": "Puget Sound",
+        "campus": "PUGET SOUND",
+        "name": "REDW-J GARAGE",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "water stress": 1,
+        "total water use": 0.0,
+        "gsf": 0.0
+    },
+    {
+        "region": "Americas",
+        "campus": "RENO-BC",
+        "name": "RENO-B",
+        "latitude": 39.52612,
+        "longitude": -119.813,
+        "water stress": 3,
+        "total water use": 1178.6835021972659,
+        "gsf": 63635.0
+    },
+    {
+        "region": "Americas",
+        "campus": "RENO-BC",
+        "name": "RENO-C",
+        "latitude": 39.52612,
+        "longitude": -119.813,
+        "water stress": 3,
+        "total water use": 886.4900207519531,
+        "gsf": 47860.0
+    },
+    {
+        "region": "Americas",
+        "campus": "RESTON",
+        "name": "RESTON-11955",
+        "latitude": 43.13011,
+        "longitude": -123.62,
+        "water stress": 0,
+        "total water use": 7451.980224609374,
+        "gsf": 402319.0
+    },
+    {
+        "region": "Americas",
+        "campus": "RESTON",
+        "name": "RESTON-12012",
+        "latitude": 43.13011,
+        "longitude": -123.62,
+        "water stress": 0,
+        "total water use": 3444.6602783203075,
+        "gsf": 185971.0
+    },
+    {
+        "region": "EMEA",
+        "campus": "REYKJAVIK-BORG 28",
+        "name": "REYKJAVIK-BORG 28",
+        "latitude": 64.14598,
+        "longitude": -21.9422,
+        "water stress": 0,
+        "total water use": 24.90210914611812,
+        "gsf": 1344.42004394531
+    },
+    {
+        "region": "Americas",
+        "campus": "RICHARDSON 2280 RE&S",
+        "name": "RICHARDSON-2280 CAMPBELL",
+        "latitude": 40.11947,
+        "longitude": -95.7608,
+        "water stress": 3,
+        "total water use": 0.0,
+        "gsf": 18044.0
+    },
+    {
+        "region": "Americas",
+        "campus": "RICHARDSON 740 CAMPB",
+        "name": "RICHARDSON-740 EAST CAMPBELL",
+        "latitude": 40.11947,
+        "longitude": -95.7608,
+        "water stress": 3,
+        "total water use": 0.0,
+        "gsf": 4058.0
+    },
+    {
+        "region": "EMEA",
+        "campus": "RIGA",
+        "name": "RIGA-ZALA1",
+        "latitude": 56.9494,
+        "longitude": 24.10518,
+        "water stress": 0,
+        "total water use": 13.20000004768372,
+        "gsf": 4929.91015625
+    },
+    {
+        "region": "Americas",
+        "campus": "RIO-V INHAUMA",
+        "name": "RIO-V-INHAUMA",
+        "latitude": -22.911,
+        "longitude": -43.2094,
+        "water stress": 1,
+        "total water use": 744.1325874328614,
+        "gsf": 13465.759765625
+    },
+    {
+        "region": "EMEA",
+        "campus": "RIYADH",
+        "name": "RIYADH-GATE2",
+        "latitude": 24.63892,
+        "longitude": 46.71601,
+        "water stress": 4,
+        "total water use": 577.9966735839841,
+        "gsf": 31204.83984375
+    },
+    {
+        "region": "Americas",
+        "campus": "-",
+        "name": "ROCKVILLE-1350 PICCARD DR",
+        "latitude": 39.0839,
+        "longitude": -77.1528,
+        "water stress": 1,
+        "total water use": 2104.626525878904,
+        "gsf": 0.0
+    },
+    {
+        "region": "Americas",
+        "campus": "-",
+        "name": "ROCKVILLE-1370 PICCARD DR",
+        "latitude": 39.0839,
+        "longitude": -77.1528,
+        "water stress": 1,
+        "total water use": 1687.0167846679685,
+        "gsf": 0.0
+    },
+    {
+        "region": "Americas",
+        "campus": "-",
+        "name": "ROCKVILLE-1375 PICCARD DR",
+        "latitude": 39.0839,
+        "longitude": -77.1528,
+        "water stress": 1,
+        "total water use": 1.0372636914253237,
+        "gsf": 0.0
+    },
+    {
+        "region": "EMEA",
+        "campus": "ROME",
+        "name": "ROME-AVIGNONE",
+        "latitude": 41.89332,
+        "longitude": 12.48293,
+        "water stress": 4,
+        "total water use": 479.4495849609373,
+        "gsf": 25884.619140625
+    },
+    {
+        "region": "EMEA",
+        "campus": "ROMSEY",
+        "name": "ROMSEY-QUADRANGLE-ABBEY PARK",
+        "latitude": 50.989,
+        "longitude": -1.499,
+        "water stress": 1,
+        "total water use": 555.6769866943357,
+        "gsf": 30000.0
+    },
+    {
+        "region": "Puget Sound",
+        "campus": "OFFSITE - RTC",
+        "name": "RTC CP",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "water stress": 1,
+        "total water use": 0.0,
+        "gsf": 0.0
+    },
+    {
+        "region": "Americas",
+        "campus": "NY NEW YORK 5TH AVE - S0085",
+        "name": "S0085-NYC FIFTH",
+        "latitude": 40.7128,
+        "longitude": -74.006,
+        "water stress": 1,
+        "total water use": 3487.710510253906,
+        "gsf": 28798.0
+    },
+    {
+        "region": "Americas",
+        "campus": "SACRAMENTO-1415",
+        "name": "SACRAMENTO-1415",
+        "latitude": 38.58106,
+        "longitude": -121.494,
+        "water stress": 2,
+        "total water use": 142.6052398681644,
+        "gsf": 7699.0
+    },
+    {
+        "region": "Americas",
+        "campus": "SAN ANTONIO-401",
+        "name": "SAN ANTONIO-401",
+        "latitude": 29.4246,
+        "longitude": -98.4951,
+        "water stress": 3,
+        "total water use": 169.4259109497072,
+        "gsf": 9147.0
+    },
+    {
+        "region": "Americas",
+        "campus": "SAN DIEGO-9255 TOWNE",
+        "name": "SAN DIEGO",
+        "latitude": 32.71742,
+        "longitude": -117.163,
+        "water stress": 4,
+        "total water use": 279.48699188232484,
+        "gsf": 15089.0
+    },
+    {
+        "region": "Americas",
+        "campus": "-",
+        "name": "San Francisco",
+        "latitude": 37.7749,
+        "longitude": -122.4194,
+        "water stress": 1,
+        "total water use": 944.6509094238278,
+        "gsf": 0.0
+    },
+    {
+        "region": "Americas",
+        "campus": "SAN SALVADOR-QUATTRO",
+        "name": "SAN SALVADOR-QUATTRO",
+        "latitude": 13.69899,
+        "longitude": -89.1914,
+        "water stress": 1,
+        "total water use": 69.62243843078615,
+        "gsf": 3758.7900390625
+    },
+    {
+        "region": "Americas",
+        "campus": "SANFRAN-1355 MKT",
+        "name": "SANFRAN-1355MKT",
+        "latitude": 37.77926,
+        "longitude": -122.419,
+        "water stress": 1,
+        "total water use": 7.57081985473633,
+        "gsf": 130613.0
+    },
+    {
+        "region": "Americas",
+        "campus": "SANFRAN-555 CAL",
+        "name": "SANFRAN-555 CAL",
+        "latitude": 37.77926,
+        "longitude": -122.419,
+        "water stress": 1,
+        "total water use": 909.0319519042969,
+        "gsf": 49077.0
+    },
+    {
+        "region": "Americas",
+        "campus": "SANTA CLARA 2840",
+        "name": "SANTA CLARA-2840 NORTHWESTERN PKWY",
+        "latitude": 37.23333,
+        "longitude": -121.685,
+        "water stress": 1,
+        "total water use": 2204.1853637695317,
+        "gsf": 119000.0
+    },
+    {
+        "region": "Americas",
+        "campus": "SANTA CLARA-3201 (Fungible)",
+        "name": "SANTA CLARA-3201 SCOTT BLVD",
+        "latitude": 37.23333,
+        "longitude": -121.685,
+        "water stress": 1,
+        "total water use": 4258.876804351804,
+        "gsf": 66106.0
+    },
+    {
+        "region": "Americas",
+        "campus": "SANTA MONICA 1422-24",
+        "name": "SANTA MONICA-1422-1424",
+        "latitude": 34.01947,
+        "longitude": -118.491,
+        "water stress": 4,
+        "total water use": 332.5541610717767,
+        "gsf": 17954.0
+    },
+    {
+        "region": "Americas",
+        "campus": "SANTIAGO-6840 VITA",
+        "name": "SANTIAGO-6840",
+        "latitude": -33.4378,
+        "longitude": -70.6505,
+        "water stress": 4,
+        "total water use": 397.1600017547608,
+        "gsf": 22948.849609375
+    },
+    {
+        "region": "Americas",
+        "campus": "SANTO DOMINGO-BM",
+        "name": "SANTODOMINGO-BM",
+        "latitude": 13.36179,
+        "longitude": 103.8606,
+        "water stress": 1,
+        "total water use": 119.02601623535158,
+        "gsf": 6426.10986328125
+    },
+    {
+        "region": "Americas",
+        "campus": "SAO PAULO-SOUTH TOW",
+        "name": "SAO PAULO-SOUTH TOWER",
+        "latitude": -23.5507,
+        "longitude": -46.6334,
+        "water stress": 2,
+        "total water use": 2037.7400207519536,
+        "gsf": 82172.3828125
+    },
+    {
+        "region": "EMEA",
+        "campus": "SCHIPHOL",
+        "name": "SCHIPHOL-EVERT",
+        "latitude": 52.30804,
+        "longitude": 4.762198,
+        "water stress": 0,
+        "total water use": 985.1899948120118,
+        "gsf": 87368.6875
+    },
+    {
+        "region": "Puget Sound",
+        "campus": "PUGET SOUND",
+        "name": "SEA-821 2ND",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "water stress": 1,
+        "total water use": 921.2938842773436,
+        "gsf": 49739.0
+    },
+    {
+        "region": "Puget Sound",
+        "campus": "OFFSITE - SEATTLE",
+        "name": "SEATTLE-BLACKRK",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "water stress": 1,
+        "total water use": 0.0,
+        "gsf": 0.0
+    },
+    {
+        "region": "Asia",
+        "campus": "SEOUL",
+        "name": "SEOUL-KTT",
+        "latitude": 37.56668,
+        "longitude": 126.9783,
+        "water stress": 2,
+        "total water use": 466.0,
+        "gsf": 115640.2421875
+    },
+    {
+        "region": "Asia",
+        "campus": "SHANGHAI",
+        "name": "SHANGHAI-HUAXIN",
+        "latitude": 31.23234,
+        "longitude": 121.4691,
+        "water stress": 4,
+        "total water use": 1084.0,
+        "gsf": 39456.51953125
+    },
+    {
+        "region": "Asia",
+        "campus": "SHANGHAI",
+        "name": "SHANGHAI-MRS",
+        "latitude": 31.23234,
+        "longitude": 121.4691,
+        "water stress": 4,
+        "total water use": 301.2695388793945,
+        "gsf": 16264.830078125
+    },
+    {
+        "region": "Asia",
+        "campus": "SHANGHAI",
+        "name": "SHANGHAI-MSRA",
+        "latitude": 31.23234,
+        "longitude": 121.4691,
+        "water stress": 4,
+        "total water use": 132.0,
+        "gsf": 13481.48046875
+    },
+    {
+        "region": "Asia",
+        "campus": "SHANGHAI",
+        "name": "SHA-ZIZHU-BLD1",
+        "latitude": 31.23234,
+        "longitude": 121.4691,
+        "water stress": 4,
+        "total water use": 55103.0,
+        "gsf": 287941.21875
+    },
+    {
+        "region": "Asia",
+        "campus": "SHANGHAI",
+        "name": "SHA-ZIZHU-BLD7",
+        "latitude": 31.23234,
+        "longitude": 121.4691,
+        "water stress": 4,
+        "total water use": 1623.0,
+        "gsf": 201309.734375
+    },
+    {
+        "region": "Asia",
+        "campus": "SHANGHAI",
+        "name": "SHA-ZIZHU-CMMNS",
+        "latitude": 31.23234,
+        "longitude": 121.4691,
+        "water stress": 4,
+        "total water use": 0.0,
+        "gsf": 158310.234375
+    },
+    {
+        "region": "Asia",
+        "campus": "SHENZHEN-COMTECH",
+        "name": "SHENZHEN-COMTECH",
+        "latitude": 22.54457,
+        "longitude": 114.0545,
+        "water stress": 1,
+        "total water use": 261.0,
+        "gsf": 61013.69140625
+    },
+    {
+        "region": "Puget Sound",
+        "campus": "OFFSITE - SEATTLE",
+        "name": "SHERATON SEATTLE",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "water stress": 1,
+        "total water use": 0.0,
+        "gsf": 0.0
+    },
+    {
+        "region": "Puget Sound",
+        "campus": "PUGET SOUND",
+        "name": "SILVERDALE-9633",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "water stress": 1,
+        "total water use": 90.46421241760248,
+        "gsf": 4884.0
+    },
+    {
+        "region": "Asia",
+        "campus": "SINGAPORE-FRASER TOW",
+        "name": "SINGAPORE FRASERS TOWER",
+        "latitude": 1.289918,
+        "longitude": 103.8519,
+        "water stress": 0,
+        "total water use": 541.6999969482423,
+        "gsf": 126623.0
+    },
+    {
+        "region": "EMEA",
+        "campus": "SKOPJE LIMAK",
+        "name": "SKOPJE-CARAT",
+        "latitude": 41.99618,
+        "longitude": 21.43192,
+        "water stress": 2,
+        "total water use": 55.42674064636237,
+        "gsf": 2992.38989257813
+    },
+    {
+        "region": "EMEA",
+        "campus": "SOFIA-2000",
+        "name": "SOFIA-EXPO2000",
+        "latitude": 42.6977,
+        "longitude": 23.32174,
+        "water stress": 0,
+        "total water use": 256.92999362945557,
+        "gsf": 4430.68017578125
+    },
+    {
+        "region": "Puget Sound",
+        "campus": "PUGET SOUND",
+        "name": "St Andrews CP",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "water stress": 1,
+        "total water use": 39909.97991943362,
+        "gsf": 0.0
+    },
+    {
+        "region": "Americas",
+        "campus": "ST LOUIS-4220 DUNCAN",
+        "name": "ST. LOUIS-4220 DUNCAN",
+        "latitude": 38.62803,
+        "longitude": -90.191,
+        "water stress": 0,
+        "total water use": 327.1054306030273,
+        "gsf": 30274.0
+    },
+    {
+        "region": "EMEA",
+        "campus": "STOCKHOLM-LUDVG",
+        "name": "STOCKHOLM-LUDVG",
+        "latitude": 59.3293,
+        "longitude": 18.0686,
+        "water stress": 1,
+        "total water use": 619.8576965332032,
+        "gsf": 33465.0
+    },
+    {
+        "region": "EMEA",
+        "campus": "URBAN-ESCAPE",
+        "name": "STOCKHOLM-REGERINGSGATAN 27",
+        "latitude": 59.32512,
+        "longitude": 18.07109,
+        "water stress": 0,
+        "total water use": 608.6550750732421,
+        "gsf": 32860.19140625
+    },
+    {
+        "region": "EMEA",
+        "campus": "STRASBOURG",
+        "name": "STRASBOURG-23-LA HAYE",
+        "latitude": 48.58461,
+        "longitude": 7.750713,
+        "water stress": 0,
+        "total water use": 6.778889179229736,
+        "gsf": 365.980010986328
+    },
+    {
+        "region": "Puget Sound",
+        "campus": "PUGET SOUND",
+        "name": "STUDIO A",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "water stress": 1,
+        "total water use": 6558.217185974123,
+        "gsf": 307663.84375
+    },
+    {
+        "region": "Puget Sound",
+        "campus": "PUGET SOUND",
+        "name": "STUDIO B",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "water stress": 1,
+        "total water use": 6436.454040527349,
+        "gsf": 308994.84375
+    },
+    {
+        "region": "Puget Sound",
+        "campus": "PUGET SOUND",
+        "name": "STUDIO C",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "water stress": 1,
+        "total water use": 5754.01426386834,
+        "gsf": 276130.65625
+    },
+    {
+        "region": "Puget Sound",
+        "campus": "PUGET SOUND",
+        "name": "STUDIO D",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "water stress": 1,
+        "total water use": 3366.891269683836,
+        "gsf": 277581.625
+    },
+    {
+        "region": "Puget Sound",
+        "campus": "PUGET SOUND",
+        "name": "STUDIO E",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "water stress": 1,
+        "total water use": 3392.376541137697,
+        "gsf": 145182.515625
+    },
+    {
+        "region": "Puget Sound",
+        "campus": "PUGET SOUND",
+        "name": "STUDIO F",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "water stress": 1,
+        "total water use": 5482.171144485477,
+        "gsf": 144694.28125
+    },
+    {
+        "region": "Puget Sound",
+        "campus": "PUGET SOUND",
+        "name": "STUDIO G",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "water stress": 1,
+        "total water use": 4833.711944580079,
+        "gsf": 145444.046875
+    },
+    {
+        "region": "Puget Sound",
+        "campus": "PUGET SOUND",
+        "name": "STUDIO H",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "water stress": 1,
+        "total water use": 4711.948790550233,
+        "gsf": 146168.59375
+    },
+    {
+        "region": "Puget Sound",
+        "campus": "PUGET SOUND",
+        "name": "STUDIO X",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "water stress": 1,
+        "total water use": 4023.8456897735596,
+        "gsf": 121552.671875
+    },
+    {
+        "region": "Puget Sound",
+        "campus": "PUGET SOUND",
+        "name": "STUDIOS A-D GARAGE",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "water stress": 1,
+        "total water use": 24199.708515167236,
+        "gsf": 0.0
+    },
+    {
+        "region": "EMEA",
+        "campus": "STUTTGART",
+        "name": "STUTTGART-STEP",
+        "latitude": 48.77845,
+        "longitude": 9.180013,
+        "water stress": 3,
+        "total water use": 66.9667959213255,
+        "gsf": 8677.400390625
+    },
+    {
+        "region": "Puget Sound",
+        "campus": "PUGET SOUND",
+        "name": "SUBMIXER CAFETERIA",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "water stress": 1,
+        "total water use": 0.0,
+        "gsf": 28529.650390625
+    },
+    {
+        "region": "Americas",
+        "campus": "SUNNYVALE-599 N MATH",
+        "name": "SUNNYVALE-599",
+        "latitude": 37.36883,
+        "longitude": -122.036,
+        "water stress": 1,
+        "total water use": 28.31700015068053,
+        "gsf": 76031.0
+    },
+    {
+        "region": "Americas",
+        "campus": "SUNNYVALE-680 VAQ",
+        "name": "SUNNYVALE-680",
+        "latitude": 37.36883,
+        "longitude": -122.036,
+        "water stress": 1,
+        "total water use": 1442.4396624565134,
+        "gsf": 52500.0
+    },
+    {
+        "region": "Americas",
+        "campus": "SUNNYVALE-755 N MATH",
+        "name": "SUNNYVALE-755",
+        "latitude": 37.36883,
+        "longitude": -122.036,
+        "water stress": 1,
+        "total water use": 2868.512130498887,
+        "gsf": 52500.0
+    },
+    {
+        "region": "Asia",
+        "campus": "SUZHOU",
+        "name": "SUZHOU-SIP-B25",
+        "latitude": 31.30169,
+        "longitude": 120.5811,
+        "water stress": 4,
+        "total water use": 33086.0,
+        "gsf": 342635.125
+    },
+    {
+        "region": "Asia",
+        "campus": "SUZHOU",
+        "name": "SUZHOU-SIP-B26",
+        "latitude": 31.30169,
+        "longitude": 120.5811,
+        "water stress": 4,
+        "total water use": 14802.0,
+        "gsf": 251272.453125
+    },
+    {
+        "region": "Asia",
+        "campus": "SUZHOU",
+        "name": "SUZHOU-ZHONGMENG",
+        "latitude": 31.30169,
+        "longitude": 120.5811,
+        "water stress": 4,
+        "total water use": 9351.0,
+        "gsf": 222627.71875
+    },
+    {
+        "region": "Americas",
+        "campus": "MOUNTAIN VIEW",
+        "name": "SVC",
+        "latitude": 37.38939,
+        "longitude": -122.083,
+        "water stress": 1,
+        "total water use": 1806.6246032714853,
+        "gsf": 643680.0
+    },
+    {
+        "region": "Americas",
+        "campus": "MOUNTAIN VIEW",
+        "name": "SVC-6",
+        "latitude": 37.38939,
+        "longitude": -122.083,
+        "water stress": 1,
+        "total water use": 28.317000865936258,
+        "gsf": 44210.0
+    },
+    {
+        "region": "Asia",
+        "campus": "SYDNEY-MQFAB",
+        "name": "SYDNEY - MQFAB",
+        "latitude": -33.8896,
+        "longitude": 151.1801,
+        "water stress": 3,
+        "total water use": 551.6106262207032,
+        "gsf": 7577.85986328125
+    },
+    {
+        "region": "Asia",
+        "campus": "SYDNEY-ACCELERATOR",
+        "name": "SYDNEY STARTUP HUB",
+        "latitude": -33.8698,
+        "longitude": 151.2083,
+        "water stress": 3,
+        "total water use": 215.32706451416047,
+        "gsf": 11625.1201171875
+    },
+    {
+        "region": "Asia",
+        "campus": "SYDNEY-CITY MTC",
+        "name": "SYDNEY-1 MARTIN PLACE",
+        "latitude": -33.8698,
+        "longitude": 151.2083,
+        "water stress": 3,
+        "total water use": 106.9218902587892,
+        "gsf": 17317.119140625
+    },
+    {
+        "region": "Asia",
+        "campus": "SYDNEY",
+        "name": "SYDNEY-DENISON",
+        "latitude": -33.8355,
+        "longitude": 151.2083,
+        "water stress": 3,
+        "total water use": 2140.9691162109366,
+        "gsf": 115587.0625
+    },
+    {
+        "region": "Asia",
+        "campus": "TAIPEI-CLS",
+        "name": "TAIPEI-C2",
+        "latitude": 25.03752,
+        "longitude": 121.5637,
+        "water stress": 1,
+        "total water use": 4094.5670623779297,
+        "gsf": 91263.7890625
+    },
+    {
+        "region": "Asia",
+        "campus": "TAIPEI-CLS",
+        "name": "TAIPEI-CLS",
+        "latitude": 25.03752,
+        "longitude": 121.5637,
+        "water stress": 1,
+        "total water use": 11076.010070800785,
+        "gsf": 121893.8125
+    },
+    {
+        "region": "Asia",
+        "campus": "TAIPEI CSCP",
+        "name": "TAIPEI-MEGA",
+        "latitude": 25.09742,
+        "longitude": 121.515,
+        "water stress": 1,
+        "total water use": 1358.0000152587897,
+        "gsf": 91747.0078125
+    },
+    {
+        "region": "Americas",
+        "campus": "TALLAHASSEE-113",
+        "name": "TALLAHASSEE-113",
+        "latitude": 30.43808,
+        "longitude": -84.2809,
+        "water stress": 2,
+        "total water use": 9.242760658264162,
+        "gsf": 499.0
+    },
+    {
+        "region": "EMEA",
+        "campus": "TALLINN-AKAD",
+        "name": "TALLINN-AKAD",
+        "latitude": 59.43722,
+        "longitude": 24.74537,
+        "water stress": 1,
+        "total water use": 2334.550003051758,
+        "gsf": 39604.19921875
+    },
+    {
+        "region": "EMEA",
+        "campus": "TAMPERE KALEVANTIE",
+        "name": "TAMPERE-KALEVANTIE 2",
+        "latitude": 61.49802,
+        "longitude": 23.76031,
+        "water stress": 1,
+        "total water use": 215.60620880126996,
+        "gsf": 11640.1904296875
+    },
+    {
+        "region": "EMEA",
+        "campus": "TARTU",
+        "name": "TARTU-RAEKOJA",
+        "latitude": 58.38012,
+        "longitude": 26.72245,
+        "water stress": 0,
+        "total water use": 76.0,
+        "gsf": 3423.0
+    },
+    {
+        "region": "EMEA",
+        "campus": "TBILISI-AXIS TOWERS",
+        "name": "TBILISI-AXIS TOWERS-TERMINAL",
+        "latitude": 41.69346,
+        "longitude": 44.80145,
+        "water stress": 1,
+        "total water use": 2.950829923152924,
+        "gsf": 159.309997558594
+    },
+    {
+        "region": "EMEA",
+        "campus": "TEL AVIV-DERECH",
+        "name": "TEL AVIV-144 DERECH MENACHEM",
+        "latitude": 32.0853,
+        "longitude": 34.78181,
+        "water stress": 4,
+        "total water use": 962.3922729492191,
+        "gsf": 34638.55078125
+    },
+    {
+        "region": "Americas",
+        "campus": "TEMPE-60 E RIO",
+        "name": "TEMPE-60 E RIO",
+        "latitude": 33.42551,
+        "longitude": -111.94,
+        "water stress": 4,
+        "total water use": 284.4140167236324,
+        "gsf": 15355.0
+    },
+    {
+        "region": "Puget Sound",
+        "campus": "PUGET SOUND",
+        "name": "THE MIXER CAFETERIA",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "water stress": 1,
+        "total water use": 12006.40802001954,
+        "gsf": 210670.6875
+    },
+    {
+        "region": "Puget Sound",
+        "campus": "PUGET SOUND",
+        "name": "THE SQUARE",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "water stress": 1,
+        "total water use": 849.5099925994874,
+        "gsf": 0.0
+    },
+    {
+        "region": "Puget Sound",
+        "campus": "PUGET SOUND",
+        "name": "THERMAL ENERGY CENTER",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "water stress": 1,
+        "total water use": 52737.58105468753,
+        "gsf": 125573.0
+    },
+    {
+        "region": "EMEA",
+        "campus": "TIMISOARA-OPENVILLE",
+        "name": "TIMISOARA-OPENVILLE",
+        "latitude": 45.75384,
+        "longitude": 21.22575,
+        "water stress": 0,
+        "total water use": 124.0,
+        "gsf": 13071.91015625
+    },
+    {
+        "region": "Asia",
+        "campus": "TOKYO-SHINAGAWA",
+        "name": "TOKYO-SHINAGAWA",
+        "latitude": 35.68219,
+        "longitude": 139.7622,
+        "water stress": 2,
+        "total water use": 1822.0,
+        "gsf": 215693.125
+    },
+    {
+        "region": "Americas",
+        "campus": "TORONTO-BAY",
+        "name": "TORONTO-CIBC SQUARE",
+        "latitude": 43.65348,
+        "longitude": -79.3839,
+        "water stress": 3,
+        "total water use": 254.5800008773803,
+        "gsf": 136648.0
+    },
+    {
+        "region": "Americas",
+        "campus": "COSTA RICA",
+        "name": "TORRE UNIVERSAL",
+        "latitude": 9.932543,
+        "longitude": -84.0796,
+        "water stress": 1,
+        "total water use": 4371.0060119628915,
+        "gsf": 189749.953125
+    },
+    {
+        "region": "EMEA",
+        "campus": "TOLOUSE",
+        "name": "TOULOUSE-55 AVE LOUIS BREGUET",
+        "latitude": 43.60446,
+        "longitude": 1.444247,
+        "water stress": 3,
+        "total water use": 66.2529945373535,
+        "gsf": 3576.8798828125
+    },
+    {
+        "region": "EMEA",
+        "campus": "TROMSO GR58",
+        "name": "TROMSO-GR58",
+        "latitude": 69.65163,
+        "longitude": 18.95586,
+        "water stress": 0,
+        "total water use": 296.0646972656256,
+        "gsf": 15984.5400390625
+    },
+    {
+        "region": "EMEA",
+        "campus": "TRONDHEIM KONGENS",
+        "name": "TRONDHEIM-KONGENS",
+        "latitude": 63.43045,
+        "longitude": 10.39521,
+        "water stress": 0,
+        "total water use": 353.0963973999024,
+        "gsf": 19063.0390625
+    },
+    {
+        "region": "Puget Sound",
+        "campus": "PUGET SOUND",
+        "name": "Troon CP",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "water stress": 1,
+        "total water use": 17885.017527341854,
+        "gsf": 0.0
+    },
+    {
+        "region": "Puget Sound",
+        "campus": "PUGET SOUND",
+        "name": "TUKWILA-5",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "water stress": 1,
+        "total water use": 2203.6483154296925,
+        "gsf": 118971.0
+    },
+    {
+        "region": "EMEA",
+        "campus": "TUNIS-REGUS",
+        "name": "TUNIS-REGUS URBAIN NORD",
+        "latitude": 33.84394,
+        "longitude": 9.400138,
+        "water stress": 3,
+        "total water use": 0.9370566308498386,
+        "gsf": 527.440002441406
+    },
+    {
+        "region": "EMEA",
+        "campus": "TVP",
+        "name": "TWYCROSS",
+        "latitude": 52.57724,
+        "longitude": -1.5434,
+        "water stress": 2,
+        "total water use": 1351.783721923824,
+        "gsf": 72980.3671875
+    },
+    {
+        "region": "EMEA",
+        "campus": "UK CAMPUS",
+        "name": "UK CAMPUS BLD1",
+        "latitude": 51.45642,
+        "longitude": -0.97007,
+        "water stress": 3,
+        "total water use": 8756.0,
+        "gsf": 76606.0
+    },
+    {
+        "region": "EMEA",
+        "campus": "UK CAMPUS",
+        "name": "UK CAMPUS BLD2",
+        "latitude": 51.45642,
+        "longitude": -0.97007,
+        "water stress": 3,
+        "total water use": 29094.5,
+        "gsf": 109885.0
+    },
+    {
+        "region": "EMEA",
+        "campus": "-",
+        "name": "UPPSALA-ST PERSGATAN 10",
+        "latitude": 59.8586,
+        "longitude": 17.6389,
+        "water stress": 1,
+        "total water use": 510.40782165527406,
+        "gsf": 0.0
+    },
+    {
+        "region": "Americas",
+        "campus": "VANCOUVER-155 WATER",
+        "name": "VANCOUVER-155",
+        "latitude": 49.26087,
+        "longitude": -123.114,
+        "water stress": 0,
+        "total water use": 1461.689758300776,
+        "gsf": 78914.0
+    },
+    {
+        "region": "Americas",
+        "campus": "VANCOUVER-375 WATER",
+        "name": "VANCOUVER-375",
+        "latitude": 49.26087,
+        "longitude": -123.114,
+        "water stress": 0,
+        "total water use": 0.0,
+        "gsf": 17132.0
+    },
+    {
+        "region": "Americas",
+        "campus": "VANCOUVER-725 GRANV",
+        "name": "VANCOUVER-725",
+        "latitude": 49.26087,
+        "longitude": -123.114,
+        "water stress": 0,
+        "total water use": 4000.781616210937,
+        "gsf": 215995.0
+    },
+    {
+        "region": "Americas",
+        "campus": "VANCOUVER-858 BEATTY",
+        "name": "VANCOUVER-858",
+        "latitude": 49.26087,
+        "longitude": -123.114,
+        "water stress": 0,
+        "total water use": 1196.1872863769531,
+        "gsf": 64580.0
+    },
+    {
+        "region": "Americas",
+        "campus": "VANCOUVER-939",
+        "name": "VANCOUVER-939",
+        "latitude": 49.26087,
+        "longitude": -123.114,
+        "water stress": 0,
+        "total water use": 1235.54782104492,
+        "gsf": 66705.0
+    },
+    {
+        "region": "EMEA",
+        "campus": "HOLOLENS RIIHIKUJA",
+        "name": "VANTAA-RIIHIKUJA",
+        "latitude": 60.29333,
+        "longitude": 25.04078,
+        "water stress": 1,
+        "total water use": 15266.199951171873,
+        "gsf": 94066.6015625
+    },
+    {
+        "region": "EMEA",
+        "campus": "VIENNA",
+        "name": "VIENNA-EURO",
+        "latitude": 48.2082,
+        "longitude": 16.3738,
+        "water stress": 1,
+        "total water use": 999.8432922363278,
+        "gsf": 53979.73828125
+    },
+    {
+        "region": "EMEA",
+        "campus": "-",
+        "name": "VIENNA-EURO-B",
+        "latitude": 48.2082,
+        "longitude": 16.3738,
+        "water stress": 1,
+        "total water use": 354.7627029418945,
+        "gsf": 0.0
+    },
+    {
+        "region": "EMEA",
+        "campus": "VILNIUS",
+        "name": "VILNIUS-BH",
+        "latitude": 54.68705,
+        "longitude": 25.28291,
+        "water stress": 3,
+        "total water use": 77.0,
+        "gsf": 8570.9404296875
+    },
+    {
+        "region": "Americas",
+        "campus": "LAFAYETTE-1205",
+        "name": "W LAFAYETTE-1205",
+        "latitude": 40.42587,
+        "longitude": -86.9081,
+        "water stress": 1,
+        "total water use": 44.32450103759759,
+        "gsf": 2393.0
+    },
+    {
+        "region": "EMEA",
+        "campus": "WALLDORF",
+        "name": "WALLDORF",
+        "latitude": 49.30381,
+        "longitude": 8.643352,
+        "water stress": 3,
+        "total water use": 119.7378387451172,
+        "gsf": 6464.43017578125
+    },
+    {
+        "region": "EMEA",
+        "campus": "WARSAW",
+        "name": "WARSAW-JEROZ",
+        "latitude": 52.23372,
+        "longitude": 21.07143,
+        "water stress": 0,
+        "total water use": 582.8499965667726,
+        "gsf": 48911.8203125
+    },
+    {
+        "region": "Americas",
+        "campus": "WASH DC-901 K-5/F",
+        "name": "WASH DC-901 K",
+        "latitude": 38.89504,
+        "longitude": -77.0365,
+        "water stress": 1,
+        "total water use": 1062.509948730469,
+        "gsf": 57363.0
+    },
+    {
+        "region": "Puget Sound",
+        "campus": "OFFSITE - SEATTLE",
+        "name": "WASHINGTON STATE CONVENTION CENTER",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "water stress": 1,
+        "total water use": 0.0,
+        "gsf": 0.0
+    },
+    {
+        "region": "Asia",
+        "campus": "WELLINGTON",
+        "name": "WELLINGTON-10 BRANDON STREET",
+        "latitude": -41.2888,
+        "longitude": 174.7772,
+        "water stress": 0,
+        "total water use": 383.62104034423805,
+        "gsf": 20711.009765625
+    },
+    {
+        "region": "Asia",
+        "campus": "WELLINGTON 55",
+        "name": "WELLINGTON-2",
+        "latitude": -41.2866,
+        "longitude": 174.7756,
+        "water stress": 1,
+        "total water use": 27.59244918823244,
+        "gsf": 4469.2099609375
+    },
+    {
+        "region": "EMEA",
+        "campus": "LYON WELLIO",
+        "name": "WELLIO LYON PART-DIEU, CI-APR\u00c8S LE",
+        "latitude": 45.75781,
+        "longitude": 4.832011,
+        "water stress": 0,
+        "total water use": 37.08217906951908,
+        "gsf": 2002.0
+    },
+    {
+        "region": "Americas",
+        "campus": "LAFAYETTE-1205",
+        "name": "WEST LAFAYETTE-LAB SPACE",
+        "latitude": 40.42587,
+        "longitude": -86.9081,
+        "water stress": 1,
+        "total water use": 132.3807792663576,
+        "gsf": 7147.0
+    },
+    {
+        "region": "Puget Sound",
+        "campus": "PUGET SOUND",
+        "name": "WILLOWS PARK I & II",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "water stress": 1,
+        "total water use": 556.5845947265627,
+        "gsf": 30049.0
+    },
+    {
+        "region": "Puget Sound",
+        "campus": "PUGET SOUND",
+        "name": "WILLOWS WHSE",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "water stress": 1,
+        "total water use": 322.8137974739074,
+        "gsf": 76966.0
+    },
+    {
+        "region": "Puget Sound",
+        "campus": "PUGET SOUND",
+        "name": "WILLOWS-9825",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "water stress": 1,
+        "total water use": 584.535140991211,
+        "gsf": 31558.0
+    },
+    {
+        "region": "Puget Sound",
+        "campus": "PUGET SOUND",
+        "name": "WILLOWS-9911",
+        "latitude": 47.66941,
+        "longitude": -122.124,
+        "water stress": 1,
+        "total water use": 862.8552246093755,
+        "gsf": 46584.0
+    },
+    {
+        "region": "EMEA",
+        "campus": "WINDHOEK-MAERUA MALL",
+        "name": "WINDHOEK-MAERUA MALL",
+        "latitude": -22.5776,
+        "longitude": 17.07727,
+        "water stress": 1,
+        "total water use": 6.396459341049191,
+        "gsf": 414.399993896484
+    },
+    {
+        "region": "Asia",
+        "campus": "WUXI",
+        "name": "WUXI-IFS",
+        "latitude": 31.57766,
+        "longitude": 120.2953,
+        "water stress": 4,
+        "total water use": 606.0,
+        "gsf": 88557.0390625
+    },
+    {
+        "region": "EMEA",
+        "campus": "ZAGREB",
+        "name": "ZAGREB-NETCITY",
+        "latitude": 45.84264,
+        "longitude": 15.96223,
+        "water stress": 0,
+        "total water use": 251.22157287597597,
+        "gsf": 13562.6396484375
+    },
+    {
+        "region": "EMEA",
+        "campus": "ZAVENTEM-PASSPORT",
+        "name": "ZAVENTEM-PASS",
+        "latitude": 50.88062,
+        "longitude": 4.473001,
+        "water stress": 4,
+        "total water use": 696.6151885986325,
+        "gsf": 37609.421875
+    },
+    {
+        "region": "EMEA",
+        "campus": "ZURICH-THE CIRCLE",
+        "name": "ZURICH THE CIRCLE",
+        "latitude": 47.37445,
+        "longitude": 8.541042,
+        "water stress": 0,
+        "total water use": 1012.6353149414064,
+        "gsf": 57630.4609375
+    },
+    {
+        "region": "EMEA",
+        "campus": "ZURICH-SEESTRASSE",
+        "name": "ZURICH-SEE",
+        "latitude": 47.37445,
+        "longitude": 8.541042,
+        "water stress": 0,
+        "total water use": 168.8722801208496,
+        "gsf": 9117.1103515625
+    }
+]
